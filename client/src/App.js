@@ -1,5 +1,3 @@
-import React from 'react';
-import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,26 +7,37 @@ import {
 import Home from './components/screens/Home';
 import History from './components/screens/History';
 
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
-const Routing = () => {
-
-  return (
-    <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/history">
-        <History />
-      </Route>
-    </Switch>
-  )
-}
+import './App.css';
 
 function App() {
   return (
     <Router>
+
       <div className="App">
-        <Routing />
+      
+        <Navbar/> {/**Navbar stays for all pages**/}
+
+        <Switch>
+
+          {/*Home*/}
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          {/*History*/}
+          <Route path="/history">
+            <History
+              title="History - NITS MUN"
+            />
+          </Route>
+
+        </Switch>
+
+        <Footer/> {/**Footer stays for all pages**/}
+     
       </div>
     </Router>
 

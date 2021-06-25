@@ -1,20 +1,23 @@
-import React from "react";
-import NavBar from '../NavBar';
+// *Hooks*
+import { useEffect } from "react";
 
-const History = () => {
+// *CSS*
+import "./History.css";
+
+const History = (props) => {
+  
+  useEffect(()=> {
+
+    // *Setting Up Page Title*
+    document.title = props.title;
+  
+  }, []);
   
   return (
-
     <div>
-        <NavBar/>
-        <h1>This is the history page</h1>
-        
+      <h3 style={{"margin-top":"var(--navbar-height-pc)"}}>This is the history page</h3>
     </div>
   );
 }
-
-
-
-
 
 export default History;

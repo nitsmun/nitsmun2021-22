@@ -1,0 +1,34 @@
+/**Scrollbar**/
+::-webkit-scrollbar {
+  width: 1.25vh;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(46, 46, 46);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3vh;
+  background: var(--theme1-color-070);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme1-color-100);
+}
+
+/**Root Variables**/
+:root {
+
+  --navbar-height-pc : 8.5vh;
+  --footer-height-pc : 35vh;
+
+  --theme1-color-100 : rgba(71, 34, 223, 1.00);
+  --theme1-color-070 : rgba(71, 34, 223, 0.70);
+}
+
+/**Apply For All**/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /**Default Font Family**/
+}

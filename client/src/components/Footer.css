@@ -1,0 +1,7 @@
+div#footer {
+  position: relative;
+  height: 35vh;
+  background-color: green;
+  scroll-snap-stop: always;
+  scroll-snap-align: end;
+}
