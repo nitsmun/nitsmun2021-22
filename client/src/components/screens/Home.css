@@ -1,0 +1,33 @@
+/*
+  ! Navbar Height = --navbar-height-pc
+  ! Footer Height = --footer-height-pc
+*/
+
+/**Adding Scroll Snap to Only Home Page*/
+html, body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+div.home-sec {
+  /**Dimensions**/
+  height: calc(100vh - var(--navbar-height-pc));
+
+  /**Scroll Snap**/
+  scroll-margin-top: var(--navbar-height-pc);
+  scroll-snap-align: start;
+}
+
+/* !Keep the top section below navbar */
+div#intro {
+  margin-top: var(--navbar-height-pc);
+}
+
+div#about {
+  /*!Keep footer at bottom of about*/
+  
+  height: calc(100vh - var(--navbar-height-pc) + var(--footer-height-pc));
+  /**To accomadate for footer at the bottom**/
+
+
+}

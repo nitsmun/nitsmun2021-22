@@ -1,16 +1,14 @@
+// *CSS*
+import "./Navbar.css";
 
 const Navbar = () => {
 
-     
-    return(
-        <div>
-            <h3>This is the navigation bar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </h3>
-        </div>
-     
-    ); 
-
-
- 
+  return(
+    <div id="navbar">
+      <h3>Navbar</h3>
+    </div>
+    
+  ); 
 }
 
 export default Navbar; 
