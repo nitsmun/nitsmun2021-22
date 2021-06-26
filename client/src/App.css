@@ -27,7 +27,13 @@
 
   --theme2-100 : rgba(20, 20, 20, 1.00);
 
-  --theme3-100 : rgba(50, 50, 50, 1.00);
+  --theme3-100 : rgba(35, 35, 35, 1.00);
+
+  --theme4-100 : rgba(75, 75, 75, 1.00);
+
+  --theme5-100 : rgba(60, 60, 60, 1.00);
+  
+  --theme6-100 : rgba(30, 30, 30, 1.00);
 }
 
 /**Apply For All**/
@@ -35,4 +41,9 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif; /**Default Font Family**/
+}
+
+a.btn {
+  text-decoration: none;
+  color: white;
 }

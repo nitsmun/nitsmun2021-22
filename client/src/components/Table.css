@@ -1,0 +1,37 @@
+table#apply-table {
+  width: 90%;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 12.5vh auto;
+
+  border: 0.3vh solid var(--theme1-100);
+  border-radius: 1vh;
+}
+
+table#apply-table thead tr td {
+  background-color: var(--theme3-100);
+  color: var(--theme1-100);
+  padding: 2vh 4vh;
+  text-align: left;
+  font-size: 2.9vh;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 0.5vh solid var(--theme1-100);
+  font-weight: bold;
+}
+
+table#apply-table td {
+  color: white;
+  padding: 2vh 4vh;
+  text-align: left;
+  font-size: 2.5vh;
+}
+
+tr:nth-child(even) {
+  background-color: var(--theme3-100);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--theme5-100);
+}
