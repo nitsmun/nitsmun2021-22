@@ -9,11 +9,11 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 3vh;
-  background: var(--theme1-color-070);
+  background: var(--theme1-070);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--theme1-color-100);
+  background: var(--theme1-100);
 }
 
 /**Root Variables**/
@@ -22,8 +22,12 @@
   --navbar-height-pc : 8.5vh;
   --footer-height-pc : 35vh;
 
-  --theme1-color-100 : rgba(71, 34, 223, 1.00);
-  --theme1-color-070 : rgba(71, 34, 223, 0.70);
+  --theme1-100 : rgba(71, 34, 223, 1.00);
+  --theme1-070 : rgba(71, 34, 223, 0.70);
+
+  --theme2-100 : rgba(20, 20, 20, 1.00);
+
+  --theme3-100 : rgba(50, 50, 50, 1.00);
 }
 
 /**Apply For All**/

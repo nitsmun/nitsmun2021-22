@@ -10,12 +10,17 @@ html, body {
 }
 
 div.home-sec {
+  position: relative;
+  padding: 2vh;
+
   /**Dimensions**/
   height: calc(100vh - var(--navbar-height-pc));
 
   /**Scroll Snap**/
   scroll-margin-top: var(--navbar-height-pc);
   scroll-snap-align: start;
+
+  box-sizing: border-box;
 }
 
 /* !Keep the top section below navbar */
@@ -23,11 +28,6 @@ div#intro {
   margin-top: var(--navbar-height-pc);
 }
 
-div#about {
-  /*!Keep footer at bottom of about*/
-  
-  height: calc(100vh - var(--navbar-height-pc) + var(--footer-height-pc));
-  /**To accomadate for footer at the bottom**/
-
-
+div#apply {
+  background-color: var(--theme3-100);
 }

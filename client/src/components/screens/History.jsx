@@ -11,7 +11,7 @@ const History = (props) => {
     // *Setting Up Page Title*
     document.title = props.title;
   
-  }, []);
+  }, [props.title]);
   
   return (
     <div>
