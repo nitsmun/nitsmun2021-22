@@ -1,0 +1,81 @@
+div#timer {
+  background-color: var(--theme2-100);
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 2vh auto;
+
+  width: 90%;
+
+  border-radius: 1.5vh;
+  box-sizing: border-box;
+  border: 0.2vh solid var(--theme1-100);
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  color: white;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 2vh 5vh;
+}
+
+div#timer div.timer-int {
+  padding: 0 5vh;
+}
+
+div.timer-int div.timer-int-value {
+  text-align: center;
+  font-size: 6.5vh;
+  transition: 0.2s;
+}
+
+div.timer-int div.timer-int-label {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2vh 0;
+  font-size: 3vh;
+}
+
+div.timer-int-colon {
+  font-size: 7vh;
+}
+
+div.timer-int-colon:nth-child(8) { /* ?Multiples of 2 */
+  display: none;
+}
+
+div.coming-soon {
+  margin: 3vh auto;
+  font-size: 5vh;
+}
+
+@media screen and (max-width : 1000px) {
+  div#timer div.timer-int {
+    padding: 0 3vh;
+    margin: 1vh 2vh 0 0;
+  }
+
+  div.timer-int div.timer-int-value {
+    font-size: 8vw;
+  }
+  
+  div.timer-int div.timer-int-label {
+    font-size: 4vw;
+  }
+
+  div.timer-int-colon {
+    font-size: 7vw;
+  }
+
+  div.timer-int-colon:nth-child(4) { /* ?Multiples of 2 */
+    display: none;
+  }
+
+  div.coming-soon {
+    font-size: 4vh;
+  }
+}

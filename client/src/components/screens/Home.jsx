@@ -1,3 +1,6 @@
+// *Components*
+import Timer from "../Timer";
+
 // *CSS*
 import "./Home.css";
 
@@ -10,7 +13,9 @@ const Home = () => {
       <div className="home-sec" id="intro">Intro</div>
       
       {/*Timer Section */}
-      <div className="home-sec" id="apply">Timer</div>
+      <div className="home-sec" id="apply">
+        <Timer/>
+      </div>
       
       {/*Director's Message Section*/}
       <div className="home-sec" id="director">Director Message</div>
