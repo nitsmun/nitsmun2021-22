@@ -10,8 +10,8 @@ html, body {
 }
 
 div.home-sec {
+  /**Position**/
   position: relative;
-  padding: 2vh;
 
   /**Dimensions**/
   height: calc(100vh - var(--navbar-height-pc));
@@ -20,14 +20,57 @@ div.home-sec {
   scroll-margin-top: var(--navbar-height-pc);
   scroll-snap-align: start;
 
+  /**Border**/
   box-sizing: border-box;
+  
+  /**Padding**/
+  padding: 4vh 0;
 }
 
+/** Intro **/
 /* !Keep the top section below navbar */
 div#intro {
   margin-top: var(--navbar-height-pc);
 }
 
+/** Apply **/
 div#apply {
-  background-color: var(--theme3-100);
+  /**Background**/
+  background-color: var(--theme6-100);
+
+  /**Flex Container**/
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+}
+
+a.apply-btn {
+  /**Position**/
+  position: relative;
+  margin-bottom: 3vh;
+  
+  /**Background**/
+  background-color: var(--theme4-100);
+  
+  /**Border**/
+  box-sizing: border-box;
+  border: 0.1vh solid var(--theme1-100);
+  border-radius: 1vh;
+  
+  /**Content**/
+  padding: 2vh 5vh;
+  font-size: 2.75vh;
+}
+
+a.apply-btn:hover {
+  /**Background**/
+  background-color: var(--theme1-100);
+  
+  /**Content**/
+  font-weight: bold;
+  color: var(--theme2-100);
+  
+  /**Transition**/
+  transition-duration: 0.3s;
 }

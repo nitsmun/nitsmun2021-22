@@ -1,5 +1,8 @@
 // *Components*
+import {Link} from 'react-router-dom';
+
 import Timer from "../Timer";
+import Table from "../Table";
 
 // *CSS*
 import "./Home.css";
@@ -15,6 +18,9 @@ const Home = () => {
       {/*Timer Section */}
       <div className="home-sec" id="apply">
         <Timer/>
+        <Table/>
+
+        <Link to="/apply_ST" className="btn apply-btn">Apply Now</Link>
       </div>
       
       {/*Director's Message Section*/}
