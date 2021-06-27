@@ -61,6 +61,7 @@ div.timer-int-colon:nth-child(8) { /* ?Multiples of 2 */
 div.coming-soon {
   margin: 3vh auto;
   font-size: 5vh;
+  color: var(--theme1-100);
 }
 
 @media screen and (max-width : 1000px) {

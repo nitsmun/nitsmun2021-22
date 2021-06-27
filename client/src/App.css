@@ -20,7 +20,9 @@
 :root {
 
   --navbar-height-pc : 8.5vh;
-  --footer-height-pc : 35vh;
+
+  --footer-height-pc : 20vh;
+  --footer-height-mob : 40vh;
 
   --theme1-100 : rgba(71, 34, 223, 1.00);
   --theme1-070 : rgba(71, 34, 223, 0.70);
