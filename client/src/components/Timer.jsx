@@ -6,7 +6,7 @@ import React from 'react'; //? For React Fragment
 import "./Timer.css";
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeLimit = Math.floor(new Date(2021, 6, 15, 23, 59, 59, 0) / 1000);
+let timeLimit = Math.floor(new Date(2021, 6, 10, 23, 59, 59, 0) / 1000);
 
 //? Days is left as 100 for 2 digit days
 const timeIntervals = [60, 60, 24, 100],
