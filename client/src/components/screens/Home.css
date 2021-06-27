@@ -3,9 +3,8 @@
   ! Footer Height = --footer-height-pc
 */
 
-/**Adding Scroll Snap to Only Home Page*/
+/**Adding Scroll Snap to Only Home Page**/
 html, body {
-  scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
 
@@ -25,18 +24,124 @@ div.home-sec {
   
   /**Padding**/
   padding: 4vh 0;
+
+  /**Content**/
+  overflow: hidden;
 }
 
 /** Intro **/
 /* !Keep the top section below navbar */
 div#intro {
+  /**Position**/
+  position: relative;
   margin-top: var(--navbar-height-pc);
+  
+  /**Background**/
+  background-color: var(--color1-100);
+
+  /**Flex Conatiner**/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+/**Intro Logo**/
+div#intro div.intro-logo {
+  position: relative;
+  height: 75%;
+  width: 45%; 
+  overflow: hidden;
+}
+
+div.intro-logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, -50%);
+  height: 100%;
+}
+
+/**Intro Link (Down Arrow)**/
+div#intro a.intro-down-link {
+
+  /**Dimensions**/
+  height: 7.5vh;
+  aspect-ratio: 1/1;
+
+  /**Border**/
+  border-radius: 50%;
+
+  /**Flex Container**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  /**Content**/
+  font-size: 3vh;
+  color: var(--color2-100);
+
+  /**Border**/
+  box-sizing: border-box;
+  border: 0.7vh solid var(--color2-100);
+}
+
+div#intro a.intro-down-link i {
+  margin-top: 0.5vh;
+}
+
+div#intro a.intro-down-link:hover {
+  background-color: var(--color2-100);
+  color: var(--color1-100);
+  transition-duration: 0.3s;
+}
+
+/**Intro SVGs**/
+div.intro-img {
+  position: absolute;
+  height: 30vh;
+}
+
+div.intro-img img {
+  height: 100%;
+}
+
+div#intro-img1 {
+  bottom: 0%;
+  left: 5%;
+}
+
+div#intro-img2 {
+  top: 40%;
+  right: 2.5%;
+}
+
+div#intro-img3 {
+  top: 5%;
+  left: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  div#intro div.intro-logo {
+    height: 60%;
+    width: 100%;
+  }
+
+  div.intro-img {
+    display: none;
+  }
+
+  div#intro a.intro-down-link {
+    margin-top: 12vh;
+  }
+}
+
 
 /** Apply **/
 div#apply {
   /**Background**/
-  background-color: var(--theme6-100);
+  background-color: var(--color1-100);
 
   /**Flex Container**/
   display: flex;
@@ -45,31 +150,28 @@ div#apply {
   align-items: center;
 }
 
-a.apply-btn {
+div#apply a.apply-btn {
   /**Position**/
   position: relative;
   margin-bottom: 3vh;
   
-  /**Background**/
-  background-color: var(--theme4-100);
-  
   /**Border**/
   box-sizing: border-box;
-  border: 0.1vh solid var(--theme1-100);
+  border: 0.1vh solid var(--color3-100);
   border-radius: 1vh;
   
   /**Content**/
+  color: var(--color3-100);
   padding: 2vh 5vh;
   font-size: 2.75vh;
 }
 
-a.apply-btn:hover {
+div#apply a.apply-btn:hover {
   /**Background**/
-  background-color: var(--theme1-100);
+  background-color: var(--color3-100);
   
   /**Content**/
-  font-weight: bold;
-  color: var(--theme2-100);
+  color: var(--color1-100);
   
   /**Transition**/
   transition-duration: 0.3s;

@@ -13,7 +13,27 @@ const Home = () => {
     <div className="home">
 
       {/*Intro Section*/}
-      <div className="home-sec" id="intro">Intro</div>
+      <div className="home-sec" id="intro">
+
+        <div className="intro-logo">
+          <img src="/img/logo.svg" alt="NITSMUN"/>
+        </div>
+
+        <a href="#apply" className="intro-down-link">
+          <i className="fas fa-chevron-down"></i>
+        </a>
+
+        {/* <div className="intro-img" id="intro-img1">
+          <img src="/img/introSVG1.svg" alt="SVG Img"/>
+        </div>
+        <div className="intro-img" id="intro-img2">
+          <img src="/img/introSVG2.svg" alt="SVG Img"/>
+        </div>
+        <div className="intro-img" id="intro-img3">
+          <img src="/img/introSVG3.svg" alt="SVG Img"/>
+        </div> */}
+
+      </div>
       
       {/*Timer Section */}
       <div className="home-sec" id="apply">

@@ -4,11 +4,10 @@
 ! Grid Area For PC :
 * Logo Location Phone SNS-Links
 * *
-* *
 ! Grid Area for Mobile :
-* <----------Logo---------->
-* <---Location---->  SNS-
-* <----Phone------>  Links
+* <---(4)------Logo---------->
+* <--Location--(3)-->  SNS-
+* <----Phone--(3)--->  Links(1)
 */
 
 div#footer {
@@ -23,7 +22,7 @@ div#footer {
   scroll-snap-align: end;
 
   /**Background**/
-  background-color: var(--theme2-100);
+  background-color: var(--color1-100);
   
   /**CSS Grid Container**/
   display: grid;
@@ -60,7 +59,7 @@ div#footer div.footer-itm {
 
 div.footer-itm div.itm-icon {
   font-size: 5vh;
-  color: var(--theme1-100);
+  color: var(--color2-100);
   margin-right: 3vh;
 }
 
@@ -130,7 +129,7 @@ div.footer-sns div.sns-itm {
   aspect-ratio: 1/1;
 
   /**Background**/
-  background-color: var(--theme1-100);
+  background-color: var(--color2-100);
 
   /**Content**/
   font-size: 4vh;
@@ -157,15 +156,13 @@ div.sns-itm a.sns-link {
   color: var(--theme2-100);
 
   /***Flex Container*/
-  /*? To center the icons*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 div.footer-sns div.sns-itm:hover {
-  background-color: var(--theme2-100);
-  box-shadow: 0 0 1.5vh 0 var(--theme1-100);
+  background-color: var(--color1-100);
   transition: 0.3s;
 }
 

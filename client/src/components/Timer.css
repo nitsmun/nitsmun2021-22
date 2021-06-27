@@ -1,6 +1,4 @@
 div#timer {
-  /**Backgroud**/
-  background-color: var(--theme2-100);
 
   /**Position**/
   position: relative;
@@ -14,7 +12,7 @@ div#timer {
   /**Border**/
   border-radius: 1.5vh;
   box-sizing: border-box;
-  border: 0.2vh solid var(--theme1-100);
+  border: 0.4vh solid var(--color2-100);
   
   /**Flex Container**/
   display: flex;
@@ -24,11 +22,8 @@ div#timer {
   align-items: center;
 
   /**Content**/
-  color: white;
+  color: var(--color4-100);
   padding: 2vh 5vh;
-
-  /**Shadow*/
-  box-shadow: 0 0 1.5vh 0 var(--theme1-100);
 }
 
 div#timer div.timer-int {
@@ -39,7 +34,7 @@ div.timer-int div.timer-int-value {
   text-align: center;
   font-size: 6.5vh;
   transition: 0.2s;
-  color: var(--theme1-100);
+  color: var(--color6-100);
 }
 
 div.timer-int div.timer-int-label {
@@ -51,7 +46,7 @@ div.timer-int div.timer-int-label {
 
 div.timer-int-colon {
   font-size: 7vh;
-  color: var(--theme1-100);
+  color: var(--color4-100);
 }
 
 div.timer-int-colon:nth-child(8) { /* ?Multiples of 2 */
@@ -61,7 +56,7 @@ div.timer-int-colon:nth-child(8) { /* ?Multiples of 2 */
 div.coming-soon {
   margin: 3vh auto;
   font-size: 5vh;
-  color: var(--theme1-100);
+  color: var(--color3-100);
 }
 
 @media screen and (max-width : 1000px) {
