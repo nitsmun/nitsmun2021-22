@@ -17,13 +17,13 @@ const Table = () => {
 
       <tbody>
 
-        <tr>
+        <tr className="lower-border">
           <td>Early Bird</td>
           <td>₹250</td>
           <td>9th-14th Feb 2021</td>
         </tr>
 
-        <tr>
+        <tr className="lower-border">
           <td>Round 1</td>
           <td>₹300</td>
           <td>14th-20th Feb 2021</td>

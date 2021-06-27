@@ -4,38 +4,40 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(46, 46, 46);
+  background: var(--color1-100);
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 3vh;
-  background: var(--theme1-070);
+  background: var(--color3-070);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--theme1-100);
+  background: var(--color3-100);
+  transition-duration: 0.3s;
 }
 
 /**Root Variables**/
 :root {
 
-  --navbar-height-pc : 8.5vh;
+  --navbar-height-pc : 9vh;
 
   --footer-height-pc : 20vh;
   --footer-height-mob : 40vh;
-
-  --theme1-100 : rgba(71, 34, 223, 1.00);
-  --theme1-070 : rgba(71, 34, 223, 0.70);
-
-  --theme2-100 : rgba(20, 20, 20, 1.00);
-
-  --theme3-100 : rgba(35, 35, 35, 1.00);
-
-  --theme4-100 : rgba(75, 75, 75, 1.00);
-
-  --theme5-100 : rgba(60, 60, 60, 1.00);
   
-  --theme6-100 : rgba(30, 30, 30, 1.00);
+  /**Color Theme**/
+  --color1-100: rgba(50, 50, 50, 1.00);
+
+  --color2-100: rgba(23, 100, 216, 1.00);
+  
+  --color3-100: rgba(59, 137, 255, 1.00);
+  --color3-070: rgba(59, 137, 255, 0.70);
+  
+  --color4-100: rgba(89, 156, 255, 1.00);
+
+  --color5-100: rgba(113, 169, 252, 1.00);
+  
+  --color6-100: rgba(140, 184, 255, 1.00);
 }
 
 /**Apply For All**/
@@ -43,6 +45,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif; /**Default Font Family**/
+  scroll-behavior: smooth;
 }
 
 a.btn {
