@@ -61,7 +61,7 @@ div#footer div.footer-itm {
 div.footer-itm div.itm-icon {
   font-size: 5vh;
   color: var(--theme1-100);
-  margin-right: 2vh;
+  margin-right: 3vh;
 }
 
 div.footer-itm div.itm-text {
@@ -106,7 +106,7 @@ span.assam {
   div.footer-location,
   div.footer-call {
     justify-self: start !important;
-    padding-left: 5vw;
+    padding-left: 12vw;
   }
 }
 

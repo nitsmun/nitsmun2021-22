@@ -25,7 +25,7 @@ const Footer = () => {
         {/* Address */}
         <div className="itm-text location-text">
           <span className="mun">Model United Nations</span><br/>
-          <span className="nits">National Institute of Technology, Silchar</span><br/>
+          <span className="nits">NIT, Silchar</span><br/>
           <span className="assam">Silchar, Assam</span>
         </div>
       </div>
