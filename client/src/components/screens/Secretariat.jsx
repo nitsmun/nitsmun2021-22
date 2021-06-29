@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import "./Secretariat.css";
 
 var snsLogo = {
@@ -13,16 +15,24 @@ var person = {
   "position" : "Secretary General",
   "wing": "Web Development Team",
   "batch" : "2020 - 2024",
+  "img" : "/img/member.jpg",
   "sns" : [
     ["fb", "https://www.facebook.com/NITSMUN/?ref=br_rs"],
     ["insta", "https://www.instagram.com/nitsmun/"],
-    ["mail", "team.nitsmun@gmail.com"],
+    ["mail", "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=team.nitsmun@gmail.com&tf=1"],
     ["whatsapp", "https://api.whatsapp.com/send?phone=+919435537377"],
     ["github", "https://github.com/AdityaKotari/nitsmun2021-22"]
   ]
 }
 
-const Secretariat = () => {
+const Secretariat = (props) => {
+  
+  useEffect(()=> {
+
+    // *Setting Up Page Title*
+    document.title = props.title;
+  
+  }, [props.title]);
 
   return (
     <div className="sctrt">
@@ -32,7 +42,7 @@ const Secretariat = () => {
         
         <div className="mmbr-card" id={person.name}>
           <div className="mmbr-pic">
-            <img src="/img/member.jpg" alt="MEMBER_NAME" />
+            <img src={person.img} alt="MEMBER_NAME" />
           </div>
 
           <div className="mmbr-name">{person.name}</div>

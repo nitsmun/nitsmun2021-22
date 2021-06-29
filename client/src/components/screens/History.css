@@ -1,4 +1,123 @@
 /*
   ! Navbar Height = --navbar-height-pc
-  ! Footer Height = --footer-height-pc
 */
+
+div.hstry {
+  margin-top: var(--navbar-height-pc);
+  padding-top: 15vh;
+}
+
+div.hstry-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+div.hstry-intro div.hstry-intro-title {
+  text-align: center;
+  font-size: 7vh;
+  width: 70%;
+  color: var(--color2-100);
+  border-bottom: 0.2vh solid var(--color2-100);
+}
+
+div.hstry-intro div.hstry-intro-text {
+  margin-top: 6vh;
+  text-align: justify;
+  font-size: 3vh;
+  color: var(--color2-100);
+}
+
+div.gallery-intro-title {
+  position: relative;
+  margin: 7vh auto 0 auto;
+  text-align: center;
+  font-size: 4.5vh;
+  color: var(--color2-100);
+}
+
+div.hstry-albm {
+  width: 90%;
+  margin: 4vh auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+div.hstry-albm-title {
+  font-size: 4vh;
+  margin: 2vh auto 2vh auto;
+  min-width: 50%;
+  text-align: center;
+  border-bottom: 0.3vh solid var(--color2-100);
+  color: var(--color2-100);
+}
+
+div.hstry-albm-itm-cntnr {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.hstry-albm-itm {
+  position: relative;
+  width: 33.33%;
+  aspect-ratio: 9/11;
+  margin-bottom: 5vh;
+}
+
+div.hstry-albm-itm img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 97%;
+  max-width: 97%;
+  border: 0.2vh solid var(--color2-100);
+  border-radius: 1vh;
+}
+
+div.hstry-albm-itm img:hover {
+  box-shadow: 0 1vh 2vh 0 grey;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+div.exec-itm {
+  position: relative;
+  width: 33.33%;
+  aspect-ratio: 9/11;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.exec-name {
+  margin: 2vh auto 0 auto;
+  text-align: center;
+  font-size: 3.5vh;
+  color: var(--color2-100);
+}
+
+div.exec-itm img {
+  max-height: 97%;
+  max-width: 97%;
+  border: 0.2vh solid var(--color2-100);
+  border-radius: 1vh;
+}
+
+div.exec-itm img:hover {
+  box-shadow: 0 1vh 2vh 0 grey;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
