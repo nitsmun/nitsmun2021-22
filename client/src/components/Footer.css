@@ -167,15 +167,15 @@ div.footer-sns div.sns-itm:hover {
 }
 
 div#sns-fb a:hover {
-  color: #1877f2;
+  color: var(--fb-color1);
 }
 
 div#sns-insta a:hover {
-  color: #c32aa3;
+  color: var(--insta-color1);
 }
 
 div#sns-gmail a:hover {
-  color: #ea4335;
+  color: var(--gmail-color1);
 }
 
 @media screen and (max-width: 1000px) {
