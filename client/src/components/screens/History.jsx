@@ -17,11 +17,11 @@ var agendaPic = [
 ];
 
 var execPic = [
-  ["/img/judeg2021_1.jpg", "Soumyaneel Das"],
-  ["/img/judeg2021_2.jpg", "Aban Mandal"],
-  ["/img/judeg2021_3.jpg", "Manas Pratim Sharma"],
-  ["/img/judge2.jpeg", "Garima Rajpal"],
-  ["/img/judge3.jpeg", "Ujan Natik"],
+  ["/img/judeg2021_1.jpg", /*"Soumyaneel Das"*/ ""],
+  ["/img/judeg2021_2.jpg", /*"Aban Mandal"*/ ""],
+  ["/img/judeg2021_3.jpg", /*"Manas Pratim Sharma"*/ ""],
+  ["/img/judge2.jpeg", /*"Garima Rajpal"*/ ""],
+  ["/img/judge3.jpeg", /*"Ujan Natik"*/ ""],
   ["/img/judge4_Aniket_Aich.JPG", "Aniket Aich"],
   ["/img/judge5.jpg", "Sehrish Hazarika"]
 ];
@@ -74,7 +74,7 @@ const History = (props) => {
             return (
               <div className="exec-itm" key={index}>
                 <img src={exec[0]} alt={'exec ' + (index+1)} />
-                <div className="exec-name">{exec[1]}</div>
+                {exec[1].length > 0 && <div className="exec-name">{exec[1]}</div>}
               </div>
             )
           })}
