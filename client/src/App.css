@@ -1,20 +1,15 @@
 /**Scrollbar**/
 ::-webkit-scrollbar {
-  width: 1.25vh;
+  width: 1vh;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color1-100);
+  background: var(--theme1-100);
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 3vh;
-  background: var(--color3-070);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color3-100);
-  transition-duration: 0.3s;
+  background: var(--theme3-100);
 }
 
 /**Root Variables**/
@@ -26,18 +21,12 @@
   --footer-height-mob : 40vh;
   
   /**Color Theme**/
-  --color1-100: rgba(50, 50, 50, 1.00);
-
-  --color2-100: rgba(23, 100, 216, 1.00);
-  
-  --color3-100: rgba(59, 137, 255, 1.00);
-  --color3-070: rgba(59, 137, 255, 0.70);
-  
-  --color4-100: rgba(89, 156, 255, 1.00);
-
-  --color5-100: rgba(113, 169, 252, 1.00);
-  
-  --color6-100: rgba(140, 184, 255, 1.00);
+  --theme1-100: #6002ee;
+  --theme2-100: #d602ee;
+  --theme3-100: #ee0290;
+  --theme4-100: #ee6002;
+  --theme5-100: #90ee02;
+  --theme6-100: #fcfcfc;
 
 
   /**SNS Colors**/
