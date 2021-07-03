@@ -8,16 +8,16 @@ table#apply-table {
   width: 90%;
 
   /**Border**/
-  border: 0.3vh solid var(--color2-100);
-  border-radius: 1vh;
+  border: 0.3vh solid var(--theme1-100);
+  border-radius: 0.6vh;
 }
 
 table#apply-table thead tr td {
   /**Background**/
-  background-color: var(--color1-100);
+  background-color: var(--theme1-100);
   
   /**Content**/
-  color: var(--color3-100);
+  color: var(--theme6-100);
   padding: 2vh 4vh;
   text-align: left;
   font-size: 2.9vh;
@@ -25,21 +25,29 @@ table#apply-table thead tr td {
   
   /**Border**/
   box-sizing: border-box;
-  border-bottom: 0.5vh solid var(--color4-100);
+  border-bottom: 0.5vh solid var(--theme2-100);
 }
 
 table#apply-table tr.lower-border td {
-  border-bottom: 0.2vh solid var(--color4-100);
+  border-bottom: 0.2vh solid var(--theme2-100);
 }
 
 table#apply-table td {
-  color: var(--color6-100);
+  color: var(--theme1-100);
   padding: 2vh 4vh;
   text-align: left;
   font-size: 2.5vh;
 }
 
 @media screen and (max-width: 1000px) {
+  
+  table#apply-table {
+    margin: 17.5vw auto;
+
+    border: 0.3vw solid var(--theme1-100);
+    border-radius: 0.6vw;
+  }
+
   table#apply-table thead tr td {
     padding: 2vw 4vw;
     font-size: 3.5vw;
@@ -47,6 +55,6 @@ table#apply-table td {
 
   table#apply-table td {
     padding: 2vw 4vw;
-    font-size: 2.9vw;
+    font-size: 3vw;
   }
 }

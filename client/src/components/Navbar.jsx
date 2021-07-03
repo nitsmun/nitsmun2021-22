@@ -50,6 +50,7 @@ const Navbar = () => {
         <Link to="/secretariat" className="navbar-link">Secretariat</Link>
         <Link to="/history" className="navbar-link">History</Link>
         <Link to="/gallery" className="navbar-link">Gallery</Link>
+        <Link to="/reachus" className="navbar-link">Reach Us</Link>
       </div>
     </div>
     

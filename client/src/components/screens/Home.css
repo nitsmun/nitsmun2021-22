@@ -37,7 +37,7 @@ div#intro {
   margin-top: var(--navbar-height-pc);
   
   /**Background**/
-  background-color: var(--color1-100);
+  background-color: var(--theme6-100);
 
   /**Flex Conatiner**/
   display: flex;
@@ -69,9 +69,6 @@ div#intro a.intro-down-link {
   height: 7.5vh;
   aspect-ratio: 1/1;
 
-  /**Border**/
-  border-radius: 50%;
-
   /**Flex Container**/
   display: flex;
   justify-content: center;
@@ -80,11 +77,12 @@ div#intro a.intro-down-link {
 
   /**Content**/
   font-size: 3vh;
-  color: var(--color2-100);
+  color: var(--theme1-100);
 
   /**Border**/
+  border-radius: 1vh;
   box-sizing: border-box;
-  border: 0.7vh solid var(--color2-100);
+  border: 0.7vh solid var(--theme1-100);
 }
 
 div#intro a.intro-down-link i {
@@ -92,8 +90,8 @@ div#intro a.intro-down-link i {
 }
 
 div#intro a.intro-down-link:hover {
-  background-color: var(--color2-100);
-  color: var(--color1-100);
+  background-color: var(--theme3-100);
+  color: var(--theme6-100);
   transition-duration: 0.3s;
 }
 
@@ -141,7 +139,7 @@ div#intro-img3 {
 /** Apply **/
 div#apply {
   /**Background**/
-  background-color: var(--color1-100);
+  background-color: var(--theme6-100);
 
   /**Flex Container**/
   display: flex;
@@ -156,30 +154,31 @@ div#apply a.apply-btn {
   margin-bottom: 3vh;
   
   /**Border**/
-  box-sizing: border-box;
-  border: 0.1vh solid var(--color3-100);
-  border-radius: 1vh;
+  border-radius: 0.5vh;
   
   /**Content**/
-  color: var(--color3-100);
+  color: var(--theme6-100);
   padding: 2vh 5vh;
   font-size: 2.75vh;
+
+  /**Background**/
+  background-color: var(--theme1-100);
 }
 
 div#apply a.apply-btn:hover {
   /**Background**/
-  background-color: var(--color3-100);
-  
-  /**Content**/
-  color: var(--color1-100);
+  background-color: var(--theme3-100);
+  box-shadow: 0.3vh 0.3vh 1vh 0 grey;
   
   /**Transition**/
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 }
 
 @media screen and (max-width: 1000px) {
-  a.apply-btn {
+  
+  div#apply a.apply-btn {
     padding: 3vw 7vw;
     font-size: 3.5vw;
+    border-radius: 1vw;
   }
 }

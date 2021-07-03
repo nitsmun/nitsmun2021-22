@@ -1,4 +1,251 @@
 /*
   ! Navbar Height = --navbar-height-pc
-  ! Footer Height = --footer-height-pc
 */
+
+div.hstry {
+  margin-top: var(--navbar-height-pc);
+  padding-top: 15vh;
+}
+
+@media screen and (max-width: 1000px) {
+  div.hstry {
+    padding-top: 5vw;
+  }
+}
+
+div.hstry-intro {
+  /**Flex Container**/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /**Dimensions**/
+  width: 90%;
+
+  /**Border**/
+  margin: 0 auto;
+}
+
+div.hstry-intro div.hstry-intro-title {
+  /**Content**/
+  text-align: center;
+  font-size: 7vh;
+  width: 70%;
+  color: var(--theme1-100);
+
+  /**Border**/
+  border-bottom: 0.2vh solid var(--theme3-100);
+}
+
+div.hstry-intro div.hstry-intro-text {
+  margin-top: 6vh;
+
+  text-align: justify;
+  font-size: 3.5vh;
+  color: var(--theme7-100);
+  letter-spacing: 1.75px;
+  line-height: 4.5vh;
+}
+
+@media screen and (max-width: 1000px) {
+  div.hstry-intro div.hstry-intro-title {
+    font-size: 5vw;
+  }
+
+  div.hstry-intro div.hstry-intro-text {
+    font-size: 3.5vw;
+    line-height: 5.5vw;
+  }
+}
+
+div.gallery-intro-title {
+  /**Position**/
+  position: relative;
+  
+  /**Border**/
+  margin: 7vh auto 0 auto;
+
+  /**Container**/
+  text-align: center;
+  font-size: 4.5vh;
+  color: var(--theme1-100);
+}
+
+div.hstry-albm,
+div.exec-albm {
+  width: 90%;
+  margin: 4vh auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+div.hstry-albm-title,
+div.exec-albm-title {
+  /**Container**/
+  font-size: 4vh;
+  width: 75%;
+  text-align: center;
+  color: var(--theme1-100);
+  
+  /**Border**/
+  margin: 4vh auto 2vh auto;
+  border-bottom: 0.3vh solid var(--theme2-100);
+}
+
+@media screen and (max-width: 1000px) {
+  div.hstry-albm,
+  div.exec-albm {
+    margin: 4vw auto;
+  }
+  div.gallery-intro-title {
+    font-size: 4.5vw;
+  }
+  
+  div.hstry-albm-title,
+  div.exec-albm-title {
+    font-size: 4vw;
+    margin: 4vw auto;
+  }
+}
+
+div.hstry-albm-itm-cntnr {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+@media screen and (min-width: 1000px) {
+  
+  div.hstry-albm-itm {
+    position: relative;
+    width: 33.33%;
+    aspect-ratio: 9/11;
+    margin-bottom: 5vh;
+    min-width: 300px;
+  }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  div.hstry-albm-itm {
+    position: relative;
+    width: 33.33%;
+    margin-bottom: 1vw;
+    min-width: 140px;
+    height: auto;
+    min-height: 210px;
+  }
+
+  div.hstry-albm-itm:nth-child(1),
+  div.hstry-albm-itm:nth-child(2) {
+    min-height: 160px;
+  }
+
+}
+
+div.hstry-albm-itm img {
+  /**Position**/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /**Dimensions**/
+  max-height: 97%;
+  max-width: 97%;
+
+  /**Border**/
+  border: 0.2vh solid var(--theme4-100);
+  border-radius: 1vh;
+}
+
+div.hstry-albm-itm img:hover {
+  box-shadow: 0 1vh 2vh 0 grey;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+div.exec-albm-itm-cntnr {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+
+div.exec-itm {
+  /**Grid Item**/
+  justify-self: center;
+  align-self: initial;
+  grid-column: auto / span 3;
+
+  /**Position**/
+  position: relative;
+  
+  /**Dimensions**/
+  width: 80%;
+  aspect-ratio: 11/9;
+  
+  /**Border**/
+  margin-bottom: 2vh;
+  
+  /**Flex Container**/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  div.exec-itm {
+    width: 95%;
+  }
+}
+
+div.exec-itm:nth-child(1),
+div.exec-itm:nth-child(2),
+div.exec-itm:nth-child(3) {
+  aspect-ratio: 9/11;
+  grid-column: auto / span 2;
+}
+
+div.exec-name {
+  margin: 1vh auto 0 auto;
+  text-align: center;
+  font-size: 3.5vh;
+  color: var(--theme1-100);
+}
+
+@media screen and (max-width: 1000px) {
+  div.exec-name {
+    font-size : 3.5vw;
+  }
+}
+
+div.exec-itm img {
+  max-height: 80%;
+  max-width: 95%;
+  border: 0.2vh solid var(--theme2-100);
+  box-sizing: border-box;
+  border-radius: 1vh;
+}
+
+div.exec-itm:nth-child(1) img,
+div.exec-itm:nth-child(2) img,
+div.exec-itm:nth-child(3) img {
+  max-height: 99%;
+  max-width: 99%;
+}
+
+div.exec-itm img:hover {
+  box-shadow: 0 1vh 2vh 0 grey;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}

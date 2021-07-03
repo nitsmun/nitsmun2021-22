@@ -10,9 +10,8 @@ div#timer {
   width: 90%;
 
   /**Border**/
-  border-radius: 1.5vh;
+  border-radius: 0.6vh;
   box-sizing: border-box;
-  border: 0.4vh solid var(--color2-100);
   
   /**Flex Container**/
   display: flex;
@@ -22,8 +21,10 @@ div#timer {
   align-items: center;
 
   /**Content**/
-  color: var(--color4-100);
+  color: var(--theme6-100);
   padding: 2vh 5vh;
+
+  background-color: var(--theme1-100);
 }
 
 div#timer div.timer-int {
@@ -34,7 +35,12 @@ div.timer-int div.timer-int-value {
   text-align: center;
   font-size: 6.5vh;
   transition: 0.2s;
-  color: var(--color6-100);
+  font-weight: bold;
+}
+
+div.timer-int div.timer-int-value:hover {
+  color: var(--theme3-100);
+  transition-duration: 0.2s;
 }
 
 div.timer-int div.timer-int-label {
@@ -44,9 +50,18 @@ div.timer-int div.timer-int-label {
   font-size: 3vh;
 }
 
+div.timer-int div.timer-int-label:hover {
+  color: var(--theme5-100);
+  transition-duration: 0.2s;
+}
+
 div.timer-int-colon {
   font-size: 7vh;
-  color: var(--color4-100);
+}
+
+div.timer-int-colon:hover {
+  color: var(--theme4-100);
+  transition-duration: 0.2s;
 }
 
 div.timer-int-colon:nth-child(8) { /* ?Multiples of 2 */
