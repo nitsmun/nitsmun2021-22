@@ -14,25 +14,33 @@ div.hstry {
 }
 
 div.hstry-intro {
+  /**Flex Container**/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  /**Dimensions**/
   width: 90%;
+
+  /**Border**/
   margin: 0 auto;
 }
 
 div.hstry-intro div.hstry-intro-title {
+  /**Content**/
   text-align: center;
   font-size: 7vh;
   width: 70%;
   color: var(--theme1-100);
+
+  /**Border**/
   border-bottom: 0.2vh solid var(--theme3-100);
 }
 
 div.hstry-intro div.hstry-intro-text {
   margin-top: 6vh;
+
   text-align: justify;
   font-size: 3.5vh;
   color: var(--theme7-100);
@@ -52,8 +60,13 @@ div.hstry-intro div.hstry-intro-text {
 }
 
 div.gallery-intro-title {
+  /**Position**/
   position: relative;
+  
+  /**Border**/
   margin: 7vh auto 0 auto;
+
+  /**Container**/
   text-align: center;
   font-size: 4.5vh;
   color: var(--theme1-100);
@@ -71,12 +84,15 @@ div.exec-albm {
 
 div.hstry-albm-title,
 div.exec-albm-title {
+  /**Container**/
   font-size: 4vh;
-  margin: 4vh auto 2vh auto;
   width: 75%;
   text-align: center;
-  border-bottom: 0.3vh solid var(--theme2-100);
   color: var(--theme1-100);
+  
+  /**Border**/
+  margin: 4vh auto 2vh auto;
+  border-bottom: 0.3vh solid var(--theme2-100);
 }
 
 @media screen and (max-width: 1000px) {
@@ -137,12 +153,17 @@ div.hstry-albm-itm-cntnr {
 }
 
 div.hstry-albm-itm img {
+  /**Position**/
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  /**Dimensions**/
   max-height: 97%;
   max-width: 97%;
+
+  /**Border**/
   border: 0.2vh solid var(--theme4-100);
   border-radius: 1vh;
 }
@@ -160,17 +181,26 @@ div.exec-albm-itm-cntnr {
 
 
 div.exec-itm {
+  /**Grid Item**/
   justify-self: center;
   align-self: initial;
+  grid-column: auto / span 3;
+
+  /**Position**/
   position: relative;
+  
+  /**Dimensions**/
   width: 80%;
   aspect-ratio: 11/9;
+  
+  /**Border**/
   margin-bottom: 2vh;
+  
+  /**Flex Container**/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-column: auto / span 3;
 }
 
 @media screen and (max-width: 1000px) {
