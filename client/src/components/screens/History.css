@@ -40,7 +40,8 @@ div.gallery-intro-title {
   color: var(--color2-100);
 }
 
-div.hstry-albm {
+div.hstry-albm,
+div.exec-albm {
   width: 90%;
   margin: 4vh auto;
 
@@ -49,10 +50,11 @@ div.hstry-albm {
   flex-direction: row;
 }
 
-div.hstry-albm-title {
+div.hstry-albm-title,
+div.exec-albm-title {
   font-size: 4vh;
-  margin: 2vh auto 2vh auto;
-  min-width: 50%;
+  margin: 4vh auto 2vh auto;
+  width: 75%;
   text-align: center;
   border-bottom: 0.3vh solid var(--color2-100);
   color: var(--color2-100);
@@ -67,11 +69,31 @@ div.hstry-albm-itm-cntnr {
   justify-content: space-around;
 }
 
-div.hstry-albm-itm {
-  position: relative;
-  width: 33.33%;
-  aspect-ratio: 9/11;
-  margin-bottom: 5vh;
+
+@media screen and (min-width: 1000px) {
+  
+  div.hstry-albm-itm {
+    position: relative;
+    width: 33.33%;
+    aspect-ratio: 9/11;
+    margin-bottom: 5vh;
+    min-width: 300px;
+  }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  div.hstry-albm-itm {
+    position: relative;
+    width: 33.33%;
+    margin-bottom: 1vh;
+    min-width: 300px;
+    height: auto;
+    min-height: 350px;
+  }
+
 }
 
 div.hstry-albm-itm img {
@@ -91,15 +113,31 @@ div.hstry-albm-itm img:hover {
   transition-timing-function: ease-in-out;
 }
 
+div.exec-albm-itm-cntnr {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+
 div.exec-itm {
+  justify-self: center;
+  align-self: center;
   position: relative;
-  width: 33.33%;
-  aspect-ratio: 9/11;
+  width: 80%;
+  aspect-ratio: 11/9;
   margin-bottom: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  grid-column: auto / span 3;
+}
+
+div.exec-itm:nth-child(1),
+div.exec-itm:nth-child(2),
+div.exec-itm:nth-child(3) {
+  aspect-ratio: 9/11;
+  grid-column: auto / span 2;
 }
 
 div.exec-name {
@@ -109,11 +147,24 @@ div.exec-name {
   color: var(--color2-100);
 }
 
+@media screen and (max-width: 1000px) {
+  div.exec-name {
+    font-size : 3.5vw;
+  }
+}
+
 div.exec-itm img {
-  max-height: 97%;
-  max-width: 97%;
+  max-height: 90%;
+  max-width: 90%;
   border: 0.2vh solid var(--color2-100);
   border-radius: 1vh;
+}
+
+div.exec-itm:nth-child(1) img,
+div.exec-itm:nth-child(2) img,
+div.exec-itm:nth-child(3) img {
+  max-height: 99%;
+  max-width: 99%;
 }
 
 div.exec-itm img:hover {
