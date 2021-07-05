@@ -20,7 +20,8 @@ div#navbar {
   justify-content: center;
   align-items: center;
 
-  box-shadow: 0 0 1.5vh 0 var(--theme1-100);
+  /**Border**/
+  box-shadow: 0 0 2vh 0 var(--theme1-100);
 }
 
 @media screen and (min-width: 1000px) {
@@ -40,10 +41,10 @@ div#navbar {
   
   div.navbar-items {
     margin-left: auto;
-    margin-right: 5vw;
+    margin-right: 2vw;
   }
   
-  a.navbar-link {
+  .navbar-link {
     margin-right: 1.5vh;
     padding: 1.75vh 4vh;
     border-radius: 0.3vh;
@@ -52,9 +53,43 @@ div#navbar {
     color: var(--theme6-100);
   }
   
-  a.navbar-link:hover {
+  .navbar-link:hover,
+  .navbar-link:focus {
     background-color: var(--theme3-100);
     transition-duration: 0.2s;
+  }
+
+  .dropdown-link {
+    position: relative;
+  }
+
+  div.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: red;
+
+    display: none;
+    flex-direction: column;
+  }
+
+  .dropdown-link:hover div.dropdown-menu,
+  .dropdown-link:focus div.dropdown-menu {
+    display: flex;
+  }
+
+  a.dropdown-itm {
+    padding: 3vh 5vh;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a.dropdown-itm:hover {
+    background-color: green;
+    transition-duration: 0.2s;
+    color: white;
   }
 }
 
@@ -141,7 +176,7 @@ div#navbar {
     align-items: center;
   }
 
-  div.navbar-items a.navbar-link {
+  div.navbar-items .navbar-link {
     /**Position**/
     margin-bottom: 4vw;
     
@@ -159,5 +194,38 @@ div#navbar {
     box-sizing: border-box;
     border: 0.6vw solid var(--theme6-100);
     border-radius: 0.5vw;
+  }
+
+  .dropdown-link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.dropdown-menu {
+    position: relative;
+    background-color: red;
+
+    display: none;
+    flex-direction: column;
+    margin-top: 7vw;
+  }
+
+  .dropdown-link:hover div.dropdown-menu,
+  .dropdown-link:focus div.dropdown-menu {
+    display: flex;
+  }
+
+  a.dropdown-itm {
+    padding: 3vw 5vw;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a.dropdown-itm:hover {
+    background-color: green;
+    transition-duration: 0.2s;
+    color: white;
   }
 }

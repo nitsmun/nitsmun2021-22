@@ -33,7 +33,7 @@ const Navbar = () => {
   return(
     <div id="navbar">
       <div className="navbar-logo">
-        <img src="/img/logo.svg" alt="NITSMUN"/>
+        {/* <img src="/img/logoSmall.png" alt="NITSMUN"/> */}
       </div>
 
       <div className="navbar-menu">
@@ -47,10 +47,18 @@ const Navbar = () => {
 
       <div className="navbar-items" id="menu">
         <Link to="/" className="navbar-link">Home</Link>
-        <Link to="/secretariat" className="navbar-link">Secretariat</Link>
-        <Link to="/history" className="navbar-link">History</Link>
-        <Link to="/gallery" className="navbar-link">Gallery</Link>
-        <Link to="/reachus" className="navbar-link">Reach Us</Link>
+        <Link to="#" className="navbar-link dropdown-link">
+          <span className="dropdown-title">Events&nbsp;&nbsp;&nbsp;<i className="fas fa-chevron-down"></i></span>
+          <div className="dropdown-menu">
+            <Link to="/annual-conference" className="dropdown-itm">Annual Conference</Link>
+            <Link to="/global-voices-mun" className="dropdown-itm">Global Voices MUN</Link>
+            <Link to="/mock-mun" className="dropdown-itm">Mock MUNs</Link>
+          </div>
+        </Link>
+        <Link to="/about" className="navbar-link">About Us</Link>
+        <Link to="/team" className="navbar-link">Our Team</Link>
+        <Link to="/articles" className="navbar-link">Articles</Link>
+        <Link to="/conferences" className="navbar-link">Past Conferences</Link>
       </div>
     </div>
     

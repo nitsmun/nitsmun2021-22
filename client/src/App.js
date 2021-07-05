@@ -10,7 +10,7 @@ import Secretariat from './components/screens/Secretariat';
 import Error404 from './components/screens/Error404';
 
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -50,7 +50,7 @@ function App() {
 
         </Switch>
 
-        {/* <Footer/> *Footer stays for all pages* */}
+        <Footer/> {/* Footer stays for all pages */}
      
       </div>
     </Router>

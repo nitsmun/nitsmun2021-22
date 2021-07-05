@@ -4,9 +4,9 @@
 */
 
 /**Adding Scroll Snap to Only Home Page**/
-html, body {
+/* html, body {
   scroll-snap-type: y mandatory;
-}
+} */
 
 div.home-sec {
   /**Position**/
@@ -16,8 +16,8 @@ div.home-sec {
   height: calc(100vh - var(--navbar-height-pc));
 
   /**Scroll Snap**/
-  scroll-margin-top: var(--navbar-height-pc);
-  scroll-snap-align: start;
+  /*scroll-margin-top: var(--navbar-height-pc);
+  scroll-snap-align: start; */
 
   /**Border**/
   box-sizing: border-box;
