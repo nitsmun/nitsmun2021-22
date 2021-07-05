@@ -9,7 +9,7 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 3vh;
-  background: var(--theme3-100);
+  background: var(--theme4-100);
 }
 
 /**Root Variables**/
@@ -21,7 +21,7 @@
   --footer-height-mob : 40vh;
   
   /**Color Theme**/
-  --theme1-100: #8135f3;
+  /* --theme1-100: #8135f3;
   --theme1-alt1-100: #5f2aaf;
   --theme1-alt2-100: #9b58ff;
   --theme2-100: #d602ee;
@@ -33,7 +33,18 @@
   --theme6-060: rgba(252, 252, 252, 0.60);
   --theme7-100: rgb(37, 37, 37);
   --theme7-080: rgba(37, 37, 37, 0.80);
-  --theme7-060: rgba(37, 37, 37, 0.60);
+  --theme7-060: rgba(37, 37, 37, 0.60); */
+  
+  
+  --theme1-100: #2c2f33;
+  --theme2-100: #f8f8f8;
+  --theme2-080: rgba(248, 248, 248, 0.80);
+  --theme3-100: #2A2D32;
+  --theme4-100: #8135f3;
+  --theme4-080: rgba(129, 53, 243, 0.80);
+  --theme4-060: rgba(129, 53, 243, 0.60);
+  --theme5-100: #44484e;
+  --theme6-100: #3c3f44;
 
 
   /**SNS Colors**/
@@ -52,7 +63,16 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--theme2-100);
+}
+
 a.btn {
   text-decoration: none;
   color: white;
+}
+
+span.bold {
+  color: var(--theme4-100) !important;
+  font-weight: bolder;
 }

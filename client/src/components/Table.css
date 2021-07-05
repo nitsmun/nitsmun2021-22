@@ -8,7 +8,7 @@ table#apply-table {
   width: 90%;
 
   /**Border**/
-  border: 0.3vh solid var(--theme1-100);
+  border: 0.3vh solid var(--theme2-100);
   border-radius: 0.6vh;
 }
 
@@ -17,15 +17,16 @@ table#apply-table thead tr td {
   background-color: var(--theme1-100);
   
   /**Content**/
-  color: var(--theme6-100);
+  color: var(--theme4-100);
   padding: 2vh 4vh;
   text-align: left;
   font-size: 2.9vh;
   text-align: center;
+  font-weight: bolder;
   
   /**Border**/
   box-sizing: border-box;
-  border-bottom: 0.5vh solid var(--theme2-100);
+  border-bottom: 0.5vh solid var(--theme4-100);
 }
 
 table#apply-table tr.lower-border td {
@@ -33,7 +34,7 @@ table#apply-table tr.lower-border td {
 }
 
 table#apply-table td {
-  color: var(--theme1-100);
+  color: var(--theme2-100);
   padding: 2vh 4vh;
   text-align: left;
   font-size: 2.5vh;

@@ -37,7 +37,7 @@ div#intro {
   margin-top: var(--navbar-height-pc);
   
   /**Background**/
-  background-color: var(--theme6-100);
+  background-color: var(--theme4-100);
 
   /**Flex Conatiner**/
   display: flex;
@@ -139,7 +139,7 @@ div#intro-img3 {
 /** Apply **/
 div#apply {
   /**Background**/
-  background-color: var(--theme6-100);
+  background-color: var(--theme5-100);
 
   /**Flex Container**/
   display: flex;
@@ -157,21 +157,24 @@ div#apply a.apply-btn {
   border-radius: 0.5vh;
   
   /**Content**/
-  color: var(--theme6-100);
+  color: var(--theme1-100);
   padding: 2vh 5vh;
   font-size: 2.75vh;
 
   /**Background**/
-  background-color: var(--theme1-100);
+  background-color: var(--theme4-100);
 }
 
 div#apply a.apply-btn:hover {
   /**Background**/
-  background-color: var(--theme3-100);
-  box-shadow: 0.3vh 0.3vh 1vh 0 grey;
+  background-color: var(--theme1-100);
+  box-shadow: 0.3vh 0.3vh 1vh 0 var(--theme3-100);
   
   /**Transition**/
   transition-duration: 0.2s;
+
+  
+  color: var(--theme4-100);
 }
 
 @media screen and (max-width: 1000px) {

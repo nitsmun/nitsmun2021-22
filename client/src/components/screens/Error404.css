@@ -1,0 +1,14 @@
+.error {
+  margin-top: var(--navbar-height-pc);
+  height: calc( 100vh - var(--navbar-height-pc) - var(--footer-height-pc));
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--theme4-100);
+  font-size: 5vh;
+  text-align: center;
+  flex-direction: column;
+  background-color: var(--theme5-100);
+}

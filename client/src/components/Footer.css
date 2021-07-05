@@ -17,16 +17,14 @@ div#footer {
   /**Dimensions**/
   height: var(--footer-height-pc);
 
-  /**Scroll Snap**/
-  scroll-snap-stop: always;
-  scroll-snap-align: end;
-
   /**Background**/
-  background-color: var(--color1-100);
+  background-color: var(--theme3-100);
   
   /**CSS Grid Container**/
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  box-shadow: 0 0 1.5vh 0 var(--theme3-100);
 }
 
 div#footer div.footer-logo {
@@ -59,7 +57,7 @@ div#footer div.footer-itm {
 
 div.footer-itm div.itm-icon {
   font-size: 5vh;
-  color: var(--color2-100);
+  color: var(--theme4-100);
   margin-right: 3vh;
 }
 
@@ -129,7 +127,7 @@ div.footer-sns div.sns-itm {
   aspect-ratio: 1/1;
 
   /**Background**/
-  background-color: var(--color2-100);
+  background-color: var(--theme4-100);
 
   /**Content**/
   font-size: 4vh;
@@ -153,7 +151,7 @@ div.sns-itm a.sns-link {
 
   /**Content**/
   text-decoration: none;
-  color: var(--theme2-100);
+  color: var(--theme1-100);
 
   /***Flex Container*/
   display: flex;

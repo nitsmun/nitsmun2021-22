@@ -50,13 +50,14 @@ div#navbar {
     border-radius: 0.3vh;
   
     text-decoration: none;
-    color: var(--theme6-100);
+    color: var(--theme2-100);
   }
   
   .navbar-link:hover,
   .navbar-link:focus {
-    background-color: var(--theme3-100);
+    background-color: var(--theme2-100);
     transition-duration: 0.2s;
+    color: var(--theme1-100);
   }
 
   .dropdown-link {
@@ -68,28 +69,35 @@ div#navbar {
     top: 100%;
     left: 50%;
     transform: translate(-50%, 0);
-    background-color: red;
+    background-color: var(--theme3-100);
 
     display: none;
     flex-direction: column;
+    border-radius: 1vh;
+
+    border: 0.2vh solid var(--theme4-100);
+    border-top: 0 solid var(--theme4-100);
   }
 
-  .dropdown-link:hover div.dropdown-menu,
-  .dropdown-link:focus div.dropdown-menu {
-    display: flex;
+  span.dropdown-link:hover div.dropdown-menu,
+  span.dropdown-link:focus div.dropdown-menu {
+    display: flex !important;
   }
 
   a.dropdown-itm {
     padding: 3vh 5vh;
     white-space: nowrap;
     text-decoration: none;
-    color: black;
+    color: var(--theme2-100);
+    margin: 1vh 1vh;
+    background-color: var(--theme1-100);
+    border-radius: 1vh;
   }
   
   a.dropdown-itm:hover {
-    background-color: green;
+    color: var(--theme1-100);
     transition-duration: 0.2s;
-    color: white;
+    background-color: var(--theme2-100);
   }
 }
 
@@ -141,7 +149,7 @@ div#navbar {
 
     /**Content**/
     font-size: 8.5vw;
-    color: var(--theme6-100);
+    color: var(--theme2-100);
 
     cursor: pointer;
   }
@@ -163,7 +171,7 @@ div#navbar {
     z-index: +10;
 
     /**Background**/
-    background-color: var(--theme1-100);
+    background-color: var(--theme5-100);
 
     /**Dimensions**/
     height: calc(100vh - var(--navbar-height-pc));
@@ -178,21 +186,21 @@ div#navbar {
 
   div.navbar-items .navbar-link {
     /**Position**/
-    margin-bottom: 4vw;
+    margin-bottom: 2vw;
     
     /**Dimensions**/
     width: 75%;
 
     /**Content**/
-    padding: 6vw 0;
+    padding: 5vw 0;
     font-size: 5vw;
     text-align: center;
     text-decoration: none;
-    color: var(--theme6-100);
+    color: var(--theme2-100);
     
     /**Border**/
     box-sizing: border-box;
-    border: 0.6vw solid var(--theme6-100);
+    border: 0.6vw solid var(--theme4-100);
     border-radius: 0.5vw;
   }
 
@@ -204,11 +212,14 @@ div#navbar {
 
   div.dropdown-menu {
     position: relative;
-    background-color: red;
+    background-color: var(--theme6-100);
 
-    display: none;
+    display: flex;
     flex-direction: column;
-    margin-top: 7vw;
+    margin-top: 4vw;
+    border: 0.4vw solid var(--theme4-100);
+    border-top: 0.4vw solid var(--theme4-100);
+    padding-bottom: 2vw;
   }
 
   .dropdown-link:hover div.dropdown-menu,
@@ -217,10 +228,17 @@ div#navbar {
   }
 
   a.dropdown-itm {
-    padding: 3vw 5vw;
+    padding: 3.5vw 0;
+    text-align: center;
+    width: 95%;
+    box-sizing: border-box;
+    margin: 2vw auto 0 auto;
     white-space: nowrap;
     text-decoration: none;
-    color: black;
+    color: var(--theme2-100);
+    border-radius: 1vw;
+    border: 0.1vw solid var(--theme4-100);
+    font-size: 3vw;
   }
   
   a.dropdown-itm:hover {

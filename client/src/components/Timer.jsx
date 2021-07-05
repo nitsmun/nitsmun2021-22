@@ -6,7 +6,9 @@ import React from 'react'; //? For React Fragment
 import "./Timer.css";
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeLimit = Math.floor(new Date(2021, 6, 10, 23, 59, 59, 0) / 1000);
+let timeTo = new Date(2021, 6, 10, 23, 59, 59, 0);
+
+let timeLimit = Math.floor( timeTo / 1000);
 
 //? Days is left as 100 for 2 digit days
 const timeIntervals = [60, 60, 24, 100],
@@ -57,32 +59,34 @@ const Timer = () => {
   }, []);
 
   return (
-    <div id="timer">
+    <>
+      <div id="timer">
 
-      {/* If display.length = 4 => Display Timer
-          If display.length = 1 => Display Coming Soon */}
+        {display.length === 4 && <div className="timer-limit">Event On&emsp;<span className="bold">{timeTo.toLocaleString()}</span> !!</div>}
+        {/* If display.length = 4 => Display Timer
+            If display.length = 1 => Display Coming Soon */}
+        {display.length === 4 && display.map((interval, index) => {
+          return(
+            <React.Fragment key={index}>
 
-      {display.length === 4 && display.map((interval, index) => {
-        return(
-          <React.Fragment key={index}>
+              <div className="timer-int">
+                <div className="timer-int-value">{interval}</div> {/* Time left in interval */}
+                <div className="timer-int-label">{timeIntervalName[index]}</div> {/* Interval name */}
+              </div>
+              {(index < display.length -1 && ((window.innerWidth < 1000 && index!==1) || window.innerWidth >= 1000)) && <div className="timer-int-colon">:</div>}
 
-            <div className="timer-int">
-              <div className="timer-int-value">{interval}</div> {/* Time left in interval */}
-              <div className="timer-int-label">{timeIntervalName[index]}</div> {/* Interval name */}
-            </div>
-            <div className="timer-int-colon">:</div>
+            </React.Fragment>
+            )
+        })}
 
-          </React.Fragment>
-          )
-      })}
+        {display.length === 1 &&
+          <div className="coming-soon">
+            Coming Soon!
+          </div>
+        }
 
-      {display.length === 1 &&
-        <div className="coming-soon">
-          Coming Soon!
-        </div>
-      }
-
-    </div>)
+      </div>
+    </>)
 }
 
 export default Timer;

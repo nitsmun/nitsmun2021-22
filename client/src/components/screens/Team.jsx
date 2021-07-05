@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import "./Secretariat.css";
+import "./Team.css";
 
 var snsLogo = {
   "fb" : "fab fa-facebook-f",
@@ -35,7 +35,7 @@ const Secretariat = (props) => {
   }, [props.title]);
 
   return (
-    <div className="sctrt">
+    <div className="team">
       
       <div className="card-container">
         <div className="card-container-title">Web Development Team</div>

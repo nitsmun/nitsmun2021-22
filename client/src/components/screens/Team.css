@@ -1,10 +1,10 @@
-div.sctrt {
+div.team {
   position: relative;
   margin-top: var(--navbar-height-pc);
   min-height: calc(100vh - var(--navbar-height-pc));
   width: 100%;
   padding: 1.5vh 0;
-  background-color: var(--theme1-100);
+  background-color: var(--theme2-100);
 }
 
 .card-container {
@@ -18,24 +18,26 @@ div.sctrt {
   position: relative;
   margin: 1vh auto 5vh auto;
   font-size: 5vh;
-  color: var(--theme6-100);
+  color: var(--theme4-100);
   text-align: center;
+  width: 60%;
 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  border-bottom: 0.3vh solid var(--theme4-100);
 }
 
 .card-container .mmbr-card {
   position: relative;
-  width: 17.5%;
+  width: 19.5%;
   aspect-ratio: 3/4;
   margin: 1vh;
 
-  background-color: var(--theme1-100);
+  background-color: var(--theme3-100);
 
-  color: var(--theme7-100);
+  color: var(--theme2-100);
 
   display: flex;
   flex-direction: column;
@@ -44,11 +46,16 @@ div.sctrt {
 
   border-radius: 1vh;
   border: 0.1vh solid var(--theme7-100);
-  box-shadow: 0.5vh 0.5vh 1vh 0.1vh var(--theme1-alt1-100), -0.5vh -0.5vh 1vh 0.1vh var(--theme1-alt2-100);
   padding: 2vh 1vh;
 
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+}
+
+.card-container .mmbr-card:hover {
+  background-color: var(--theme1-100);
+  box-shadow: 0 0 1vh 0 var(--theme1-100);
+  transition-duration: 0.3s;
 }
 
 .mmbr-card .mmbr-pic {
@@ -70,25 +77,25 @@ div.sctrt {
 .mmbr-name {
   margin-top: 2vh;
   font-size: 3.2vh;
-  color: var(--theme7-100);
+  color: var(--theme2-100);
 }
 
 .mmbr-position {
   margin-top: 1.5vh;
   font-size: 2.7vh;
-  color: var(--theme7-080);
+  color: var(--theme2-100);
 }
 
 .mmbr-wing {
   margin-top: 0.5vh;
   font-size: 2.3vh;
-  color: var(--theme7-080);
+  color: var(--theme2-080);
 }
 
 .mmbr-batch {
   margin-top: 0.5vh;
   font-size: 2.3vh;
-  color: var(--theme7-080);
+  color: var(--theme2-080);
 }
 
 .mmbr-sns {
@@ -99,9 +106,15 @@ div.sctrt {
   margin-top: 3vh;
 }
 
-.mmbr-sns .mmbr-sns-itm{
-  height: 5.5vh;
+.mmbr-sns .mmbr-sns-itm {
+  height: 5.2vh;
   aspect-ratio: 1/1;
+  border-radius: 0.5vh;
+  background-color: var(--theme4-100);
+}
+
+.mmbr-sns .mmbr-sns-itm:hover {
+  background-color: var(--theme3-100);
 }
 
 .mmbr-sns-itm a {
@@ -115,33 +128,90 @@ div.sctrt {
 
   text-decoration: none;
   
-  color: var(--theme7-100);
+  color: var(--theme1-100);
 
   box-sizing: border-box;
   border-radius: 0.5vh;
   transition-duration: 0.3s;
 }
 
-.mmbr-sns-itm a:hover {
-  background-color: var(--theme7-100);
+.card-container .mmbr-card .mmbr-name {
+  color: var(--theme4-100);
 }
 
-.card-container .mmbr-card:hover {
-  background-color: var(--theme7-100);
-}
-
-.card-container .mmbr-card:hover .mmbr-name {
-  color: var(--theme6-100);
-}
-
-.card-container .mmbr-card:hover .mmbr-position,
 .card-container .mmbr-card:hover .mmbr-wing,
 .card-container .mmbr-card:hover .mmbr-batch {
-  color: var(--theme6-080);
+  color: var(--theme2-100);
 }
 
-.card-container .mmbr-card:hover .mmbr-sns-itm a {
-  color: var(--theme6-080);
+@media screen and (max-width: 1000px) {
+
+  div.team {
+    padding: 1.5vw 0;
+  }
+  
+  .card-container {
+    padding: 1vw 0;
+  }
+  
+  .card-container .card-container-title {
+    margin: 1vw auto 8vw auto;
+    font-size: 6vw;
+    width: 90%;
+  
+    border-bottom: 0.5vw solid var(--theme4-100);
+  }
+  
+  .card-container .mmbr-card {
+    width: 19.5%;
+    aspect-ratio: 3/4;
+    margin: 1vh;
+
+    border-radius: 1vh;
+    border: 0.1vh solid var(--theme7-100);
+    padding: 2vh 1vh;
+  }
+  
+  .mmbr-card .mmbr-pic {
+    height: 45%;
+    aspect-ratio: 1/1;
+    border-radius: 0.6vh;
+  }
+  
+  .mmbr-name {
+    margin-top: 2vh;
+    font-size: 3.2vh;
+  }
+  
+  .mmbr-position {
+    margin-top: 1.5vh;
+    font-size: 2.7vh;
+  }
+  
+  .mmbr-wing {
+    margin-top: 0.5vh;
+    font-size: 2.3vh;
+  }
+  
+  .mmbr-batch {
+    margin-top: 0.5vh;
+    font-size: 2.3vh;
+  }
+  
+  .mmbr-sns {
+    width: 90%;
+    margin-top: 3vh;
+  }
+  
+  .mmbr-sns .mmbr-sns-itm {
+    height: 5.2vh;
+    aspect-ratio: 1/1;
+    border-radius: 0.5vh;
+  }
+  
+  .mmbr-sns-itm a {
+    font-size: 3.5vh;
+  }
 }
 
 a.fb:hover {color: var(--fb-color1) !important;}

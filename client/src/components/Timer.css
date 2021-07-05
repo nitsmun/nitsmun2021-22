@@ -4,10 +4,10 @@ div#timer {
   position: relative;
   top: 0;
   left: 0;
-  margin: 2vh auto;
+  margin: 10vh auto 2vh auto;
 
   /**Dimensions**/
-  width: 90%;
+  width: 95%;
 
   /**Border**/
   border-radius: 0.6vh;
@@ -27,8 +27,17 @@ div#timer {
   background-color: var(--theme1-100);
 }
 
+div#timer div.timer-limit {
+  width: 100%;
+  color: var(--theme2-100);
+  text-align: center;
+  margin-bottom: 3vh;
+  font-size: 2.4vh;
+}
+
 div#timer div.timer-int {
   padding: 0 5vh;
+  color: var(--theme2-100);
 }
 
 div.timer-int div.timer-int-value {
@@ -36,11 +45,7 @@ div.timer-int div.timer-int-value {
   font-size: 6.5vh;
   transition: 0.2s;
   font-weight: bold;
-}
-
-div.timer-int div.timer-int-value:hover {
-  color: var(--theme3-100);
-  transition-duration: 0.2s;
+  color: var(--theme4-100);
 }
 
 div.timer-int div.timer-int-label {
@@ -50,31 +55,24 @@ div.timer-int div.timer-int-label {
   font-size: 3vh;
 }
 
-div.timer-int div.timer-int-label:hover {
-  color: var(--theme5-100);
-  transition-duration: 0.2s;
-}
-
 div.timer-int-colon {
   font-size: 7vh;
-}
-
-div.timer-int-colon:hover {
   color: var(--theme4-100);
-  transition-duration: 0.2s;
-}
-
-div.timer-int-colon:nth-child(8) { /* ?Multiples of 2 */
-  display: none;
 }
 
 div.coming-soon {
   margin: 3vh auto;
   font-size: 5vh;
-  color: var(--color3-100);
+  color: var(--theme4-100);
 }
 
 @media screen and (max-width : 1000px) {
+
+  div#timer div.timer-limit {
+    margin-bottom: 3vw;
+    font-size: 3vw;
+  }
+  
   div#timer div.timer-int {
     padding: 0 3vh;
     margin: 1vh 2vh 0 0;
@@ -90,10 +88,6 @@ div.coming-soon {
 
   div.timer-int-colon {
     font-size: 7vw;
-  }
-
-  div.timer-int-colon:nth-child(4) { /* ?Multiples of 2 */
-    display: none;
   }
 
   div.coming-soon {
