@@ -6,11 +6,11 @@ import {
 
 import Home from './components/screens/Home';
 import History from './components/screens/History';
-import Secretariat from './components/screens/Secretariat';
+import Team from './components/screens/Team';
 import Error404 from './components/screens/Error404';
 
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -37,8 +37,8 @@ function App() {
           </Route>
 
           {/*Secretariat*/}
-          <Route exact path="/secretariat">
-            <Secretariat
+          <Route exact path="/team">
+            <Team
               title="Secretariat - NITS MUN"
             />
           </Route>
@@ -50,7 +50,7 @@ function App() {
 
         </Switch>
 
-        {/* <Footer/> *Footer stays for all pages* */}
+        <Footer/> {/* Footer stays for all pages */}
      
       </div>
     </Router>

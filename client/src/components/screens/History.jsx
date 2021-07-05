@@ -60,7 +60,7 @@ const History = (props) => {
           {agendaPic.map((agenda, index) => {
             return (
               <div className="hstry-albm-itm" key={index}>
-                <img src={agenda} alt={'agenda ' + (index+1)} />
+                <img loading="lazy" src={agenda} alt={'agenda ' + (index+1)} />
               </div>
             )
           })}
@@ -76,7 +76,7 @@ const History = (props) => {
           {execPic.map((exec, index) => {
             return (
               <div className="exec-itm" key={index}>
-                <img src={exec[0]} alt={'exec ' + (index+1)} />
+                <img loading="lazy" src={exec[0]} alt={'exec ' + (index+1)} />
                 {exec[1].length > 0 && <div className="exec-name">{exec[1]}</div>}
               </div>
             )
