@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import "./Team.css";
 
 var snsLogo = {
+  "lin" : "fab fa-linkedin-in",
   "fb" : "fab fa-facebook-f",
   "insta" : "fab fa-instagram",
   "whatsapp" : "fab fa-whatsapp",
@@ -17,6 +18,7 @@ var person = {
   "batch" : "2020 - 2024",
   "img" : "/img/member.jpg",
   "sns" : [
+    ["lin", "https://www.linkedin.com/school/national-institute-of-technology-silchar/"],
     ["fb", "https://www.facebook.com/NITSMUN/?ref=br_rs"],
     ["insta", "https://www.instagram.com/nitsmun/"],
     ["mail", "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=team.nitsmun@gmail.com&tf=1"],
@@ -31,8 +33,21 @@ const Secretariat = (props) => {
 
     // *Setting Up Page Title*
     document.title = props.title;
-  
   }, [props.title]);
+
+  useEffect(()=> {
+    let snsCont = document.getElementsByClassName('mmbr-sns');
+    for(let i = 0; i<snsCont.length; i++) {
+      let snsItmLength = snsCont[i].getElementsByClassName('mmbr-sns-itm').length;
+      
+           if(snsItmLength === 1) snsCont[i].style.gridTemplateColumns = "repeat(1, 1fr)";
+      else if(snsItmLength === 2) snsCont[i].style.gridTemplateColumns = "repeat(2, 1fr)";
+      else if(snsItmLength === 3) snsCont[i].style.gridTemplateColumns = "repeat(3, 1fr)";
+      else if(snsItmLength === 4) snsCont[i].style.gridTemplateColumns = "repeat(2, 1fr)";
+      else if(snsItmLength === 5) snsCont[i].style.display = "flex";
+      else if(snsItmLength === 6) snsCont[i].style.gridTemplateColumns = "repeat(3, 1fr)";
+    }
+  }, []);
 
   return (
     <div className="team">

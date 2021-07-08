@@ -8,6 +8,7 @@ import Home from './components/screens/Home';
 import History from './components/screens/History';
 import Team from './components/screens/Team';
 import Error404 from './components/screens/Error404';
+import AnnualConference from './components/screens/AnnualConference';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -40,6 +41,14 @@ function App() {
           <Route exact path="/team">
             <Team
               title="Secretariat - NITS MUN"
+            />
+          </Route>
+
+          {/*Events*/}
+            {/*Annnual Conference*/}
+          <Route exact path="/annual-conference">
+            <AnnualConference
+              title="Annual Conference - NITS MUN"
             />
           </Route>
 

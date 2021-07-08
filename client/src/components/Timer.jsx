@@ -47,7 +47,7 @@ const Timer = () => {
   // *Use State variables*
   let [display, setDisplay] = useState([0, 0, 0, 0]);
 
-  useEffect(()=> {  
+  useEffect(()=> {
     const timerInt = setInterval(()=> {
       let displayList = countdown();
 
@@ -56,6 +56,8 @@ const Timer = () => {
 
       if(displayList.length === 1) clearInterval(timerInt); // *Stop interval when EXPIRED*
     }, 1000);
+
+    return () => clearInterval(timerInt);
   }, []);
 
   return (

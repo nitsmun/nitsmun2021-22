@@ -240,10 +240,4 @@ div#navbar {
     border: 0.1vw solid var(--theme4-100);
     font-size: 3vw;
   }
-  
-  a.dropdown-itm:hover {
-    background-color: green;
-    transition-duration: 0.2s;
-    color: white;
-  }
 }
