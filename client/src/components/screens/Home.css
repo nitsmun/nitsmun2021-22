@@ -122,7 +122,10 @@ div#intro-img3 {
 
 @media screen and (max-width: 1000px) {
   div#intro div.intro-logo {
-    height: 60%;
+    width: 70%;
+  }
+
+  div#intro div.intro-logo img {
     width: 100%;
   }
 

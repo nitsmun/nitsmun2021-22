@@ -9,9 +9,14 @@ div.team {
 
 .card-container {
   position: relative;
-  width: 90%;
+  width: 97.5%;
   margin: 0 auto;
   padding: 1vh 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card-container .card-container-title {
@@ -20,12 +25,7 @@ div.team {
   font-size: 5vh;
   color: var(--theme4-100);
   text-align: center;
-  width: 60%;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  width: 80%;
   border-bottom: 0.3vh solid var(--theme4-100);
 }
 
@@ -144,6 +144,13 @@ div.team {
   color: var(--theme2-100);
 }
 
+a.lin:hover {color: var(--lin-color1) !important;}
+a.fb:hover {color: var(--fb-color1) !important;}
+a.insta:hover {color: var(--insta-color1) !important;}
+a.mail:hover {color: var(--gmail-color1) !important;}
+a.whatsapp:hover {color: var(--whatsapp-color1) !important;}
+a.github:hover {color: var(--github-color1) !important;}
+
 @media screen and (max-width: 1000px) {
 
   div.team {
@@ -157,65 +164,75 @@ div.team {
   .card-container .card-container-title {
     margin: 1vw auto 8vw auto;
     font-size: 6vw;
-    width: 90%;
+    width: 100%;
   
     border-bottom: 0.5vw solid var(--theme4-100);
   }
   
   .card-container .mmbr-card {
-    width: 19.5%;
-    aspect-ratio: 3/4;
-    margin: 1vh;
+    width: 43%;
+    margin: 1vw;
 
-    border-radius: 1vh;
-    border: 0.1vh solid var(--theme7-100);
-    padding: 2vh 1vh;
+    border-radius: 1.5vw;
+    border: 0.1vw solid var(--theme7-100);
+    padding: 3vw 2vw;
   }
   
   .mmbr-card .mmbr-pic {
-    height: 45%;
+    height: 60%;
     aspect-ratio: 1/1;
-    border-radius: 0.6vh;
+    border-radius: 1vw;
   }
   
   .mmbr-name {
-    margin-top: 2vh;
-    font-size: 3.2vh;
+    margin-top: 4vw;
+    font-size: 5vw;
   }
   
   .mmbr-position {
-    margin-top: 1.5vh;
-    font-size: 2.7vh;
+    margin-top: 2.5vw;
+    font-size: 4vw;
   }
   
   .mmbr-wing {
-    margin-top: 0.5vh;
-    font-size: 2.3vh;
+    margin-top: 1vw;
+    font-size: 3.5vw;
   }
   
   .mmbr-batch {
-    margin-top: 0.5vh;
-    font-size: 2.3vh;
+    margin-top: 0.5vw;
+    font-size: 3.5vw;
   }
   
   .mmbr-sns {
-    width: 90%;
-    margin-top: 3vh;
+    width: 99%;
+    margin-top: 3vw;
+    display: grid;
+    gap: 1vw 0;
+
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .mmbr-sns .mmbr-sns-itm {
-    height: 5.2vh;
+    width: 1fr;
     aspect-ratio: 1/1;
-    border-radius: 0.5vh;
+    border-radius: 0.5vw;
+    justify-self: center;
+    align-self: center;
+    margin: 1vw;
   }
-  
-  .mmbr-sns-itm a {
-    font-size: 3.5vh;
-  }
-}
 
-a.fb:hover {color: var(--fb-color1) !important;}
-a.insta:hover {color: var(--insta-color1) !important;}
-a.mail:hover {color: var(--gmail-color1) !important;}
-a.whatsapp:hover {color: var(--whatsapp-color1) !important;}
-a.github:hover {color: var(--github-color1) !important;}
+  .mmbr-sns-itm a {
+    font-size: 4vw;
+    background-color: var(--theme3-100);
+  }
+
+  
+  a.lin {color: var(--lin-color1) !important;}
+  a.fb {color: var(--fb-color1) !important;}
+  a.insta {color: var(--insta-color1) !important;}
+  a.mail {color: var(--gmail-color1) !important;}
+  a.whatsapp {color: var(--whatsapp-color1) !important;}
+  a.github {color: var(--github-color1) !important;}
+}

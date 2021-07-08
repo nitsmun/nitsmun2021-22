@@ -17,9 +17,9 @@ var agendaPic = [
 ];
 
 var execPic = [
-  ["/img/judeg2021_1.jpg", /*"Soumyaneel Das"*/ ""],
-  ["/img/judeg2021_2.jpg", /*"Aban Mandal"*/ ""],
-  ["/img/judeg2021_3.jpg", /*"Manas Pratim Sharma"*/ ""],
+  ["/img/judge2021_1.jpg", /*"Soumyaneel Das"*/ ""],
+  ["/img/judge2021_2.jpg", /*"Aban Mandal"*/ ""],
+  ["/img/judge2021_3.jpg", /*"Manas Pratim Sharma"*/ ""],
   ["/img/judge2.jpeg", /*"Garima Rajpal"*/ ""],
   ["/img/judge3.jpeg", /*"Ujan Natik"*/ ""],
   ["/img/judge4_Aniket_Aich.JPG", "Aniket Aich"],
