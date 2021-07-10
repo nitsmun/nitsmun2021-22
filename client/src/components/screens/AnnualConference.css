@@ -88,7 +88,7 @@ div.event-exec-board h3.event-exec-board-title {
   color: var(--theme4-100);
   font-weight: normal;
   padding: 4vh 0 4vh 10vh;
-  text-decoration: underline;
+  font-size: 3.5vh;
 }
 
 div.event div.event-exec-board img {
@@ -154,6 +154,7 @@ div.event div.event-exec-board img:hover {
     margin-bottom: 3vw;
     padding-left: 10vw;
     padding: 4vw 0 4vw 10vw;
+    font-size: 4vw;
   }
   
   div.event div.event-exec-board img {

@@ -19,20 +19,6 @@ const Home = () => {
           <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
         </div>
 
-        {/* <a href="#apply" className="intro-down-link">
-          <i className="fas fa-chevron-down"></i>
-        </a> */}
-
-        {/* <div className="intro-img" id="intro-img1">
-          <img src="/img/introSVG1.svg" alt="SVG Img"/>
-        </div>
-        <div className="intro-img" id="intro-img2">
-          <img src="/img/introSVG2.svg" alt="SVG Img"/>
-        </div>
-        <div className="intro-img" id="intro-img3">
-          <img src="/img/introSVG3.svg" alt="SVG Img"/>
-        </div> */}
-
       </div>
       
       {/*Timer Section */}
