@@ -28,13 +28,12 @@ function Articles(props) {
       
       }, [props.title]);
     return (
-        <div class="container-fluid p-0" style={{overflowX: "hidden"}}>
+    <div class="container-fluid p-0" style={{overflowX: "hidden"}}>
         <div className="home-sec" id="intro">
-
-<div className="intro-logo">
-  <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
-</div>
-</div>
+            <div className="intro-logo">
+                <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
+            </div>
+        </div>
         <div
             style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
             <h1 style={{color: "white"}}>ARTICLES</h1>

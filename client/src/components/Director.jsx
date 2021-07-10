@@ -17,7 +17,7 @@ return (
         <div class="col-md-5" style={{textAlign:"center",overflowX:"hidden"}}>
 
 
-            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
+            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem",color:"white"}}>
                 Kofi Annan has rightly said, “More than ever before in human history,
                 we share a common destiny. We can master it only if we face it together.
                 And that, my friends, is why we have the United Nations.”<br/>
@@ -48,7 +48,7 @@ return (
         </div>
         <div class="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
 
-            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
+            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem",color:"white"}}>
                 Kofi Annan has rightly said, “More than ever before in human history,
                 we share a common destiny. We can master it only if we face it together.
                 And that, my friends, is why we have the United Nations.”
