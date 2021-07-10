@@ -10,10 +10,14 @@ function About(props) {
       
       }, [props.title]);
 return (
+    
 <div class="container-fluid p-0" style={{overflowX: "hidden"}}>
-    <div class="text-center" style={{background:"gray"}}>
-        <img src="img/logoBigWhite.svg" width="500px" class="img-fluid py-3" alt="" />
-    </div>
+<div className="home-sec" id="intro">
+
+<div className="intro-logo">
+  <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
+</div>
+</div>
     <div
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
         <h1 style={{color: "white"}}>ABOUT US</h1>

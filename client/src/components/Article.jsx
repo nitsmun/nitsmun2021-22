@@ -108,10 +108,10 @@ return (
         </div>
         <div class="row no-gutters" style={{padding: "50px"}}>
             <div class="col-md-6" style={{marginTop: "2vh",display: "flex",justifyContent: "center",alignItems: "center"}}>
-                <img src="img/dummy_img.png" class="img-fluid" alt=""/>
+                <img src="img/dummy_img.png" class="img-fluid" alt="" style={{borderRadius: "5%"}}/>
             </div>
             <div class="col-md-6" style={{marginTop: "2vh",display: "flex",justifyContent: "center",alignItems: "center"}}>
-                <img src="img/dummy_img.png" class="img-fluid" alt=""/>
+                <img src="img/dummy_img.png" class="img-fluid" alt="" style={{borderRadius: "5%"}}/>
             </div>
         </div>
     </div>
