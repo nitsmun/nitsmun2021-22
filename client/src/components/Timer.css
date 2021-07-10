@@ -7,7 +7,7 @@ div#timer {
   margin: 10vh auto 2vh auto;
 
   /**Dimensions**/
-  width: 95%;
+  width: 65%;
 
   /**Border**/
   border-radius: 0.6vh;
@@ -29,10 +29,11 @@ div#timer {
 
 div#timer div.timer-limit {
   width: 100%;
+
   color: var(--theme2-100);
   text-align: center;
   margin-bottom: 3vh;
-  font-size: 2.4vh;
+  font-size: 2.9vh;
 }
 
 div#timer div.timer-int {
@@ -49,9 +50,10 @@ div.timer-int div.timer-int-value {
 }
 
 div.timer-int div.timer-int-label {
+  margin: 2vh 0;
+  
   text-align: center;
   text-transform: uppercase;
-  margin: 2vh 0;
   font-size: 3vh;
 }
 
@@ -68,9 +70,13 @@ div.coming-soon {
 
 @media screen and (max-width : 1000px) {
 
+  div#timer {
+    width: 95%;
+  }
+
   div#timer div.timer-limit {
     margin-bottom: 3vw;
-    font-size: 3vw;
+    font-size: 4vw;
   }
   
   div#timer div.timer-int {

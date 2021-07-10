@@ -46,7 +46,7 @@ function App() {
 
           {/*Events*/}
             {/*Annnual Conference*/}
-          <Route exact path="/annual-conference">
+          <Route exact path="/events/annual-conference">
             <AnnualConference
               title="Annual Conference - NITS MUN"
             />

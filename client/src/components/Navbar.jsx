@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 // *CSS*
 import "./Navbar.css";
 
+// *Hamburger Menu Open-Close*
 function nav() {
   let menu = document.getElementById('menu');
   let menuOpen = document.getElementById('menu-open');
@@ -23,7 +24,6 @@ function nav() {
 
 }
 
-
 const Navbar = () => {
 
   useEffect(()=> {
@@ -31,14 +31,23 @@ const Navbar = () => {
 
     let menuClose = document.getElementById('menu-close');
 
+    /*
+    * Scroll to top when nav element is clicked
+    */
     let scrollTopList = document.getElementsByClassName('scroll-top');
     for(let i = 0; i<scrollTopList.length; i++)
       scrollTopList[i].addEventListener('click', ()=> window.scrollTo(0, 0));
 
+    /*
+    * Close the navbar after nav element clicked in mobile
+    */
     let mobNavCloseList = document.getElementsByClassName('mob-nav-close');
     for(let i = 0; i<mobNavCloseList.length; i++)
       mobNavCloseList[i].addEventListener('click', ()=> {if(window.innerWidth < 1000) menuClose.click()});
   
+    /*
+    * Mobile Navbar dropdown element logic
+    */
     let dropdownList = document.getElementsByClassName('dropdown-link');
     let dropdownCounterList = [];
     for(let i = 0; i<dropdownList.length; i++) {
@@ -55,10 +64,13 @@ const Navbar = () => {
 
   return(
     <div id="navbar">
+
+      {/* Logo */}
       <div className="navbar-logo">
-        {/* <img loading="lazy" src="/img/logoSmall.png" alt="NITSMUN"/> */}
+        <Link to="/"><img loading="lazy" src="/img/logo.svg" alt="NITSMUN"/></Link>
       </div>
 
+      {/* Hamburger Menu Mobile */}
       <div className="navbar-menu">
         <div className="menu-icon" id="menu-open">
           <i className="fas fa-bars"></i>
@@ -68,16 +80,19 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Menu */}
       <div className="navbar-items" id="menu">
         <Link to="/" className="navbar-link scroll-top mob-nav-close">Home</Link>
+        
         <span className="navbar-link dropdown-link">
           <span className="dropdown-title">Events&emsp;<span className="bold"><i className="fas fa-chevron-down"></i></span></span>
           <div className="dropdown-menu">
-            <Link to="/annual-conference" className="dropdown-itm scroll-top mob-nav-close">Annual Conference</Link>
-            <Link to="/global-voices-mun" className="dropdown-itm scroll-top mob-nav-close">Global Voices MUN</Link>
-            <Link to="/mock-mun" className="dropdown-itm scroll-top mob-nav-close">Mock MUNs</Link>
+            <Link to="/events/annual-conference" className="dropdown-itm scroll-top mob-nav-close">Annual Conference</Link>
+            <Link to="/events/global-voices-mun" className="dropdown-itm scroll-top mob-nav-close">Global Voices MUN</Link>
+            <Link to="/events/mock-mun" className="dropdown-itm scroll-top mob-nav-close">Mock MUNs</Link>
           </div>
         </span>
+        
         <Link to="/about" className="navbar-link scroll-top mob-nav-close">About Us</Link>
         <Link to="/team" className="navbar-link scroll-top mob-nav-close">Our Team</Link>
         <Link to="/articles" className="navbar-link scroll-top mob-nav-close">Articles</Link>

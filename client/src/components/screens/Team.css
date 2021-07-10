@@ -60,10 +60,10 @@ div.team {
 
 .mmbr-card .mmbr-pic {
   position: relative;
-  height: 45%;
+  width: 60%;
   aspect-ratio: 1/1;
   overflow: hidden;
-  border-radius: 0.6vh;
+  border-radius: 1vh;
 }
 
 .mmbr-card .mmbr-pic img {
@@ -71,29 +71,27 @@ div.team {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .mmbr-name {
   margin-top: 2vh;
-  font-size: 3.2vh;
+  font-size: 2.9vh;
   color: var(--theme2-100);
+  text-align: center;
 }
 
 .mmbr-position {
   margin-top: 1.5vh;
-  font-size: 2.7vh;
+  font-size: 2.4vh;
   color: var(--theme2-100);
-}
-
-.mmbr-wing {
-  margin-top: 0.5vh;
-  font-size: 2.3vh;
-  color: var(--theme2-080);
+  padding: 0 2vh;
+  text-align: center;
 }
 
 .mmbr-batch {
-  margin-top: 0.5vh;
+  margin-top: 2vh;
   font-size: 2.3vh;
   color: var(--theme2-080);
 }
@@ -179,28 +177,24 @@ a.github:hover {color: var(--github-color1) !important;}
   }
   
   .mmbr-card .mmbr-pic {
-    height: 60%;
+    width: 80%;
     aspect-ratio: 1/1;
-    border-radius: 1vw;
+    border-radius: 2vw;
   }
   
   .mmbr-name {
     margin-top: 4vw;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   
   .mmbr-position {
     margin-top: 2.5vw;
-    font-size: 4vw;
-  }
-  
-  .mmbr-wing {
-    margin-top: 1vw;
     font-size: 3.5vw;
+    padding: 0 1.5vw;
   }
   
   .mmbr-batch {
-    margin-top: 0.5vw;
+    margin-top: 1.5vw;
     font-size: 3.5vw;
   }
   
