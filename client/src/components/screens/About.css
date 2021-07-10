@@ -1,0 +1,13 @@
+.smallscreen{
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .smallscreen{
+        display: block;
+        color: white;
+        background-color: gray;
+    }
+    .largescreen{
+        display: none;
+    }
+}

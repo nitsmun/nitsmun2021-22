@@ -14,6 +14,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 import './App.css';
+import About from "./components/screens/About";
+import Articles from "./components/screens/Articles";
 
 function App() {
   return (
@@ -35,6 +37,21 @@ function App() {
             <History
               title="History - NITS MUN"
             />
+          </Route>
+
+          {/* Articles */}
+          <Route exact path="/articles">
+            <Articles
+              title="Articles - NITS MUN"
+            />
+          </Route>
+
+          {/* About US */}
+          <Route exact path="/about">
+            <About
+              title="About - NITS MUN"
+            />
+            
           </Route>
 
           {/*Secretariat*/}
