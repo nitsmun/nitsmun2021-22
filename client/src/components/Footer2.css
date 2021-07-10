@@ -1,0 +1,19 @@
+.footer {
+    background: black;
+    color: white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul {list-style-type: none;}
+i{
+    font-size: 25px;
+    color: white;
+}
+.location i{
+    font-size: 18px;
+}
+a:hover{
+    color: blueviolet;
+}

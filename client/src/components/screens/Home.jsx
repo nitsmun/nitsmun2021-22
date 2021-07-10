@@ -6,6 +6,8 @@ import Table from "../Table";
 
 // *CSS*
 import "./Home.css";
+import Article from '../Article';
+import Director from '../Director';
 
 const Home = () => {
   
@@ -44,13 +46,17 @@ const Home = () => {
       </div>
       
       {/*Director's Message Section*/}
-      <div className="home-sec" id="director">Director Message</div>
+      <div><Director/></div>
+      {/* <div className="home-sec" id="director">Director Message</div> */}
+
+      {/* Article & Social */}
+      <div><Article/></div>
       
       {/*Articles Section*/}
-      <div className="home-sec" id="articles">Articles</div>
+      {/* <div className="home-sec" id="articles"><Article/></div> */}
       
       {/*Social Section*/}
-      <div className="home-sec" id="social">Social</div>
+      {/* <div className="home-sec" id="social">Social</div> */}
 
     </div>
   );
