@@ -25,6 +25,8 @@ div#footer {
   grid-template-columns: repeat(4, 1fr);
 
   box-shadow: 0 0 1.5vh 0 var(--theme3-100);
+
+  font-family: var(--font1);
 }
 
 div#footer div.footer-logo {
@@ -53,6 +55,8 @@ div#footer div.footer-itm {
   /**Flex Container**/
   display: flex;
   flex-direction: row;
+  
+  font-size: 2vh;
 }
 
 div.footer-itm div.itm-icon {
@@ -87,6 +91,10 @@ div.footer-itm div.itm-text {
   div#footer div.footer-sns {
     grid-column: 4 / span 1;
     grid-row: 2 / span 2;
+  }
+
+  div#footer div.footer-itm {
+    font-size: 4vw;
   }
 }
 
@@ -183,6 +191,7 @@ div#sns-gmail a:hover {
 
   div.footer-sns div.sns-itm {
     height: 10vw;
+    aspect-ratio: 1/1;
     margin-bottom: 3vw;
     font-size: 6vw;
   }

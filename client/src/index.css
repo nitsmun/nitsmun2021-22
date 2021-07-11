@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
-*{
-    font-family: 'Montserrat', sans-serif;  
+:root {
+    --font1 : 'Poppins', sans-serif;
+    --font2 : 'Montserrat', sans-serif;
 }

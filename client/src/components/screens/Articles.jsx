@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from "react";
 import "./Articles.css";
 
@@ -28,7 +27,7 @@ function Articles(props) {
       
       }, [props.title]);
     return (
-    <div className="container-fluid p-0" style={{overflowX: "hidden"}}>
+    <div className="container-fluid p-0" style={{overflowX: "hidden", fontFamily: "var(--font2)"}}>
         <div id="intro"
             style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
             <h1 style={{color: "white",fontVariant: "small-caps"}}>Articles</h1>

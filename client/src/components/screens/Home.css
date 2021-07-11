@@ -44,6 +44,8 @@ div#intro {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  font-family: var(--font1);
 }
 
 /**Intro Logo**/
@@ -138,7 +140,6 @@ div#intro-img3 {
   }
 }
 
-
 /** Apply **/
 div#apply {
   /**Background**/
@@ -149,6 +150,8 @@ div#apply {
   flex-direction: column;  
   justify-content: center;
   align-items: center;
+
+  font-family: var(--font1);
 }
 
 div#apply a.apply-btn {

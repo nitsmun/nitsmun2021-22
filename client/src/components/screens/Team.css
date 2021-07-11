@@ -5,6 +5,8 @@ div.team {
   width: 100%;
   padding: 1.5vh 0;
   background-color: var(--theme2-100);
+
+  font-family: var(--font1);
 }
 
 .card-container {
@@ -25,15 +27,16 @@ div.team {
   font-size: 5vh;
   color: var(--theme4-100);
   text-align: center;
-  width: 80%;
+  width: 85%;
   border-bottom: 0.3vh solid var(--theme4-100);
+  font-weight: bolder;
 }
 
 .card-container .mmbr-card {
   position: relative;
   width: 19.5%;
-  aspect-ratio: 3/4;
-  margin: 1vh;
+  aspect-ratio: 2/3;
+  padding: 2vh;
 
   background-color: var(--theme3-100);
 
@@ -42,11 +45,10 @@ div.team {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
   border-radius: 1vh;
   border: 0.1vh solid var(--theme7-100);
-  padding: 2vh 1vh;
 
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -54,8 +56,8 @@ div.team {
 
 .card-container .mmbr-card:hover {
   background-color: var(--theme1-100);
-  box-shadow: 0 0 1vh 0 var(--theme1-100);
-  transition-duration: 0.3s;
+  box-shadow: 0 0 3vh 0 var(--theme1-100);
+  transition-duration: 0.2s;
 }
 
 .mmbr-card .mmbr-pic {
@@ -63,7 +65,7 @@ div.team {
   width: 60%;
   aspect-ratio: 1/1;
   overflow: hidden;
-  border-radius: 1vh;
+  border-radius: 7.5%;
 }
 
 .mmbr-card .mmbr-pic img {
@@ -76,14 +78,12 @@ div.team {
 }
 
 .mmbr-name {
-  margin-top: 2vh;
-  font-size: 2.9vh;
+  font-size: 2.7vh;
   color: var(--theme2-100);
   text-align: center;
 }
 
 .mmbr-position {
-  margin-top: 1.5vh;
   font-size: 2.4vh;
   color: var(--theme2-100);
   padding: 0 2vh;
@@ -91,7 +91,6 @@ div.team {
 }
 
 .mmbr-batch {
-  margin-top: 2vh;
   font-size: 2.3vh;
   color: var(--theme2-080);
 }
@@ -99,9 +98,8 @@ div.team {
 .mmbr-sns {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   width: 90%;
-  margin-top: 3vh;
 }
 
 .mmbr-sns .mmbr-sns-itm {
@@ -109,6 +107,7 @@ div.team {
   aspect-ratio: 1/1;
   border-radius: 0.5vh;
   background-color: var(--theme4-100);
+  margin: 0 0.75vh;
 }
 
 .mmbr-sns .mmbr-sns-itm:hover {
@@ -173,7 +172,11 @@ a.github:hover {color: var(--github-color1) !important;}
 
     border-radius: 1.5vw;
     border: 0.1vw solid var(--theme7-100);
-    padding: 3vw 2vw;
+    padding: 2.5vw 2vw;
+  }
+
+  .card-container .mmbr-card:hover {
+    box-shadow: 0 0 3vw 0 var(--theme1-100);
   }
   
   .mmbr-card .mmbr-pic {
@@ -184,44 +187,37 @@ a.github:hover {color: var(--github-color1) !important;}
   
   .mmbr-name {
     margin-top: 4vw;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
   
   .mmbr-position {
     margin-top: 2.5vw;
-    font-size: 3.5vw;
+    font-size: 2.8vw;
     padding: 0 1.5vw;
   }
   
   .mmbr-batch {
     margin-top: 1.5vw;
-    font-size: 3.5vw;
+    font-size: 2.8vw;
   }
   
   .mmbr-sns {
     width: 99%;
     margin-top: 3vw;
-    display: grid;
     gap: 1vw 0;
-
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 0.75vw;
   }
   
   .mmbr-sns .mmbr-sns-itm {
-    width: 1fr;
+    width: 10vw;
     aspect-ratio: 1/1;
-    border-radius: 0.5vw;
-    justify-self: center;
-    align-self: center;
-    margin: 1vw;
+    background-color: var(--theme1-100);
   }
 
   .mmbr-sns-itm a {
     font-size: 4vw;
     background-color: var(--theme3-100);
   }
-
   
   a.lin {color: var(--lin-color1) !important;}
   a.fb {color: var(--fb-color1) !important;}

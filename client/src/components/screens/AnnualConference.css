@@ -6,6 +6,7 @@ div.event {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: var(--font2);
 }
 
 div.event div.event-pic {

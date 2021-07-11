@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Director.css";
 
 function Director() {
