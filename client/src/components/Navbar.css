@@ -45,6 +45,8 @@ div#navbar {
   div.navbar-items {
     margin-left: auto;
     margin-right: 2vw;
+
+    font-size: 2.1vh;
   }
   
   .navbar-link {
