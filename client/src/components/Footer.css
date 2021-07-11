@@ -25,6 +25,8 @@ div#footer {
   grid-template-columns: repeat(4, 1fr);
 
   box-shadow: 0 0 1.5vh 0 var(--theme3-100);
+
+  font-family: var(--font1);
 }
 
 div#footer div.footer-logo {

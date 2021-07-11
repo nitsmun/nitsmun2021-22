@@ -6,8 +6,6 @@ import "./Team.css";
 var snsLogo = {
   "lin" : "fab fa-linkedin-in",
   "fb" : "fab fa-facebook-f",
-  "insta" : "fab fa-instagram",
-  "whatsapp" : "fab fa-whatsapp",
   "mail" : "far fa-envelope",
   "github" : "fab fa-github"
 };
@@ -24,20 +22,6 @@ const Secretariat = (props) => {
     document.title = props.title;
   }, [props.title]);
 
-  //! CSS Grid Layout for SNS Links in Mobile
-  useEffect(()=> {
-    let snsCont = document.getElementsByClassName('mmbr-sns');
-    for(let i = 0; i<snsCont.length; i++) {
-      let snsItmLength = snsCont[i].getElementsByClassName('mmbr-sns-itm').length;
-           if(snsItmLength === 1) snsCont[i].style.gridTemplateColumns = "repeat(1, 1fr)";
-      else if(snsItmLength === 2) snsCont[i].style.gridTemplateColumns = "repeat(2, 1fr)";
-      else if(snsItmLength === 3) snsCont[i].style.gridTemplateColumns = "repeat(3, 1fr)";
-      else if(snsItmLength === 4) snsCont[i].style.gridTemplateColumns = "repeat(2, 1fr)";
-      else if(snsItmLength === 5) snsCont[i].style.display = "flex";
-      else if(snsItmLength === 6) snsCont[i].style.gridTemplateColumns = "repeat(3, 1fr)";
-    }
-  }, [data]);
-
   //? CSV Parse
   useEffect(()=> {
     readString( url , {
@@ -48,6 +32,9 @@ const Secretariat = (props) => {
       }
     })
   }, [url])
+  
+  var snsKeyCounter = 1;
+  var personKeyCounter = 1;
 
   return (
     <div className="team">
@@ -56,7 +43,7 @@ const Secretariat = (props) => {
         
         {data && data.map(person => {
         return(
-        <div className="mmbr-card" id={person['Name']}>
+        <div className="mmbr-card" id={person['Name']} key={personKeyCounter++ && personKeyCounter}>
           <div className="mmbr-pic">
             <img loading="lazy" src={person.pic} alt={person['Name']} />
           </div>
@@ -67,10 +54,10 @@ const Secretariat = (props) => {
 
           {/* SNS Item Links */}
           <div className="mmbr-sns">
-            {Object.keys(snsLogo).map((site, index) => {
+            {Object.keys(snsLogo).map(site => {
               if(person[site] === "") return null;
               return(
-                <div className={`mmbr-sns-itm ${site}`} key={person.Name+person[site]+site}>
+                <div className={`mmbr-sns-itm ${site}`} key={snsKeyCounter++ && snsKeyCounter}>
                   <a href={person[site]} target="_blank" rel="noreferrer" className={site}><i className={snsLogo[site]}></i></a>
                 </div>
               )

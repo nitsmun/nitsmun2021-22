@@ -1,11 +1,10 @@
-import React from 'react'
 import "./Footer2.css";
 import {Link} from 'react-router-dom';
 
 
 function Footer2() {
     return (
-        <footer className="footer mt-5 pt-5 pb-5">
+        <footer className="footer mt-5 pt-5 pb-5" style={{fontFamily: "var(--font2)"}}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 col-xs-12">

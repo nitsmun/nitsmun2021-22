@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Article.css";
 
 function Article() {
@@ -19,7 +18,7 @@ function Article() {
 
 return (
 <div>
-    <div className="container-fluid p-0" style={{overflowX: "hidden"}}>
+    <div className="container-fluid p-0" style={{overflowX: "hidden", fontFamily: "var(--font2)"}}>
         <div className="separator">
             <div className="line"></div>
             <h2>Read our Article</h2>

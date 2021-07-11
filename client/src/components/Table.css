@@ -59,3 +59,7 @@ table#apply-table td {
     font-size: 3.5vw;
   }
 }
+
+span.rupee {
+  font-family: var(--font2) !important;
+}
