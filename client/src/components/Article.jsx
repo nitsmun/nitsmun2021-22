@@ -27,9 +27,10 @@ return (
         </div>
         <div class="row no-gutters">
             <div class="col-md-1"></div>
-            <div class="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
-                <h3 style={{borderBottom: "2px solid black"}}>Heading for the article</h3>
-                <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
+            <div class="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
+                <div style={{padding: "30px"}}>
+                <h3 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>Heading for the article</h3>
+                <p style={{textAlign:"justify",fontSize:"1.1rem"}}>
                     Date : 15th July 2021
                     <br></br>
                     <br></br>
@@ -47,8 +48,8 @@ return (
                     adipisci autem aperiam labore qui necessitatibus nihil cum sequi, amet, odio id laborum voluptatum
                     ea
                 </p>
-                <button id="btn1" type="button" class="btn btn-outline-dark" onClick={Expand} style={{width: "150px"}}>Read more</button>
-
+                <button id="btn1" type="button" class="btn btn-outline-dark mt-3" onClick={Expand} style={{width: "150px"}}>Read more</button>
+                </div>
             </div>
             <div class="col-md-1"></div>
         </div>
