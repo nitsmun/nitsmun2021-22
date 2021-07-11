@@ -29,14 +29,9 @@ function Articles(props) {
       }, [props.title]);
     return (
     <div className="container-fluid p-0" style={{overflowX: "hidden"}}>
-        <div className="home-sec" id="intro">
-            <div className="intro-logo">
-                <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
-            </div>
-        </div>
-        <div
+        <div id="intro"
             style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
-            <h1 style={{color: "white"}}>ARTICLES</h1>
+            <h1 style={{color: "white",fontVariant: "small-caps"}}>Articles</h1>
         </div>
         <div className="row no-gutters smallscreen-article">
             <h2 style={{fontVariant:"small-caps",textAlign:"center",paddingTop:"20px"}}>Heading for the article</h2>

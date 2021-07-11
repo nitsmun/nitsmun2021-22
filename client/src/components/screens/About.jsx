@@ -12,14 +12,9 @@ function About(props) {
 return (
     
 <div className="container-fluid p-0" style={{overflowX: "hidden"}}>
-    <div className="home-sec" id="intro">
-        <div className="intro-logo">
-            <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
-        </div>
-    </div>
-    <div
+    <div id="intro"
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
-        <h1 style={{color: "white"}}>ABOUT US</h1>
+        <h1 style={{color: "white",fontVariant:"small-caps"}}>About Us</h1>
     </div>
     <div className="row no-gutters">
         <div className="col-md-1"></div>
@@ -146,8 +141,9 @@ return (
     <div className="row no-gutters">
         <div className="col-md-1"></div>
         <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
-            <h2 style={{borderBottom: "2px solid black"}}>What is a MUN?</h2>
-            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
+            <div style={{padding : "30px"}}>
+            <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>What is a MUN?</h2>
+            <p style={{textAlign:"justify",fontSize:"1.1rem"}}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
                 cupiditate dolor, tempora veniam necessitatibus eius reprehenderit numquam nam libero? Recusandae magni,
                 sapiente voluptatibus error repudiandae officia voluptas totam repellat vel mollitia perspiciatis
@@ -165,15 +161,17 @@ return (
                 perferendis rerum, saepe minima inventore atque voluptatibus repudiandae maxime amet distinctio officia
                 magnam reiciendis quo!
             </p>
+            </div>
         </div>
         <div className="col-md-1"></div>
     </div>
     <hr />
     <div className="row no-gutters">
         <div className="col-md-1"></div>
-        <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
-            <h2 style={{borderBottom: "2px solid black"}}>Our Vision</h2>
-            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
+        <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
+            <div style={{padding: "30px"}}>
+            <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>Our Vision</h2>
+            <p style={{textAlign:"justify",fontSize:"1.1rem"}}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
                 cupiditate dolor, tempora veniam necessitatibus eius reprehenderit numquam nam libero? Recusandae magni,
                 sapiente voluptatibus error repudiandae officia voluptas totam repellat vel mollitia perspiciatis
@@ -191,9 +189,11 @@ return (
                 perferendis rerum, saepe minima inventore atque voluptatibus repudiandae maxime amet distinctio officia
                 magnam reiciendis quo!
             </p>
+            </div>
         </div>
         <div className="col-md-1"></div>
     </div>
+    <hr/>
 </div>
 )
 }
