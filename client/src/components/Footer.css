@@ -185,6 +185,7 @@ div#sns-gmail a:hover {
 
   div.footer-sns div.sns-itm {
     height: 10vw;
+    aspect-ratio: 1/1;
     margin-bottom: 3vw;
     font-size: 6vw;
   }
