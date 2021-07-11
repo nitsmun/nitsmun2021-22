@@ -28,7 +28,7 @@ function Articles(props) {
       
       }, [props.title]);
     return (
-    <div class="container-fluid p-0" style={{overflowX: "hidden"}}>
+    <div className="container-fluid p-0" style={{overflowX: "hidden"}}>
         <div className="home-sec" id="intro">
             <div className="intro-logo">
                 <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
@@ -38,13 +38,13 @@ function Articles(props) {
             style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
             <h1 style={{color: "white"}}>ARTICLES</h1>
         </div>
-        <div class="row no-gutters smallscreen-article">
+        <div className="row no-gutters smallscreen-article">
             <h2 style={{fontVariant:"small-caps",textAlign:"center",paddingTop:"20px"}}>Heading for the article</h2>
-            <div class="col-md-1"></div>
-            <div class="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
-              <img class="img-fluid aos-init" src="img/dummy_img.png" alt="nits mun logo" style={{width:"80%",borderRadius:"5%"}}/>
+            <div className="col-md-1"></div>
+            <div className="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
+              <img className="img-fluid aos-init" src="img/dummy_img.png" alt="nits mun logo" style={{width:"80%",borderRadius:"5%"}}/>
             </div>
-            <div class="col-md-3" style={{textAlign:"center",overflowX:"hidden"}}>
+            <div className="col-md-3" style={{textAlign:"center",overflowX:"hidden"}}>
         
         
               <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
@@ -61,19 +61,19 @@ function Articles(props) {
                 dolor consequatur atque tempora quod error. Perspiciatis vero necessitatibus iure exercitationem
                 dolores! Ad?
               </p>
-              <button id="btn1" type="button" class="btn btn-outline-dark expand" onClick={Expand} style={{width: "150px"}}>Read more</button>
+              <button id="btn1" type="button" className="btn btn-outline-dark expand" onClick={Expand} style={{width: "150px"}}>Read more</button>
             </div>
         
-            <div class="col-md-1"></div>
+            <div className="col-md-1"></div>
           </div>
-        <div class="row no-gutters largescreen-article">
-            <div class="col-md-1"></div>
-            <div class="col-md-4 d-flex justify-content-center align-items-center"
+        <div className="row no-gutters largescreen-article">
+            <div className="col-md-1"></div>
+            <div className="col-md-4 d-flex justify-content-center align-items-center"
                 style={{textAlign:"center",minHeight:"100vh"}}>
-                <img class="img-fluid aos-init aos-animate" src="img/dummy_img.png" alt="nits mun"
+                <img className="img-fluid aos-init aos-animate" src="img/dummy_img.png" alt="nits mun"
                     style={{height:"60vh",borderRadius:"5%"}}/>
             </div>
-            <div class="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+            <div className="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
                 <h2  style={{fontVariant: "small-caps"}}>Heading for the article</h2>
 
                 <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
@@ -91,14 +91,14 @@ function Articles(props) {
                     dolores! Ad?
                 </p>
 
-                <button id="btn1" type="button" class="btn btn-outline-dark expand" onClick={Expand} style={{width: "150px"}}>Read more</button>
+                <button id="btn1" type="button" className="btn btn-outline-dark expand" onClick={Expand} style={{width: "150px"}}>Read more</button>
 
             </div>
-            <div class="col-md-1"></div>
+            <div className="col-md-1"></div>
         </div>
-        <div class="row no-gutters" id="Expand" style={{display: "none"}}>
-            <div class="col-md-1"></div>
-            <div class="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
+        <div className="row no-gutters" id="Expand" style={{display: "none"}}>
+            <div className="col-md-1"></div>
+            <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
                 <p style={{textAlign:"justify",fontSize:"1.1rem",padding:"0 30px"}}>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor praesentium veniam minus iste
                     asperiores, fugit, tempore libero quod voluptate obcaecati, unde ab aperiam. Asperiores ratione
@@ -141,9 +141,9 @@ function Articles(props) {
                     nesciunt alias tempora, velit rerum? Tempora ullam quia qui animi ratione et repellendus veritatis
                     culpa ea! Molestiae!
                 </p>
-                <button id="btn2" type="button" class="btn btn-outline-dark" onClick={Srink} style={{width: "150px"}}>Show less</button>
+                <button id="btn2" type="button" className="btn btn-outline-dark" onClick={Srink} style={{width: "150px"}}>Show less</button>
             </div>
-            <div class="col-md-1"></div>
+            <div className="col-md-1"></div>
         </div>
         <hr/>
     </div>

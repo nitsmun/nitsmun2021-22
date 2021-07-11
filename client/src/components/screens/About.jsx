@@ -11,7 +11,7 @@ function About(props) {
       }, [props.title]);
 return (
     
-<div class="container-fluid p-0" style={{overflowX: "hidden"}}>
+<div className="container-fluid p-0" style={{overflowX: "hidden"}}>
     <div className="home-sec" id="intro">
         <div className="intro-logo">
             <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
@@ -21,9 +21,9 @@ return (
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
         <h1 style={{color: "white"}}>ABOUT US</h1>
     </div>
-    <div class="row no-gutters">
-        <div class="col-md-1"></div>
-        <div class="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+    <div className="row no-gutters">
+        <div className="col-md-1"></div>
+        <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
                 cupiditate dolor, tempora veniam necessitatibus eius reprehenderit numquam nam libero? Recusandae magni,
@@ -43,15 +43,15 @@ return (
                 magnam reiciendis quo!
             </p>
         </div>
-        <div class="col-md-1"></div>
+        <div className="col-md-1"></div>
     </div>
-    <div class="row no-gutters smallscreen">
+    <div className="row no-gutters smallscreen">
         <h2 style={{fontVariant:"small-caps",textAlign:"center",paddingTop:"20px"}}>Message from Secretary General</h2>
-        <div class="col-md-1"></div>
-        <div class="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
-            <img class="img-fluid aos-init" src="img/mayurakshi.jpg" alt="nits mun" style={{width:"80%",borderRadius:"5%"}}/>
+        <div className="col-md-1"></div>
+        <div className="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
+            <img className="img-fluid aos-init" src="img/mayurakshi.jpg" alt="nits mun" style={{width:"80%",borderRadius:"5%"}}/>
         </div>
-        <div class="col-md-3" style={{textAlign:"center",overflowX:"hidden"}}>
+        <div className="col-md-3" style={{textAlign:"center",overflowX:"hidden"}}>
 
 
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
@@ -91,16 +91,16 @@ return (
             </p>
         </div>
 
-        <div class="col-md-1"></div>
+        <div className="col-md-1"></div>
     </div>
-    <div class="row no-gutters largescreen" style={{backgroundColor: "gray"}}>
-        <div class="col-md-1"></div>
-        <div class="col-md-4 d-flex justify-content-center align-items-center"
+    <div className="row no-gutters largescreen" style={{backgroundColor: "gray"}}>
+        <div className="col-md-1"></div>
+        <div className="col-md-4 d-flex justify-content-center align-items-center"
             style={{textAlign:"center",minHeight:"100vh"}}>
-            <img class="img-fluid aos-init aos-animate" src="img/mayurakshi.jpg" alt="nits mun logo"
+            <img className="img-fluid aos-init aos-animate" src="img/mayurakshi.jpg" alt="nits mun logo"
                 style={{height:"60vh",borderRadius:"5%"}} />
         </div>
-        <div class="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+        <div className="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
             <h2 style={{fontVariant: "small-caps",color: "white"}}>Message from Secretary General</h2>
 
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem", color: "white"}}>
@@ -141,11 +141,11 @@ return (
             </p>
 
         </div>
-        <div class="col-md-1"></div>
+        <div className="col-md-1"></div>
     </div>
-    <div class="row no-gutters">
-        <div class="col-md-1"></div>
-        <div class="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+    <div className="row no-gutters">
+        <div className="col-md-1"></div>
+        <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
             <h2 style={{borderBottom: "2px solid black"}}>What is a MUN?</h2>
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
@@ -166,12 +166,12 @@ return (
                 magnam reiciendis quo!
             </p>
         </div>
-        <div class="col-md-1"></div>
+        <div className="col-md-1"></div>
     </div>
     <hr />
-    <div class="row no-gutters">
-        <div class="col-md-1"></div>
-        <div class="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+    <div className="row no-gutters">
+        <div className="col-md-1"></div>
+        <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
             <h2 style={{borderBottom: "2px solid black"}}>Our Vision</h2>
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
@@ -192,7 +192,7 @@ return (
                 magnam reiciendis quo!
             </p>
         </div>
-        <div class="col-md-1"></div>
+        <div className="col-md-1"></div>
     </div>
 </div>
 )

@@ -3,18 +3,18 @@ import "./Director.css";
 
 function Director() {
 return (
-<div class="font container-fluid px-0" style={{overflowX: "hidden",backgroundColor: "gray"}}>
+<div className="font container-fluid px-0" style={{overflowX: "hidden",backgroundColor: "gray"}}>
     <div
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
         <h2 style={{color: "white"}}>Message from Director</h2>
     </div>
-    <div class="row no-gutters small">
-        <div class="col-md-1"></div>
-        <div class="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
-            <img class="img-fluid aos-init aos-animate" src="img/director1.jpg" alt="nits mun logo"
+    <div className="row no-gutters small">
+        <div className="col-md-1"></div>
+        <div className="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
+            <img className="img-fluid aos-init aos-animate" src="img/director1.jpg" alt="nits mun logo"
                 style={{width:"80%",borderRadius:"5%"}} data-aos="flip-down"/>
         </div>
-        <div class="col-md-5" style={{textAlign:"center",overflowX:"hidden"}}>
+        <div className="col-md-5" style={{textAlign:"center",overflowX:"hidden"}}>
 
 
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem",color:"white"}}>
@@ -37,16 +37,16 @@ return (
                 participants and hope to witness a great conference.
             </p>
         </div>
-        <div class="col-md-1"></div>
+        <div className="col-md-1"></div>
     </div>
-    <div class="row large no-gutters">
-        <div class="col-md-1"></div>
-        <div class="col-md-4 d-flex justify-content-center align-items-center"
+    <div className="row large no-gutters">
+        <div className="col-md-1"></div>
+        <div className="col-md-4 d-flex justify-content-center align-items-center"
             style={{textAlign:"center",minHeight:"100vh"}}>
 
-            <img class="img-fluid" src="img/director1.jpg" alt="nits mun logo"  style={{borderRadius:"5%"}}/>
+            <img className="img-fluid" src="img/director1.jpg" alt="nits mun logo"  style={{borderRadius:"5%"}}/>
         </div>
-        <div class="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+        <div className="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
 
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem",color:"white"}}>
                 Kofi Annan has rightly said, “More than ever before in human history,
@@ -76,7 +76,7 @@ return (
             </p>
 
         </div>
-        <div class="col-md-1"></div>
+        <div className="col-md-1"></div>
     </div>
 </div>
 )

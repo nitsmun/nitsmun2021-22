@@ -38,7 +38,7 @@ const Secretariat = (props) => {
     }
   }, [data]);
 
-  //? JSON Parse
+  //? CSV Parse
   useEffect(()=> {
     readString( url , {
       header: true,

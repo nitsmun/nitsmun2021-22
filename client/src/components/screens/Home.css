@@ -154,14 +154,14 @@ div#apply {
 div#apply a.apply-btn {
   /**Position**/
   position: relative;
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
   
   /**Border**/
   border-radius: 0.5vh;
   
   /**Content**/
   color: var(--theme1-100);
-  padding: 2vh 5vh;
+  padding: 1.5vh 5vh;
   font-size: 2.75vh;
 
   /**Background**/

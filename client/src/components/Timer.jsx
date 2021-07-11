@@ -6,7 +6,7 @@ import React from 'react'; //? For React Fragment
 import "./Timer.css";
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeTo = new Date(2021, 6, 10, 23, 59, 59, 0);
+let timeTo = new Date(2021, 6, 15, 23, 59, 59, 0);
 
 let timeLimit = Math.floor( timeTo / 1000);
 

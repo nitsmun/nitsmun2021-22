@@ -19,15 +19,15 @@ function Article() {
 
 return (
 <div>
-    <div class="container-fluid p-0" style={{overflowX: "hidden"}}>
-        <div class="separator">
-            <div class="line"></div>
+    <div className="container-fluid p-0" style={{overflowX: "hidden"}}>
+        <div className="separator">
+            <div className="line"></div>
             <h2>Read our Article</h2>
-            <div class="line"></div>
+            <div className="line"></div>
         </div>
-        <div class="row no-gutters">
-            <div class="col-md-1"></div>
-            <div class="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+        <div className="row no-gutters">
+            <div className="col-md-1"></div>
+            <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
                 <h3 style={{borderBottom: "2px solid black"}}>Heading for the article</h3>
                 <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
                     Date : 15th July 2021
@@ -47,14 +47,14 @@ return (
                     adipisci autem aperiam labore qui necessitatibus nihil cum sequi, amet, odio id laborum voluptatum
                     ea
                 </p>
-                <button id="btn1" type="button" class="btn btn-outline-dark" onClick={Expand} style={{width: "150px"}}>Read more</button>
+                <button id="btn1" type="button" className="btn btn-outline-dark" onClick={Expand} style={{width: "150px"}}>Read more</button>
 
             </div>
-            <div class="col-md-1"></div>
+            <div className="col-md-1"></div>
         </div>
-        <div class="row no-gutters" id="Expand" style={{display: "none"}}>
-            <div class="col-md-1"></div>
-            <div class="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
+        <div className="row no-gutters" id="Expand" style={{display: "none"}}>
+            <div className="col-md-1"></div>
+            <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
                 <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor praesentium veniam minus iste
                     asperiores, fugit, tempore libero quod voluptate obcaecati, unde ab aperiam. Asperiores ratione
@@ -97,21 +97,21 @@ return (
                     nesciunt alias tempora, velit rerum? Tempora ullam quia qui animi ratione et repellendus veritatis
                     culpa ea! Molestiae!
                 </p>
-                <button id="btn2" type="button" class="btn btn-outline-dark" onClick={Srink} style={{width: "150px"}}>Show less</button>
+                <button id="btn2" type="button" className="btn btn-outline-dark" onClick={Srink} style={{width: "150px"}}>Show less</button>
             </div>
-            <div class="col-md-1"></div>
+            <div className="col-md-1"></div>
         </div>
-        <div class="separator" style={{marginTop: "50px"}}>
-            <div class="line"></div>
+        <div className="separator" style={{marginTop: "50px"}}>
+            <div className="line"></div>
             <h2>Our Socials</h2>
-            <div class="line"></div>
+            <div className="line"></div>
         </div>
-        <div class="row no-gutters" style={{padding: "50px"}}>
-            <div class="col-md-6" style={{marginTop: "2vh",display: "flex",justifyContent: "center",alignItems: "center"}}>
-                <img src="img/dummy_img.png" class="img-fluid" alt="" style={{borderRadius: "5%"}}/>
+        <div className="row no-gutters" style={{padding: "50px"}}>
+            <div className="col-md-6" style={{marginTop: "2vh",display: "flex",justifyContent: "center",alignItems: "center"}}>
+                <img src="img/dummy_img.png" className="img-fluid" alt="" style={{borderRadius: "5%"}}/>
             </div>
-            <div class="col-md-6" style={{marginTop: "2vh",display: "flex",justifyContent: "center",alignItems: "center"}}>
-                <img src="img/dummy_img.png" class="img-fluid" alt="" style={{borderRadius: "5%"}}/>
+            <div className="col-md-6" style={{marginTop: "2vh",display: "flex",justifyContent: "center",alignItems: "center"}}>
+                <img src="img/dummy_img.png" className="img-fluid" alt="" style={{borderRadius: "5%"}}/>
             </div>
         </div>
     </div>
