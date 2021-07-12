@@ -1,4 +1,5 @@
 // *Components*
+import { useEffect } from 'react';
 import {Link} from 'react-router-dom';
 
 import Timer from "../Timer";
@@ -9,13 +10,22 @@ import "./Home.css";
 import Article from '../Article';
 import Director from '../Director';
 
-const Home = () => {
+const Home = (props) => {
+  
+  useEffect(()=> {
+
+    // *Setting Up Page Title*
+    document.title = props.title;
+  
+  }, [props.title]);
   
   return (
     <div className="home">
 
       {/*Intro Section*/}
       <div className="home-sec" id="intro">
+        
+        <img className="intro-bg-pic" src="/img/bg.jpg" alt="NITSMUN" />
 
         <div className="intro-logo">
           <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>

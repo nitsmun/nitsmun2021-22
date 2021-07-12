@@ -37,7 +37,7 @@ div#intro {
   margin-top: var(--navbar-height-pc);
   
   /**Background**/
-  background-color: var(--theme4-100);
+  background-color: var(--theme4-070);
 
   /**Flex Conatiner**/
   display: flex;
@@ -46,6 +46,17 @@ div#intro {
   align-items: center;
 
   font-family: var(--font1);
+}
+
+/**Intro Bg Pic**/
+div#intro img.intro-bg-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
 }
 
 /**Intro Logo**/

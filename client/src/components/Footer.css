@@ -24,7 +24,7 @@ div#footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
-  box-shadow: 0 0 1.5vh 0 var(--theme3-100);
+  box-shadow: 0 0 0.5vh 0 var(--theme3-100);
 
   font-family: var(--font1);
 }
@@ -76,6 +76,9 @@ div.footer-itm div.itm-text {
 
   div#footer div.footer-logo {
     grid-column: 1 / span 4;
+    color: white;
+    font-size: 6vw;
+    text-align: center;
   }
 
   div#footer div.footer-location {

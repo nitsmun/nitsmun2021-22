@@ -11,7 +11,8 @@ const Footer = () => {
 
       {/* Footer Logo */}
       <div className="footer-logo">
-        <Link to="/"><img loading="lazy" src="./img/logo.svg" alt="NITMUN logo"/></Link>
+        {window.innerWidth > 1000 && <Link to="/"><img loading="lazy" src="./img/logo.svg" alt="NITMUN logo"/></Link>}
+        {window.innerWidth <= 1000 && "Contact Us"}
       </div>
       
       {/* MUN Location */}

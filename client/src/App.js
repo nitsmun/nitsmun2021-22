@@ -29,7 +29,9 @@ function App() {
 
           {/*Home*/}
           <Route exact path="/">
-            <Home />
+            <Home
+              title="NITS MUN"
+            />
           </Route>
 
           {/*History*/}
@@ -71,7 +73,9 @@ function App() {
 
           {/*404*/}
           <Route path="/">
-            <Error404/>
+            <Error404
+              title="Error 404 - NITS MUN"
+            />
           </Route>
 
         </Switch>
