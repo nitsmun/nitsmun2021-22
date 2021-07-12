@@ -9,6 +9,7 @@ import Table from "../Table";
 import "./Home.css";
 import Article from '../Article';
 import Director from '../Director';
+import Carousel from '../Carousel';
 
 const Home = (props) => {
   
@@ -45,6 +46,9 @@ const Home = (props) => {
       <div><Director/></div>
       {/* <div className="home-sec" id="director">Director Message</div> */}
 
+      
+      {/* Glimpse from past conference */}
+      <div><Carousel/></div>
       {/* Article & Social */}
       <div><Article/></div>
       
