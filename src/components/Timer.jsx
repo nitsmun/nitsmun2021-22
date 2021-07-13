@@ -7,7 +7,7 @@ import "./Timer.css";
 import Loading from './Loading';
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeTo = new Date(2021, 6, 15, 23, 59, 59, 0);
+let timeTo = new Date(2021, 9, 16, 0, 0, 0, 1);
 
 let timeLimit = Math.floor( timeTo / 1000);
 
@@ -66,7 +66,7 @@ const Timer = () => {
       <>
         <div id="timer">
 
-          {display.length === 4 && <div className="timer-limit">Event On&emsp;<span className="bold">{timeTo.toLocaleString()}</span> !!</div>}
+          {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>}
           {/* If display.length = 4 => Display Timer
               If display.length = 1 => Display Coming Soon */}
           {display.length === 4 && display.map((interval, index) => {
