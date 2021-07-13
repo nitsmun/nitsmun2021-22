@@ -1,15 +1,17 @@
 // *Components*
-import { useEffect } from 'react';
+import { useEffect, lazy, Suspense } from 'react';
 import {Link} from 'react-router-dom';
 
-import Timer from "../Timer";
-import Table from "../Table";
+import Loading from "../Loading";
 
 // *CSS*
 import "./Home.css";
-import Article from '../Article';
-import Director from '../Director';
-import Carousel from '../Carousel';
+
+const Timer = lazy(() => import("../Timer"));
+const Table = lazy(() => import("../Table"));
+const Article = lazy(() => import('../Article'));
+const Director = lazy(() => import('../Director'));
+const Carousel = lazy(() => import('../Carousel'));
 
 const Home = (props) => {
   
@@ -21,6 +23,7 @@ const Home = (props) => {
   }, [props.title]);
   
   return (
+    <Suspense fallback={<Loading/>}>
     <div className="home">
 
       {/*Intro Section*/}
@@ -59,6 +62,7 @@ const Home = (props) => {
       {/* <div className="home-sec" id="social">Social</div> */}
 
     </div>
+    </Suspense>
   );
 }
 

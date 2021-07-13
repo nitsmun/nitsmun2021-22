@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 import {Link} from 'react-router-dom';
 
 // *CSS*
@@ -63,42 +63,44 @@ const Navbar = () => {
   }, []);
 
   return(
-    <div id="navbar">
+    <Suspense>
+      <div id="navbar">
 
-      {/* Logo */}
-      <div className="navbar-logo">
-        <Link to="/"><img loading="lazy" src="/img/logo.svg" alt="NITSMUN"/></Link>
-      </div>
-
-      {/* Hamburger Menu Mobile */}
-      <div className="navbar-menu">
-        <div className="menu-icon" id="menu-open">
-          <i className="fas fa-bars"></i>
+        {/* Logo */}
+        <div className="navbar-logo">
+          <Link to="/"><img loading="lazy" src="/img/logo.svg" alt="NITSMUN"/></Link>
         </div>
-        <div className="menu-icon" id="menu-close">
-          <i className="fas fa-times"></i>
-        </div>
-      </div>
 
-      {/* Menu */}
-      <div className="navbar-items" id="menu">
-        <Link to="/" className="navbar-link scroll-top mob-nav-close">Home</Link>
-        
-        <span className="navbar-link dropdown-link">
-          <span className="dropdown-title">Events&emsp;<span className="bold"><i className="fas fa-chevron-down"></i></span></span>
-          <div className="dropdown-menu">
-            <Link to="/events/annual-conference" className="dropdown-itm scroll-top mob-nav-close">Annual Conference</Link>
-            <Link to="/events/global-voices-mun" className="dropdown-itm scroll-top mob-nav-close">Global Voices MUN</Link>
-            <Link to="/events/mock-mun" className="dropdown-itm scroll-top mob-nav-close">Mock MUNs</Link>
+        {/* Hamburger Menu Mobile */}
+        <div className="navbar-menu">
+          <div className="menu-icon" id="menu-open">
+            <i className="fas fa-bars"></i>
           </div>
-        </span>
-        
-        <Link to="/about" className="navbar-link scroll-top mob-nav-close">About Us</Link>
-        <Link to="/team" className="navbar-link scroll-top mob-nav-close">Our Team</Link>
-        <Link to="/articles" className="navbar-link scroll-top mob-nav-close">Articles</Link>
-        <Link to="/history" className="navbar-link scroll-top mob-nav-close">Past Conferences</Link>
+          <div className="menu-icon" id="menu-close">
+            <i className="fas fa-times"></i>
+          </div>
+        </div>
+
+        {/* Menu */}
+        <div className="navbar-items" id="menu">
+          <Link to="/" className="navbar-link scroll-top mob-nav-close">Home</Link>
+          
+          <span className="navbar-link dropdown-link">
+            <span className="dropdown-title">Events&emsp;<span className="bold"><i className="fas fa-chevron-down"></i></span></span>
+            <div className="dropdown-menu">
+              <Link to="/events/annual-conference" className="dropdown-itm scroll-top mob-nav-close">Annual Conference</Link>
+              <Link to="/events/global-voices-mun" className="dropdown-itm scroll-top mob-nav-close">Global Voices MUN</Link>
+              <Link to="/events/mock-mun" className="dropdown-itm scroll-top mob-nav-close">Mock MUNs</Link>
+            </div>
+          </span>
+          
+          <Link to="/about" className="navbar-link scroll-top mob-nav-close">About Us</Link>
+          <Link to="/team" className="navbar-link scroll-top mob-nav-close">Our Team</Link>
+          <Link to="/articles" className="navbar-link scroll-top mob-nav-close">Articles</Link>
+          <Link to="/history" className="navbar-link scroll-top mob-nav-close">Past Conferences</Link>
+        </div>
       </div>
-    </div>
+    </Suspense>
     
   ); 
 }

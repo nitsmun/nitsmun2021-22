@@ -7,12 +7,12 @@ function Carousel() {
         <div>
             <div
             style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
-            <h3 style={{fontVariant:"small-caps",color: "white"}} class="tag">A Glimpse from Past Conference</h3>
+            <h3 style={{fontVariant:"small-caps",color: "white"}} className="tag">A Glimpse from Past Conference</h3>
         </div>
-        <div class="container my-4">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        <div className="container my-4">
+        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active"
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
@@ -21,45 +21,45 @@ function Carousel() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img loading="lazy" src="img/Carousel1.jpg" class="d-block img-fluid" alt="NITS MUN"/>
-                    {/* <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                    <img loading="lazy" src="img/Carousel1.jpg" className="d-block img-fluid" alt="NITS MUN"/>
+                    {/* <div className="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div> */}
                 </div>
-                <div class="carousel-item">
-                    <img loading="lazy" src="img/Carousel2.jpg" class="d-block img-fluid" alt="NITS MUN"/>
-                    {/* <div class="carousel-caption d-none d-md-block">
+                <div className="carousel-item">
+                    <img loading="lazy" src="img/Carousel2.jpg" className="d-block img-fluid" alt="NITS MUN"/>
+                    {/* <div className="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div> */}
                 </div>
-                <div class="carousel-item">
-                    <img loading="lazy" src="img/Carousel3.jpg" class="d-block img-fluid" alt="NITS MUN"/>
-                    {/* <div class="carousel-caption d-none d-md-block">
+                <div className="carousel-item">
+                    <img loading="lazy" src="img/Carousel3.jpg" className="d-block img-fluid" alt="NITS MUN"/>
+                    {/* <div className="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>
                     </div> */}
                 </div>
-                <div class="carousel-item">
-                    <img loading="lazy" src="img/Carousel4.jpg" class="d-block img-fluid" alt="NITS MUN"/>
-                    {/* <div class="carousel-caption d-none d-md-block">
+                <div className="carousel-item">
+                    <img loading="lazy" src="img/Carousel4.jpg" className="d-block img-fluid" alt="NITS MUN"/>
+                    {/* <div className="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>
                     </div> */}
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
             </button>
         </div>
     </div>

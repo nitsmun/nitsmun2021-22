@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { readString } from 'react-papaparse';
-
+import Loading from "../Loading";
 import "./Team.css";
 
 var snsLogo = {
@@ -37,6 +37,7 @@ const Secretariat = (props) => {
   var personKeyCounter = 1;
 
   return (
+  <Suspense fallback={<Loading/>}>
     <div className="team">
       <div className="card-container">
         <div className="card-container-title">Team</div>
@@ -68,6 +69,7 @@ const Secretariat = (props) => {
 
       </div>
     </div>
+  </Suspense>
   )
 }
 
