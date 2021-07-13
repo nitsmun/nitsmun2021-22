@@ -18,70 +18,45 @@ return (
     <div className="row no-gutters">
         <div className="col-md-1"></div>
         <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
-            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
-                cupiditate dolor, tempora veniam necessitatibus eius reprehenderit numquam nam libero? Recusandae magni,
-                sapiente voluptatibus error repudiandae officia voluptas totam repellat vel mollitia perspiciatis
-                commodi debitis iste ipsam aspernatur doloremque dolor quod saepe adipisci voluptate odio praesentium
-                perferendis! Natus totam id illo aspernatur nihil fugit labore molestias dolorem delectus. Perspiciatis
-                fugit ad accusantium eligendi incidunt maiores soluta officia fugiat repudiandae tempora, eum atque sint
-                sit est, officiis rem cumque eaque architecto minus voluptate ab a rerum. Harum quisquam officia
-                adipisci autem aperiam labore qui necessitatibus nihil cum sequi, amet, odio id laborum voluptatum ea
-                totam fugiat. Sit fugiat, dolor aut distinctio soluta repellat hic nisi id dignissimos tempore
-                voluptatum iure, maxime veniam quaerat impedit! Est quam minima deserunt tempora, a corporis dignissimos
-                laboriosam dolore deleniti voluptate officiis placeat ad perferendis magnam consequatur odit commodi
-                expedita architecto? Totam blanditiis consectetur delectus repellendus mollitia ab consequatur non nam
-                vel vero, unde odio architecto debitis temporibus asperiores, rem quod quae voluptas harum sequi neque
-                ut. Quas quisquam quod doloremque nesciunt, incidunt veritatis nisi officiis. Ab eveniet beatae
-                perferendis rerum, saepe minima inventore atque voluptatibus repudiandae maxime amet distinctio officia
-                magnam reiciendis quo!
+            <p style={{textAlign:"justify",padding:"30px",fontSize:"1rem"}}>
+            NITSMUN was founded in 2014 when a group of like-minded people wanted to create a society for younger people to discuss, debate, and deliberate present-day crises whilst experiencing themselves being in the shoes of various world leaders. Ever since the first MUN session in 2014, our society has grown manifold with more enthusiastic people joining in and helping us emerge as one the best and most promising MUN societies in NE India. Our conference offers its delegates an unrivaled Model UN experience by running highly personalized, engaging, and dynamic committees. 
+            <br /><br />
+            Besides having participated in various MUNs in and around the country and bringing home numerous accolades and valuable experience, we have also hosted MUNs every single year since, with multiple mock sessions and collaborative conferences with world-class universities, with awe-inspiring members of the EB training and guiding us to think rationally, act quickly and solve modern-day problems and at the same time also provide us with the support required. NITSMUN aims at polishing the interpersonal, debating, and deliberating skills of the participants and mold them into a leader of tomorrow.
             </p>
         </div>
         <div className="col-md-1"></div>
     </div>
     <div className="row no-gutters smallscreen">
-        <h2 style={{fontVariant:"small-caps",textAlign:"center",paddingTop:"20px"}}>Message from Secretary General</h2>
+        <h2 style={{fontVariant:"small-caps",textAlign:"center",paddingTop:"20px"}}>Message from the Secretary-General</h2>
         <div className="col-md-1"></div>
         <div className="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
-            <img className="img-fluid aos-init" src="img/mayurakshi.jpg" alt="nits mun" style={{width:"80%",borderRadius:"5%"}}/>
+            <img loading="lazy" className="img-fluid aos-init" src="img/secgen.jpg" alt="nits mun" style={{width:"80%",borderRadius:"5%"}}/>
         </div>
         <div className="col-md-3" style={{textAlign:"center",overflowX:"hidden"}}>
 
 
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
+            Greetings delegates, 
+            <br /> <br />
+            On behalf of my secretariat, it is my utmost honour and pride to welcome you all to the NIT Silchar Model United Nations. 
+            <br /> <br />
+            Since its inception in 2014, NITSMUN has grown in every aspect, ranging from the number of participants to the scale of our conference. From holding annual conferences, workshops, mock sessions, we have even collaborated with world-class universities to hold conferences for students all around the world.
+            <br /> <br />
+            NITSMUN offers a platform to shape the participants into an individual with a voice and make the leaders of tomorrow. I can assure, this conference will not only benefit you academically but will help you meet strong individuals like yourself, help you sharpen your debating, presentation, deliberative, and interpersonal skills along the way. Gear up to solve critical and pressing issues of today and indulge yourself in world-changing debates, throughout your experience. 
+            <br /> <br />
+            Keeping in view the well-being of our participants, we will be holding our conferences online. For general assistance and business and sponsorship-related queries, you can mail our secretariat at team.nitsmun@gmail.com.  
+            <br /> <br />
+            Wishing you the best of your luck and we look forward to welcoming you to our conference this year!
+            <br /><br />
+            Best Regards,
+            <br />
+            Ayushi Johari
+            <br />
+            Secretary-General
+            <br />
+            NIT Silchar Model United Nations
 
-                Dear Delegates,<br />
-
-                It is with utmost honor and pride that I, Mayurakshi Chanda, Secretary General of NITSMUN 2021, welcome
-                you to
-                the annual NIT Silchar Model United Nations conference to be held on 26th - 28th February,
-                2021.<br /><br />
-
-                NIT Silchar Model United Nations has come far and has proved its excellence since its inception in 2014.
-                Through
-                the simulation of the annual conferences and year-round activity for the MUN enthusiasts, NITSMUN
-                continues to
-                uphold its passion and dedication to engage the youth in MUN culture and bring out the best in
-                them.<br /><br />
-
-                I highly encourage you to be a part of our upcoming conference for this will be a golden opportunity to
-                expand
-                your knowledge, utilize it in engaging debates and build your critical thinking as well as writing
-                skills. You
-                will be able to connect with talented people and learn immensely throughout the process, from the
-                comfort of
-                your home.<br /><br />
-
-                On behalf of my team, I look forward to welcoming you and hope you will have a great
-                experience!<br /><br />
-
-                Best Regards,<br /><br />
-
-                Mayurakshi Chanda,<br />
-
-                Secretary General,<br />
-
-                NIT Silchar Model United Nations
+        
             </p>
         </div>
 
@@ -91,46 +66,33 @@ return (
         <div className="col-md-1"></div>
         <div className="col-md-4 d-flex justify-content-center align-items-center"
             style={{textAlign:"center",minHeight:"100vh"}}>
-            <img className="img-fluid aos-init aos-animate" src="img/mayurakshi.jpg" alt="nits mun logo"
-                style={{height:"60vh",borderRadius:"5%"}} />
+            <img loading="lazy" className="img-fluid aos-init aos-animate" src="img/secgen.jpg" alt="nits mun logo"
+                style={{height:"55%", borderRadius:"5%"}} />
         </div>
         <div className="col-md-6" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
-            <h2 style={{fontVariant: "small-caps",color: "white"}}>Message from Secretary General</h2>
+            <h2 style={{fontVariant: "small-caps",color: "white"}}>Message from the Secretary-General</h2>
 
-            <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem", color: "white"}}>
+            <p style={{textAlign:"justify",padding:"30px",fontSize:"1rem", color: "white"}}>
 
-                Dear Delegates,<br />
-
-                It is with utmost honor and pride that I, Mayurakshi Chanda, Secretary General of NITSMUN 2021, welcome
-                you to
-                the annual NIT Silchar Model United Nations conference to be held on 26th - 28th February,
-                2021.<br /><br />
-
-                NIT Silchar Model United Nations has come far and has proved its excellence since its inception in 2014.
-                Through
-                the simulation of the annual conferences and year-round activity for the MUN enthusiasts, NITSMUN
-                continues to
-                uphold its passion and dedication to engage the youth in MUN culture and bring out the best in
-                them.<br /><br />
-
-                I highly encourage you to be a part of our upcoming conference for this will be a golden opportunity to
-                expand
-                your knowledge, utilize it in engaging debates and build your critical thinking as well as writing
-                skills. You
-                will be able to connect with talented people and learn immensely throughout the process, from the
-                comfort of
-                your home.<br /><br />
-
-                On behalf of my team, I look forward to welcoming you and hope you will have a great
-                experience!<br /><br />
-
-                Best Regards,<br /><br />
-
-                Mayurakshi Chanda,<br />
-
-                Secretary General,<br />
-
-                NIT Silchar Model United Nations
+            Greetings delegates, 
+            <br /> <br />
+            On behalf of my secretariat, it is my utmost honour and pride to welcome you all to the NIT Silchar Model United Nations. 
+            <br /> <br />
+            Since its inception in 2014, NITSMUN has grown in every aspect, ranging from the number of participants to the scale of our conference. From holding annual conferences, workshops, mock sessions, we have even collaborated with world-class universities to hold conferences for students all around the world.
+            <br /> <br />
+            NITSMUN offers a platform to shape the participants into an individual with a voice and make the leaders of tomorrow. I can assure, this conference will not only benefit you academically but will help you meet strong individuals like yourself, help you sharpen your debating, presentation, deliberative, and interpersonal skills along the way. Gear up to solve critical and pressing issues of today and indulge yourself in world-changing debates, throughout your experience. 
+            <br /> <br />
+            Keeping in view the well-being of our participants, we will be holding our conferences online. For general assistance and business and sponsorship-related queries, you can mail our secretariat at team.nitsmun@gmail.com.  
+            <br /> <br />
+            Wishing you the best of your luck and we look forward to welcoming you to our conference this year!
+            <br /><br />
+            Best Regards,
+            <br />
+            Ayushi Johari
+            <br />
+            Secretary-General
+            <br />
+            NIT Silchar Model United Nations
 
             </p>
 
@@ -142,23 +104,8 @@ return (
         <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
             <div style={{padding : "30px"}}>
             <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>What is a MUN?</h2>
-            <p style={{textAlign:"justify",fontSize:"1.1rem"}}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
-                cupiditate dolor, tempora veniam necessitatibus eius reprehenderit numquam nam libero? Recusandae magni,
-                sapiente voluptatibus error repudiandae officia voluptas totam repellat vel mollitia perspiciatis
-                commodi debitis iste ipsam aspernatur doloremque dolor quod saepe adipisci voluptate odio praesentium
-                perferendis! Natus totam id illo aspernatur nihil fugit labore molestias dolorem delectus. Perspiciatis
-                fugit ad accusantium eligendi incidunt maiores soluta officia fugiat repudiandae tempora, eum atque sint
-                sit est, officiis rem cumque eaque architecto minus voluptate ab a rerum. Harum quisquam officia
-                adipisci autem aperiam labore qui necessitatibus nihil cum sequi, amet, odio id laborum voluptatum ea
-                totam fugiat. Sit fugiat, dolor aut distinctio soluta repellat hic nisi id dignissimos tempore
-                voluptatum iure, maxime veniam quaerat impedit! Est quam minima deserunt tempora, a corporis dignissimos
-                laboriosam dolore deleniti voluptate officiis placeat ad perferendis magnam consequatur odit commodi
-                expedita architecto? Totam blanditiis consectetur delectus repellendus mollitia ab consequatur non nam
-                vel vero, unde odio architecto debitis temporibus asperiores, rem quod quae voluptas harum sequi neque
-                ut. Quas quisquam quod doloremque nesciunt, incidunt veritatis nisi officiis. Ab eveniet beatae
-                perferendis rerum, saepe minima inventore atque voluptatibus repudiandae maxime amet distinctio officia
-                magnam reiciendis quo!
+            <p style={{textAlign:"justify",fontSize:"1rem"}}>
+            A Model United Nations is an academic simulation of the United Nations. Students act as delegates and discuss real-world problems. These simulations are conducted by various universities, colleges, and schools to elevate the debating, presentation, oratory, deliberative skills of students and acquaint them with the pressing ongoing problems in the world and give them an opportunity to brainstorm and try finding solutions to them, whilst keeping in mind their foreign policies. Every conference has different committees and each committee discourses upon a certain agenda and tries to find fixes and solutions to the problems.
             </p>
             </div>
         </div>
@@ -170,23 +117,8 @@ return (
         <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
             <div style={{padding: "30px"}}>
             <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>Our Vision</h2>
-            <p style={{textAlign:"justify",fontSize:"1.1rem"}}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
-                cupiditate dolor, tempora veniam necessitatibus eius reprehenderit numquam nam libero? Recusandae magni,
-                sapiente voluptatibus error repudiandae officia voluptas totam repellat vel mollitia perspiciatis
-                commodi debitis iste ipsam aspernatur doloremque dolor quod saepe adipisci voluptate odio praesentium
-                perferendis! Natus totam id illo aspernatur nihil fugit labore molestias dolorem delectus. Perspiciatis
-                fugit ad accusantium eligendi incidunt maiores soluta officia fugiat repudiandae tempora, eum atque sint
-                sit est, officiis rem cumque eaque architecto minus voluptate ab a rerum. Harum quisquam officia
-                adipisci autem aperiam labore qui necessitatibus nihil cum sequi, amet, odio id laborum voluptatum ea
-                totam fugiat. Sit fugiat, dolor aut distinctio soluta repellat hic nisi id dignissimos tempore
-                voluptatum iure, maxime veniam quaerat impedit! Est quam minima deserunt tempora, a corporis dignissimos
-                laboriosam dolore deleniti voluptate officiis placeat ad perferendis magnam consequatur odit commodi
-                expedita architecto? Totam blanditiis consectetur delectus repellendus mollitia ab consequatur non nam
-                vel vero, unde odio architecto debitis temporibus asperiores, rem quod quae voluptas harum sequi neque
-                ut. Quas quisquam quod doloremque nesciunt, incidunt veritatis nisi officiis. Ab eveniet beatae
-                perferendis rerum, saepe minima inventore atque voluptatibus repudiandae maxime amet distinctio officia
-                magnam reiciendis quo!
+            <p style={{textAlign:"justify",fontSize:"1rem"}}>
+            NITSMUN aspires to involve youth in international dialogue, deliberate upon the dire issues of the world and shape them into strong individuals who'll become the leaders of tomorrow
             </p>
             </div>
         </div>
