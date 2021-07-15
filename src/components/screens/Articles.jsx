@@ -7,7 +7,7 @@ CHANGES REQUIRED:
 3. Does Srink stand for something or is it just a typo of Shrink? lol
 */
 
-import { useEffect, Suspense } from "react";
+import { Suspense } from "react";
 import Loading from "../Loading";
 import "./Articles.css";
 
@@ -248,7 +248,7 @@ function Articles(props) {
                                 <div className="col-md-1"></div>
                             </div>
                             {
-                                article.index != "5" && <hr />
+                                article.index !== "5" && <hr />
                             }
 
 

@@ -71,6 +71,9 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Heroku throws an error if both yarn-lock and package-lock are found
+yarn.lock
+
 # dotenv environment variables file
 .env
 .env.test
