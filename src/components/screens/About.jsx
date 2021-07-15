@@ -1,5 +1,7 @@
-import { useEffect } from "react";
+import { useEffect, Suspense } from "react";
 import "./About.css";
+
+import Loading from "../Loading";
 
 function About(props) {
     useEffect(()=> {
@@ -9,7 +11,7 @@ function About(props) {
       
       }, [props.title]);
 return (
-    
+<Suspense fallback={<Loading/>}>
 <div className="container-fluid p-0" style={{overflowX: "hidden", fontFamily: "var(--font2)"}}>
     <div id="intro"
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
@@ -127,6 +129,7 @@ return (
     <hr />
     
 </div>
+</Suspense>
 )
 }
 

@@ -1,3 +1,5 @@
+import {Suspense} from 'react';
+import Loading from "./Loading";
 import "./Article.css";
 
 function Article() {
@@ -17,6 +19,7 @@ function Article() {
     }
 
 return (
+<Suspense fallback={<Loading/>}>
 <div>
     <div className="container-fluid p-0" style={{overflowX: "hidden", fontFamily: "var(--font2)"}}>
         <div className="separator">
@@ -116,6 +119,7 @@ return (
         </div>
     </div>
 </div>
+</Suspense>
 )
 }
 

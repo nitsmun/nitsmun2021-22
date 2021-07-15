@@ -1,7 +1,10 @@
+import {Suspense} from 'react';
+import Loading from './Loading';
 import "./Director.css";
 
 function Director() {
 return (
+<Suspense fallback={<Loading/>}>
 <div className="font container-fluid px-0" style={{overflowX: "hidden",backgroundColor: "gray"}}>
     <div
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
@@ -78,6 +81,7 @@ return (
         <div className="col-md-1"></div>
     </div>
 </div>
+</Suspense>
 )
 }
 
