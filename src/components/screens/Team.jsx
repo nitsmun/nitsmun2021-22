@@ -1,76 +1,114 @@
-import { useEffect, useState, Suspense } from 'react';
-import { readString } from 'react-papaparse';
-import Loading from "../Loading";
+import React, { useEffect, useState } from 'react';
 import "./Team.css";
 
 var snsLogo = {
+  "mail" : "far fa-envelope",
   "lin" : "fab fa-linkedin-in",
   "fb" : "fab fa-facebook-f",
-  "mail" : "far fa-envelope",
   "github" : "fab fa-github"
 };
 
-const Secretariat = (props) => {
 
-  //! Change URL for CSV file
-  var url = '/data.csv';
-  let [data, setData] = useState(null);
+  //! URL, TITLE for CSV files & Groups
+const url = [
+  ["/secretariat.csv", "Secretariat"],
+  ["/designTeam.csv", "Design Team"],
+  ["/researchAndContentTeam.csv", "Research & Content Team"],
+  ["/publicRelationsTeam.csv", "Public Relations Team"],
+  ["/webDevTeam.csv", "Web Development Team"]
+];
+
+//? CSV Parse
+function csvTextToArr(text) {
+  let csvArr = text.split('\r\n');
+  // ! Windows ends line in \r\n, Unix in \n 
   
+  let result = [];
+  for(let i = 0; i<csvArr.length; i++) {
+    let personArr =  csvArr[i].split(',')
+    result.push(personArr);
+  }
+
+  return result;
+}
+
+async function csvFetch() {
+
+  let arr = [], promiseArr = [];
+
+  url.forEach((urlArr, i) => {
+    promiseArr[i] = fetch(urlArr[0]).then((res)=> res.text())
+  });
+  
+  await Promise.allSettled(promiseArr).then((results)=> {
+    
+    for(let i = 0; i<results.length; i++) {
+      arr[i] = csvTextToArr(results[i].value.toString());
+    }
+  })
+
+  return arr;
+}
+
+const Team = (props) => {
+
+  let [data, setData] = useState(null);
+
   useEffect(()=> {
 
     // *Setting Up Page Title*
     document.title = props.title;
+
+    (async() => setData(await csvFetch()))();
+
   }, [props.title]);
 
-  //? CSV Parse
-  useEffect(()=> {
-    readString( url , {
-      header: true,
-      download: true,
-      complete: (results) => {
-        setData(results.data);
-      }
-    })
-  }, [url])
-  
-  var snsKeyCounter = 1;
-  var personKeyCounter = 1;
+  // ! Data -> Array of result from csv files in order of url[i][0]
+  // ! Team -> Person
+  // ! Person  -> Name, Post, Batch, pic, mail, lin, fb, github
+  // ?             0     1       2    3    4     5    6    7
+  // ! Teams don't have any first row with headers because array starts
+  // ! with the headers since multiple files' data in single array
 
   return (
-  <Suspense fallback={<Loading/>}>
-    <div className="team">
-      <div className="card-container">
-        <div className="card-container-title">Team</div>
-        
-        {data && data.map(person => {
+  <div className="team">
+    <div className="card-container">
+      {/* {data && data[0][0][0]} */}
+
+      {data && data.map((team, teamIndex) => {
         return(
-        <div className="mmbr-card" id={person['Name']} key={personKeyCounter++ && personKeyCounter}>
-          <div className="mmbr-pic">
-            <img loading="lazy" src={person.pic} alt={person['Name']} />
-          </div>
-
-          <div className="mmbr-name">{person.Name}</div>
-          <div className="mmbr-position">{person.Post}</div>
-          <div className="mmbr-batch">{person.Batch}</div>
-
-          {/* SNS Item Links */}
-          <div className="mmbr-sns">
-            {Object.keys(snsLogo).map(site => {
-              if(person[site] === "") return null;
+          <React.Fragment key={url[teamIndex][1]}>
+            <div className="card-container-title">{url[teamIndex][1]}</div>
+            {team.map((person, personIndex) => {
               return(
-                <div className={`mmbr-sns-itm ${site}`} key={snsKeyCounter++ && snsKeyCounter}>
-                  <a href={person[site]} target="_blank" rel="noreferrer" className={site}><i className={snsLogo[site]}></i></a>
+                <div className="mmbr-card" key={person[0]}>
+                  <div className="mmbr-pic">
+                    <img loading="lazy" src={person[3]} alt={person[0]} />
+                  </div>
+                  <div className="mmbr-name">{person[0]}</div>
+                  <div className="mmbr-position">{person[1]}</div>
+                  <div className="mmbr-sns">
+                  
+                    {Object.keys(snsLogo).map((site, siteIndex) => {
+                      if(person[siteIndex+4] === "null") return null;
+                      return(
+                        <div className={`mmbr-sns-itm ${site}`} key={`${person[0]}${site}`}>
+                          <a href={person[siteIndex + 4]} target="_blank" rel="noreferrer" className={site}><i className={snsLogo[site]}></i></a>
+                        </div>
+                      )
+                    })}
+                    
+                  </div>
+
                 </div>
               )
             })}
-          </div>
-
-        </div>)})}
-
-      </div>
+          </React.Fragment>
+        )
+      })}
     </div>
-  </Suspense>
+  </div>
   )
 }
 
-export default Secretariat;
+export default Team;
