@@ -12,13 +12,13 @@ div.team {
 .card-container {
   position: relative;
   width: 97.5%;
-  margin: 0 auto;
+  margin: 2vh auto;
   padding: 1vh 0;
 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .card-container .card-container-title {
@@ -52,6 +52,8 @@ div.team {
 
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+
+  margin: 1vh;
 }
 
 .card-container .mmbr-card:hover {
