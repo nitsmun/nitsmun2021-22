@@ -20,7 +20,8 @@ const url = [
 
 //? CSV Parse
 function csvTextToArr(text) {
-  let csvArr = text.split('\n');
+  let csvArr = text.split('\r\n');
+  // ! Windows ends line in \r\n, Unix in \n 
   
   let result = [];
   for(let i = 0; i<csvArr.length; i++) {
@@ -86,11 +87,10 @@ const Team = (props) => {
                   </div>
                   <div className="mmbr-name">{person[0]}</div>
                   <div className="mmbr-position">{person[1]}</div>
-                  
                   <div className="mmbr-sns">
                   
                     {Object.keys(snsLogo).map((site, siteIndex) => {
-                      if(person[siteIndex + 4] === "") return null;
+                      if(person[siteIndex+4] === "null") return null;
                       return(
                         <div className={`mmbr-sns-itm ${site}`} key={`${person[0]}${site}`}>
                           <a href={person[siteIndex + 4]} target="_blank" rel="noreferrer" className={site}><i className={snsLogo[site]}></i></a>
