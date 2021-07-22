@@ -1,5 +1,6 @@
 import { useEffect, Suspense } from 'react';
 import {Link} from 'react-router-dom';
+import './scrollTop';
 
 // *CSS*
 import "./Navbar.css";
@@ -30,13 +31,6 @@ const Navbar = () => {
     nav();
 
     let menuClose = document.getElementById('menu-close');
-
-    /*
-    * Scroll to top when nav element is clicked
-    */
-    let scrollTopList = document.getElementsByClassName('scroll-top');
-    for(let i = 0; i<scrollTopList.length; i++)
-      scrollTopList[i].addEventListener('click', ()=> window.scrollTo(0, 0));
 
     /*
     * Close the navbar after nav element clicked in mobile

@@ -1,22 +1,24 @@
 import {Suspense} from 'react';
 import Loading from "./Loading";
+import {Link} from 'react-router-dom';
+import './scrollTop';
 import "./Article.css";
 
 function Article() {
 
-    function Expand(){
-        let element = document.querySelector("#Expand")
-        let btn = document.getElementById("btn1")
-        btn.style.visibility = "hidden"
-        element.style.display = ""
-    }
+    // function Expand(){
+    //     let element = document.querySelector("#Expand")
+    //     let btn = document.getElementById("btn1")
+    //     btn.style.visibility = "hidden"
+    //     element.style.display = ""
+    // }
 
-    function Srink(){
-        let element = document.querySelector("#Expand")
-        let btn = document.getElementById("btn1")
-        btn.style.visibility = "visible"
-        element.style.display = "none"
-    }
+    // function Srink(){
+    //     let element = document.querySelector("#Expand")
+    //     let btn = document.getElementById("btn1")
+    //     btn.style.visibility = "visible"
+    //     element.style.display = "none"
+    // }
 
 return (
 <Suspense fallback={<Loading/>}>
@@ -34,28 +36,20 @@ return (
                 <h3 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>Heading for the article</h3>
                 <p style={{textAlign:"justify",fontSize:"1.1rem"}}>
                     Date : 15th July 2021
-                    <br></br>
-                    <br></br>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, veritatis. Deleniti tenetur
-                    cupiditate dolor, tempora veniam necessitatibus eius reprehenderit numquam nam libero? Recusandae
-                    magni,
-                    sapiente voluptatibus error repudiandae officia voluptas totam repellat vel mollitia perspiciatis
-                    commodi debitis iste ipsam aspernatur doloremque dolor quod saepe adipisci voluptate odio
-                    praesentium
-                    perferendis! Natus totam id illo aspernatur nihil fugit labore molestias dolorem delectus.
-                    Perspiciatis
-                    fugit ad accusantium eligendi incidunt maiores soluta officia fugiat repudiandae tempora, eum atque
-                    sint
-                    sit est, officiis rem cumque eaque architecto minus voluptate ab a rerum. Harum quisquam officia
-                    adipisci autem aperiam labore qui necessitatibus nihil cum sequi, amet, odio id laborum voluptatum
-                    ea
+                    <br/>
+                    <br/>
+                    After hosting multiple successful conferences in both online and offline modes, NITSMUN will be conducting its first ever Model United Nations conference exclusively for school students. We at NITSMUN believe that children should be exposed to the various ways the society, nation and the world function. Only with proper grooming, experience and exposure can they make a change in the society. 
+                    <br/><br/>
+                    The NITSMUN - Under 18 Edition will be held from 16-17th October 2021, focusing and helping shape the young minds and prepare them for all their future endeavours.
+                    <br/><br/>
+                    For more details, head over to the <Link className="scroll-top" to="/events/annual-conference" style={{textDecoration : "none"}}>Events</Link> page of our website!
                 </p>
-                <button id="btn1" type="button" className="btn btn-outline-dark mt-3" onClick={Expand} style={{width: "150px"}}>Read more</button>
+                {/* <button id="btn1" type="button" className="btn btn-outline-dark mt-3" onClick={Expand} style={{width: "150px"}}>Read more</button> */}
                 </div>
             </div>
             <div className="col-md-1"></div>
         </div>
-        <div className="row no-gutters" id="Expand" style={{display: "none"}}>
+        {/* <div className="row no-gutters" id="Expand" style={{display: "none"}}>
             <div className="col-md-1"></div>
             <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
                 <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
@@ -103,8 +97,8 @@ return (
                 <button id="btn2" type="button" className="btn btn-outline-dark" onClick={Srink} style={{width: "150px"}}>Show less</button>
             </div>
             <div className="col-md-1"></div>
-        </div>
-        <div className="separator" style={{marginTop: "50px"}}>
+        </div> */}
+        {/* <div className="separator" style={{marginTop: "50px"}}>
             <div className="line"></div>
             <h2>Our Socials</h2>
             <div className="line"></div>
@@ -116,7 +110,7 @@ return (
             <div className="col-md-6" style={{marginTop: "2vh",display: "flex",justifyContent: "center",alignItems: "center"}}>
                 <img src="img/dummy_img.png" className="img-fluid" alt="" style={{borderRadius: "5%"}}/>
             </div>
-        </div>
+        </div> */}
     </div>
 </div>
 </Suspense>

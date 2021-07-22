@@ -13,6 +13,8 @@ const History = lazy(() => import('./components/screens/History'));
 const Team = lazy(() => import('./components/screens/Team'));
 const Error404 = lazy(() => import('./components/screens/Error404'));
 const AnnualConference = lazy(() => import('./components/screens/AnnualConference'));
+const GlobalVoicesMun = lazy(() => import('./components/screens/GlobalVoicesMun'));
+const MockMun = lazy(() => import('./components/screens/MockMun'));
 
 const Navbar = lazy(() => import('./components/Navbar'));
 const Footer = lazy(() => import('./components/Footer'));
@@ -72,6 +74,20 @@ function App() {
               <AnnualConference
                 title="Annual Conference - NITS MUN"
               />
+            </Route>
+
+              {/*Global Voices MUN Conference*/}
+            <Route exact path="/events/global-voices-mun">
+              <GlobalVoicesMun
+                title="Global Voices MUN - NITS MUN"
+              />
+            </Route>
+
+              {/*Mock MUNs Conference*/}
+            <Route exact path="/events/mock-mun">
+            <MockMun
+              title="Mock MUNs - NITS MUN"
+            />
             </Route>
 
             {/*404*/}
