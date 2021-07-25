@@ -7,7 +7,7 @@ return (
 <Suspense fallback={<Loading/>}>
 <div className="font container-fluid px-0 Director" style={{overflowX: "hidden",backgroundColor: "#A1A2A3"}}>
     <div
-        style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
+        style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px"}}>
         <h2 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Message from the Director</h2>
     </div>
     <div className="row no-gutters small">
