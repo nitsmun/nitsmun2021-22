@@ -69,7 +69,7 @@ return (
         <div className="col-md-4 d-flex justify-content-center align-items-center"
             style={{textAlign:"center",minHeight:"100vh"}}>
             <img loading="lazy" className="img-fluid aos-init aos-animate" src="img/secgen.jpg" alt="nits mun logo"
-                style={{height:"55%", borderRadius:"5%"}} />
+                style={{borderRadius:"5%"}} />
         </div>
         <div className="col-md-6" style={{textAlign:"justify",paddingTop:"5vh",overflowX:"hidden"}}>
             <h2 style={{paddingLeft:"30px", fontVariant: "small-caps",color: "white"}}>Message from the Secretary-General</h2>

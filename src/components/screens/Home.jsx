@@ -3,6 +3,7 @@ import { useEffect, lazy, Suspense } from 'react';
 import {Link} from 'react-router-dom';
 
 import Loading from "../Loading";
+import Secretary from '../Secretary';
 
 // *CSS*
 import "./Home.css";
@@ -48,8 +49,9 @@ const Home = (props) => {
       {/*Director's Message Section*/}
       <div><Director/></div>
       {/* <div className="home-sec" id="director">Director Message</div> */}
+      {/*Secretary's Message Section*/}
+      <div><Secretary/></div>
 
-      
       {/* Glimpse from past conference */}
       <div><Carousel/></div>
       {/* Article & Social */}

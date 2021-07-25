@@ -1,10 +1,19 @@
-import {Suspense} from 'react';
+import { Suspense } from 'react';
 import Loading from "./Loading";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 import './scrollTop';
 import "./Article.css";
 
 function Article() {
+
+    const history = useHistory();
+
+    const route = () =>{ 
+        let path = '/articles'; 
+        history.push(path);
+    }
+
 
     // function Expand(){
     //     let element = document.querySelector("#Expand")
@@ -20,36 +29,36 @@ function Article() {
     //     element.style.display = "none"
     // }
 
-return (
-<Suspense fallback={<Loading/>}>
-<div>
-    <div className="container-fluid p-0" style={{overflowX: "hidden", fontFamily: "var(--font2)"}}>
-        <div className="separator">
-            <div className="line"></div>
-            <h2>Read our Article</h2>
-            <div className="line"></div>
-        </div>
-        <div className="row no-gutters">
-            <div className="col-md-1"></div>
-            <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
-                <div style={{padding: "30px"}}>
-                <h3 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>Heading for the article</h3>
-                <p style={{textAlign:"justify",fontSize:"1.1rem"}}>
-                    Date : 15th July 2021
-                    <br/>
-                    <br/>
-                    After hosting multiple successful conferences in both online and offline modes, NITSMUN will be conducting its first ever Model United Nations conference exclusively for school students. We at NITSMUN believe that children should be exposed to the various ways the society, nation and the world function. Only with proper grooming, experience and exposure can they make a change in the society. 
-                    <br/><br/>
-                    The NITSMUN - Under 18 Edition will be held from 16-17th October 2021, focusing and helping shape the young minds and prepare them for all their future endeavours.
-                    <br/><br/>
-                    For more details, head over to the <Link className="scroll-top" to="/events/annual-conference" style={{textDecoration : "none"}}>Events</Link> page of our website!
-                </p>
-                {/* <button id="btn1" type="button" className="btn btn-outline-dark mt-3" onClick={Expand} style={{width: "150px"}}>Read more</button> */}
-                </div>
-            </div>
-            <div className="col-md-1"></div>
-        </div>
-        {/* <div className="row no-gutters" id="Expand" style={{display: "none"}}>
+    return (
+        <Suspense fallback={<Loading />}>
+            <div>
+                <div className="container-fluid p-0" style={{ overflowX: "hidden", fontFamily: "var(--font2)" }}>
+                    <div className="separator">
+                        <div className="line"></div>
+                        <h2 style={{ fontVariant: "small-caps" }}>Nitsmun Updates</h2>
+                        <div className="line"></div>
+                    </div>
+                    <div className="row no-gutters">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10" style={{ textAlign: "center", overflowX: "hidden" }}>
+                            <div style={{ padding: "30px" }}>
+                                <p style={{ textAlign: "justify", fontSize: "1.1rem" }}>
+                                    Date : 15th July 2021
+                                    <br />
+                                    <br />
+                                    After hosting multiple successful conferences in both online and offline modes, NITSMUN will be conducting its first ever Model United Nations conference exclusively for school students. We at NITSMUN believe that children should be exposed to the various ways the society, nation and the world function. Only with proper grooming, experience and exposure can they make a change in the society.
+                                    <br /><br />
+                                    The NITSMUN - Under 18 Edition will be held from 16-17th October 2021, focusing and helping shape the young minds and prepare them for all their future endeavours.
+                                    <br /><br />
+                                    For more details, head over to the <Link className="scroll-top" to="/events/annual-conference" style={{ textDecoration: "none" }}>Events</Link> page of our website!
+                                </p>
+                                {/* <button id="btn1" type="button" className="btn btn-outline-dark mt-3" onClick={Expand} style={{width: "150px"}}>Read more</button> */}
+                            </div>
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>
+                    <hr></hr>
+                    {/* <div className="row no-gutters" id="Expand" style={{display: "none"}}>
             <div className="col-md-1"></div>
             <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
                 <p style={{textAlign:"justify",padding:"30px",fontSize:"1.1rem"}}>
@@ -98,7 +107,7 @@ return (
             </div>
             <div className="col-md-1"></div>
         </div> */}
-        {/* <div className="separator" style={{marginTop: "50px"}}>
+                    {/* <div className="separator" style={{marginTop: "50px"}}>
             <div className="line"></div>
             <h2>Our Socials</h2>
             <div className="line"></div>
@@ -111,10 +120,55 @@ return (
                 <img src="img/dummy_img.png" className="img-fluid" alt="" style={{borderRadius: "5%"}}/>
             </div>
         </div> */}
-    </div>
-</div>
-</Suspense>
-)
+                </div>
+            </div>
+            <section id="Article">
+                <div className="container">
+                    <div className="row no-gutters">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10" style={{ textAlign: "center", paddingTop: "0px", overflowX: "hidden" }}>
+                            <div style={{ padding: "30px" }}>
+                                <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps" }}>Check out <a href="https://www.instagram.com/nitsmun/">@nitsmun</a> for all our articles!</h2>
+                            </div>
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4 mb-4">
+                            <div className="card">
+                                <img src="img/groovy_war_and_peace.jpg" alt="" className="card-img-top" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Groovy Sundries: War and Peace</h5>
+                                    <p className="card-text">War and Peace are more than magnificent works of art. They are Portinari’s call to action. Thanks to him, all leaders who enter the United Nations see the terrible toll of war and the universal dream for peace.</p>
+                                    <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 mb-4">
+                            <div className="card">
+                                <img src="img/day_world_population.jpg" alt="" className="card-img-top" />
+                                <div className="card-body">
+                                    <h5 className="card-title">World Population Day</h5>
+                                    <p className="card-text"><br />Rights and choices are the answer: Whether baby boom or bust, the solution to shifting fertility rates lies in prioritizing the reproductive health and rights of all people.<br /></p>
+                                    <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 mb-4">
+                            <div className="card">
+                                <img src="img/day_of_cooperatives.jpg" alt="" className="card-img-top" />
+                                <div className="card-body">
+                                    <h5 className="card-title">International Day of Cooperatives</h5>
+                                    <p className="card-text">Cooperatives have always been an integral part in bringing people together in a democratic and equal way contributing to the eradication of poverty and promoting economic and social progress.</p>
+                                    <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </Suspense>
+    )
 }
 
 export default Article

@@ -12,3 +12,6 @@
 .separator h2 {
     padding: 0 2rem;
 }
+#Article{
+    font-family: var(--font2);
+}
