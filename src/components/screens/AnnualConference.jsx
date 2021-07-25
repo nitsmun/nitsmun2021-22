@@ -31,7 +31,41 @@ const AnnualConference = (props) => {
       NITSMUN’s annual conferences, and have given overwhelming revies about the team.`]}
       
       applyBtnLink="/apply"
-      execBoard={["/img/judge2021_1.jpg", "/img/judge2021_2.jpg", "/img/judge2021_3.jpg"]}
+      
+      imgs={
+        [
+          {
+            title : "2021",
+            images : [
+              "/img/judge2021_1.jpg",
+              "/img/judge2021_2.jpg",
+              "/img/judge2021_3.jpg",
+              "/img/judge2021_4.jpg",
+              "/img/2020AC1.jpg",
+              "/img/2020AC2.jpg"
+            ]
+          },
+          {
+            title : "2020",
+            images : [
+              "/img/judge1.jpeg",
+              "/img/judge2.jpeg",
+              "/img/judge3.jpeg"
+            ]
+          },
+          {
+            title : "2016",
+            images : [
+              "/img/2016AC1.jpg",
+              "/img/2016AC2.jpg"
+            ]
+          }
+
+        ]
+      }
+      
+      displayBtn="none"
+      btnContent="Apply Now"
     />
   );
 }

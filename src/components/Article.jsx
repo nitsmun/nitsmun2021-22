@@ -1,7 +1,6 @@
 import { Suspense } from 'react';
 import Loading from "./Loading";
 import { useHistory } from "react-router-dom";
-import './scrollTop';
 import "./Article.css";
 
 function Article() {

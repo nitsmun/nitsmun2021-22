@@ -9,7 +9,7 @@ import "./Events.css";
 
 const Events = (props) => {
   
-  const imgs = props.execBoard;
+  const imgs = props.imgs;
   const details = props.eventDetails;
 
   return (
@@ -26,22 +26,29 @@ const Events = (props) => {
           details.map(para => {
             return(
               <>
-                {para}<br/><br/>
+                {para}
+                <br/><br/>
               </>
             )
           })
         }</div>
 
-        <Link className="event-apply-btn" to={props.applyBtnLink}>Apply Now</Link>
+        <Link className="event-apply-btn"
+          to={props.applyBtnLink}
+          style={{
+            display : `${props.displayBtn}`}}
+        >{props.btnContent}</Link>
 
         <div className="event-exec-board">
-          <h3 className="event-exec-board-title">Executive Board :</h3>
-          
-          {imgs.map(image => {
-            return(
-              <img loading="lazy" src={image} alt="Judge" />
-            )
-          })}
+
+          {imgs && imgs.map(year => 
+            <>
+              <h3 h3 className="event-exec-board-title">{year.title}</h3>
+              {year.images.map((image, imgIndex) => 
+                <img loading="lazy" src={image} alt={`Image ${imgIndex}`} />
+              )}
+            </>
+          )}
         </div>
       </div>
     </Suspense>

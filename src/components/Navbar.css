@@ -81,8 +81,8 @@ div#navbar {
     flex-direction: column;
     border-radius: 1vh;
 
-    border: 0.2vh solid var(--theme4-100);
-    border-top: 0 solid var(--theme4-100);
+    border: 0.2vh solid var(--theme2-100);
+    border-top: 0 solid var(--theme2-100);
   }
 
   span.dropdown-link:hover div.dropdown-menu,
@@ -197,6 +197,8 @@ div#navbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    overflow-y: scroll;
   }
 
   div.navbar-items .navbar-link {
@@ -207,7 +209,7 @@ div#navbar {
     width: 75%;
 
     /**Content**/
-    padding: 5vw 0;
+    padding: 4vw 0;
     font-size: 5vw;
     text-align: center;
     text-decoration: none;
