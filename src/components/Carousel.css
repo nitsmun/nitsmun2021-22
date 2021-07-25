@@ -6,6 +6,9 @@
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
+.tag{
+    font-family: var(--font2)
+}
 @media only screen and (max-width: 600px) {
     .tag{
         font-size: 20px;

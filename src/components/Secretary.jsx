@@ -15,9 +15,9 @@ function Secretary() {
       <div className="col-md-1"></div>
       <div className="col-md-4 mt-lg-5 pt-lg-5 mt-0 pt-0" style={{textAlign:"center"}}>
         <div style={{padding: "0 30px"}} className="mt-lg-0 mt-sm-3 mt-3">
-          <img className="img-fluid" src="img/secgen.jpg" alt="nits mun logo" style={{borderRadius:"50%"}}/>
+          <img className="img-fluid" src="img/secgen.jpg" alt="nits mun" style={{borderRadius:"50%"}}/>
           <h5 className="pt-3">Ayushi Johari</h5>
-          <p style={{borderBottom: "2px solid black",fontSize:"1.1rem"}}>Secretary-General, NIT MUN</p>
+          <p style={{borderBottom: "2px solid black",fontSize:"1.1rem"}}>Secretary-General, NITS MUN</p>
         </div>
       </div>
       <div className="col-md-6" style={{textAlign:"center",overflowX:"hidden"}}>
@@ -30,7 +30,7 @@ function Secretary() {
 
           Since its inception in 2014, NITSMUN has grown in every aspect, ranging from the number of participants to the
           scale of our conference. From holding annual conferences, workshops, mock sessions, we have even collaborated
-          with world-className universities to hold conferences for students all around the world.<br/><br/>
+          with world-class universities to hold conferences for students all around the world.<br/><br/>
 
           NITSMUN offers a platform to shape the participants into an individual with a voice and make the leaders of
           tomorrow. I can assure, this conference will not only benefit you academically but will help you meet strong
@@ -54,6 +54,7 @@ function Secretary() {
       </div>
       <div className="col-md-1"></div>
     </div>
+    <hr />
   </div>
     )
 }

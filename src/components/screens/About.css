@@ -5,7 +5,7 @@
     .smallscreen{
         display: block;
         color: white;
-        background-color: gray;
+        background-color: #A1A2A3;
     }
     .largescreen{
         display: none;

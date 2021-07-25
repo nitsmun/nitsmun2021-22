@@ -5,10 +5,10 @@ import "./Director.css";
 function Director() {
 return (
 <Suspense fallback={<Loading/>}>
-<div className="font container-fluid px-0 Director" style={{overflowX: "hidden",backgroundColor: "gray"}}>
+<div className="font container-fluid px-0 Director" style={{overflowX: "hidden",backgroundColor: "#A1A2A3"}}>
     <div
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
-        <h2 style={{fontVariant:"small-caps",color: "white"}}>Message from the Director</h2>
+        <h2 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Message from the Director</h2>
     </div>
     <div className="row no-gutters small">
         <div className="col-md-1"></div>

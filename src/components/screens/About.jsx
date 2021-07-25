@@ -64,7 +64,7 @@ return (
 
         <div className="col-md-1"></div>
     </div>
-    <div className="row no-gutters largescreen" style={{backgroundColor: "gray"}}>
+    <div className="row no-gutters largescreen" style={{backgroundColor: "#A1A2A3"}}>
         <div className="col-md-1"></div>
         <div className="col-md-4 d-flex justify-content-center align-items-center"
             style={{textAlign:"center",minHeight:"100vh"}}>

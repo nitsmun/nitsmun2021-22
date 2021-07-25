@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 import Loading from "../Loading";
 import Secretary from '../Secretary';
+import Update from '../Update';
 
 // *CSS*
 import "./Home.css";
@@ -45,7 +46,10 @@ const Home = (props) => {
         <Table/>
 
       </div>
-      
+
+      {/* update section */}
+      <div><Update/></div>
+
       {/*Director's Message Section*/}
       <div><Director/></div>
       {/* <div className="home-sec" id="director">Director Message</div> */}

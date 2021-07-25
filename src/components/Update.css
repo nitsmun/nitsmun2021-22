@@ -1,0 +1,17 @@
+.update .heading{
+    display: none;
+}
+.update p{
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .update .heading{
+        display: block;
+    }
+    .update p{
+        text-align: justify;
+    }
+    .update .separator{
+        display: none;
+    }
+}
