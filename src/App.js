@@ -15,6 +15,7 @@ const Error404 = lazy(() => import('./components/screens/Error404'));
 const AnnualConference = lazy(() => import('./components/screens/AnnualConference'));
 const GlobalVoicesMun = lazy(() => import('./components/screens/GlobalVoicesMun'));
 const MockMun = lazy(() => import('./components/screens/MockMun'));
+const MunU18 = lazy(() => import('./components/screens/MunU18'));
 
 const Navbar = lazy(() => import('./components/Navbar'));
 const Footer = lazy(() => import('./components/Footer'));
@@ -22,7 +23,15 @@ const Footer = lazy(() => import('./components/Footer'));
 const About = lazy(() => import("./components/screens/About"));
 const Articles = lazy(() => import("./components/screens/Articles"));
 
+//! Navbar items scroll to top on click
+let scrollTopList = document.getElementsByClassName('scroll-top');
+for(let i = 0; i<scrollTopList.length; i++)
+  scrollTopList[i].addEventListener('click', ()=> {
+    window.scrollTo(0, 0);
+  });
+
 function App() {
+
   return (
     <Router>
       <Suspense fallback={<Loading/>}>
@@ -87,6 +96,13 @@ function App() {
             <Route exact path="/events/mock-mun">
             <MockMun
               title="Mock MUNs - NITS MUN"
+            />
+            </Route>
+
+            {/*MUN U18 Conference*/}
+            <Route exact path="/events/mun-u18">
+            <MunU18
+              title="MUN Under 18 Edition - NITS MUN"
             />
             </Route>
 

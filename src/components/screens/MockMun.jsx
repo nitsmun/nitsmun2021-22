@@ -27,7 +27,38 @@ const MockMun = (props) => {
       ]}
       
       applyBtnLink="/apply"
-      execBoard={["/img/judge2021_1.jpg", "/img/judge2021_2.jpg", "/img/judge2021_3.jpg"]}
+
+      imgs={
+        [
+          {
+            title : "2021",
+            images : [
+              "/img/2021MM0.jpg",
+              "/img/2021MM1.jpg",
+              "/img/aoty2020_1.jpg",
+              "/img/aoty2020_2.jpg"
+            ]
+          },
+          {
+            title : "2020",
+            images : [
+              "/img/bg1_year.jpg",
+              "/img/bg2_year.jpg",
+              "/img/bg3_year.jpg",
+              "/img/bg2_2020.jpg",
+            ]
+          },
+          {
+            title : "2019",
+            images : [
+              "/img/2019MM1.jpg"
+            ]
+          }
+        ]
+      }
+
+      displayBtn="none"
+      btnContent="Apply Now"
     />
   );
 }

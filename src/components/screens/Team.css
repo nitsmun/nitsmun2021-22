@@ -23,7 +23,7 @@ div.team {
 
 .card-container .card-container-title {
   position: relative;
-  margin: 1vh auto 5vh auto;
+  margin: 5vh auto;
   font-size: 5vh;
   color: var(--theme4-100);
   text-align: center;

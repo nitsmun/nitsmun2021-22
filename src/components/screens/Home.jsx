@@ -41,8 +41,8 @@ const Home = (props) => {
       {/*Timer Section */}
       <div className="home-sec" id="apply">
         <Timer/>
-        <Link to="/apply_ST" className="btn apply-btn">Apply Now</Link>
-        <Table/>
+        {/* <Link to="/apply_ST" className="btn apply-btn">Apply Now</Link> */}
+        {/* <Table/> */}
 
       </div>
       

@@ -1,6 +1,5 @@
 import { useEffect, Suspense } from 'react';
 import {Link} from 'react-router-dom';
-import './scrollTop';
 
 // *CSS*
 import "./Navbar.css";
@@ -77,7 +76,7 @@ const Navbar = () => {
 
         {/* Menu */}
         <div className="navbar-items" id="menu">
-          <Link to="/" className="navbar-link scroll-top mob-nav-close">Home</Link>
+          <Link to="/" className="navbar-link mob-nav-close scroll-top">Home</Link>
           
           <span className="navbar-link dropdown-link">
             <span className="dropdown-title">Events&emsp;<span className="bold"><i className="fas fa-chevron-down"></i></span></span>
@@ -85,13 +84,14 @@ const Navbar = () => {
               <Link to="/events/annual-conference" className="dropdown-itm scroll-top mob-nav-close">Annual Conference</Link>
               <Link to="/events/global-voices-mun" className="dropdown-itm scroll-top mob-nav-close">Global Voices MUN</Link>
               <Link to="/events/mock-mun" className="dropdown-itm scroll-top mob-nav-close">Mock MUNs</Link>
+              <Link to="/events/mun-u18" className="dropdown-itm scroll-top mob-nav-close">NITSMUN Under 18 Edition</Link>
             </div>
           </span>
           
           <Link to="/about" className="navbar-link scroll-top mob-nav-close">About Us</Link>
           <Link to="/team" className="navbar-link scroll-top mob-nav-close">Our Team</Link>
           <Link to="/articles" className="navbar-link scroll-top mob-nav-close">Articles</Link>
-          <Link to="/history" className="navbar-link scroll-top mob-nav-close">Past Conferences</Link>
+          {/* <Link to="/history" className="navbar-link scroll-top mob-nav-close">Past Conferences</Link> */}
         </div>
       </div>
     </Suspense>

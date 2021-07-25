@@ -53,7 +53,6 @@ div.event div.event-details {
   width: 85%;
   text-align: justify;
   line-height: 4.5vh;
-  margin-bottom: 10vh;
 }
 
 div.event a.event-apply-btn {
@@ -76,13 +75,14 @@ div.event div.event-exec-board {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
+  justify-content: center;
+  align-content: center;
   margin: 7.5vh 0 5vh 0;
   width: 100%;
 }
 
 div.event-exec-board h3.event-exec-board-title {
+  margin-top: 4vh;
   width: 100%;
   margin-bottom: 3vh;
   padding-left: 10vh;
@@ -90,11 +90,14 @@ div.event-exec-board h3.event-exec-board-title {
   font-weight: normal;
   padding: 4vh 0 4vh 10vh;
   font-size: 3.5vh;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--theme4-100);
 }
 
 div.event div.event-exec-board img {
   width: 20%;
   border-radius: 0.75vh;
+  margin: 1vh;
 }
 
 div.event div.event-exec-board img:hover {

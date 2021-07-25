@@ -13,7 +13,7 @@ const Footer = () => {
 
         {/* Footer Logo */}
         <div className="footer-logo">
-          {window.innerWidth > 1000 && <Link to="/"><img loading="lazy" src="./img/logo.svg" alt="NITMUN logo"/></Link>}
+          {window.innerWidth > 1000 && <Link to="/"><img loading="lazy" src="/img/logo.svg" alt="NITMUN logo"/></Link>}
           {window.innerWidth <= 1000 && "Contact Us"}
         </div>
         
@@ -43,8 +43,8 @@ const Footer = () => {
 
           {/* MUN Numbers */}
           <div className="itm-text call-nums">
-            <span className="num1">+91 94355 37377</span><br/>
-            <span className="num2">+91 70028 87692</span>
+            <span className="num1">9634077495</span><br/>
+            <span className="num2">9707091602</span>
           </div>
         </div>
 

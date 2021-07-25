@@ -24,7 +24,26 @@ const GlobalVoicesMun = (props) => {
       ]}
       
       applyBtnLink="/apply"
-      execBoard={["/img/judge2021_1.jpg", "/img/judge2021_2.jpg", "/img/judge2021_3.jpg"]}
+      
+      imgs={
+        [
+          {
+            title : "2020",
+            images : [
+              "/img/2020GV1.jpg",
+              "/img/2020GV2.jpg",
+              "/img/2020GV3.jpg",
+              "/img/2020GV4.jpg",
+              "/img/2020GV5.jpg",
+              "/img/2020GV6.jpg",
+              "/img/2020GV7.jpg"
+            ]
+          }
+        ]
+      }
+      
+      displayBtn="none"
+      btnContent="Apply Now"
     />
   );
 }
