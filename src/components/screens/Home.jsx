@@ -1,6 +1,6 @@
 // *Components*
 import { useEffect, lazy, Suspense } from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import Loading from "../Loading";
 import Secretary from '../Secretary';
@@ -10,7 +10,7 @@ import Update from '../Update';
 import "./Home.css";
 
 const Timer = lazy(() => import("../Timer"));
-// const Table = lazy(() => import("../Table"));
+const Table = lazy(() => import("../Table"));
 const Article = lazy(() => import('../Article'));
 const Director = lazy(() => import('../Director'));
 const Carousel = lazy(() => import('../Carousel'));
@@ -42,8 +42,8 @@ const Home = (props) => {
       {/*Timer Section */}
       <div className="home-sec" id="apply">
         <Timer/>
-        {/* <Link to="/apply_ST" className="btn apply-btn">Apply Now</Link> */}
-        {/* <Table/> */}
+        <Link to="/events/mun-u18" className="btn apply-btn scroll-top">Apply Now</Link>
+        <Table/>
 
       </div>
 

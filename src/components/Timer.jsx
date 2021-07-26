@@ -7,7 +7,7 @@ import "./Timer.css";
 import Loading from './Loading';
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeTo = new Date(2020, 9, 16, 0, 0, 0, 1);
+let timeTo = new Date(2021, 9, 16, 0, 0, 0, 0);
 
 let timeLimit = Math.floor( timeTo / 1000);
 

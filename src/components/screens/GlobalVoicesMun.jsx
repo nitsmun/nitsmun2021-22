@@ -23,8 +23,6 @@ const GlobalVoicesMun = (props) => {
         `This was a global platform, and youth from all over the world participated. It was a successful event that brought together people from all backgrounds and perspectives to discuss and find solutions to the world's problems.`
       ]}
       
-      applyBtnLink="/apply"
-      
       imgs={
         [
           {
@@ -42,7 +40,8 @@ const GlobalVoicesMun = (props) => {
         ]
       }
       
-      displayBtn="none"
+      applyBtnLink="/apply"
+      displayBtn="block"
       btnContent="Apply Now"
     />
   );

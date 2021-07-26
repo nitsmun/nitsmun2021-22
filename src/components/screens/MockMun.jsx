@@ -23,11 +23,9 @@ const MockMun = (props) => {
         
         `These conferences are chaired by the senior most members of the team and include a complete go through lesson of the rules and
         proceedings of a MUN conference. These mock sessions prepare the freshmen students for the
-        annual conference. `,
+        annual conference.`,
       ]}
       
-      applyBtnLink="/apply"
-
       imgs={
         [
           {
@@ -57,7 +55,8 @@ const MockMun = (props) => {
         ]
       }
 
-      displayBtn="none"
+      applyBtnLink="/apply"
+      displayBtn="block"
       btnContent="Apply Now"
     />
   );
