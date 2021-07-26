@@ -7,7 +7,7 @@ function Secretary() {
     <div className="row no-gutters">
       <div className="col-md-1"></div>
       <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden",padding: "0 30px"}}>
-        <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>Message from the Secretary-General</h2>
+        <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps",fontFamily:"var(--font2)"}}>Message from the Secretary-General</h2>
       </div>
       <div className="col-md-1"></div>
     </div>
@@ -17,7 +17,7 @@ function Secretary() {
         <div style={{padding: "0 30px"}} className="mt-lg-0 mt-sm-3 mt-3">
           <img className="img-fluid" src="img/secgen.jpg" alt="nits mun" style={{borderRadius:"50%"}}/>
           <h5 className="pt-3">Ayushi Johari</h5>
-          <p style={{borderBottom: "2px solid black",fontSize:"1.1rem"}}>Secretary-General, NITS MUN</p>
+          <p style={{borderBottom: "2px solid black",fontSize:"1.1rem",display:"inline"}}>Secretary-General, NITS MUN</p>
         </div>
       </div>
       <div className="col-md-6" style={{textAlign:"center",overflowX:"hidden"}}>
