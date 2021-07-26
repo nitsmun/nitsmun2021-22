@@ -55,7 +55,7 @@ function Articles(props) {
             index: "3",
             heading: "Groovy Sundries: The Peace Window",
             date: "5th July, 2021",
-            image: "img/groovy_the_Peace_Window.jpg",
+            image: "img/groovy_the_peace_window.jpg",
             short: <>"A tous ceux qui ont servi les buts et principes de la Charte des Nations Unies et pour lesquels Dag Hammarskjöld a donné sa vie" ["To all who served the Purposes and Principles of the United Nations Charter, for which Dag Hammarskjöld gave his life."]. <br /><br />Inspired by A Biblical passage, Isaiah 9, 1–7, Russian-French artist Marc Chagall’s “The Peace Window”, was a gift from the United Nations staff members, as well as Marc Chagall himself. </>,
             long: <>The panel, whose full title is “The Window of Peace and Human Happiness”, is predominantly blue in color and full of whimsical figures and symbolism. It stands at 12 feet and 15 feet wide and contains several symbols of peace and love, such as the young child in the center being kissed by an angelic face which, emerges from a mass of flowers. On the left, below and above, motherhood and the people who are struggling for peace are depicted. Musical symbols in the panel evoke the thoughts of Beethoven's Ninth Symphony, which was a favorite of Mr. Hammarskjöld's.This beautiful, vibrant stained glass window was unveiled by Secretary-General U Thant on 17 September 1964.</>,
         },
