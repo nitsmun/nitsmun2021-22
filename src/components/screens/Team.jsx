@@ -79,14 +79,15 @@ const Team = (props) => {
         return(
           <React.Fragment key={url[teamIndex][1]}>
             <div className="card-container-title">{url[teamIndex][1]}</div>
-            {team.map((person, personIndex) => {
+            {team.map(person => {
               return(
                 <div className="mmbr-card" key={person[0]}>
                   <div className="mmbr-pic">
                     <img loading="lazy" src={person[3]} alt={person[0]} />
                   </div>
                   <div className="mmbr-name">{person[0]}</div>
-                  {url[teamIndex][1] == "Secretariat" && <div className="mmbr-position">{person[1]}</div>}
+                  {/* {url[teamIndex][1] == "Secretariat" && <div className="mmbr-position">{person[1]}</div>} */}
+                  <div className="mmbr-position">{person[1]}</div>
                   <div className="mmbr-sns">
                   
                     {Object.keys(snsLogo).map((site, siteIndex) => {

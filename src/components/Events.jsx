@@ -1,5 +1,5 @@
 // *Hooks*
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
 
 import Loading from "./Loading";
@@ -23,12 +23,12 @@ const Events = (props) => {
         <div className="event-date">{props.date}</div>
 
         <div className="event-details">{
-          details.map(para => {
+          details.map((para, index) => {
             return(
-              <>
+              <React.Fragment key={`para${index}`}>
                 {para}
                 <br/><br/>
-              </>
+              </React.Fragment>
             )
           })
         }</div>
@@ -42,12 +42,12 @@ const Events = (props) => {
         <div className="event-exec-board">
 
           {imgs && imgs.map(year => 
-            <>
-              <h3 h3 className="event-exec-board-title">{year.title}</h3>
+            <React.Fragment key={year.title}>
+              <h3 className="event-exec-board-title">{year.title}</h3>
               {year.images.map((image, imgIndex) => 
-                <img loading="lazy" src={image} alt={`Image ${imgIndex}`} />
+                <img loading="lazy" key={`Event ${imgIndex}`} src={image} alt={`Event ${imgIndex}`} />
               )}
-            </>
+            </React.Fragment>
           )}
         </div>
       </div>
