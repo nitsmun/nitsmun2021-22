@@ -2,7 +2,7 @@
     display: none;
 }
 .update p{
-    text-align: center;
+    text-align: justify;
 }
 @media only screen and (max-width: 600px) {
     .update .heading{
