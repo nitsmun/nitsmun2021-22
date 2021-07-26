@@ -30,7 +30,7 @@ const AnnualConference = (props) => {
       and amazing people from the Indian MUN circuit as EBs for the annual conferences. Some wellknown names such as Rahul Menon, Ujan Natik, Soumyaneel Das and many more have chaired
       NITSMUN’s annual conferences, and have given overwhelming revies about the team.`]}
       
-      imgs={
+      confImgs={
         [
           {
             title : "2021",
@@ -39,8 +39,6 @@ const AnnualConference = (props) => {
               "/img/judge2021_2.jpg",
               "/img/judge2021_3.jpg",
               "/img/judge2021_4.jpg",
-              "/img/2020AC1.jpg",
-              "/img/2020AC2.jpg"
             ]
           },
           {
@@ -48,23 +46,21 @@ const AnnualConference = (props) => {
             images : [
               "/img/judge1.jpeg",
               "/img/judge2.jpeg",
-              "/img/judge3.jpeg"
-            ]
-          },
-          {
-            title : "2016",
-            images : [
-              "/img/2016AC1.jpg",
-              "/img/2016AC2.jpg"
+              "/img/judge3.jpeg",
             ]
           }
-
         ]
       }
+
+      galleryImgs={[
+        "/img/2020AC1.jpg",
+        "/img/2020AC2.jpg",
+      ]}
       
       applyBtnLink="/apply"
       displayBtn="block"
       btnContent="Apply Now"
+      pastEvent="Past Conferences"
     />
   );
 }

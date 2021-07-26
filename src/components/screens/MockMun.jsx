@@ -26,7 +26,7 @@ const MockMun = (props) => {
         annual conference.`,
       ]}
       
-      imgs={
+      confImgs={
         [
           {
             title : "2021",
@@ -44,12 +44,6 @@ const MockMun = (props) => {
               "/img/bg2_year.jpg",
               "/img/bg3_year.jpg",
               "/img/bg2_2020.JPG",
-            ]
-          },
-          {
-            title : "2019",
-            images : [
-              "/img/2019MM1.jpg"
             ]
           }
         ]

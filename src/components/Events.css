@@ -83,7 +83,7 @@ div.event div.event-exec-board {
 
 div.event-exec-board h3.event-exec-board-title {
   margin-top: 4vh;
-  width: 100%;
+  width: 85%;
   margin-bottom: 3vh;
   padding-left: 10vh;
   color: var(--theme4-100);
@@ -91,18 +91,45 @@ div.event-exec-board h3.event-exec-board-title {
   padding: 4vh 0 4vh 10vh;
   font-size: 3.5vh;
   box-sizing: border-box;
-  border-bottom: 2px solid var(--theme4-100);
+  border-bottom: 0.2vh solid var(--theme4-100);
 }
 
-div.event div.event-exec-board img {
+div.event div.event-exec-board img,
+div.gallery-img-ctnr img {
   width: 20%;
   border-radius: 0.75vh;
   margin: 1vh;
 }
 
-div.event div.event-exec-board img:hover {
+div.event div.event-exec-board img:hover,
+div.gallery-img-ctnr img:hover {
   box-shadow: 0.5vh 0.5vh 1vh var(--theme1-100);
   transition-duration: 0.2s;
+}
+
+div.gallery {
+  margin-top: 4vh;
+  width: 95%;
+}
+
+div.past-title,
+div.gallery-title {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 5vh;
+  color: var(--theme4-100);
+
+  border-bottom: 0.2vh solid var(--theme4-100);
+}
+
+div.gallery-img-ctnr {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
