@@ -29,7 +29,7 @@ function countdown() {
   let timeDiff = timeLimit - timeNow;
 
   if(timeDiff < 0) {
-    timerDisplay = ["Coming Soon!"];
+    timerDisplay = ["Event Coming Soon!"];
     
   } else {
     
@@ -85,7 +85,7 @@ const Timer = () => {
 
           {display.length === 1 &&
             <div className="coming-soon">
-              Coming Soon!
+              Event Coming Soon!
             </div>
           }
 

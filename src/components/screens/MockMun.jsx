@@ -45,7 +45,7 @@ const MockMun = (props) => {
               "/img/bg1_year.jpg",
               "/img/bg2_year.jpg",
               "/img/bg3_year.jpg",
-              "/img/bg2_2020.jpg",
+              "/img/bg2_2020.JPG",
             ]
           },
           {
