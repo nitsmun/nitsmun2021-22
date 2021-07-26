@@ -9,7 +9,8 @@ import "./Events.css";
 
 const Events = (props) => {
   
-  const imgs = props.imgs;
+  const confImgs = props.confImgs;
+  const galleryImgs = props.galleryImgs;
   const details = props.eventDetails;
 
   return (
@@ -36,19 +37,29 @@ const Events = (props) => {
         <Link className="event-apply-btn"
           to={props.applyBtnLink}
           style={{
-            display : `${props.displayBtn}`}}
+            display : `${props.displayBtn}`
+          }}
         >{props.btnContent}</Link>
 
         <div className="event-exec-board">
-
-          {imgs && imgs.map(year => 
+          {confImgs && props.pastEvent && <div className="past-title">{props.pastEvent}</div>}
+          {confImgs && confImgs.map(year => 
             <React.Fragment key={year.title}>
               <h3 className="event-exec-board-title">{year.title}</h3>
               {year.images.map((image, imgIndex) => 
                 <img loading="lazy" key={`Event ${imgIndex}`} src={image} alt={`Event ${imgIndex}`} />
-              )}
+                )}
             </React.Fragment>
           )}
+        </div>
+
+        <div className="gallery">
+          {galleryImgs && <div className="gallery-title">Gallery</div>}
+          <div className="gallery-img-ctnr">
+            {galleryImgs && galleryImgs.map((image, imageIndex) =>
+              <img loading="lazy" key={`Gallery ${imageIndex}`} src={image} alt={`Gallery ${imageIndex}`} />
+            )}
+          </div>
         </div>
       </div>
     </Suspense>
