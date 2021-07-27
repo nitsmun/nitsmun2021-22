@@ -31,7 +31,7 @@ const Home = (props) => {
       {/*Intro Section*/}
       <div className="home-sec" id="intro">
         
-        <img className="intro-bg-pic" src="/img/bg.jpg" alt="NITSMUN" />
+        <img className="intro-bg-pic" src="/img/dashboard_pic2-min.jpg" alt="NITSMUN" />
 
         <div className="intro-logo">
           <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
