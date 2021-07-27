@@ -15,7 +15,7 @@ const AnnualConference = (props) => {
     <Events
       title="Annual Conference"
       bgpic="/img/annualConf.jpeg"
-      date="TBA"
+      date={null}
       
       eventDetails= {[
         `NITSMUN has been organising its annual conference each year as a module under the cultural fest of
@@ -53,8 +53,13 @@ const AnnualConference = (props) => {
       }
 
       galleryImgs={[
-        "/img/2020AC1.jpg",
-        "/img/2020AC2.jpg",
+        "/img/Carousel1.jpg",
+        "/img/Carousel2.jpg",
+        "/img/Carousel3.jpg",
+        "/img/Carousel4.jpg",
+        "/img/Carousel5.jpg",
+        "/img/Carousel6.jpg",
+        "/img/Carousel7.jpg",
       ]}
       
       applyBtnLink="/apply"

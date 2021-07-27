@@ -15,7 +15,7 @@ const GlobalVoicesMun = (props) => {
     <Events
       title="Global Voices MUN"
       bgpic="/img/annualConf.jpeg"
-      date="TBA"
+      date={null}
       
       eventDetails= {[
         `NITSMUN has a strong international presence, with delegates from Singapore, Malaysia, and other nations attending the conferences. NITSMUN collaborated with The DAIS and many other MUN societies from across the country to host the 3rd conference of Global Voices MUN from November 21, 2020, to December 20, 2020, to commemorate The United Nations' 75th anniversary. The GVMUN program lasted a month and included a variety of conferences and free workshops.`,

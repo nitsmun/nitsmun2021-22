@@ -7,6 +7,11 @@ import Loading from "./Loading";
 // *CSS*
 import "./Events.css";
 
+//TODO: Remove this function and make images as links
+let imgOpen = (e) => {
+  window.open(e.target.src, '_blank');
+}
+
 const Events = (props) => {
   
   const confImgs = props.confImgs;
@@ -47,8 +52,8 @@ const Events = (props) => {
             <React.Fragment key={year.title}>
               <h3 className="event-exec-board-title">{year.title}</h3>
               {year.images.map((image, imgIndex) => 
-                <img loading="lazy" key={`Event ${imgIndex}`} src={image} alt={`Event ${imgIndex}`} />
-                )}
+                <img loading="lazy" onClick={imgOpen} key={`Event ${imgIndex}`} src={image} alt={`Event ${imgIndex}`} />
+              )}
             </React.Fragment>
           )}
         </div>
@@ -57,7 +62,7 @@ const Events = (props) => {
           {galleryImgs && <div className="gallery-title">Gallery</div>}
           <div className="gallery-img-ctnr">
             {galleryImgs && galleryImgs.map((image, imageIndex) =>
-              <img loading="lazy" key={`Gallery ${imageIndex}`} src={image} alt={`Gallery ${imageIndex}`} />
+              <img loading="lazy" onClick={imgOpen} key={`Gallery ${imageIndex}`} src={image} alt={`Gallery ${imageIndex}`} />
             )}
           </div>
         </div>

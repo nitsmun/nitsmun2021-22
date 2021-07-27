@@ -15,7 +15,7 @@ const MockMun = (props) => {
     <Events
       title="Mock MUNs"
       bgpic="/img/annualConf.jpeg"
-      date="TBA"
+      date={null}
       
       eventDetails= {[
         `Each year, NITSMUN conducts about one to two Mock MUN conferences for the freshmen to get

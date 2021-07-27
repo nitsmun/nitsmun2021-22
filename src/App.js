@@ -102,7 +102,7 @@ function App() {
             {/*MUN U18 Conference*/}
             <Route exact path="/events/mun-u18">
             <MunU18
-              title="MUN Under 18 Edition - NITS MUN"
+              title="NITSMUN Junior MUN - NITS MUN"
             />
             </Route>
 

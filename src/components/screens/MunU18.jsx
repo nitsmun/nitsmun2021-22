@@ -13,7 +13,7 @@ const MunU18 = (props) => {
   
   return (
     <Events
-      title="NITSMUN Under 18 Edition"
+      title="NITSMUN Junior MUN"
       bgpic="/img/annualConf.jpeg"
       date="October 16, 2021"
       
