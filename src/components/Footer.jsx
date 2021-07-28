@@ -43,13 +43,18 @@ const Footer = () => {
 
           {/* MUN Numbers */}
           <div className="itm-text call-nums">
-            <span className="num1">9634077495</span><br/>
-            <span className="num2">9707091602</span>
+            <span className="num1"><tt>9634077495</tt></span><br/>
+            <span className="num2"><tt>9707091602</tt></span>
           </div>
         </div>
 
         {/* Social Networking Sites (SNS) */}
         <div className="footer-sns">
+
+          {/* Linked In */}
+          <div className="sns-itm" id="sns-lin">
+            <a className="sns-link" rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/nit-silchar-model-united-nations/"><i className="fab fa-linkedin-in"></i></a>
+          </div>
 
           {/* FB */}
           <div className="sns-itm" id="sns-fb">

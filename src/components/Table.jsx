@@ -11,9 +11,8 @@ const Table = () => {
         <thead>
           
           <tr>
-            <td>Round</td>
+            <td>Registration</td>
             <td>Fees</td>
-            <td>Open From</td>
           </tr>
           
         </thead>
@@ -21,21 +20,13 @@ const Table = () => {
         <tbody>
 
           <tr className="lower-border">
-            <td>Early Bird</td>
-            <td><span className="rupee">₹</span> 250</td>
-            <td>9-14th Feb 2021</td>
+            <td>Individual</td>
+            <td><span className="rupee">₹</span> 150</td>
           </tr>
 
           <tr className="lower-border">
-            <td>Round 1</td>
-            <td><span className="rupee">₹</span> 300</td>
-            <td>14-20th Feb 2021</td>
-          </tr>
-
-          <tr>
-            <td>Round 2</td>
-            <td><span className="rupee">₹</span> 350</td>
-            <td>20-25th Feb 2021</td>
+            <td>Group (5 or more)</td>
+            <td><span className="rupee">₹</span> 125 / individual</td>
           </tr>
 
         </tbody>

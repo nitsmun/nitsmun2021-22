@@ -25,7 +25,7 @@ const Events = (props) => {
           <img loading="lazy" src="/img/annualConf.jpeg" alt="Annual Conf" />
         </div>
 
-        <div className="event-title">{props.title}</div>
+        <div className="event-title"><strong>{props.title}</strong></div>
         <div className="event-date">{props.date}</div>
 
         <div className="event-details">{

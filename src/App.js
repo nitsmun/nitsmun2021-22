@@ -51,21 +51,21 @@ function App() {
             {/*History*/}
             <Route exact path="/history">
               <History
-                title="History - NITS MUN"
+                title="History | NITS MUN"
               />
             </Route>
 
             {/* Articles */}
             <Route exact path="/articles">
               <Articles
-                title="Articles - NITS MUN"
+                title="Articles | NITS MUN"
               />
             </Route>
 
             {/* About US */}
             <Route exact path="/about">
               <About
-                title="About - NITS MUN"
+                title="About | NITS MUN"
               />
               
             </Route>
@@ -73,43 +73,35 @@ function App() {
             {/*Secretariat*/}
             <Route exact path="/team">
               <Team
-                title="Secretariat - NITS MUN"
+                title="Secretariat | NITS MUN"
               />
             </Route>
 
             {/*Events*/}
               {/*Annnual Conference*/}
             <Route exact path="/events/annual-conference">
-              <AnnualConference
-                title="Annual Conference - NITS MUN"
-              />
+              <AnnualConference/>
             </Route>
 
               {/*Global Voices MUN Conference*/}
             <Route exact path="/events/global-voices-mun">
-              <GlobalVoicesMun
-                title="Global Voices MUN - NITS MUN"
-              />
+              <GlobalVoicesMun/>
             </Route>
 
               {/*Mock MUNs Conference*/}
             <Route exact path="/events/mock-mun">
-            <MockMun
-              title="Mock MUNs - NITS MUN"
-            />
+              <MockMun/>
             </Route>
 
             {/*MUN U18 Conference*/}
-            <Route exact path="/events/mun-u18">
-            <MunU18
-              title="NITSMUN Junior MUN - NITS MUN"
-            />
+            <Route path="/events/mun-u18">
+            <MunU18/>
             </Route>
 
             {/*404*/}
             <Route path="/">
               <Error404
-                title="Error 404 - NITS MUN"
+                title="Error 404 | NITS MUN"
               />
             </Route>
 

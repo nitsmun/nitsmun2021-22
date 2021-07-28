@@ -10,7 +10,6 @@ import Update from '../Update';
 import "./Home.css";
 
 const Timer = lazy(() => import("../Timer"));
-const Table = lazy(() => import("../Table"));
 const Article = lazy(() => import('../Article'));
 const Director = lazy(() => import('../Director'));
 const Carousel = lazy(() => import('../Carousel'));
@@ -42,8 +41,10 @@ const Home = (props) => {
       {/*Timer Section */}
       <div className="home-sec" id="apply">
         <Timer/>
-        <Link to="/events/mun-u18" className="btn apply-btn scroll-top">Apply Now</Link>
-        <Table/>
+        <Link
+          to="/events/mun-u18/apply"
+          className="btn apply-btn"
+        >Apply Now</Link>
 
       </div>
 

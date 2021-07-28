@@ -187,6 +187,10 @@ div#sns-gmail a:hover {
   color: var(--gmail-color1);
 }
 
+div#sns-lin a:hover {
+  color: var(--lin-color1);
+}
+
 @media screen and (max-width: 1000px) {
   div#footer div.footer-sns {
     flex-direction: column;

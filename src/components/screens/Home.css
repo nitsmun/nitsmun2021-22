@@ -12,9 +12,6 @@ div.home-sec {
   /**Position**/
   position: relative;
 
-  /**Dimensions**/
-  height: calc(100vh - var(--navbar-height-pc));
-
   /**Scroll Snap**/
   /*scroll-margin-top: var(--navbar-height-pc);
   scroll-snap-align: start; */
@@ -46,6 +43,9 @@ div#intro {
   align-items: center;
 
   font-family: var(--font1);
+
+  /**Dimensions**/
+  height: calc(100vh - var(--navbar-height-pc));
 }
 
 /**Intro Bg Pic**/

@@ -59,16 +59,16 @@ div.event a.event-apply-btn {
   position: relative;
   padding: 2vh 4vh;
   text-decoration: none;
-  color: var(--theme1-100);
-  background-color: var(--theme4-100);
-  border-radius: 0.5vh;
+  color: var(--theme4-100);
+  background-color: var(--theme1-100);
+  border-radius: 1.25vh;
 }
 
 div.event a.event-apply-btn:hover {
   transition-duration: 0.2s;
-  color: var(--theme4-100);
-  background-color: var(--theme1-100);
-  box-shadow: 0.25vh 0.25vh 0.5vh 0 var(--theme1-100);
+  color: var(--theme1-100);
+  background-color: var(--theme4-100);
+  /* box-shadow: 0.25vh 0.25vh 0.5vh 0 var(--theme1-100); */
 }
 
 div.event div.event-exec-board {
@@ -168,12 +168,12 @@ div.gallery-img-ctnr {
   
   div.event a.event-apply-btn {
     padding: 2vw 4vw;
-    border-radius: 0.5vw;
+    border-radius: 1.25vw;
   }
   
-  div.event a.event-apply-btn:hover {
+  /* div.event a.event-apply-btn:hover {
     box-shadow: 0.5vw 0.5vw 0.5vw 0 var(--theme1-100);
-  }
+  } */
   
   div.event div.event-exec-board {
     margin: 7.5vw 0 5vw 0;
