@@ -15,7 +15,7 @@ return (
 <div className="container-fluid p-0" style={{overflowX: "hidden", fontFamily: "var(--font2)"}}>
     <div id="intro"
         style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "black",height: "70px"}}>
-        <h1 style={{color: "white",fontVariant:"small-caps"}}>About Us</h1>
+        <h1 style={{color: "white",fontVariant:"small-caps",fontWeight:"bold", fontFamily: "var(--font2)"}}>About Us</h1>
     </div>
     <div className="row no-gutters">
         <div className="col-md-1"></div>
@@ -29,7 +29,7 @@ return (
         <div className="col-md-1"></div>
     </div>
     <div className="row no-gutters smallscreen">
-        <h2 style={{fontVariant:"small-caps",textAlign:"center",paddingTop:"20px"}}>Message from the Secretary-General</h2>
+        <h2 style={{fontVariant:"small-caps",textAlign:"center",paddingTop:"20px",fontWeight:"bold"}}>Message from the Secretary-General</h2>
         <div className="col-md-1"></div>
         <div className="col-md-2 d-flex justify-content-center align-items-center" style={{textAlign:"center"}}>
             <img loading="lazy" className="img-fluid aos-init" src="img/secgen.jpg" alt="nits mun" style={{width:"80%",borderRadius:"5%"}}/>
@@ -72,7 +72,7 @@ return (
                 style={{borderRadius:"5%"}} />
         </div>
         <div className="col-md-6" style={{textAlign:"justify",paddingTop:"5vh",overflowX:"hidden"}}>
-            <h2 style={{paddingLeft:"30px", fontVariant: "small-caps",color: "white"}}>Message from the Secretary-General</h2>
+            <h2 style={{paddingLeft:"30px", fontVariant: "small-caps",color: "white",fontWeight:"bold"}}>Message from the Secretary-General</h2>
 
             <p style={{textAlign:"justify",padding:"30px",fontSize:"1rem", color: "white"}}>
 
@@ -105,7 +105,7 @@ return (
         <div className="col-md-1"></div>
         <div className="col-md-10" style={{textAlign:"center",overflowX:"hidden"}}>
             <div style={{padding: "30px"}}>
-            <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>Our Vision</h2>
+            <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps",fontWeight:"bold"}}>Our Vision</h2>
             <p style={{textAlign:"center",fontSize:"1.1rem"}}>
             NITSMUN aspires to involve youth in international dialogue, deliberate upon the dire issues of the world and shape them into strong individuals who'll become the leaders of tomorrow
             </p>
@@ -118,7 +118,7 @@ return (
         <div className="col-md-1"></div>
         <div className="col-md-10" style={{textAlign:"center",paddingTop:"0px",overflowX:"hidden"}}>
             <div style={{padding : "30px"}}>
-            <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>What is a Model UN?</h2>
+            <h2 style={{borderBottom: "2px solid black",fontVariant: "small-caps",fontWeight:"bold"}}>What is a Model UN?</h2>
             <p style={{textAlign:"justify",fontSize:"1rem"}}>
             A Model United Nations is an academic simulation of the United Nations. Students act as delegates and discuss real-world problems. These simulations are conducted by various universities, colleges, and schools to elevate the debating, presentation, oratory, deliberative skills of students and acquaint them with the pressing ongoing problems in the world and give them an opportunity to brainstorm and try finding solutions to them, whilst keeping in mind their foreign policies. Every conference has different committees and each committee discourses upon a certain agenda and tries to find fixes and solutions to the problems.
             </p>

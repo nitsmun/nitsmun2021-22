@@ -103,7 +103,7 @@ function Articles(props) {
                         height: "70px",
                     }}
                 >
-                    <h1 style={{ color: "white", fontVariant: "small-caps" }}>
+                    <h1 style={{ color: "white", fontVariant: "small-caps" , fontFamily: "var(--font2)",fontWeight:"bold"}}>
                         Articles
                     </h1>
                 </div>

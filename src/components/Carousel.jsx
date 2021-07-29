@@ -7,7 +7,7 @@ function Carousel() {
         <div>
             <div
             style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px"}}>
-            <h3 style={{fontVariant:"small-caps",color: "white"}} className="tag">Glimpses from Past Conference</h3>
+            <h3 style={{fontVariant:"small-caps",color: "white",fontWeight:"bold" }} className="tag">Glimpses from Past Conference</h3>
             </div>
         <div className="container my-4">
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
