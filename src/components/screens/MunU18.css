@@ -1,9 +1,10 @@
-.buttons {
+div#munu18 .buttons {
   display: flex;
-  width: 90%;
+  flex-direction: column;
+  width: 25%;
 }
 
-.buttons .apply-for {
+div#munu18 .buttons .apply-for {
   padding: 0 15vh;
   display: flex;
   justify-content: center;
@@ -11,16 +12,23 @@
   font-size: 3vh;
 }
 
-.buttons .buttons-itm {
-  margin: 1vh;
+div#munu18 .buttons .buttons-itm {
+  width: 100%;
+  margin: 1vh 0;
+  text-align: center;
+}
+
+div#munu18 .event-details {
+  font-size: 2.3vh !important;
 }
 
 @media screen and (max-width: 1000px ) {
-  .buttons {
+  div#munu18 .buttons {
     flex-direction: column;
+    width: 60%;
   }
   
-  .buttons .apply-for {
+  div#munu18 .buttons .apply-for {
     padding: 0 15vw;
     display: flex;
     justify-content: center;
@@ -28,10 +36,13 @@
     font-size: 5vw;
   }
   
-  .buttons .buttons-itm {
+  div#munu18 .buttons .buttons-itm {
     margin: 1vw auto;
     text-align: center;
-    width: 65%;
+  }
+
+  div#munu18 .event-details {
+    font-size: 4.5vw !important;
   }
 }
 

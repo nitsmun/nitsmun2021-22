@@ -25,8 +25,8 @@ const Table = () => {
           </tr>
 
           <tr className="lower-border">
-            <td>Group (5 or more)</td>
-            <td><span className="rupee">₹</span> 125 / individual</td>
+            <td>Delegation (5 or more)</td>
+            <td><span className="rupee">₹</span> 125 / Individual</td>
           </tr>
 
         </tbody>

@@ -30,7 +30,12 @@ let info = {
   conf : [
     {
       title : "2021",
-      // text : `Hello World1`,
+      text : `The NITSMUN 2021 Conference  was a 3 day long event held from the 26th to the 28th of February 2021 via zoom meetings, being the first Annual conference of ours which was conducted online due to the Covid 19 pandemic. We had two  committees namely, UNOOSA and UNHSC. The chair and vice chair for UNOOSA committee were Mr. Ujan Natik and Mr. Manas Pratim Sharma respectively. The UNHSC committee was chaired by Mr. Soumyaneel Das and the vice chair for the same was Mr. Aban Mandal. The agendas for the committees were ‘Legal regime of outer space and Global space governance’ for UNOOSA and ‘1991-1999: The dissolution of the USSR and post Soviet Crisis’ for UNHSC respectively. 
+
+      The conference began with a mock session for delegates to familiarize themselves with the proceedings of the sessions. There was a great response from the students of NIT Silchar and other colleges of the state. As the sessions went on, the quality and quantity of debates and caucuses kept on increasing and got tremendously engaging. The chairs and the vice chairs guided the delegates thoroughly and made everyone acquainted with the dos and don’ts of a MUN. 
+      The evening of socials was a delightful, the secretariat members gave performances for the delegates and the Executive Board Members which was followed by performances by the delegates.
+      
+      The MUN concluded with the formation of various working papers on the agenda and the resolution was passed in the end. The annual conference was a well-choreographed, systematic event and was a result of immense teamwork, perseverance and dedication. According to a delegate of UNOOSA, “It was a wonderful first time experience in a MUN, with talented competitors and top-notch EBs, and the conference was undeniably one of the best events that I attended in NIT Silchar online.”`,
       images : [
         "/img/judge2021_1.jpg",
         "/img/judge2021_2.jpg",

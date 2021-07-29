@@ -30,11 +30,6 @@ let info = {
   ]
 }
 
-//TODO: Remove this function and make images as links
-// let imgOpen = (e) => {
-//   window.open(e.target.src, '_blank');
-// }
-
 const GlobalVoicesMun = () => {
 
   const details = info.eventDetails;
@@ -65,18 +60,6 @@ const GlobalVoicesMun = () => {
             )
           })
         }</div>
-
-        {/* <div className="event-exec-board">
-          <div className="past-title">{props.pastEvent}</div>
-          {confImgs && confImgs.map(year => 
-            <React.Fragment key={year.title}>
-              <h3 className="event-exec-board-title">{year.title}</h3>
-              {year.images.map((image, imgIndex) => 
-                <img loading="lazy" onClick={imgOpen} key={`Event ${imgIndex}`} src={image} alt={`Event ${imgIndex}`} />
-              )}
-            </React.Fragment>
-          )}
-        </div> */}
 
         <div className="container my-4">
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
