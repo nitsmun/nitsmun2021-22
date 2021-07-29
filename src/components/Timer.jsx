@@ -66,9 +66,12 @@ const Timer = () => {
   return (
     <Suspense fallback={Loading}>
       <>
+        <div className="timer-heading"
+          style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px"}}>
+            <h2 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)",fontWeight:"bold"}}>NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span></h2>
+        </div>
         <div id="timer">
-
-          {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>}
+          {/* {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>} */}
           {/* If display.length = 4 => Display Timer
               If display.length = 1 => Display Coming Soon */}
           {display.length === 4 && display.map((interval, index) => {

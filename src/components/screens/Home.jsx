@@ -38,7 +38,7 @@ const Home = (props) => {
       </div>
       
       {/*Timer Section */}
-      <div className="home-sec" id="apply">
+      <div className="home-sec" id="apply" style={{paddingTop:"0"}}>
         <Timer/>
 
       </div>

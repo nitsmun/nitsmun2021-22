@@ -100,3 +100,11 @@ div.coming-soon {
     font-size: 4vh;
   }
 }
+.timer-heading h2{
+  font-size: 5vh;
+}
+@media screen and (max-width : 700px) {
+  .timer-heading h2{
+    font-size: 2.5vh;
+  }
+}
