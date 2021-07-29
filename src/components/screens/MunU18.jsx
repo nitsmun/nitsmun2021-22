@@ -1,6 +1,5 @@
 // *Hooks*
 import React, { Suspense, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
 
 import Loading from "../Loading";
 import Table from "../Table";
@@ -9,7 +8,7 @@ import Table from "../Table";
 import "../Events.css";
 import "./MunU18.css";
 
-let props = {
+let info = {
   title : "NITS Junior MUN | NITSMUN",
   heading : "NITS Junior MUN",
   bgpic : "/img/munu18.jpg",
@@ -21,7 +20,7 @@ let props = {
   
   btn: [
     {
-      link: "/apply",
+      link: "https://forms.gle/eULWqZijfUJgLtmRA",
       display: "block",
       name: "Delegates"
     },
@@ -31,7 +30,7 @@ let props = {
       name: "Zonal Ambassadors"
     },
     {
-      link: "/apply",
+      link: "https://forms.gle/PAWFVNF5Tu3Chw1w9",
       display: "block",
       name: "Workshop"
     },
@@ -40,15 +39,15 @@ let props = {
 
 const MunU18 = () => {
   
-  const details = props.eventDetails;
-  const btns = props.btn;
+  const details = info.eventDetails;
+  const btns = info.btn;
   
   const applyBtns = useRef();
 
   useEffect(()=> {
 
     // *Setting Up Page Title*
-    document.title = props.title;
+    document.title = info.title;
    if(window.location.pathname === "/events/mun-u18/apply") window.scrollTo(0, applyBtns.current.offsetTop);
   }, []);
 
@@ -56,10 +55,10 @@ const MunU18 = () => {
     <Suspense fallback={<Loading/>}>
       <div className="event">
         <div className="event-pic">
-          <img loading="lazy" src={props.bgpic} alt="Annual Conf" />
+          <img loading="lazy" src={info.bgpic} alt="Annual Conf" />
         </div>
 
-        <div className="event-title"><strong>{props.heading}</strong></div>
+        <div className="event-title"><strong>{info.heading}</strong></div>
 
         <div className="event-details">{
           details.map((para, index) => {
@@ -77,12 +76,12 @@ const MunU18 = () => {
         <div className="buttons">
           <span className="apply-for buttons-itm" ref={applyBtns}>Apply For: </span>
           {btns.map(btn => (
-            <Link className="event-apply-btn buttons-itm" key={btn.name}
-              to={btn.link}
+            <a target="_blank" rel="noreferrer" className="event-apply-btn buttons-itm" key={btn.name}
+              href={btn.link}
               style={{
                 display : `${btn.display}`
               }}
-            >{btn.name}</Link>
+            >{btn.name}</a>
           ))}
         </div>
       </div>

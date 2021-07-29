@@ -1,6 +1,5 @@
 // *Components*
 import { useEffect, lazy, Suspense } from 'react';
-import {Link} from 'react-router-dom';
 
 import Loading from "../Loading";
 import Secretary from '../Secretary';
@@ -41,10 +40,6 @@ const Home = (props) => {
       {/*Timer Section */}
       <div className="home-sec" id="apply">
         <Timer/>
-        <Link
-          to="/events/mun-u18/apply"
-          className="btn apply-btn"
-        >Apply Now</Link>
 
       </div>
 

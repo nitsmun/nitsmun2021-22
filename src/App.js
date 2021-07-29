@@ -73,7 +73,7 @@ function App() {
             {/*Secretariat*/}
             <Route exact path="/team">
               <Team
-                title="Secretariat | NITS MUN"
+                title="NITSMUN Team | NITS MUN"
               />
             </Route>
 

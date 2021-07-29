@@ -7,10 +7,10 @@ import Loading from "../Loading";
 // *CSS*
 import "../Events.css";
 
-let props = {
+let info = {
   title : "Mock MUNs | NITSMUN",
   heading : "Mock MUNs",
-  bgpic : "/img/annualConf.jpeg",
+  bgpic : "/img/mockmun.jpg",
 
   eventDetails : [
     `Each year, NITSMUN conducts about one to two Mock MUN conferences for the freshmen to get
@@ -46,26 +46,26 @@ let imgOpen = (e) => {
 
 const MockMun = () => {
   
-  const confImgs = props.confImgs;
-  const galleryImgs = props.galleryImgs;
-  const details = props.eventDetails;
-  const btn = props.btn;
+  const confImgs = info.confImgs;
+  const galleryImgs = info.galleryImgs;
+  const details = info.eventDetails;
+  const btn = info.btn;
   
   useEffect(()=> {
 
     // *Setting Up Page Title*
-    document.title = props.title;
+    document.title = info.title;
   }, []);
 
   return (
     <Suspense fallback={<Loading/>}>
       <div className="event">
         <div className="event-pic">
-          <img loading="lazy" src="/img/annualConf.jpeg" alt="Annual Conf" />
+          <img loading="lazy" src={info.bgpic} alt="Annual Conf" />
         </div>
 
-        <div className="event-title"><strong>{props.heading}</strong></div>
-        <div className="event-date">{props.date}</div>
+        <div className="event-title"><strong>{info.heading}</strong></div>
+        <div className="event-date">{info.date}</div>
 
         <div className="event-details">{
           details.map((para, index) => {

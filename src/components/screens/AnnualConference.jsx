@@ -8,7 +8,7 @@ import Loading from "../Loading";
 import "../Events.css";
 import "./AnnualConference.css";
 
-let props = {
+let info = {
   title : "Annual Conference | NITSMUN",
   heading : "Annual Conference",
   bgpic : "/img/annualConf.jpeg",
@@ -30,7 +30,7 @@ let props = {
   conf : [
     {
       title : "2021",
-      text : `Hello World1`,
+      // text : `Hello World1`,
       images : [
         "/img/judge2021_1.jpg",
         "/img/judge2021_2.jpg",
@@ -40,7 +40,7 @@ let props = {
     },
     {
       title : "2020",
-      text : `Hello World2`,
+      text : `The 2020 annual MUN conference took place from February 14th to February 16th, coinciding with the start of Incandescence, the college's annual cultural fest. It was a three-day conference that featured a variety of intense debates and discussions on different real-world challenges and their solutions. The first out of the two committees was the United Nations Security Council (UNSC), where delegates from across the country exchanged views and deliberated on one of the world's most pressing issues, “To evaluate the threat to international security posed by Turkey’s invasion of Syria and to discuss and formulate the working consequence and possible solutions to Turkey’s safe zone development plan in Syria”. The other committee was the United Nations General Assembly (UNGA) where delegates came together and discussed on the agenda “Reassessing the SDGs affirming them with rigid viable goals and to check the viability of currently ongoing climatic programmes”. The conference was graced by notable members from different MUN circuits in India including Rahul Menon, Ujan Natik, and Garima Rajpal whose presence, experience and motivation enhanced the level of talks, resulting in both committees passing their Draft Resolutions. One of the most memorable parts of the conference was the Crisis committee where delegates from both committees sat down together to tackle the crisis at hand. The delegates’ socials was a splendid affair, with plenty of opportunities for delegates to socialise and lobby. It provided them a chance to unwind after a long day of heated debates about world issues.`,
       images : [
         "/img/judge1.jpeg",
         "/img/judge2.jpeg",
@@ -76,13 +76,13 @@ let imgOpen = (e) => {
 
 const AnnualConference = () => {
   
-  const btn = props.btn;
-  const details = props.eventDetails;
+  const btn = info.btn;
+  const details = info.eventDetails;
   
   useEffect(()=> {
 
     // *Setting Up Page Title*
-    document.title = props.title;
+    document.title = info.title;
   
   }, []);
   
@@ -90,10 +90,10 @@ const AnnualConference = () => {
     <Suspense fallback={<Loading/>}>
       <div className="event">
         <div className="event-pic">
-          <img loading="lazy" src="/img/annualConf.jpeg" alt="Annual Conf" />
+          <img loading="lazy" src={info.bgpic} alt="Annual Conf" />
         </div>
 
-        <div className="event-title"><strong>{props.heading}</strong></div>
+        <div className="event-title"><strong>{info.heading}</strong></div>
 
         <div className="event-details">{
           details.map((para, index) => {

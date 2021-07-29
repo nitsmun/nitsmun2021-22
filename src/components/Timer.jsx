@@ -1,10 +1,12 @@
 // *Hooks*
-import { useEffect, useState, Suspense } from 'react';
-import React from 'react'; //? For React Fragment
+import React, { useEffect, useState, Suspense } from 'react'; //? React for the react fragment
+import { Link } from 'react-router-dom';
 
 // *CSS*
 import "./Timer.css";
 import Loading from './Loading';
+
+let btnAllow = false;
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
 let timeTo = new Date(2021, 9, 16, 0, 0, 0, 0);
@@ -30,9 +32,9 @@ function countdown() {
 
   if(timeDiff < 0) {
     timerDisplay = ["Event Coming Soon!"];
-    
+    btnAllow = false;
   } else {
-    
+    btnAllow = true;
     timeIntervals.forEach((interval, index)=> {
       timerDisplay[index] = `${timeDiff % interval}`.padStart(2, "0");
       timeDiff = Math.floor(timeDiff/ interval);
@@ -90,6 +92,11 @@ const Timer = () => {
           }
 
         </div>
+        
+        {btnAllow && <Link
+          to="/events/mun-u18#apply"
+          className="btn apply-btn"
+        >Apply Now</Link>}
       </>
     </Suspense>
   )

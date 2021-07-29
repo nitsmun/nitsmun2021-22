@@ -1,6 +1,5 @@
 // *Hooks*
 import React, { Suspense, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 import Loading from "../Loading";
 
@@ -8,11 +7,11 @@ import Loading from "../Loading";
 import "../Events.css";
 import "./GlobalVoicesMun.css";
 
-let props = {
+let info = {
   title : "Global Voices MUN | NITSMUN",
   heading : "Global Voices MUN",
 
-  bgpic : "/img/annualConf.jpeg",
+  bgpic : "/img/gvmun.jpg",
 
   eventDetails : [
     `NITSMUN has a strong international presence, with delegates from Singapore, Malaysia, and other nations attending the conferences. NITSMUN collaborated with The DAIS and many other MUN societies from across the country to host the 3rd conference of Global Voices MUN from November 21, 2020, to December 20, 2020, to commemorate The United Nations' 75th anniversary. The GVMUN program lasted a month and included a variety of conferences and free workshops.`,
@@ -38,12 +37,12 @@ let imgOpen = (e) => {
 
 const GlobalVoicesMun = () => {
 
-  const details = props.eventDetails;
+  const details = info.eventDetails;
   
   useEffect(()=> {
 
     // *Setting Up Page Title*
-    document.title = props.title;
+    document.title = info.title;
   
   }, []);
   
@@ -51,10 +50,10 @@ const GlobalVoicesMun = () => {
     <Suspense fallback={<Loading/>}>
       <div className="event">
         <div className="event-pic">
-          <img loading="lazy" src="/img/annualConf.jpeg" alt="Annual Conf" />
+          <img loading="lazy" src={info.bgpic} alt="Annual Conf" />
         </div>
 
-        <div className="event-title"><strong>{props.heading}</strong></div>
+        <div className="event-title"><strong>{info.heading}</strong></div>
 
         <div className="event-details">{
           details.map((para, index) => {
