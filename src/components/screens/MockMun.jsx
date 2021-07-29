@@ -106,28 +106,28 @@ const MockMun = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img loading="lazy" src="/img/2021MM0.jpg" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/2021MM0.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/2021MM1.jpg" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/2021MM1.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/aoty2020_1.jpg" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/aoty2020_1.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/aoty2020_2.jpg" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/aoty2020_2.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg1_year.jpg" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/bg1_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg2_year.jpg" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/bg2_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg3_year.jpg" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/bg3_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg2_2020.JPG" width="500px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img loading="lazy" src="/img/bg2_2020.JPG" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
