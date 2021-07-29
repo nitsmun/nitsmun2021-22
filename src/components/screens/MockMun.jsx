@@ -40,14 +40,14 @@ let info = {
 }
 
 //TODO: Remove this function and make images as links
-let imgOpen = (e) => {
-  window.open(e.target.src, '_blank');
-}
+// let imgOpen = (e) => {
+//   window.open(e.target.src, '_blank');
+// }
 
 const MockMun = () => {
   
-  const confImgs = info.confImgs;
-  const galleryImgs = info.galleryImgs;
+  // const confImgs = info.confImgs;
+  // const galleryImgs = info.galleryImgs;
   const details = info.eventDetails;
   const btn = info.btn;
   

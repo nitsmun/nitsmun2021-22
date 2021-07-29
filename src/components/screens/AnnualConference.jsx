@@ -70,9 +70,9 @@ let info = {
 }
 
 //TODO: Remove this function and make images as links
-let imgOpen = (e) => {
-  window.open(e.target.src, '_blank');
-}
+// let imgOpen = (e) => {
+//   window.open(e.target.src, '_blank');
+// }
 
 const AnnualConference = () => {
   
