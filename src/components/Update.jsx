@@ -14,7 +14,7 @@ function Update() {
                         <div className="line"></div>
                     </div>
                     <div className="heading" style={{ textAlign: "center", overflowX: "hidden", padding: "0 30px" }}>
-                        <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps" }}>NITSMUN - Under 18 Edition</h2>
+                        <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps",fontWeight:"bold" }}>NITSMUN Junior MUN</h2>
                     </div>
                     <div className="row no-gutters">
                         <div className="col-md-1"></div>
