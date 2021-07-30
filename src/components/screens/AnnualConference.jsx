@@ -1,6 +1,7 @@
 // *Hooks*
 import React, { Suspense, useEffect } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Swal from 'sweetalert2'
 
 import Loading from "../Loading";
 
@@ -81,7 +82,7 @@ let info = {
 
 const AnnualConference = () => {
   
-  const btn = info.btn;
+  // const btn = info.btn;
   const details = info.eventDetails;
   
   useEffect(()=> {
@@ -90,6 +91,20 @@ const AnnualConference = () => {
     document.title = info.title;
   
   }, []);
+
+  function opensweetalert()
+  {
+    Swal.fire({
+      title: 'See you in February 2022!',
+      text: "",
+      type: '',
+      buttonsStyling: false,
+      customClass: {
+    	confirmButton: 'custom' //insert class here
+    }
+      
+    })
+  }
   
   return (
     <Suspense fallback={<Loading/>}>
@@ -111,12 +126,13 @@ const AnnualConference = () => {
           })
         }</div>
 
-        <Link className="event-apply-btn"
+        {/* <Link className="event-apply-btn"
           to={btn.link}
           style={{
             display : `${btn.display}`
           }}
-        >{btn.name}</Link>
+        >{btn.name}</Link> */}
+        <button className="custom mb-3" onClick={opensweetalert}>Apply Now!</button>
 
         {/* <div className="event-exec-board">
           <div className="past-title">{props.pastEvent}</div>
