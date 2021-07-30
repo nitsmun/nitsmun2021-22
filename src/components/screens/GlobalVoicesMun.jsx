@@ -4,6 +4,7 @@ import React, { Suspense, useEffect } from "react";
 import Loading from "../Loading";
 
 // *CSS*
+import "../Carousel.css";
 import "../Events.css";
 import "./GlobalVoicesMun.css";
 

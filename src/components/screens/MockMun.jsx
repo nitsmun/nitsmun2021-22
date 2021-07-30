@@ -1,11 +1,15 @@
 // *Hooks*
 import React, { Suspense, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+// import { toast } from "react-toastify";
 import Loading from "../Loading";
 
 // *CSS*
+import "../Carousel.css";
 import "../Events.css";
+// import "react-toastify/dist/ReactToastify.css"
+
+// toast.configure()
 
 let info = {
   title : "Mock MUNs | NITSMUN",
@@ -57,6 +61,11 @@ const MockMun = () => {
     document.title = info.title;
   }, []);
 
+
+  // function notify(){
+  //   toast.info('Coming in December 2021')
+  // }
+
   return (
     <Suspense fallback={<Loading/>}>
       <div className="event">
@@ -81,9 +90,11 @@ const MockMun = () => {
         <Link className="event-apply-btn"
           to={btn.link}
           style={{
-            display : `${btn.display}`
+            // display : `${btn.display}`
+            display:"none"
           }}
         >{btn.name}</Link>
+        {/* <button onClick={notify}>click</button> */}
         <div className="container my-4">
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
