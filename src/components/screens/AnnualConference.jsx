@@ -68,7 +68,7 @@ let info = {
 
   btn : {
     link : "/apply",
-    display : "block",
+    display : "none",
     name : "Apply Now!"
   }
 
