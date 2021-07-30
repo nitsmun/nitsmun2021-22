@@ -65,7 +65,6 @@ const Timer = () => {
 
   return (
     <Suspense fallback={Loading}>
-      <>
         <div className="timer-heading"
           style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px"}}>
             <h2 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)",fontWeight:"bold"}}>NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span></h2>
@@ -95,12 +94,13 @@ const Timer = () => {
           }
 
         </div>
+
+        <div className="apply-now">Application for delegates and the free workshop open now!</div>
         
         {btnAllow && <Link
           to="/events/mun-u18#apply"
           className="btn apply-btn"
         >Apply Now</Link>}
-      </>
     </Suspense>
   )
 }
