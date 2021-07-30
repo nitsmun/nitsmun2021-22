@@ -37,6 +37,12 @@ return (
                 place in February at NIT Silchar campus in 2020.
                 I would like to extend a warm welcome to all
                 participants and hope to witness a great conference.
+
+
+                <br/><br/>
+                Prof. SIVAJI BANDYOPADHYAY
+                <br/>
+                Director, NIT Silchar<br/>
             </p>
         </div>
         <div className="col-md-1"></div>
