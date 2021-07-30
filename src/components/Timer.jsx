@@ -9,7 +9,7 @@ import Loading from './Loading';
 let btnAllow = false;
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeTo = new Date(2021, 9, 16, 0, 0, 0, 0);
+let timeTo = new Date(2020, 9, 16, 0, 0, 0, 0);
 
 let timeLimit = Math.floor( timeTo / 1000);
 
@@ -65,10 +65,10 @@ const Timer = () => {
 
   return (
     <Suspense fallback={Loading}>
-        <div className="timer-heading"
+        {/* <div className="timer-heading"
           style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px"}}>
             <h2 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)",fontWeight:"bold"}}>NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span></h2>
-        </div>
+        </div> */}
         <div id="timer">
           {/* {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>} */}
           {/* If display.length = 4 => Display Timer
@@ -89,13 +89,13 @@ const Timer = () => {
 
           {display.length === 1 &&
             <div className="coming-soon">
-              Event Coming Soon!
+              Applications Out Soon!
             </div>
           }
 
         </div>
 
-        <div className="apply-now">Application for delegates and the free workshop open now!</div>
+        {/* <div className="apply-now">Application for delegates and the free workshop open now!</div> */}
         
         {btnAllow && <Link
           to="/events/mun-u18#apply"

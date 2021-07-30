@@ -15,7 +15,8 @@ let info = {
   
   eventDetails : [
     `With great pride and honour, we announce the first edition of NITS Junior MUN exclusively for school students. We believe that children and young teens should be exposed to the various intricacies of society and nations and should understand how the world functions from the grassroot level along with the challenges faced. It is only with proper grooming, experience and exposure that enables them to make changes in the society. Through this conference, we are targeting students from grade VI to grade XII from schools all across the country.`,
-    `A day-long free-of-cost workshop will be held a few days before the conference in order to acclimatise those without prior experience. Keeping in mind the various examination schedules of the Central and State Boards, we have planned to organise our conference from October 16, 2021 to October 17, 2021. The cost of participation for the MUN conference has been set at ₹150 for individuals, with a special discounted offer of ₹125 per individual for group registrations (discount only applicable to groups with 5 or more participants).`,
+    `A day-long free-of-cost workshop will be held a few days before the conference in order to acclimatise those without prior experience. Keeping in mind the various examination schedules of the Central and State Boards, we have planned to organise our conference from October 16, 2021 to October 17, 2021.`,
+    // `A day-long free-of-cost workshop will be held a few days before the conference in order to acclimatise those without prior experience. Keeping in mind the various examination schedules of the Central and State Boards, we have planned to organise our conference from October 16, 2021 to October 17, 2021. The cost of participation for the MUN conference has been set at ₹150 for individuals, with a special discounted offer of ₹125 per individual for group registrations (discount only applicable to groups with 5 or more participants).`,
     // ``,
     // `WANT TO BE THE FACE OF NITS MODEL UNITED NATIONS?`,
     // `Well now you can. NITSMUN is looking for ZONAL AMBASSADORS who can help us promote our upcoming Junior MUN conference among the students all over India and help them get acquainted with the Muning culture by resolving all their queries and doubts.`,
@@ -78,13 +79,13 @@ const MunU18 = () => {
                 {para}
                 <br/><br/>
 
-                {index === 1 && <Table/>}
+                {/* {index === 1 && <Table/>} */}
               </React.Fragment>
             )
           })
         }</div>
 
-        <div className="buttons" ref={applyBtns}>
+        {/* <div className="buttons" ref={applyBtns}>
           <span className="apply-for buttons-itm">Apply For: </span>
           {btns.map(btn => (
             <a target="_blank" rel="noreferrer" className="event-apply-btn buttons-itm" key={btn.name}
@@ -94,11 +95,11 @@ const MunU18 = () => {
               }}
             >{btn.name}</a>
           ))}
-        </div>
+        </div> */}
 
         <div className="timer-heading"
           style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px", margin: "5vh 0"}}>
-            <h5 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Zonal Ambassador applications out soon!</h5>
+            <h5 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Applications out soon!</h5>
         </div>
       </div>
     </Suspense>
