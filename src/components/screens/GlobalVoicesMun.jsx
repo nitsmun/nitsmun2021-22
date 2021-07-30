@@ -21,13 +21,13 @@ let info = {
   ],
 
   images : [
-    "/img/2020GV1.jpg",
-    "/img/2020GV2.jpg",
-    "/img/2020GV3.jpg",
-    "/img/2020GV4.jpg",
-    "/img/2020GV5.jpg",
-    "/img/2020GV6.jpg",
-    "/img/2020GV7.jpg",
+    "https://lh3.googleusercontent.com/pw/AM-JKLXflQuzEDe8txXQA3loDaimzfvUb-W7dXaq-EEmMcVOgzkVNvs9IaqtEgI0Hj_9xGAOipTo5qR8_spRf_hTEMoI3UvEyA86dVnfQ9ltbgNrJ92l1TisbpOqGQBeLu4u6t0adyK2FZ4AtOow3AjBe8j0=w640-h360-no",
+    "https://lh3.googleusercontent.com/pw/AM-JKLW09WbSo_64kaGD5zx_uITh6yIjgz_ooqhiBdUjkGazg2UMuEy_H0dyyXc-De_IhaefPRoco36PysZBpM3SlcoQ4AuNioKEeqRxYEUynpaV4o28llH5YHLALasHAL1p14QioOpo4OyWOfLbov9Bn3bQ=w640-h360-no",
+    "https://lh3.googleusercontent.com/pw/AM-JKLUICYbmi_xXQQ0p9th6U04pI2X-8bkBhsJrqWV-nzofT5GjikfkHUykJjcgQlma7cHdyvLFW142eGc-jMUeq2rfSryQE-tz4y_qchzwJmu2gGvaPdf7WMLVVfp9VF6XmbVB74PUG9Jy-KQLCKX5znfd=w640-h360-no",
+    "https://lh3.googleusercontent.com/pw/AM-JKLWYQY6-6NlK5FLvNalYWjvVHr10qUgMLI4LbxFuM2uWWDigKrEKxOtiRGy2hF5_p2P49L0lTq4Gf2o6zMuvjW2NIoj4IuEHNHjx4sO0wVwwGrjExBUZFVI3lHwaTWZE64DiGhP8_4qz2_irZ6x50V-l=w640-h360-no",
+    "https://lh3.googleusercontent.com/pw/AM-JKLXtB1F6bv_WVcnGbajzPhqKIsdHgTv3uQpKnKd8H07C2kF5bv6NFgD_5D2cuTeReYpGciej2Zh7jzknvYXvYen-2VObq88MTI6g2nwOKrzeoClHrgQOueo9WoPvQxyKBkEhlU836r9WCfKq0lKg5aiO=w640-h360-no",
+    "https://lh3.googleusercontent.com/pw/AM-JKLWDLpdFCTls9ubfKxkroXybSxH_SwVdnERrIBPHtoUNYw1fPznLXmzFWHJ0ao9lAceJqDtGdtoUQx1NJu11eqGrEn9S-FFNgoIQ9Z9fgTSD5zJJy_Xr4n_SAmfahH3rzW1KNLPMNkkdLFfQwEPlQsz7=w640-h360-no",
+    "https://lh3.googleusercontent.com/pw/AM-JKLUr2Z0fewlEZ7DuE1ablSuBXaluC289f5sH3nqhXHbwxU9sw_OPfe1e6Eqjz6xLa4txbnIQ5_8XaU13c7bYrCGLP9WCXDK2EaqLnEYQHMrauDyGTIJKW-sMd0ZMiYKqp53qH2R6RFWtmVYcC9TT0NVG=w640-h360-no",
   ]
 }
 
@@ -81,27 +81,9 @@ const GlobalVoicesMun = () => {
                     aria-label="Slide 7"></button>
             </div>
             <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img loading="lazy" src="/img/2020GV1.jpg" className="d-block img-fluid" alt="NITS MUN"/>
-                </div>
-                <div className="carousel-item">
-                    <img loading="lazy" src="/img/2020GV2.jpg" className="d-block img-fluid" alt="NITS MUN"/>
-                </div>
-                <div className="carousel-item">
-                    <img loading="lazy" src="/img/2020GV3.jpg" className="d-block img-fluid" alt="NITS MUN"/>
-                </div>
-                <div className="carousel-item">
-                    <img loading="lazy" src="/img/2020GV4.jpg" className="d-block img-fluid" alt="NITS MUN"/>
-                </div>
-                <div className="carousel-item">
-                    <img loading="lazy" src="/img/2020GV5.jpg" className="d-block img-fluid" alt="NITS MUN"/>
-                </div>
-                <div className="carousel-item">
-                    <img loading="lazy" src="/img/2020GV6.jpg" className="d-block img-fluid" alt="NITS MUN"/>
-                </div>
-                <div className="carousel-item">
-                    <img loading="lazy" src="/img/2020GV7.jpg" className="d-block img-fluid" alt="NITS MUN"/>
-                </div>
+                {info.images.map((imageLink, index) => <div className={"carousel-item " + (index === 0 && "active")}>
+                    <img loading="lazy" src={imageLink} className="d-block img-fluid" alt="NITS MUN"/>
+                </div>)}
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">

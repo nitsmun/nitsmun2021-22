@@ -32,7 +32,7 @@ const Home = (props) => {
         <img className="intro-bg-pic" src="/img/dashboard_pic2-min.jpg" alt="NITSMUN" />
 
         <div className="intro-logo">
-          <img loading="lazy" src="/img/logoBigWhite.svg" alt="NITSMUN"/>
+          <img src="/img/logoBigWhite.svg" alt="NITSMUN"/>
         </div>
 
       </div>
