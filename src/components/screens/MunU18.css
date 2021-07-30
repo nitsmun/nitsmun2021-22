@@ -18,9 +18,9 @@ div#munu18 .buttons .buttons-itm {
   text-align: center;
 }
 
-div#munu18 .event-details {
+/* div#munu18 .event-details {
   font-size: 2.3vh !important;
-}
+} */
 
 @media screen and (max-width: 1000px ) {
   div#munu18 .buttons {
@@ -41,9 +41,9 @@ div#munu18 .event-details {
     text-align: center;
   }
 
-  div#munu18 .event-details {
+  /* div#munu18 .event-details {
     font-size: 4.5vw !important;
-  }
+  } */
 }
 
 table#apply-table td {

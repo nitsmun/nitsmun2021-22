@@ -84,7 +84,7 @@ const Navbar = () => {
               <Link to="/events/annual-conference" className="dropdown-itm scroll-top mob-nav-close">Annual Conference</Link>
               <Link to="/events/global-voices-mun" className="dropdown-itm scroll-top mob-nav-close">Global Voices MUN</Link>
               <Link to="/events/mock-mun" className="dropdown-itm scroll-top mob-nav-close">Mock MUNs</Link>
-              <Link to="/events/mun-u18" className="dropdown-itm scroll-top mob-nav-close">NITSMUN Junior MUN</Link>
+              <Link to="/events/mun-u18" className="dropdown-itm scroll-top mob-nav-close">NITS Junior MUN</Link>
             </div>
           </span>
           

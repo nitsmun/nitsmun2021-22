@@ -4,7 +4,6 @@ CHANGES REQUIRED:
     and pass article data as a prop from the parent component
     (instead of doing it in the for loop with iteration)
 2. Get rid of the inline styling and bootstrap. 
-3. Does Srink stand for something or is it just a typo of Shrink? lol
 */
 
 import { Suspense } from "react";
@@ -22,7 +21,7 @@ function Articles(props) {
         //console.log(element)
     }
 
-    function Srink(article_index) {
+    function Shrink(article_index) {
         // let element = document.querySelector("#Expand")
         // var buttons = document.getElementsByClassName("expand")
         let element = document.getElementById("Expand" + article_index)
@@ -239,7 +238,7 @@ function Articles(props) {
                                         id="btn2"
                                         type="button"
                                         className="btn btn-outline-dark"
-                                        onClick={() => Srink(article.index)}
+                                        onClick={() => Shrink(article.index)}
                                         style={{ width: "150px" }}
                                     >
                                         Show less
