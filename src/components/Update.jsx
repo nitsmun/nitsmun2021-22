@@ -10,11 +10,11 @@ function Update() {
                 <div className="container-fluid p-0 mt-4" style={{ overflowX: "hidden", fontFamily: "var(--font2)" }}>
                     <div className="separator">
                         <div className="line"></div>
-                        <h2 style={{ fontVariant: "small-caps",fontWeight:"bold" }}>NITSMUN Junior MUN</h2>
+                        <h2 style={{ fontVariant: "small-caps",fontWeight:"bold" }}>NITS Junior MUN</h2>
                         <div className="line"></div>
                     </div>
                     <div className="heading" style={{ textAlign: "center", overflowX: "hidden", padding: "0 30px" }}>
-                        <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps",fontWeight:"bold" }}>NITSMUN Junior MUN</h2>
+                        <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps",fontWeight:"bold" }}>NITS Junior MUN</h2>
                     </div>
                     <div className="row no-gutters">
                         <div className="col-md-1"></div>
