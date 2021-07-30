@@ -198,3 +198,18 @@ div.gallery-img-ctnr {
     transition-duration: 0.2s;
   }
 }
+
+.custom{
+  position: relative;
+  padding: 2vh 4vh;
+  text-decoration: none;
+  color: var(--theme4-100);
+  background-color: var(--theme1-100);
+  border-radius: 1.25vh;
+  border: none;
+}
+.custom:hover{
+  transition-duration: 0.2s;
+  color: var(--theme1-100);
+  background-color: var(--theme4-100);
+}

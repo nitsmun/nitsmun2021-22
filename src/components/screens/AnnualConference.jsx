@@ -98,6 +98,10 @@ const AnnualConference = () => {
       title: 'See you in February 2022!',
       text: "",
       type: '',
+      buttonsStyling: false,
+      customClass: {
+    	confirmButton: 'custom' //insert class here
+    }
       
     })
   }
@@ -128,7 +132,7 @@ const AnnualConference = () => {
             display : `${btn.display}`
           }}
         >{btn.name}</Link> */}
-        <button className="btn btn-outline-primary mb-3" onClick={opensweetalert}>Apply Now!</button>
+        <button className="custom mb-3" onClick={opensweetalert}>Apply Now!</button>
 
         {/* <div className="event-exec-board">
           <div className="past-title">{props.pastEvent}</div>
