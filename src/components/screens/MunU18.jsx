@@ -2,7 +2,7 @@
 import React, { Suspense, useEffect, useRef } from "react";
 
 import Loading from "../Loading";
-import Table from "../Table";
+// import Table from "../Table";
 
 // *CSS*
 import "../Events.css";
@@ -52,7 +52,7 @@ let info = {
 const MunU18 = () => {
   
   const details = info.eventDetails;
-  const btns = info.btn;
+  // const btns = info.btn;
   
   const applyBtns = useRef();
 
