@@ -47,7 +47,7 @@ function Article() {
                                 <img src="img/groovy_war_and_peace.jpg" alt="" className="card-img-top" />
                                 <div className="card-body">
                                     <h5 className="card-title">Groovy Sundries: War and Peace</h5>
-                                    <p className="card-text" style={{textAlign:"justify",fontSize:"0.9rem"}}>War and Peace are more than magnificent works of art. They are Portinari’s call to action. Thanks to him, all leaders who enter the United Nations see the terrible toll of war and the universal dream for peace.</p>
+                                    <p className="card-text" style={{textAlign:"justify",fontSize:"1rem"}}>War and Peace are more than magnificent works of art. They are Portinari’s call to action. Thanks to him, all leaders who enter the United Nations see the terrible toll of war and the universal dream for peace.</p>
                                     <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ function Article() {
                                 <img src="img/day_world_population.jpg" alt="" className="card-img-top" />
                                 <div className="card-body">
                                     <h5 className="card-title">World Population Day</h5>
-                                    <p className="card-text" style={{textAlign:"justify",fontSize:"0.9rem"}}><br />Rights and choices are the answer: Whether baby boom or bust, the solution to shifting fertility rates lies in prioritizing the reproductive health and rights of all people.<br /></p>
+                                    <p className="card-text" style={{textAlign:"justify",fontSize:"1rem"}}><br />Rights and choices are the answer: Whether baby boom or bust, the solution to shifting fertility rates lies in prioritizing the reproductive health and rights of all people.<br /></p>
                                     <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ function Article() {
                                 <img src="img/day_of_cooperatives.jpg" alt="" className="card-img-top" />
                                 <div className="card-body">
                                     <h5 className="card-title">International Day of Cooperatives</h5>
-                                    <p className="card-text" style={{textAlign:"justify",fontSize:"0.9rem"}}>Cooperatives have always been an integral part in bringing people together in a democratic and equal way contributing to the eradication of poverty and promoting economic and social progress.</p>
+                                    <p className="card-text" style={{textAlign:"justify",fontSize:"1rem"}}>Cooperatives have always been an integral part in bringing people together in a democratic and equal way contributing to the eradication of poverty and promoting economic and social progress.</p>
                                     <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
                                 </div>
                             </div>

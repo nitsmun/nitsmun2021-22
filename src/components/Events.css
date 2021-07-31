@@ -203,13 +203,14 @@ div.gallery-img-ctnr {
   position: relative;
   padding: 2vh 4vh;
   text-decoration: none;
-  color: var(--theme4-100);
-  background-color: var(--theme1-100);
+  /* color: var(--theme1-100); */
+  color: white;
+  background-color: var(--theme4-100);
   border-radius: 1.25vh;
   border: none;
 }
 .custom:hover{
   transition-duration: 0.2s;
-  color: var(--theme1-100);
-  background-color: var(--theme4-100);
+  color: var(--theme4-100);
+  background-color: var(--theme1-100);
 }
