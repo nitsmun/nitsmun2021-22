@@ -1,51 +1,51 @@
 div#munu18 .buttons {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
 }
 
 div#munu18 .buttons .apply-for {
-  padding: 0 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3vh;
+	padding: 0 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3vh;
 }
 
 div#munu18 .buttons .buttons-itm {
-  width: 100%;
-  margin: 1vh 0;
-  text-align: center;
+	width: 100%;
+	margin: 1vh 0;
+	text-align: center;
 }
 
-/* div#munu18 .event-details {
-  font-size: 2.3vh !important;
-} */
+div#munu18 .event-details {
+	font-size: 2.3vh !important;
+}
 
-@media screen and (max-width: 1000px ) {
-  div#munu18 .buttons {
-    flex-direction: column;
-    width: 60%;
-  }
-  
-  div#munu18 .buttons .apply-for {
-    padding: 0 15vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5vw;
-  }
-  
-  div#munu18 .buttons .buttons-itm {
-    margin: 1vw auto;
-    text-align: center;
-  }
+@media screen and (max-width: 1000px) {
+	div#munu18 .buttons {
+		flex-direction: column;
+		width: 60%;
+	}
 
-  /* div#munu18 .event-details {
-    font-size: 4.5vw !important;
-  } */
+	div#munu18 .buttons .apply-for {
+		padding: 0 15vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 5vw;
+	}
+
+	div#munu18 .buttons .buttons-itm {
+		margin: 1vw auto;
+		text-align: center;
+	}
+
+	div#munu18 .event-details {
+		font-size: 4.5vw !important;
+	}
 }
 
 table#apply-table td {
-  color: black;
+	color: black;
 }
