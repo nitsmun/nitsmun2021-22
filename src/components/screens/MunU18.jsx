@@ -18,16 +18,15 @@ let info = {
     `A day-long free-of-cost workshop will be held a few days before the conference in order to acclimatise those without prior experience. Keeping in mind the various examination schedules of the Central and State Boards, we have planned to organise our conference from October 16, 2021 to October 17, 2021.`,
     // `A day-long free-of-cost workshop will be held a few days before the conference in order to acclimatise those without prior experience. Keeping in mind the various examination schedules of the Central and State Boards, we have planned to organise our conference from October 16, 2021 to October 17, 2021. The cost of participation for the MUN conference has been set at ₹150 for individuals, with a special discounted offer of ₹125 per individual for group registrations (discount only applicable to groups with 5 or more participants).`,
     ``,
-    `WANT TO BE THE FACE OF NITS MODEL UNITED NATIONS?`,
-    `Well now you can. NITSMUN is looking for ZONAL AMBASSADORS who can help us promote our upcoming Junior MUN conference among the students all over India and help them get acquainted with the Muning culture by resolving all their queries and doubts.`,
-    `Each state of India will have two Zonal Ambassadors, so that each one of you will have a helping hand. The Zonal Ambassadors will have to reach out to students/colleges/schools in their zones  and publicize NITS Junior MUN by encouraging them to take part.`,
-    `Still confused about your roles? Don't worry, we'll help you with a step by step plan to make it crystal clear.`,
-    `DON'T MISS OUT THE PERKS-`,
+    <><h5 style={{color: "var(--theme4-100)", fontWeight: "bold"}}>WANT TO BE THE FACE OF NITS MODEL UNITED NATIONS?</h5><br/>
+    Well now you can. NITSMUN is looking for ZONAL AMBASSADORS who can help us promote our upcoming Junior MUN conference among the students all over India and help them get acquainted with the Muning culture by resolving all their queries and doubts.
+    Each state of India will have two Zonal Ambassadors, so that each one of you will have a helping hand. The Zonal Ambassadors will have to reach out to students/colleges/schools in their zones  and publicize NITS Junior MUN by encouraging them to take part.
+    Still confused about your roles? Don't worry, we'll help you with a step by step plan to make it crystal clear.
+    DON'T MISS OUT THE PERKS-</>,
     <>i) Officially issued Certificates by NITSMUN for all those who complete every task successfully<br/>
     ii) Special Letter of Recommendations for exceptional performers.<br/>
     iii) Exciting cash prizes for the best performer<br/>
     iv) Apart from all, first hand experience of working with one of the most prestigious MUN society of North East India</>,
-    `APPLY FOR THE SAME`,
   ],
   
   btn: [
