@@ -1,12 +1,13 @@
 // *Hooks*
 import React, { useEffect, useState, Suspense } from 'react'; //? React for the react fragment
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // *CSS*
 import "./Timer.css";
 import Loading from './Loading';
 
-let btnAllow = false;
+//! let btnAllow = false;
+let btnAllow = true;
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
 let timeTo = new Date(2020, 9, 16, 0, 0, 0, 0);
@@ -32,7 +33,7 @@ function countdown() {
 
   if(timeDiff < 0) {
     timerDisplay = ["Event Coming Soon!"];
-    btnAllow = false;
+    //! btnAllow = false;
   } else {
     btnAllow = true;
     timeIntervals.forEach((interval, index)=> {
@@ -88,8 +89,8 @@ const Timer = () => {
           })}
 
           {display.length === 1 &&
-            <div className="coming-soon">
-              Applications Out Soon!
+            <div className="coming-soon" style={{textAlign: "center"}}>
+              Zonal Ambassador Applications Out Now!
             </div>
           }
 
@@ -97,10 +98,17 @@ const Timer = () => {
 
         {/* <div className="apply-now">Application for delegates and the free workshop open now!</div> */}
         
-        {btnAllow && <Link
+        {/* {btnAllow && <Link
           to="/events/mun-u18#apply"
           className="btn apply-btn"
-        >Apply Now</Link>}
+        >Apply Now</Link>} */}
+
+        {btnAllow && <a
+          href="https://forms.gle/dNALB1mLhyhVwMtHA"
+          className="btn apply-btn"
+          target="_blank"
+          rel="noreferrer"
+        >Apply Now</a>}
     </Suspense>
   )
 }
