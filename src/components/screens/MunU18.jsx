@@ -1,13 +1,13 @@
 // *Hooks*
 import React, { Suspense, useEffect, useRef } from "react";
 
+import Agenda from "../Agenda";
 import Loading from "../Loading";
 // import Table from "../Table";
 
 // *CSS*
 import "../Events.css";
 import "./MunU18.css";
-import Agenda from "../Agenda";
 
 let info = {
   title: "NITS Junior MUN | NITSMUN",
@@ -19,6 +19,7 @@ let info = {
     `A day-long free-of-cost workshop will be held a few days before the conference in order to acclimatise those without prior experience. Keeping in mind the various examination schedules of the Central and State Boards, we have planned to organise our conference from October 16, 2021 to October 17, 2021.`,
     // `A day-long free-of-cost workshop will be held a few days before the conference in order to acclimatise those without prior experience. Keeping in mind the various examination schedules of the Central and State Boards, we have planned to organise our conference from October 16, 2021 to October 17, 2021. The cost of participation for the MUN conference has been set at ₹150 for individuals, with a special discounted offer of ₹125 per individual for group registrations (discount only applicable to groups with 5 or more participants).`,
     ``,
+    <div><Agenda /></div>,
     <><h5 style={{ color: "var(--theme4-100)", fontWeight: "bold" }}>WANT TO BE THE FACE OF NITS MODEL UNITED NATIONS?</h5><br />
       Well now you can. NITSMUN is looking for ZONAL AMBASSADORS who can help us promote our upcoming Junior MUN conference among the students all over India and help them get acquainted with the Muning culture by resolving all their queries and doubts.
       Each state of India will have two Zonal Ambassadors, so that each one of you will have a helping hand. The Zonal Ambassadors will have to reach out to students/colleges/schools in their zones  and publicize NITS Junior MUN by encouraging them to take part.
@@ -66,8 +67,8 @@ const MunU18 = () => {
   return (
     <Suspense fallback={<Loading />}>
       <div className="event" id="munu18">
-        <div id="intro"
-          style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "var(--theme6-100)", height: "35px" }}>
+        <div
+          style={{ marginTop:"0px", display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "var(--theme6-100)", height: "35px" }}>
           <h3 style={{ color: "white", fontVariant: "small-caps", fontWeight: "bold", fontFamily: "var(--font1)" }}>Applications out now!</h3>
         </div>
         <div className="event-pic">
@@ -106,7 +107,6 @@ const MunU18 = () => {
             <h5 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Applications out soon!</h5>
         </div> */}
       </div>
-      <div><Agenda /></div>
     </Suspense>
   );
 }
