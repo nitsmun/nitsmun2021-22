@@ -1,6 +1,7 @@
 // *Hooks*
 import React, { Suspense, useEffect, useRef } from 'react';
 
+import Agenda from '../Agenda';
 import Loading from '../Loading';
 // import Table from "../Table";
 
@@ -48,8 +49,8 @@ let info = {
 
 	btn: [
 		{
-			link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8dZLvPHk0L4QEtEDB6cNhfmTZ58ZA81TVpsSdVRyJgUs0ZQ/viewform',
-			display: 'block',
+			link: 'https://forms.gle/eULWqZijfUJgLtmRA',
+			display: 'none',
 			name: 'Delegates',
 		},
 		{
@@ -81,6 +82,26 @@ const MunU18 = () => {
 	return (
 		<Suspense fallback={<Loading />}>
 			<div className='event' id='munu18'>
+				<div
+					style={{
+						marginTop: '0px',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+						width: '100%',
+						backgroundColor: 'var(--theme6-100)',
+						height: '35px',
+					}}>
+					<h3
+						style={{
+							color: 'white',
+							fontVariant: 'small-caps',
+							fontWeight: 'bold',
+							fontFamily: 'var(--font1)',
+						}}>
+						Applications out now!
+					</h3>
+				</div>
 				<div className='event-pic'>
 					<img loading='lazy' src={info.bgpic} alt='Annual Conf' />
 				</div>
@@ -124,6 +145,9 @@ const MunU18 = () => {
           style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px", margin: "5vh 0"}}>
             <h5 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Applications out soon!</h5>
         </div> */}
+			</div>
+			<div>
+				<Agenda />
 			</div>
 		</Suspense>
 	);

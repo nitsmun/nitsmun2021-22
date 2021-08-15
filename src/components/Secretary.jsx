@@ -54,7 +54,7 @@ function Secretary() {
       </div>
       <div className="col-md-1"></div>
     </div>
-    <hr />
+    {/* <hr /> */}
   </div>
     )
 }

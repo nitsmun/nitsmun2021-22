@@ -1,0 +1,41 @@
+.agenda{
+    font-family: var(--font1);
+    background-color: var(--theme6-100);
+}
+.box{
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: var(--theme4-100);
+}
+.custom{
+    position: relative;
+    padding: 2vh 4vh;
+    text-decoration: none;
+    /* color: var(--theme1-100); */
+    color: white;
+    background-color: var(--theme4-100);
+    border-radius: 1.25vh;
+    border: none;
+  }
+  .custom:hover{
+    transition-duration: 0.2s;
+    color: var(--theme4-100);
+    background-color: var(--theme1-100);
+}
+@media screen and (max-width: 1000px) {
+	.agenda p {
+		font-size: 4.5vw;
+	}
+}
+.small-agenda{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+	.small-agenda{
+		display: block;
+	}
+    .large-agenda{
+        display: none;
+    }
+}

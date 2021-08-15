@@ -6,7 +6,7 @@ import "./Update.css";
 function Update() {
     return (
         <Suspense fallback={<Loading />}>
-            <div className="update">
+            <div className="update mb-1">
                 <div className="container-fluid p-0 mt-4" style={{ overflowX: "hidden", fontFamily: "var(--font2)" }}>
                     <div className="separator">
                         <div className="line"></div>
@@ -29,7 +29,7 @@ function Update() {
                         </div>
                         <div className="col-md-1"></div>
                     </div>
-                    <hr></hr>
+                    {/* <hr></hr> */}
                 </div>
             </div>
 
