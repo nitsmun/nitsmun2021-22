@@ -63,7 +63,7 @@ let info = {
 	btn: [
 		{
 			link: 'https://forms.gle/eULWqZijfUJgLtmRA',
-			display: 'none',
+			display: 'block',
 			name: 'Delegates',
 		},
 		{
@@ -75,11 +75,6 @@ let info = {
 			link: 'https://forms.gle/PAWFVNF5Tu3Chw1w9',
 			display: 'none',
 			name: 'Workshop',
-		},
-		{
-			link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8dZLvPHk0L4QEtEDB6cNhfmTZ58ZA81TVpsSdVRyJgUs0ZQ/viewform',
-			display: 'block',
-			name: 'Delegates',
 		}
 	],
 };
