@@ -75,7 +75,7 @@ let info = {
 			link: 'https://forms.gle/PAWFVNF5Tu3Chw1w9',
 			display: 'none',
 			name: 'Workshop',
-		}
+		},
 	],
 };
 
@@ -142,7 +142,7 @@ const MunU18 = () => {
 					</>
 				</div>
 
-				<div className='buttons' ref={applyBtns}>
+				<div className='buttons'>
 					<span className='apply-for buttons-itm'>Apply For: </span>
 					{btns.map(btn => (
 						<a
@@ -159,6 +159,7 @@ const MunU18 = () => {
 					))}
 				</div>
 
+				<div className='emnpty-for-apply-link' ref={applyBtns}></div>
 				{/* <div className="timer-heading"
           style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px", margin: "5vh 0"}}>
             <h5 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Applications out soon!</h5>
