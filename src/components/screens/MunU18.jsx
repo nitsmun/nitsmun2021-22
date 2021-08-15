@@ -67,7 +67,7 @@ const MunU18 = () => {
     <Suspense fallback={<Loading />}>
       <div className="event" id="munu18">
         <div id="intro"
-          style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "var(--theme4-080)", height: "35px" }}>
+          style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", backgroundColor: "var(--theme6-100)", height: "35px" }}>
           <h3 style={{ color: "white", fontVariant: "small-caps", fontWeight: "bold", fontFamily: "var(--font1)" }}>Applications out now!</h3>
         </div>
         <div className="event-pic">
