@@ -102,7 +102,7 @@ const MunU18 = () => {
 						justifyContent: 'center',
 						alignItems: 'center',
 						width: '100%',
-						backgroundColor: 'var(--theme6-100)',
+						backgroundColor: 'var(--theme4-080)',
 						height: '35px',
 					}}>
 					<h3
