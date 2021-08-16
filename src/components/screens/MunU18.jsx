@@ -87,7 +87,9 @@ const MunU18 = () => {
 		// *Setting Up Page Title*
 		document.title = info.title;
 		if (window.location.hash === '#register')
-			window.scrollTo(0, document.body.scrollHeight);
+			window.onload = () => {
+				window.scrollTo(0, document.body.scrollHeight);
+			};
 	}, []);
 
 	return (
