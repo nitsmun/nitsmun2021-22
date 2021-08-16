@@ -5,7 +5,7 @@ div#munu18 .buttons {
 }
 
 div#munu18 .buttons .apply-for {
-	padding: 0 15vh;
+	padding: 0 10vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -29,7 +29,7 @@ div#munu18 .event-details {
 	}
 
 	div#munu18 .buttons .apply-for {
-		padding: 0 15vw;
+		padding: 0 8vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
