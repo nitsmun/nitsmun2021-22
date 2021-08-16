@@ -143,7 +143,7 @@ const MunU18 = () => {
 				</div>
 
 				<div className='buttons'>
-					<span className='apply-for buttons-itm'>Apply For: </span>
+					<span className='apply-for buttons-itm'>Applications For: </span>
 					{btns.map(btn => (
 						<a
 							target='_blank'

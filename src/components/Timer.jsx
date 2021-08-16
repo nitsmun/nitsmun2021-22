@@ -97,7 +97,7 @@ const Timer = () => {
 
 				{display.length === 1 && (
 					<div className='coming-soon' style={{ textAlign: 'center' }}>
-						Zonal Ambassador and Delegates Applications Out Now!
+						Zonal Ambassador and Delegate Applications Out Now!
 					</div>
 				)}
 			</div>
