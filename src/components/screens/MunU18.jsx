@@ -89,7 +89,7 @@ const MunU18 = () => {
 		// *Setting Up Page Title*
 		document.title = info.title;
 		if (window.location.hash === '#apply')
-			window.scrollTo(0, applyBtns.current.offsetTop);
+			window.scrollTo(0, document.body.scrollHeight);
 	}, []);
 
 	return (
