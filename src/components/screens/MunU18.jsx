@@ -1,5 +1,5 @@
 // *Hooks*
-import React, { Suspense, useEffect, useRef } from 'react';
+import React, { Suspense, useEffect } from 'react';
 
 import Agenda from '../Agenda';
 import Loading from '../Loading';
@@ -83,12 +83,10 @@ const MunU18 = () => {
 	const details = info.eventDetails;
 	const btns = info.btn;
 
-	const applyBtns = useRef();
-
 	useEffect(() => {
 		// *Setting Up Page Title*
 		document.title = info.title;
-		if (window.location.hash === '#apply')
+		if (window.location.hash === '#register')
 			window.scrollTo(0, document.body.scrollHeight);
 	}, []);
 
@@ -159,7 +157,6 @@ const MunU18 = () => {
 					))}
 				</div>
 
-				<div className='emnpty-for-apply-link' ref={applyBtns}></div>
 				{/* <div className="timer-heading"
           style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px", margin: "5vh 0"}}>
             <h5 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Applications out soon!</h5>

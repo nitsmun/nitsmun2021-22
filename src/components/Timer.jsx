@@ -111,7 +111,7 @@ const Timer = () => {
 
 			{btnAllow && (
 				<a
-					href='/events/mun-u18#apply'
+					href='/events/mun-u18#register'
 					className='btn apply-btn'
 					// target='_blank'
 					// rel='noreferrer'
