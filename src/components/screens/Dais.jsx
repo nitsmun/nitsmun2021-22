@@ -6,6 +6,7 @@ import Loading from '../Loading';
 // *CSS*
 import '../Events.css';
 import './Dais.css';
+import Workshops from '../Workshops';
 
 const GlobalVoicesMun = props => {
 	useEffect(() => {
@@ -15,7 +16,8 @@ const GlobalVoicesMun = props => {
 
 	return (
 		<Suspense fallback={<Loading />}>
-			<div className='event'>The Dais</div>
+			{/* <div className='event'>The Dais</div> */}
+			<div style={{marginTop:"var(--navbar-height-pc)"}}><Workshops/></div>
 		</Suspense>
 	);
 };
