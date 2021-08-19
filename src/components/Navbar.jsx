@@ -111,6 +111,11 @@ const Navbar = () => {
 								className='dropdown-itm scroll-top mob-nav-close'>
 								NITS Junior MUN
 							</Link>
+							<Link
+								to='/events/dais'
+								className='dropdown-itm scroll-top mob-nav-close'>
+								The Dais
+							</Link>
 						</div>
 					</span>
 

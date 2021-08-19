@@ -17,6 +17,7 @@ const GlobalVoicesMun = lazy(() =>
 );
 const MockMun = lazy(() => import('./components/screens/MockMun'));
 const MunU18 = lazy(() => import('./components/screens/MunU18'));
+const Dais = lazy(() => import('./components/screens/Dais'));
 
 const Navbar = lazy(() => import('./components/Navbar'));
 
@@ -71,6 +72,11 @@ function App() {
 						{/*Global Voices MUN Conference*/}
 						<Route exact path='/events/global-voices-mun'>
 							<GlobalVoicesMun />
+						</Route>
+
+						{/*The Dais*/}
+						<Route exact path='/events/dais'>
+							<Dais title='The Dais | NITS MUN' />
 						</Route>
 
 						{/*Mock MUNs Conference*/}
