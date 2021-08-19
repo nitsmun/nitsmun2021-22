@@ -1,0 +1,7 @@
+table#apply-table td {
+	color: var(--theme1-100) !important;
+}
+
+table#apply-table thead td {
+	color: var(--theme4-100) !important;
+}
