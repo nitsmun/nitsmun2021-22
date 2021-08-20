@@ -25,31 +25,36 @@ const GlobalVoicesMun = props => {
 			<table id='apply-table'>
 				<thead>
 					<tr>
-						<td>Timings</td>
+						<td>Date</td>
+						<td>Time</td>
 						<td>Topics</td>
 					</tr>
 				</thead>
 
 				<tbody>
 					<tr className='lower-border'>
-						<td>18 September, 2021 (5PM-7PM)</td>
+						<td>18 September, 2021</td>
+						<td>5PM-7PM</td>
 						<td>Empathy and Critical Thinking</td>
 					</tr>
 
 					<tr className='lower-border'>
-						<td>19 September, 2021 (5PM-7PM)</td>
+						<td>19 September, 2021</td>
+						<td>5PM-7PM</td>
 						<td>
 							Importance of SDGs (implementing them at an individual level)
 						</td>
 					</tr>
 
 					<tr className='lower-border'>
-						<td>25 September, 2021 (4PM-7PM)</td>
+						<td>25 September, 2021</td>
+						<td>4PM-7PM</td>
 						<td>Familiarization with MUN (general ROPs and jargons)</td>
 					</tr>
 
 					<tr className='lower-border'>
-						<td>26 September, 2021 (4PM-7PM)</td>
+						<td>26 September, 2021</td>
+						<td>4PM-7PM</td>
 						<td>A Mock MUN Session</td>
 					</tr>
 				</tbody>
