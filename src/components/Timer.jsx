@@ -84,7 +84,7 @@ const Timer = () => {
 						padding: '2vh 1vh 0.5vh 1vh',
 						textAlign: 'center',
 					}}>
-					Workshop Applications Out Now
+					Workshop and Junior MUN Applications out now!
 				</h2>
 				{btnAllow && (
 					<a

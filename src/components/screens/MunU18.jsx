@@ -72,9 +72,9 @@ let info = {
 			name: 'Zonal Ambassadors',
 		},
 		{
-			link: 'https://forms.gle/PAWFVNF5Tu3Chw1w9',
-			display: 'none',
-			name: 'Workshop',
+			link: 'https://docs.google.com/forms/d/e/1FAIpQLSdbcx0iIQ2iehsaO4yhdmYy1vyJ8034-M9mdP1MlhZx6kDwag/viewform',
+			display: 'block',
+			name: 'Executive Board',
 		},
 	],
 };

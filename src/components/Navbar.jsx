@@ -92,6 +92,16 @@ const Navbar = () => {
 						</span>
 						<div className='dropdown-menu'>
 							<Link
+								to='/events/workshop'
+								className='dropdown-itm scroll-top mob-nav-close'>
+								Workshop
+							</Link>
+							<Link
+								to='/events/mun-u18'
+								className='dropdown-itm scroll-top mob-nav-close'>
+								NITS Junior MUN
+							</Link>
+							<Link
 								to='/events/annual-conference'
 								className='dropdown-itm scroll-top mob-nav-close'>
 								Annual Conference
@@ -105,16 +115,6 @@ const Navbar = () => {
 								to='/events/mock-mun'
 								className='dropdown-itm scroll-top mob-nav-close'>
 								Mock MUNs
-							</Link>
-							<Link
-								to='/events/workshop'
-								className='dropdown-itm scroll-top mob-nav-close'>
-								Workshop
-							</Link>
-							<Link
-								to='/events/mun-u18'
-								className='dropdown-itm scroll-top mob-nav-close'>
-								NITS Junior MUN
 							</Link>
 						</div>
 					</span>
