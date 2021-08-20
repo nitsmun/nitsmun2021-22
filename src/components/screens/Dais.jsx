@@ -22,7 +22,7 @@ const GlobalVoicesMun = props => {
 				<Workshops />
 			</div>
 
-			<table id='apply-table'>
+			<table id='apply-table' style={{marginTop:'20px'}}>
 				<thead>
 					<tr>
 						<td>Date</td>
