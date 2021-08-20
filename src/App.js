@@ -75,8 +75,8 @@ function App() {
 						</Route>
 
 						{/*The Dais*/}
-						<Route exact path='/events/dais'>
-							<Dais title='The Dais | NITS MUN' />
+						<Route exact path='/events/workshop'>
+							<Dais title='Workshop | NITS MUN' />
 						</Route>
 
 						{/*Mock MUNs Conference*/}

@@ -107,14 +107,14 @@ const Navbar = () => {
 								Mock MUNs
 							</Link>
 							<Link
+								to='/events/workshop'
+								className='dropdown-itm scroll-top mob-nav-close'>
+								Workshop
+							</Link>
+							<Link
 								to='/events/mun-u18'
 								className='dropdown-itm scroll-top mob-nav-close'>
 								NITS Junior MUN
-							</Link>
-							<Link
-								to='/events/dais'
-								className='dropdown-itm scroll-top mob-nav-close'>
-								The Dais
 							</Link>
 						</div>
 					</span>
