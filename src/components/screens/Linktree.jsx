@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import './Linktree.css';
 
-function Linktree() {
+function Linktree(props) {
+    useEffect(()=> {
+        // *Setting Up Page Title*
+        document.title = props.title;
+      
+    }, [props.title]);
+    
     return (
         <div className="tree">
         <img src="/img/logoBigWhite.svg" className="img-fluid mt-2" alt="NITS MUN"/>

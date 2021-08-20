@@ -92,7 +92,7 @@ function App() {
 
 						{/*Link Tree*/}
 						<Route path='/linktree'>
-							<Linktree/>
+							<Linktree title='Link Tree | NITS MUN'/>
 						</Route>
 
 						{/*404*/}
