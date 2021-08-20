@@ -120,3 +120,20 @@ div.coming-soon {
 		font-size: 3vw;
 	}
 }
+
+a.applyNowBtn {
+	padding: 2vh 4vh;
+	background-color: var(--theme4-100);
+	margin: 1vh 0 2vh 0;
+	border-radius: 1vh;
+	text-decoration: none;
+	color: var(--theme1-100);
+	border: 0.2vh solid rgba(0, 0, 0, 0);
+}
+
+a.applyNowBtn:hover {
+	background-color: var(--theme3-100);
+	color: var(--theme4-100);
+	border: 0.2vh solid var(--theme4-100);
+	transition: 0.2s ease-in-out;
+}

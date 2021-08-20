@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // *Hooks*
 import React, { useEffect, useState, Suspense } from 'react'; //? React for the react fragment
 // import { Link } from 'react-router-dom';
@@ -64,18 +65,15 @@ const Timer = () => {
 
 	return (
 		<Suspense fallback={Loading}>
-			{/* <div className="timer-heading"
-          style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px"}}>
-            <h2 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)",fontWeight:"bold"}}>NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span></h2>
-        </div> */}
 			<div
 				style={{
 					display: 'flex',
+					flexDirection: 'column',
 					justifyContent: 'center',
 					alignItems: 'center',
 					width: '100%',
 					backgroundColor: 'var(--theme1-100)',
-					height: '70px',
+					// height: '70px',
 				}}>
 				<h2
 					style={{
@@ -83,28 +81,39 @@ const Timer = () => {
 						color: 'white',
 						fontFamily: 'var(--font2)',
 						fontWeight: 'bold',
+						padding: '2vh 1vh 0.5vh 1vh',
+						textAlign: 'center',
 					}}>
 					Workshop Applications Out Now
 				</h2>
+				{btnAllow && (
+					<a
+						href='https://linktr.ee/nitsmun'
+						target='_blank'
+						rel='noreferrer'
+						className='applyNowBtn'>
+						Apply now
+					</a>
+				)}
 			</div>
-			<div id='timer'>
-				{/* {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>} */}
-				{/* If display.length = 4 => Display Timer
+			{/* <div id='timer'> */}
+			{/* {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>} */}
+			{/* If display.length = 4 => Display Timer
               If display.length = 1 => Display Coming Soon */}
-				{display.length === 4 &&
+			{/* {display.length === 4 &&
 					display.map((interval, index) => {
 						return (
 							<React.Fragment key={index}>
 								<div className='timer-int'>
 									<div className='timer-int-value'>
 										<tt>{interval}</tt>
-									</div>{' '}
-									{/* Time left in interval */}
-									<div className='timer-int-label'>
+									</div>{' '} */}
+			{/* Time left in interval */}
+			{/* <div className='timer-int-label'>
 										{timeIntervalName[index]}
-									</div>{' '}
-									{/* Interval name */}
-								</div>
+									</div>{' '} */}
+			{/* Interval name */}
+			{/* </div>
 								{index < display.length - 1 &&
 									((window.innerWidth < 1000 && index !== 1) ||
 										window.innerWidth >= 1000) && (
@@ -112,14 +121,14 @@ const Timer = () => {
 									)}
 							</React.Fragment>
 						);
-					})}
+					})} */}
 
-				{display.length === 1 && (
+			{/* {display.length === 1 && (
 					<div className='coming-soon' style={{ textAlign: 'center' }}>
 						Ambassador and Delegate Applications for NITS Junior MUN out Now!
 					</div>
 				)}
-			</div>
+			</div> */}
 
 			{/* <div className="apply-now">Application for delegates and the free workshop open now!</div> */}
 
@@ -127,16 +136,6 @@ const Timer = () => {
           to="/events/mun-u18#apply"
           className="btn apply-btn"
         >Apply Now</Link>} */}
-
-			{btnAllow && (
-				<a
-					href='https://linktr.ee/nitsmun'
-					className='btn apply-btn'
-					target='_blank'
-					rel='noreferrer'>
-					Apply Now
-				</a>
-			)}
 		</Suspense>
 	);
 };

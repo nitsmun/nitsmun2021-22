@@ -1,71 +1,78 @@
 // *Components*
 import { useEffect, lazy, Suspense } from 'react';
 
-import Loading from "../Loading";
+import Loading from '../Loading';
 import Secretary from '../Secretary';
 import Update from '../Update';
 
 // *CSS*
-import "./Home.css";
+import './Home.css';
 
-const Timer = lazy(() => import("../Timer"));
+const Timer = lazy(() => import('../Timer'));
 const Article = lazy(() => import('../Article'));
 const Director = lazy(() => import('../Director'));
 const Carousel = lazy(() => import('../Carousel'));
 
-const Home = (props) => {
-  
-  useEffect(()=> {
+const Home = props => {
+	useEffect(() => {
+		// *Setting Up Page Title*
+		document.title = props.title;
+	}, [props.title]);
 
-    // *Setting Up Page Title*
-    document.title = props.title;
-  
-  }, [props.title]);
-  
-  return (
-    <Suspense fallback={<Loading/>}>
-    <div className="home">
+	return (
+		<Suspense fallback={<Loading />}>
+			<div className='home'>
+				{/*Intro Section*/}
+				<div className='home-sec' id='intro'>
+					<img
+						className='intro-bg-pic'
+						src='/img/dashboard_pic2-min.jpg'
+						alt='NITSMUN'
+					/>
 
-      {/*Intro Section*/}
-      <div className="home-sec" id="intro">
-        
-        <img className="intro-bg-pic" src="/img/dashboard_pic2-min.jpg" alt="NITSMUN" />
+					<div className='intro-logo'>
+						<img src='/img/logoBigWhite.svg' alt='NITSMUN' />
+					</div>
+				</div>
 
-        <div className="intro-logo">
-          <img src="/img/logoBigWhite.svg" alt="NITSMUN"/>
-        </div>
+				{/*Timer Section */}
+				{/* <div className="home-sec" id="apply" style={{paddingTop:"0"}}> */}
+				<Timer />
 
-      </div>
-      
-      {/*Timer Section */}
-      <div className="home-sec" id="apply" style={{paddingTop:"0"}}>
-        <Timer/>
+				{/* </div> */}
 
-      </div>
+				{/* update section */}
+				<div>
+					<Update />
+				</div>
 
-      {/* update section */}
-      <div><Update/></div>
+				{/*Director's Message Section*/}
+				<div>
+					<Director />
+				</div>
+				{/* <div className="home-sec" id="director">Director Message</div> */}
+				{/*Secretary's Message Section*/}
+				<div>
+					<Secretary />
+				</div>
 
-      {/*Director's Message Section*/}
-      <div><Director/></div>
-      {/* <div className="home-sec" id="director">Director Message</div> */}
-      {/*Secretary's Message Section*/}
-      <div><Secretary/></div>
+				{/* Glimpse from past conference */}
+				<div>
+					<Carousel />
+				</div>
+				{/* Article & Social */}
+				<div>
+					<Article />
+				</div>
 
-      {/* Glimpse from past conference */}
-      <div><Carousel/></div>
-      {/* Article & Social */}
-      <div><Article/></div>
-      
-      {/*Articles Section*/}
-      {/* <div className="home-sec" id="articles"><Article/></div> */}
-      
-      {/*Social Section*/}
-      {/* <div className="home-sec" id="social">Social</div> */}
+				{/*Articles Section*/}
+				{/* <div className="home-sec" id="articles"><Article/></div> */}
 
-    </div>
-    </Suspense>
-  );
-}
+				{/*Social Section*/}
+				{/* <div className="home-sec" id="social">Social</div> */}
+			</div>
+		</Suspense>
+	);
+};
 
 export default Home;
