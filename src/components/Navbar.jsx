@@ -129,16 +129,14 @@ const Navbar = () => {
 						Articles
 					</Link>
 
-					<a
-						href='https://linktr.ee/nitsmun'
-						target='_blank'
-						rel='noreferrer'
+					<Link
+						to='/linktree'
 						className='navbar-link scroll-top mob-nav-close'
 						style={{
 							border: '2px solid var(--theme4-100)',
 						}}>
 						Apply Now!
-					</a>
+					</Link>
 					{/* <Link to="/history" className="navbar-link scroll-top mob-nav-close">Past Conferences</Link> */}
 				</div>
 			</div>

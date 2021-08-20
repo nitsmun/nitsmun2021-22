@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Loading from './components/Loading';
 import Footer from './components/Footer';
+import Linktree from './components/screens/Linktree';
 
 const Home = lazy(() => import('./components/screens/Home'));
 const History = lazy(() => import('./components/screens/History'));
@@ -87,6 +88,11 @@ function App() {
 						{/*MUN U18 Conference*/}
 						<Route path='/events/mun-u18'>
 							<MunU18 />
+						</Route>
+
+						{/*Link Tree*/}
+						<Route path='/linktree'>
+							<Linktree/>
 						</Route>
 
 						{/*404*/}

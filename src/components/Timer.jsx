@@ -6,6 +6,7 @@ import React, { useEffect, useState, Suspense } from 'react'; //? React for the 
 // *CSS*
 import './Timer.css';
 import Loading from './Loading';
+import { Link } from 'react-router-dom';
 
 //! let btnAllow = false;
 let btnAllow = true;
@@ -87,13 +88,11 @@ const Timer = () => {
 					Workshop and Junior MUN Applications out now!
 				</h2>
 				{btnAllow && (
-					<a
-						href='https://linktr.ee/nitsmun'
-						target='_blank'
-						rel='noreferrer'
+					<Link
+						to='/linktree'
 						className='applyNowBtn'>
 						Apply now
-					</a>
+					</Link>
 				)}
 			</div>
 			{/* <div id='timer'> */}
