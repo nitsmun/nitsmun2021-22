@@ -264,14 +264,14 @@ function Articles(props) {
                         justifyContent: "center",
                         alignItems: "center",
                         width: "100%",
-                        backgroundColor: "black",
-                        height: "70px",
+                        backgroundColor: "var(--theme4-060)",
+                        height: "10vh",
                         marginTop: "10px"
                     }}
                 >
-                    <h1 style={{ color: "white", fontVariant: "small-caps", textAlign: "center" }}>
-                        Check out <a href="https://www.instagram.com/nitsmun/">@nitsmun</a> for all our articles!
-                    </h1>
+                    <h3 style={{ color: "white", fontVariant: "small-caps", textAlign: "center" }}>
+                        Check out <a href="https://www.instagram.com/nitsmun/" style={{textDecoration:"none",color:"blue"}}>@nitsmun</a> for all our articles!
+                    </h3>
                 </div>
 
             </div>

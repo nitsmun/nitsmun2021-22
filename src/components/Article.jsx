@@ -29,14 +29,14 @@ function Article() {
 
     return (
         <Suspense fallback={<Loading />}>
+            <hr />
             <section id="Article">
                 <div className="container">
-                    <hr />
                     <div className="row no-gutters">
                         <div className="col-md-1"></div>
                         <div className="col-md-10" style={{ textAlign: "center", paddingTop: "0px", overflowX: "hidden" }}>
                             <div style={{ padding: "30px" }}>
-                                <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps" }}>Check out <a href="https://www.instagram.com/nitsmun/">@nitsmun</a> for all our articles!</h2>
+                                <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps"}}>Check out <a href="https://www.instagram.com/nitsmun/" style={{textDecorationLine:"none" }}>@nitsmun</a> for all our articles!</h2>
                             </div>
                         </div>
                         <div className="col-md-1"></div>
