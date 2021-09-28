@@ -4,49 +4,6 @@ import './WorkshopsGallery.css';
 
 function WorkshopsGallery() {
 
-  const poster_list = [
-    {
-      index: "1",
-      image: "/img/WorkshopsSession1_Poster2.jpg"
-    },
-    {
-      index: "2",
-      image: "/img/WorkshopsSession1_Poster3.jpg"
-    },
-    {
-      index: "3",
-      image: "/img/WorkshopsSession1_Poster4.jpg"
-    },
-    {
-      index: "4",
-      image: "/img/WorkshopsSession1_Poster5.jpg"
-    },
-    {
-      index: "5",
-      image: "/img/WorkshopsSession2_Poster2.jpg"
-    },
-    {
-      index: "6",
-      image: "/img/WorkshopsSession2_Poster4.jpg"
-    },
-    {
-      index: "7",
-      image: "/img/WorkshopsSession2_Poster5.jpg"
-    },
-    {
-      index: "8",
-      image: "/img/WorkshopsSession2_Poster6.jpg"
-    },
-    {
-      index: "9",
-      image: "/img/WorkshopsSession3_Poster2.jpg"
-    },
-    {
-      index: "10",
-      image: "/img/WorkshopsSession3_Poster3.jpg"
-    }
-  ]
-
 
   return (
     <div className="container gallery-container">
@@ -108,9 +65,9 @@ function WorkshopsGallery() {
               <img src="/img/WorkshopsSession2_Poster1.jpg" alt="nitsmun" />
             </a>
           </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="row"><img src="/img/WorkshopsSession2_Poster5.jpg" alt="nitsmun" /></div>
-            <div class="row mt-1"><img src="/img/WorkshopsSession2_Poster6.jpg" alt="nitsmun" /></div>
+          <div className="col-sm-6 col-md-4">
+            <div className="row"><img src="/img/WorkshopsSession2_Poster5.jpg" alt="nitsmun" /></div>
+            <div className="row mt-1"><img src="/img/WorkshopsSession2_Poster6.jpg" alt="nitsmun" /></div>
           </div>
         </div>
       </div>
@@ -139,8 +96,8 @@ function WorkshopsGallery() {
               <img src="/img/WorkshopsSession3_Poster1.jpg" alt="nitsmun" />
             </a>
           </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="row"><img src="/img/WorkshopsSession2_Poster4.jpg" alt="nitsmun" /></div>
+          <div className="col-sm-6 col-md-4">
+            <div className="row"><img src="/img/WorkshopsSession2_Poster4.jpg" alt="nitsmun" /></div>
           </div>
         </div>
       </div>
