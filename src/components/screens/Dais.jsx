@@ -8,6 +8,7 @@ import '../Events.css';
 import '../Table.css';
 import './Dais.css';
 import Workshops from '../Workshops';
+import WorkshopsGallery from '../WorkshopsGallery';
 
 const GlobalVoicesMun = props => {
 	useEffect(() => {
@@ -59,6 +60,9 @@ const GlobalVoicesMun = props => {
 					</tr>
 				</tbody>
 			</table>
+			<div>
+				<WorkshopsGallery/>
+			</div>
 		</Suspense>
 	);
 };
