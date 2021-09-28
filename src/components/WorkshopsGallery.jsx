@@ -8,7 +8,7 @@ function WorkshopsGallery() {
   return (
     <div className="container gallery-container">
 
-      <h1>Gallery</h1>
+      <h1 style={{fontVariant:"small-caps"}}>Gallery</h1>
       <div className="tz-gallery">
 
         <div className="row">
