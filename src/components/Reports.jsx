@@ -10,7 +10,7 @@ const tabData = {
       in collaboration with The Dias started on the 18th of September,2021 and
       was conducted on Cisco Webex online platform. The first day of the
       workshop commenced at 5pm with the director of National Institute of
-      Technology, Silchar, Dr. Shivaji Bndopadhyay illustrating the objective
+      Technology, Silchar, Dr. Shivaji Bandopadhyay illustrating the objective
       behind its conduction. He went on to emphasise on how MUN conferences can
       be a great tool for the holistic development of school students, who are
       the primary targets of the NITS Junior MUN. Further, Dr. Wasim Arif,
@@ -95,6 +95,7 @@ const Reports = () => {
         <div className="tab-names">
           {tabData.names.map((name, index) => (
             <div
+              key={index}
               className={"name" + (index === tabIndex ? " active-name" : "")}
               onClick={() => setTabIndex(index)}
             >
@@ -105,6 +106,7 @@ const Reports = () => {
         <div className="tab-content-container">
           {tabData.content.map((report, index) => (
             <div
+              key={index}
               className={
                 "tab-content" + (index === tabIndex ? " active-content" : "")
               }
