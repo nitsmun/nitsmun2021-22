@@ -4,7 +4,7 @@ import "./Reports.css";
 import WorkshopsGallery from "./WorkshopsGallery";
 
 const tabData = {
-  names: ["DAY 1", "DAY 2", "DAY 3 - MUN Workshop"],
+  names: ["DAY 1", "DAY 2", "DAY 3 - MUN Workshop", "DAY 4 - MOCK MUN"],
   content: [
     <>
       The three day long workshop organised under the module of NITS Junior MUN
@@ -88,6 +88,18 @@ const tabData = {
       The session was conducted by Mr. Devesh Gupta along with his team of co-facilitators Vaishnavi Suresh, Dhwani Shah and Sahej.<br/><br/>
       The main agenda of the session was to introduce the students to the concept behind the working of MUN conferences. The session began with a series of mind crunching basic questions that successfully managed to confuse all people ranging from school students to senior students and facilitators. Mr. Devesh made the lecture completely interactive and made sure that the spectators actively participated in the discussion consisting of practical day to day life examples. The co-facilitators then one by one explained about the different bodies under the United Nations namely the General Assembly, the Security Council, the Economic and Social Council, the Trusteeship Council, the International Court of Justice, and the UN Secretariat, and enlightened the audience about the general facts about the United Nations.<br/><br/>
       The final part of the evening comprised of a discussion on the Rules of Procedure, motions, etc followed in a conference session and other points and rights to be followed, in detail. The session ended with a brief lecture on how to work on Working Papers and eventually write the Draft Resolution. The meeting was very informative and engrossing, which helped to create the foundational knowledge about MUNs. This helped the participants to develop a clear understanding regarding the functioning of a session which helped them in <span className="bold">NIT Silchar Mock Junior MUN </span> organised the next day. <br/><br/>
+    </>,
+    <>
+      On <span className="bold">26th September 2021</span>, a mock MUN session was organized under the module of NITS JUNIOR MUN by NITSMUN. It commenced at 4:00 PM and was conducted on Zoom online platform.
+      <br/><br/>
+      The MOCK MUN Conference was organised for the participants to familiarize them with the proceedings of Model UN conferences. The facilitators of Day 4 were: Shreyashi Roymedhi, Sunil Kumar Mulkala, Sai Lahari Jayareddygari, Mondeep Prakash and Sanchayita Purkayastha with the moderators: Mehul Dewangan and Rahul Chourasia.
+      <br/><br/>
+      The workshop started with the facilitators making the participants (The Delegates) understand the ROPs, GSL, motions, points, chits, caucuses and paperwork of the conference. Then the conference was commenced by the Chair and the motions were put on the floor by the participants. The topic of the conference was:  "Psychological Impact of COVID-19 on students". The GSL started and then the motions for moderated caucuses were put on the floor. The facilitators and the chair cleared all the doubts of the participants regarding the proceedings. 
+      <br/><br/>
+      Facilitator (Sanchayita Purayastha) explained about the moderated and unmoderated caucuses. Respected chairperson(Mehul Devangan) initiated discussion about the paperwork, the format and passing of the draft resolution.This was followed by a doubt session. Facilitators Mondeep Prakash and Shreyashi Roymedhi added some more insights about the functioning of MUNs.
+      <br/><br/>
+      The closing remarks were given by the Secretary General of NITSMUN. The session was thereafter adjourned.
+
     </>
   ],
 };

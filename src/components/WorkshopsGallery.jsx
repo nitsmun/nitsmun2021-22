@@ -76,6 +76,18 @@ function WorkshopsGallery(props) {
         </div>
       </div>
 
+      <div className={"tz-gallery" + (props.index === 3 ? " active-tz" : "")}>
+
+        <div className="row">
+          <div className="col-sm-12 col-md-6">
+              <img src="/img/MockMun_Poster1.jpg" alt="nitsmun" />
+          </div>
+          <div className="col-sm-6 col-md-6">
+              <img src="/img/MockMun_Poster2.jpg" alt="nitsmun" />
+          </div>
+        </div>
+      </div>
+
     </div>
 
   )
