@@ -33,3 +33,18 @@
     border-radius: 0;
     position: relative;
 }
+
+@media(max-width:768px) {
+    .container.gallery-container{
+        padding: 0px;
+    }
+    
+}
+
+/* /////////////// */
+.tz-gallery{
+    display: none;
+}
+.active-tz{
+    display: block;
+}

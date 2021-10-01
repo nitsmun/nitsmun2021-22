@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import "./Reports.css";
+import WorkshopsGallery from "./WorkshopsGallery";
 
 const tabData = {
   names: ["Day 1", "Day 2"],
@@ -89,8 +90,8 @@ const Reports = () => {
   const [tabIndex, setTabIndex] = useState(0);
 
   return (
-    <div className="reports">
-      <div className="heading">Reports</div>
+    <div className="reports" style={{fontFamily:"var(--font2)"}}>
+      <div className="heading" style={{fontVariant:'small-caps',fontWeight:'bold'}}>Reports</div>
       <div className="tab-container">
         <div className="tab-names">
           {tabData.names.map((name, index) => (
@@ -115,6 +116,7 @@ const Reports = () => {
             </div>
           ))}
         </div>
+        <WorkshopsGallery index={tabIndex}/>
       </div>
     </div>
   );

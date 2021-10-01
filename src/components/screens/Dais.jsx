@@ -9,7 +9,6 @@ import "../Table.css";
 import "./Dais.css";
 import Workshops from "../Workshops";
 import Reports from "../Reports";
-import WorkshopsGallery from "../WorkshopsGallery";
 
 const GlobalVoicesMun = (props) => {
   useEffect(() => {
@@ -61,9 +60,6 @@ const GlobalVoicesMun = (props) => {
           </tr>
         </tbody>
       </table>
-      <div>
-        <WorkshopsGallery />
-      </div>
       <div>
         <Reports />
       </div>

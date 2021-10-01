@@ -2,14 +2,14 @@ import React from 'react'
 import './WorkshopsGallery.css';
 
 
-function WorkshopsGallery() {
+function WorkshopsGallery(props) {
 
 
   return (
     <div className="container gallery-container">
 
       <h1 style={{fontVariant:"small-caps"}}>Gallery</h1>
-      <div className="tz-gallery">
+      <div className={"tz-gallery" + (props.index === 0 ? " active-tz" : "")}>
 
         <div className="row">
 
@@ -31,7 +31,7 @@ function WorkshopsGallery() {
         </div>
       </div>
 
-      <div className="tz-gallery">
+      <div className={"tz-gallery" + (props.index === 1 ? " active-tz" : "")}>
 
         <div className="row">
 
@@ -54,7 +54,7 @@ function WorkshopsGallery() {
         </div>
       </div>
 
-      <div className="tz-gallery">
+      <div className={"tz-gallery" + (props.index === 2 ? " active-tz" : "")}>
 
         <div className="row">
 
