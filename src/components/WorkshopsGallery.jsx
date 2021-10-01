@@ -55,6 +55,11 @@ function WorkshopsGallery(props) {
             <div className="row"><img src="/img/WorkshopsSession2_Poster5.jpg" alt="nitsmun" /></div>
             <div className="row mt-1"><img src="/img/WorkshopsSession2_Poster6.jpg" alt="nitsmun" /></div>
           </div>
+
+          <div class="col-md-6"><img  src="/img/Day2_ss1.jpeg" alt="nitsmun" /></div>
+            <div class="col-md-6"><img  src="/img/Day2_ss2.jpeg" alt="nitsmun" /></div>
+            <div class="col-md-6"><img  src="/img/Day2_ss3.jpeg" alt="nitsmun" /></div>
+            <div class="col-md-6"><img  src="/img/Day2_ss4.jpeg" alt="nitsmun" /></div>          
         </div>
       </div>
 
