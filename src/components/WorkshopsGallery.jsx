@@ -28,6 +28,10 @@ function WorkshopsGallery(props) {
           <div className="col-sm-6 col-md-4">
               <img src="/img/WorkshopsSession1_Poster5.jpg" alt="nitsmun" />
           </div>
+          <div class="col-md-4"><img src="/img/Day1_ss1.jpeg" alt="nitsmun" /></div>
+            <div class="col-md-4"><img src="/img/Day1_ss2.jpeg" alt="nitsmun" /></div>
+            <div class="col-md-4"><img src="/img/Day1_ss3.jpeg" alt="nitsmun" /></div>
+            <div class="col-md-8" style={{margin: 'auto'}}><img src="/img/Day1_ss4.png" alt="nitsmun" /></div>
         </div>
       </div>
 
