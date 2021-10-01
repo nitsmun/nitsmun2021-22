@@ -66,16 +66,16 @@ let info = {
 			display: 'block',
 			name: 'Delegates',
 		},
-		{
-			link: 'https://docs.google.com/forms/d/e/1FAIpQLSe2k4BNCMzVzkMy7hjZ3bxmqOjDgxF8vHvvxi9Cm-YNJPb29Q/viewform?usp=sf_link',
-			display: 'block',
-			name: 'Zonal Ambassadors',
-		},
-		{
-			link: 'https://docs.google.com/forms/d/e/1FAIpQLSdbcx0iIQ2iehsaO4yhdmYy1vyJ8034-M9mdP1MlhZx6kDwag/viewform',
-			display: 'block',
-			name: 'Executive Board',
-		},
+		// {
+		// 	link: 'https://docs.google.com/forms/d/e/1FAIpQLSe2k4BNCMzVzkMy7hjZ3bxmqOjDgxF8vHvvxi9Cm-YNJPb29Q/viewform?usp=sf_link',
+		// 	display: 'block',
+		// 	name: 'Zonal Ambassadors',
+		// },
+		// {
+		// 	link: 'https://docs.google.com/forms/d/e/1FAIpQLSdbcx0iIQ2iehsaO4yhdmYy1vyJ8034-M9mdP1MlhZx6kDwag/viewform',
+		// 	display: 'block',
+		// 	name: 'Executive Board',
+		// },
 	],
 };
 
@@ -134,13 +134,13 @@ const MunU18 = () => {
 					<Agenda />
 				</div>
 				<br />
-				<div className='event-details'>
+				{/* <div className='event-details'>
 					<>
 						{details[1]}
 						<br />
 						<br />
 					</>
-				</div>
+				</div> */}
 
 				<div className='buttons'>
 					<span className='apply-for buttons-itm'>Applications For: </span>
