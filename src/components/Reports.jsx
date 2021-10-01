@@ -68,7 +68,7 @@ const Reports = () => {
 
   return (
     <div className="reports" style={{fontFamily:"var(--font2)"}}>
-      <div className="heading" style={{fontVariant:'small-caps',fontWeight:'bold'}}>Reports</div>
+      {/* <div className="heading" style={{fontVariant:'small-caps',fontWeight:'bold'}}>Reports</div> */}
       <div className="tab-container">
         <div className="tab-names">
           {tabData.names.map((name, index) => (

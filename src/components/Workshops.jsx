@@ -50,13 +50,13 @@ function Workshops() {
 							alignSelf: 'center',
 						}}>
 						<div>
-							<p style={{textAlign: 'justify',padding:'0 30px',fontSize:'0.9rem'}}>With great pride and honour, we announce the first edition of NITS Junior MUN exclusively for school students. We believe that children and young teens should be exposed to the various intricacies of society and nations and should understand how the world functions from the grassroot level along with the challenges faced. It is only with proper grooming, experience and exposure that enables them to make changes in the society.<br/><br/>
+							<p style={{textAlign: 'justify',padding:'0 30px',fontSize:'1rem'}}>With great pride and honour, we announce the first edition of NITS Junior MUN exclusively for school students. We believe that children and young teens should be exposed to the various intricacies of society and nations and should understand how the world functions from the grassroot level along with the challenges faced. It is only with proper grooming, experience and exposure that enables them to make changes in the society.<br/><br/>
 
 								Through this conference, we are targeting students from grade VI to grade XII from schools all across the country.<br/><br/>
 
 								A 4 days-long free-of-cost workshop will be held in order to acclimatize those without prior experience.</p>
 						</div>
-						<button
+						{/* <button
 							type='button'
 							className='custom'
 							style={{ width: '150px' }}
@@ -67,7 +67,7 @@ function Workshops() {
 								);
 							}}>
 							Apply now
-						</button>
+						</button> */}
 					</div>
 					<div className='col-md-1'></div>
 				</div>

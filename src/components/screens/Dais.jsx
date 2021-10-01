@@ -23,7 +23,7 @@ const GlobalVoicesMun = (props) => {
         <Workshops />
       </div>
 
-      <table id="apply-table" style={{ marginTop: "20px" }}>
+      {/* <table id="apply-table" style={{ marginTop: "20px" }}>
         <thead>
           <tr>
             <td>Date</td>
@@ -59,7 +59,8 @@ const GlobalVoicesMun = (props) => {
             <td>A Mock MUN Session</td>
           </tr>
         </tbody>
-      </table>
+      </table> */}
+      
       <div>
         <Reports />
       </div>
