@@ -4,7 +4,7 @@ import "./Reports.css";
 import WorkshopsGallery from "./WorkshopsGallery";
 
 const tabData = {
-  names: ["Day 1", "Day 2"],
+  names: ["DAY 1", "DAY 2", "DAY 3 - MUN Workshop"],
   content: [
     <>
       The three day long workshop organised under the module of NITS Junior MUN
@@ -83,6 +83,12 @@ const tabData = {
       ended with a short QnA session followed by a vote of thanks to The DIAS by
       members of the NITSMUN society.
     </>,
+    <>
+      The third day of the workshop organized under the module of NITS JUNIOR MUN by NITSMUN, in collaboration with The Dais commenced on 25th September 2021 at 5:00 PM and was conducted on Cisco Webex online platform.<br/><br/>
+      The session was conducted by Mr. Devesh Gupta along with his team of co-facilitators Vaishnavi Suresh, Dhwani Shah and Sahej.<br/><br/>
+      The main agenda of the session was to introduce the students to the concept behind the working of MUN conferences. The session began with a series of mind crunching basic questions that successfully managed to confuse all people ranging from school students to senior students and facilitators. Mr. Devesh made the lecture completely interactive and made sure that the spectators actively participated in the discussion consisting of practical day to day life examples. The co-facilitators then one by one explained about the different bodies under the United Nations namely the General Assembly, the Security Council, the Economic and Social Council, the Trusteeship Council, the International Court of Justice, and the UN Secretariat, and enlightened the audience about the general facts about the United Nations.<br/><br/>
+      The final part of the evening comprised of a discussion on the Rules of Procedure, motions, etc followed in a conference session and other points and rights to be followed, in detail. The session ended with a brief lecture on how to work on Working Papers and eventually write the Draft Resolution. The meeting was very informative and engrossing, which helped to create the foundational knowledge about MUNs. This helped the participants to develop a clear understanding regarding the functioning of a session which helped them in <span className="bold">NIT Silchar Mock Junior MUN </span> organised the next day. <br/><br/>
+    </>
   ],
 };
 
