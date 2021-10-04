@@ -1,52 +1,39 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
-import './Linktree.css';
+import "./Linktree.css";
 
 function Linktree(props) {
-	useEffect(() => {
-		// *Setting Up Page Title*
-		document.title = props.title;
-	}, [props.title]);
+  useEffect(() => {
+    // *Setting Up Page Title*
+    document.title = props.title;
+  }, [props.title]);
 
-	return (
-		<div className='tree'>
-			<img
-				src='/img/logoBigWhite.svg'
-				className='img-fluid mt-2'
-				alt='NITS MUN'
-			/>
-			<div className='links'>
-				<a
-					href='https://forms.gle/Mve212QZRbDtjBsX9?ltclid=ba73abbd-c948-4a36-9e12-f2847445936b'
-					className='button mt-3'
-					target='blank'>
-					Executive Board Member Applications
-				</a>
-				<br />
-				<a
-					href='https://forms.gle/PAWFVNF5Tu3Chw1w9?ltclid='
-					className='button'
-					target='blank'>
-					Register now for NITS Junior MUN workshops
-				</a>
-				<br />
-				<a
-					href='https://forms.gle/y9CypdKR2PBmZVrG9?ltclid='
-					className='button'
-					target='blank'>
-					Link for Delegates Registration
-				</a>
-				<br />
-				<a
-					href='https://forms.gle/dNALB1mLhyhVwMtHA?ltclid='
-					className='button mb-3'
-					target='blank'>
-					Register now for Zonal Ambassadors!
-				</a>
-				<br />
-			</div>
-		</div>
-	);
+  return (
+    <div className="tree">
+      <img
+        src="/img/logoBigWhite.svg"
+        className="img-fluid mt-2"
+        alt="NITS MUN"
+      />
+      <div className="links">
+        <a
+          href="https://forms.gle/PAWFVNF5Tu3Chw1w9?ltclid="
+          className="button"
+          target="blank"
+        >
+          Register now for NITS Junior MUN workshops
+        </a>
+        <br />
+        <a
+          href="https://forms.gle/y9CypdKR2PBmZVrG9?ltclid="
+          className="button"
+          target="blank"
+        >
+          Link for Delegates Registration
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default Linktree;
