@@ -18,7 +18,7 @@ div.home-sec {
 
   /**Border**/
   box-sizing: border-box;
-  
+
   /**Padding**/
   padding: 4vh 0;
 
@@ -32,7 +32,7 @@ div#intro {
   /**Position**/
   position: relative;
   margin-top: var(--navbar-height-pc);
-  
+
   /**Background**/
   background-color: var(--theme4-070);
 
@@ -63,7 +63,7 @@ div#intro img.intro-bg-pic {
 div#intro div.intro-logo {
   position: relative;
   height: 75%;
-  width: 45%; 
+  width: 45%;
   overflow: hidden;
 }
 
@@ -77,7 +77,6 @@ div.intro-logo img {
 
 /**Intro Link (Down Arrow)**/
 div#intro a.intro-down-link {
-
   /**Dimensions**/
   height: 7.5vh;
   aspect-ratio: 1/1;
@@ -151,54 +150,50 @@ div#intro-img3 {
   }
 }
 
-/** Apply **/
-div#apply {
-  /**Background**/
-  background-color: var(--theme5-100);
-
-  /**Flex Container**/
+div.home-apply {
   display: flex;
-  flex-direction: column;  
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-
-  font-family: var(--font1);
+  padding: 5vh 0;
 }
 
-div#apply a.apply-btn {
-  /**Position**/
-  position: relative;
-  margin-bottom: 2vh;
-  
-  /**Border**/
-  border-radius: 0.5vh;
-  
-  /**Content**/
-  color: var(--theme1-100);
-  padding: 1.5vh 5vh;
-  font-size: 2.75vh;
+div.home-apply img {
+  width: 40%;
+}
 
-  /**Background**/
+div.home-apply .apply-now {
+  margin-top: 3vh;
+  text-decoration: none;
+  padding: 2vh;
   background-color: var(--theme4-100);
+  border-radius: 0.75vh;
+  font-size: 3vh;
+  color: var(--theme1-100);
+  text-align: center;
+  border: 0.2vh solid var(--theme4-100);
 }
 
-div#apply a.apply-btn:hover {
-  /**Background**/
+div.home-apply .apply-now:hover {
   background-color: var(--theme1-100);
-  box-shadow: 0.3vh 0.3vh 1vh 0 var(--theme3-100);
-  
-  /**Transition**/
-  transition-duration: 0.2s;
-
-  
   color: var(--theme4-100);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }
 
-@media screen and (max-width: 1000px) {
-  
-  div#apply a.apply-btn {
-    padding: 3vw 7vw;
-    font-size: 3.5vw;
-    border-radius: 1vw;
+@media screen and (max-width: 700px) {
+  div.home-apply img {
+    width: 80%;
+  }
+
+  div.home-apply .apply-now {
+    margin-top: 3vh;
+    text-decoration: none;
+    padding: 3vw;
+    background-color: var(--theme4-100);
+    border-radius: 0.75vw;
+    font-size: 5vw;
+    color: var(--theme1-100);
+    text-align: center;
+    border: 0.2vh solid var(--theme4-100);
   }
 }
