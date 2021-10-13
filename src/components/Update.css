@@ -4,6 +4,13 @@
 .update p{
     text-align: justify;
 }
+.dias{
+    margin: 0 3rem;
+    justify-content: center;
+}
+.sponser{
+    justify-content: center;
+}
 @media only screen and (max-width: 600px) {
     .update .heading{
         display: block;
@@ -13,5 +20,22 @@
     }
     .update .separator{
         display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sponser{
+        flex-direction: column;
+    }
+    .dias{
+        margin: 1rem 0;
+        justify-content: left;
+    }
+    .sponser{
+        padding: 0 40px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .sponser{
+        padding: 0;
     }
 }
