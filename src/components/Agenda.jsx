@@ -38,14 +38,14 @@ function Agenda() {
                             <img src="/img/Parinda Joshi.png" className="img-fluid" style={{width:'100px',borderRadius:'50%'}} alt="thedias" />
                             <div className="info my-auto mx-3">
                             <h3>Parinda Joshi</h3>
-                            <p>Author</p>
+                            <p>Book partner</p>
                             </div>
                         </div>
                         <div className="dias author" style={{display:'flex'}}>
                             <img src="/img/Photograph_MohitParikh.png" className="img-fluid" style={{width:'100px',borderRadius:'50%'}} alt="ids" />
                             <div className="info my-auto mx-3">
                             <h3>Mohit Parikh</h3>
-                            <p style={{textAlign:'left'}} >Author</p>
+                            <p style={{textAlign:'left'}} >Book partner</p>
                             </div>
                         </div>
                     </div>
