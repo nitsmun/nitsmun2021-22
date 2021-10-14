@@ -55,7 +55,7 @@ const Home = (props) => {
             <div className="line"></div>
           </div>
           <br />
-          <img src="/img/homepage_pic.jpg" alt="Apply Now" />
+          <img src="/img/homepage_pic.jpeg" alt="Apply Now" />
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSd8dZLvPHk0L4QEtEDB6cNhfmTZ58ZA81TVpsSdVRyJgUs0ZQ/viewform"
             target="_blank"
