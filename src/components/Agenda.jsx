@@ -1,15 +1,14 @@
 import React from 'react'
-import { useHistory } from 'react-router';
 import "./Agenda.css";
 import "./Update.css";
 
 
 function Agenda() {
 
-    const history = useHistory();
     const bgguide = () =>{ 
         let path = 'https://drive.google.com/drive/folders/1tLWtvsP_MuIXdJV4au5OT_jSSHlWQAcq'; 
-        history.push(path);
+        // history.push(path);
+        window.location.href = path
       }
 
     return (
