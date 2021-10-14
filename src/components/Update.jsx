@@ -49,6 +49,23 @@ function Update() {
                             </div>
                         </div>
                     </div>
+                    {/* <h3 className='text-center'>Book Partner</h3> */}
+                    <div className="sponser my-5" style={{display:'flex'}}>
+                        <div className="dias author" style={{display:'flex',justifyContent:'center'}}>
+                            <img src="img/Parinda Joshi.png" className="img-fluid" style={{width:'100px',borderRadius:'50%'}} alt="thedias" />
+                            <div className="info my-auto mx-3">
+                            <h3>Parinda Joshi</h3>
+                            <p>Author</p>
+                            </div>
+                        </div>
+                        <div className="dias author" style={{display:'flex'}}>
+                            <img src="img/Photograph_MohitParikh.png" className="img-fluid" style={{width:'100px',borderRadius:'50%'}} alt="ids" />
+                            <div className="info my-auto mx-3">
+                            <h3>Mohit Parikh</h3>
+                            <p style={{textAlign:'left'}} >Author</p>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
