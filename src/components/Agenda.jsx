@@ -8,7 +8,7 @@ function Agenda() {
     const bgguide = () =>{ 
         let path = 'https://drive.google.com/drive/folders/1tLWtvsP_MuIXdJV4au5OT_jSSHlWQAcq'; 
         // history.push(path);
-        window.location.href = path
+        window.open(path, "_blank");
       }
 
     return (
