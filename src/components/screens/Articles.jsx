@@ -106,6 +106,54 @@ function Articles(props) {
             short: <>Arnaldo Pomodoro, the author of 'La Freccia" was born in Italy, on June 23, 1926. Everyone is surprised by his work because he deeply takes care into geometrical importance of the sculpture as well as inside material.Firstly he will work on the drawing and later he creates it for life-size plaster preparation. Pomodoro stated that "artistic deformation occurs here when the 'freccia' splits into two open segments in space."</>,
             long: <>Carlo Azeglio Ciampi, The president of Italian Republic, donated the sculpture to UNESCO during 31st General Conference of UNESCO. At first it was placed at Fontenoy Piazza but later it was shifted to the Bonvin Piazza.Actually the bronze "La Freccia" gives the impression of having been open, leaving the cracks as signifying the fragility of the material.The Italian State Secretary for Cultural Assets and Activities clearly explained during the inauguration that the two wings in the Sculpture represents 'Culture and Education' that elevates the man like this arrow towards their noble goals.</>,
         }, 
+        {
+            index: "10",
+            heading: "Groovy Sundries: Peace monument",
+            date: "25th October, 2021",
+            image: "img/peace_monument.jpg",
+            short: <>Popularly known as the statue of “Mir”(Peace), one of the renowned works of Croation sculptor Antun Augustinčić, it is one of the symbols of the United Nations Headquarters in New York.</>,
+            long: <><br/>The statue symbolising a female equestrian leading the Nations of the World towards peace, was cast in bronze in Zagreb in 1954 while the 33 feet high pedestal, on which she stands, was made of marble from the Croatian Island of Brač. The statue shows the equestrian carrying an olive branch in one hand while a globe on the other, with her cloak fluttering on her back and the stance of the horse that suggests powerful forward movement.<br/><br/>The construction of the statue was completed in Rijeka, after which, it was transported to New York. Originally a gift of the Government of the former Yugoslavia, it is placed on the North Lawn of the United Nations Headquarters.</>,
+        },
+        {
+            index: "11",
+            heading: "International Day to End Impunity for Crimes against Journalists",
+            date: "2nd November, 2021",
+            image: "img/crime_against_journalists.jpg",
+            short: <>Reporting the news is often a risky job if one is up against the powerful, and statistics tell us an equivalent. It has been found that one journalist has been murdered every 4 days within the last decade, on an average. Countries with no armed conflict had a higher ratio of these crimes. More than 12,000 journalists were assassinated between 2006 and 2020 for just doing their job. The killers walk free in 9 out of 10 cases, says the UNESCO observatory for killed journalists. These stats paint a dark picture for freedom of the press.</>,
+            long: <>To raise awareness and formulate ways to counter these incidents, the United Nations General Assembly declared November 2 as the International Day to End Impunity for Crimes against Journalists. The resolution passed within the General Assembly in 2013 not only condemns all such attacks on journalists but also urges all member nations to guard journalists from threats to their lives and make sure that the victims get access to the specified remedies. In addition, it appeals to counties to empower journalists by giving them a secure atmosphere to try to do their job with no interference.<br/><br/>The key aspect of prosecutorial services is the primary focus of this year’s International Day to end Impunity for Crimes against Journalists. This includes a deep check out investigating and prosecuting not just assassinations but all types of threats of violence towards journalists.<br/><br/>This day just doesn’t address the sole issue of murdering journalists, but goes beyond and also incorporate talks about threats of violence, kidnapping, torture, harassment, and online harassment. Women journalists are the foremost common targets of online harassment.<br/><br/>These dangers lead to an environment where ideas and speech cannot travel freely. This is the rationale that such each day is required to guard and empower media professionals across the planet.</>,
+        },
+        {
+            index: "12",
+            heading: "Groovy Sundries: Zun of Peace",
+            date: "3rd November, 2021",
+            image: "img/zun_of_peace.jpg",
+            short: <>Modelled after Zun, a bronze ritual object in China, the sculpture Zun of Peace is a gift to United Nations from China.<br/><br/>The word “Zun” means reverence in Chinese. China’s high regar and the wishes of 1.3 billion Chinese people to the United Nations is represented by this sculpture.</>,
+            long: <>The sculpture is coloured in “Chinese Red” with dragons on top which represent the guardians of peace. Prosperity across the whole wide world is represented by the elephants and phoenixes on  both sides. Traditional elements on the whole work represent the Silk Road, representative of China’s vision of peace and development. China’s high regard for 70 years of the United Nation’s dedication to world peace is symbolized by 7 flying doves.</>,
+        },
+        {
+            index: "13",
+            heading: "International Day for Preventing the Exploitation of the Environment in War and Armed Conflict",
+            date: "6th November, 2021",
+            image: "img/exploitation_of_env_in_war.jpg",
+            short: <>Even though humanity has always counted its war casualties in terms of dead and wounded soldiers and civilians, destroyed cities and livelihoods, the environment has often remained the unpublicized victim of war. Water wells have been polluted, crops torched, forests cut down, soils poisoned, and animals killed to gain military advantage.<br/><br/>Then United Nations attaches great importance to ensuring that action on the environment is part of conflict prevention and peacekeeping  strategies, because there can be no durable peace if the natural resources that sustain livelihoods and ecosystems are destroyed.</>,
+            long: <>On 27 May 2016, the United Nations Environment Assembly adopted resolution UNEP/EA.2/Res.15, which recognized the role of healthy ecosystems and sustainably managed resources in reducing the risk of armed conflict, and reaffirmed its strong commitment to the full implementation of the Sustainable Development Goals listed in General Assembly resolution 70/1, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”.<br/><br/>Therefore, the United Nations Environment Programme (UNEP) has found that over the last 60 years, at least 40% of all internal conflicts have been linked to the exploitation of natural resources.<br/><br/>So, on 5 November 2001, the UN General Assembly declared 6 November of each year as the International Day for Preventing the Exploitation of the Environment in War and Armed Conflict.</>,
+        },
+        {
+            index: "14",
+            heading: "World Science Day for Peace and Development",
+            date: "10th November, 2021",
+            image: "img/science_day.jpg",
+            short: <>Every year since 2002, UNESCO observes 10 November as World Science Day for Peace and Development. The day emphasises the importance of science in society and the importance of involving the common people in growing scientific challenges. It aims to ensure that citizens are informed and up-to-date about the developments in science. The day sheds light on the vital contributions of scientists on the daily lives of humans.</>,
+            long: <>COVID 19 pandemic made the world realize the importance of science. Although society wasn’t completely oblivious to the existence of science, the importance of science in society was rejuvenated in the pandemic.<br/><br/>The main purpose of this day is to make the common public aware of the role of science for peaceful and sustainable societies. Promoting national and international solidarity for shared science and renewing commitments for the use of science for benefit of societies is also a purpose of this day. It also strives to call attention to the different hurdles that science faces in its pursuit of knowledge.<br/><br/>"Building Climate-Ready Communities" is the theme of World Science Day for Peace and Development for 2021. Now that the pandemic induced wounds are healing, the theme targets the bigger evil, Climate change. The objective is to bring science closer to society and highlight scientific and technological solutions to some of society's major global challenges today.</>,
+        },
+        {
+            index: "15",
+            heading: "Good defeats Evil",
+            date: "16th November, 2021",
+            image: "img/good_defeats_evil.jpg",
+            short: <>"I don't think good and evil are polarised".<br/>– Sam Mendes<br/><br/>The Sculpture was created by the Russian painter and sculptor, Zurab Tsereteli. It remembers  the 1987 signing of the Treaty on the Elimination of Intermediate - Range and Shorter - Range Nuclear Missiles (INF Treaty), and is in celebration of the 45 Session of the General Assembly. It was created as a monument to peace, the sculpture consists of several parts of actual US and Soviet missiles. The work actually depicts an allegorical St. George, one arm raised person, as he drives a lance through a double headed dragon.</>,
+            long: <>But really,the dragon in the sculpture is not the important mythological beast of the first Christian tradition.It's the specter of nuclear war vanquished by the historic treaties between the Soviet Union and the United States. Therefore the dragon in the sculpture is shown as lying down amid the broken pieces of Soviet SS-20 and U.S. Pershing missiles. Hence actual fragments of that weapons are utilized in the sculpture.</>,
+        },
         
         
     ]
@@ -299,7 +347,6 @@ function Articles(props) {
                         alignItems: "center",
                         width: "100%",
                         backgroundColor: "var(--theme4-060)",
-                        height: "10vh",
                         marginTop: "10px"
                     }}
                 >
