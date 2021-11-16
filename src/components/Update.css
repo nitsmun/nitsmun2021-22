@@ -5,15 +5,16 @@
     text-align: justify;
 }
 .dias{
-    margin: 0 3rem;
-    justify-content: center;
+    margin: 0 1.5rem;
+    justify-content: flex-start;
+    width: 350px;
 }
 .sponser{
     justify-content: center;
 }
-.author{
+/* .author{
     margin:0 0.5rem !important;
-}
+} */
 @media only screen and (max-width: 600px) {
     .update .heading{
         display: block;
@@ -30,6 +31,7 @@
         flex-direction: column;
     }
     .dias{
+        width: auto;
         margin: 1rem 0;
         justify-content: left !important;
     }
