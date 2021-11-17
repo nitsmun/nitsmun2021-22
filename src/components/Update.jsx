@@ -32,7 +32,7 @@ function Update() {
                     </div>
                     {/* <hr></hr> */}
                 </div>
-                <Partners/>
+                {/* <Partners/> */}
             </div>
 
         </Suspense>
