@@ -59,29 +59,10 @@ let info = {
       prestigious MUN society of North East India
     </>,
   ],
-
-  btn: [
-    {
-      link: "https://docs.google.com/forms/d/e/1FAIpQLSd8dZLvPHk0L4QEtEDB6cNhfmTZ58ZA81TVpsSdVRyJgUs0ZQ/viewform",
-      display: "block",
-      name: "Apply Now!",
-    },
-    // {
-    // 	link: 'https://docs.google.com/forms/d/e/1FAIpQLSe2k4BNCMzVzkMy7hjZ3bxmqOjDgxF8vHvvxi9Cm-YNJPb29Q/viewform?usp=sf_link',
-    // 	display: 'block',
-    // 	name: 'Zonal Ambassadors',
-    // },
-    // {
-    // 	link: 'https://docs.google.com/forms/d/e/1FAIpQLSdbcx0iIQ2iehsaO4yhdmYy1vyJ8034-M9mdP1MlhZx6kDwag/viewform',
-    // 	display: 'block',
-    // 	name: 'Executive Board',
-    // },
-  ],
 };
 
 const MunU18 = () => {
   const details = info.eventDetails;
-  const btns = info.btn;
 
   useEffect(() => {
     // *Setting Up Page Title*
@@ -94,29 +75,7 @@ const MunU18 = () => {
 
   return (
     <Suspense fallback={<Loading />}>
-      <div className="event" id="munu18">
-        <div
-          style={{
-            marginTop: "0px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "100%",
-            backgroundColor: "var(--theme4-080)",
-            height: "35px",
-          }}
-        >
-          <h3
-            style={{
-              color: "white",
-              fontVariant: "small-caps",
-              fontWeight: "bold",
-              fontFamily: "var(--font1)",
-            }}
-          >
-            Applications out now!
-          </h3>
-        </div>
+      <div className="event pb-0" id="munu18">
         <div className="event-pic">
           <img loading="lazy" src={info.bgpic} alt="Annual Conf" />
         </div>
@@ -135,7 +94,7 @@ const MunU18 = () => {
         <div>
           <Agenda />
         </div>
-        <br />
+        {/* <br /> */}
         {/* <div className='event-details'>
 					<>
 						{details[1]}
@@ -143,29 +102,6 @@ const MunU18 = () => {
 						<br />
 					</>
 				</div> */}
-
-        <div className="buttons">
-          <span className="apply-for buttons-itm">Applications: </span>
-          {btns.map((btn) => (
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="event-apply-btn buttons-itm"
-              key={btn.name}
-              href={btn.link}
-              style={{
-                display: `${btn.display}`,
-              }}
-            >
-              {btn.name}
-            </a>
-          ))}
-        </div>
-
-        {/* <div className="timer-heading"
-          style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "var(--theme1-100)",height: "70px", margin: "5vh 0"}}>
-            <h5 style={{fontVariant:"small-caps",color: "white",fontFamily:"var(--font2)"}}>Applications out soon!</h5>
-        </div> */}
       </div>
     </Suspense>
   );
