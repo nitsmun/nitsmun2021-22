@@ -1,7 +1,6 @@
 import React from 'react'
 import { Suspense } from 'react';
 import Loading from "./Loading";
-import Partners from './Partners';
 import "./Update.css";
 
 function Update() {
