@@ -8,3 +8,10 @@
     width: 350px;
     margin: 10px 10px;
 }
+
+@media screen and (max-width:600px) {
+    .r img{
+        margin: 10px auto;
+        width: 90%;
+    }
+}
