@@ -149,10 +149,18 @@ function Articles(props) {
         {
             index: "15",
             heading: "Good defeats Evil",
-            date: "16th November, 2021",
+            date: "15th November, 2021",
             image: "img/good_defeats_evil.jpg",
             short: <>"I don't think good and evil are polarised".<br/>– Sam Mendes<br/><br/>The Sculpture was created by the Russian painter and sculptor, Zurab Tsereteli. It remembers  the 1987 signing of the Treaty on the Elimination of Intermediate - Range and Shorter - Range Nuclear Missiles (INF Treaty), and is in celebration of the 45 Session of the General Assembly. It was created as a monument to peace, the sculpture consists of several parts of actual US and Soviet missiles. The work actually depicts an allegorical St. George, one arm raised person, as he drives a lance through a double headed dragon.</>,
             long: <>But really,the dragon in the sculpture is not the important mythological beast of the first Christian tradition.It's the specter of nuclear war vanquished by the historic treaties between the Soviet Union and the United States. Therefore the dragon in the sculpture is shown as lying down amid the broken pieces of Soviet SS-20 and U.S. Pershing missiles. Hence actual fragments of that weapons are utilized in the sculpture.</>,
+        },
+        {
+            index: "16",
+            heading: "nternational Day for Tolerance",
+            date: "16th November, 2021",
+            image: "img/int_day_for_tolerance.jpg",
+            short: <>“In the practice of tolerance, one’s enemy is his best teacher”<br/>–  Dalai Lama XIV<br/><br/>International Day for Tolerance is commemorated every year on November 16 to strengthen the mutual understanding among different cultures and promote tolerance among people. The day began as an initiative to affirm that tolerance is an appreciation of the world’s diversity which recognises human rights and the freedom of others. The wide diversity of culture, mindset, ethnicity around the globe requires only tolerance to ensure the peaceful survival of mixed communities.</>,
+            long: <>The United Nations declared November 16 as the International Day for tolerance in 1995 because it was the day when the UNESCO(United Nations Educational, Scientific and Cultural Organization) formulated the Declaration of Principles on Tolerance. The Declaration signifies tolerance not only as a moral duty, but also as a political and legal requirement for Individuals, Groups and States. In 1995, to mark the UN year for tolerance and 125th birth anniversary of Mahatma Gandhi ji, UNESCO created a prize (The UNESCO-Madanjeet Singh Prize for the Promotion of Tolerance and Non-Violence) to reward those who have made significant contributions in the field of science, art, culture and communication with the aim of promoting the spirit of tolerance and non violence. The prize is awarded to institutions/organisations or individuals every two year on this day.<br/><br/>To celebrate the day, various events are organised around the globe at educational institutions to generate awareness about the importance of tolerance among cultures and socio-economic groups. This imperative lies at the core of the United Nations Charter, as well as the Universal Declaration of Human Rights. The true virtue of tolerance is more important than ever in this era of rising and violent extremism and widening conflicts that are characterized by a fundamental disregard for human life.<br/><br/>NITSMUN urges everyone to develop a feeling of respect, acceptance and appreciation for the rich diversity of our world’s culture and expressions and to lead the world towards a peaceful future.</>,
         },
         
         
