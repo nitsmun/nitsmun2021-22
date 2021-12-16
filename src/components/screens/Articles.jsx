@@ -308,9 +308,9 @@ function Articles(props) {
             heading: "Anyanwu",
             date: "13th Dec, 2021",
             image: "img/anyanwu.jpg",
-            short: <>At the end of every dark and gloomy night, come rays of rise and hopes conjoined. The sculpture "Anywanwu" (Igbo for 'awakening') marked the dawn of 17 African Nations liberated from Colonial rule in the 1960s. The first of them being Nigeria.</>,
-            long: <>Gifted on the 6th anniversary of Nigerian independence, "eyes of the sun" still stand tall (6 feet 10 inches) and affirmed in the Conference building. Hundreds of delegates, staff, and visitors pass by her everyday witnessing the eternal grace and dignity, which was not only described as 'aesthetically beautiful' but with 'great rhythm and spirituality' by the artists around the world. <br /><br />
-                "I am aflame but my wings are wet! Leave me to carry on- I will soar and make history." Said Ben Enwonwu, the pioneer of African sculptors and role model to many around the world. By all accounts, he surely chiseled his name with the dirks of gold!</>,
+            short: <>At the end of every dark and gloomy night, come rays of rise and hopes conjoined. The sculpture "Anywanwu" (Igbo for 'awakening') marked the dawn of 17 African Nations liberated from Colonial rule in the 1960s. The first of them being Nigeria.<br /><br />
+                Gifted on the 6th anniversary of Nigerian independence, "eyes of the sun" still stand tall (6 feet 10 inches) and affirmed in the Conference building. Hundreds of delegates, staff, and visitors pass by her everyday witnessing the eternal grace and dignity, which was not only described as 'aesthetically beautiful' but with 'great rhythm and spirituality' by the artists around the world. </>,
+            long: <>"I am aflame but my wings are wet! Leave me to carry on- I will soar and make history." Said Ben Enwonwu, the pioneer of African sculptors and role model to many around the world. By all accounts, he surely chiseled his name with the dirks of gold!</>,
         },
 
 
