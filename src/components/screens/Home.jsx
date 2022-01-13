@@ -55,9 +55,13 @@ const Home = (props) => {
             <div className="line"></div>
           </div>
           <br />
-          <img src="/img/homepage_pic.jpeg" alt="Apply Now" />
+          <img
+            style={{ height: "auto", width: "95%" }}
+            src="img/workshop 10.png"
+            alt="Apply Now"
+          />
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd8dZLvPHk0L4QEtEDB6cNhfmTZ58ZA81TVpsSdVRyJgUs0ZQ/viewform"
+            href="https://forms.gle/JQXZV2jij2AeXS7t7"
             target="_blank"
             rel="noreferrer"
             className="apply-now"

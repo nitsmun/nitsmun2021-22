@@ -10,26 +10,23 @@ function Linktree(props) {
 
   return (
     <div className="tree">
+      <br />
+      <br />
       <img
         src="/img/logoBigWhite.svg"
         className="img-fluid mt-2"
         alt="NITS MUN"
       />
+      <br />
+      <br />
+      <br />
       <div className="links">
         <a
-          href="https://forms.gle/PAWFVNF5Tu3Chw1w9?ltclid="
+          href="https://forms.gle/JQXZV2jij2AeXS7t7"
           className="button"
           target="blank"
         >
-          Register now for NITS Junior MUN workshops
-        </a>
-        <br />
-        <a
-          href="https://forms.gle/y9CypdKR2PBmZVrG9?ltclid="
-          className="button"
-          target="blank"
-        >
-          Link for Delegates Registration
+          Link for Workshop for NITSMUN 2022
         </a>
       </div>
     </div>
