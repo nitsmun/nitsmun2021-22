@@ -1,18 +1,27 @@
 import React from 'react'
-import { useHistory } from 'react-router';
 import "./Agenda.css";
+import Mun18Gallery from './Mun18Gallery';
+import Partners from './Partners';
+import "./Update.css";
 
 
 function Agenda() {
 
-    const history = useHistory();
     const bgguide = () =>{ 
         let path = 'https://drive.google.com/drive/folders/1tLWtvsP_MuIXdJV4au5OT_jSSHlWQAcq'; 
-        history.push(path);
+        // history.push(path);
+        window.open(path, "_blank");
       }
 
     return (
         <>
+            {/* Partner */}
+            <Partners/>
+            <br />
+            {/* Gallery */}
+            <Mun18Gallery/>
+            <br/>
+            <br/>
             {/* small-screen */}
             <div className="small-agenda agenda py-3 px-3" style={{fontFamily:"var(--font2)"}}>
                 <h1 className="text-center mb-4" style={{ fontVariant: "small-caps", color: "white" }}>Committees</h1>

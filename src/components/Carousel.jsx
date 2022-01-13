@@ -71,13 +71,6 @@ function Carousel() {
 						<div className='carousel-item active'>
 							<img
 								loading='lazy'
-								src='img/Carousel1.jpg'
-								className='d-block img-fluid'
-								alt='NITS MUN'
-							/>
-						</div>
-						<div className='carousel-item'>
-							<img
 								src='img/Carousel2.jpg'
 								className='d-block img-fluid'
 								alt='NITS MUN'
@@ -114,6 +107,13 @@ function Carousel() {
 						<div className='carousel-item'>
 							<img
 								src='img/Carousel7.jpg'
+								className='d-block img-fluid'
+								alt='NITS MUN'
+							/>
+						</div>
+						<div className='carousel-item'>
+							<img
+								src='img/Carousel1.jpg'
 								className='d-block img-fluid'
 								alt='NITS MUN'
 							/>

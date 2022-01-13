@@ -5,12 +5,16 @@
     text-align: justify;
 }
 .dias{
-    margin: 0 3rem;
-    justify-content: center;
+    margin: 0 1.5rem;
+    justify-content: flex-start;
+    width: 350px;
 }
 .sponser{
     justify-content: center;
 }
+/* .author{
+    margin:0 0.5rem !important;
+} */
 @media only screen and (max-width: 600px) {
     .update .heading{
         display: block;
@@ -27,14 +31,24 @@
         flex-direction: column;
     }
     .dias{
+        width: auto;
         margin: 1rem 0;
-        justify-content: left;
+        justify-content: left !important;
     }
     .sponser{
         padding: 0 40px;
     }
+    .author{
+        margin: 1rem 0 !important;
+    }
+    .author h3{
+        font-size: 1.2rem;
+    }
+    .author p{
+        font-size: 0.8rem;
+    }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 320px) {
     .sponser{
         padding: 0;
     }
