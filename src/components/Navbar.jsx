@@ -103,12 +103,14 @@ const Navbar = () => {
               >
                 Workshop
               </Link>
+              {/*
               <Link
                 to="/events/annual-conference"
                 className="dropdown-itm scroll-top mob-nav-close"
               >
                 Annual Conference
               </Link>
+              */}
               <Link
                 to="/events/global-voices-mun"
                 className="dropdown-itm scroll-top mob-nav-close"
