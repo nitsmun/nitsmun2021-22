@@ -11,38 +11,13 @@ function Update() {
           className="container-fluid p-0 mt-4"
           style={{ overflowX: "hidden", fontFamily: "var(--font2)" }}
         >
-          <div className="separator">
-            <div className="line"></div>
-            <h2 style={{ fontVariant: "small-caps", fontWeight: "bold" }}>
-              Workshop for NITSMUN 2022
-            </h2>
-            <div className="line"></div>
-          </div>
-          <div
-            className="heading"
-            style={{
-              textAlign: "center",
-              overflowX: "hidden",
-              padding: "0 30px",
-            }}
-          >
-            <h2
-              style={{
-                borderBottom: "2px solid black",
-                fontVariant: "small-caps",
-                fontWeight: "bold",
-              }}
-            >
-              Workshop for NITSMUN 2022
-            </h2>
-          </div>
           <div className="row no-gutters">
             <div className="col-md-1"></div>
             <div
               className="col-md-10"
               style={{ textAlign: "center", overflowX: "hidden" }}
             >
-              <div style={{ padding: "30px" }}>
+              <div style={{ padding: "10px" }}>
                 <p style={{ fontSize: "1.1rem" }}>
                   We will be conducting a workshop on 16th of January on the
                   topics:
