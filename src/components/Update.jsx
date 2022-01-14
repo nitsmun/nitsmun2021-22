@@ -28,17 +28,17 @@ function Update() {
                   &emsp;&emsp;2. How to delegate the workshop
                   <br />
                   <br />
-                  will teach you how to research for any MUN conference and help
-                  you get familiarized with the Rules of Procedures that go by.
-                  You will learn how to in mind your foreign policies and put
-                  your points forward in the session. who's willing to dive into
-                  the world of diplomacy are welcome to register for workshop.
+                  The workshop will teach you how to research for any MUN
+                  conference and help you get familiarized with the Rules of
+                  Procedures that go by. You will learn how to in mind your
+                  foreign policies and put your points forward in the session.
+                  who's willing to dive into the world of diplomacy are welcome
+                  to register for workshop.
                 </p>
               </div>
             </div>
             <div className="col-md-1"></div>
           </div>
-          {/* <hr></hr> */}
         </div>
       </div>
     </Suspense>
