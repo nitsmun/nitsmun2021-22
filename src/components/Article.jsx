@@ -65,7 +65,7 @@ function Article() {
                         </div>
                         <div className="col-lg-4 mb-4">
                             <div className="card">
-                                <img src="img/day_of_cooperatives.jpg" alt="" className="card-img-top" />
+                                <img src="img/braille_day.jpg" alt="" className="card-img-top" />
                                 <div className="card-body">
                                     <h5 className="card-title">World Braille Day</h5>
                                     <p className="card-text" style={{ textAlign: "justify", fontSize: "1rem" }}><br />Literacy is a right, which is, as much fundamental to the specially-abled as it is to the abled. January 4 marks an important day in the history of Human Rights. It celebrates awareness of braille as a means of communication.</p>
