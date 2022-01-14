@@ -72,7 +72,6 @@ const Home = (props) => {
             </div>
             <div className="line"></div>
           </div>
-          <br />
           <img
             style={{ height: "auto", width: "100%" }}
             src="img/workshop 10.png"

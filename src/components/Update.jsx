@@ -32,7 +32,7 @@ function Update() {
                   conference and help you get familiarized with the Rules of
                   Procedures that go by. You will learn how to in mind your
                   foreign policies and put your points forward in the session.
-                  who's willing to dive into the world of diplomacy are welcome
+                  Who's willing to dive into the world of diplomacy are welcome
                   to register for workshop.
                 </p>
               </div>
