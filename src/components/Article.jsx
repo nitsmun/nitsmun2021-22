@@ -7,8 +7,8 @@ function Article() {
 
     const history = useHistory();
 
-    const route = () =>{ 
-        let path = '/articles'; 
+    const route = () => {
+        let path = '/articles';
         history.push(path);
     }
 
@@ -36,7 +36,7 @@ function Article() {
                         <div className="col-md-1"></div>
                         <div className="col-md-10" style={{ textAlign: "center", paddingTop: "0px", overflowX: "hidden" }}>
                             <div style={{ padding: "30px" }}>
-                                <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps"}}>Check out <a href="https://www.instagram.com/nitsmun/" style={{textDecorationLine:"none" }}>@nitsmun</a> for all our articles!</h2>
+                                <h2 style={{ borderBottom: "2px solid black", fontVariant: "small-caps" }}>Check out <a href="https://www.instagram.com/nitsmun/" style={{ textDecorationLine: "none" }}>@nitsmun</a> for all our articles!</h2>
                             </div>
                         </div>
                         <div className="col-md-1"></div>
@@ -44,20 +44,21 @@ function Article() {
                     <div className="row">
                         <div className="col-lg-4 mb-4">
                             <div className="card">
-                                <img src="img/groovy_war_and_peace.jpg" alt="" className="card-img-top" />
+                                <img src="img/wrapup1.jpg" alt="" className="card-img-top" />
                                 <div className="card-body">
-                                    <h5 className="card-title">Groovy Sundries: War and Peace</h5>
-                                    <p className="card-text" style={{textAlign:"justify",fontSize:"1rem"}}>War and Peace are more than magnificent works of art. They are Portinari’s call to action. Thanks to him, all leaders who enter the United Nations see the terrible toll of war and the universal dream for peace.</p>
+                                    <h5 className="card-title">Wrap up 2021</h5>
+                                    <p className="card-text" style={{ textAlign: "justify", fontSize: "1rem" }}>
+                                        The Year began with COVID-19 cases worldwide surpassing the mark of 100 million, and the WHO urging effective and fair use of covid vaccines. Developments in space included the USA’s plan to set up the first nuclear reactor on the moon by the end of 2026.</p>
                                     <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 mb-4">
                             <div className="card">
-                                <img src="img/day_world_population.jpg" alt="" className="card-img-top" />
+                                <img src="img/solidarity_day.jpg" alt="" className="card-img-top" />
                                 <div className="card-body">
-                                    <h5 className="card-title">World Population Day</h5>
-                                    <p className="card-text" style={{textAlign:"justify",fontSize:"1rem"}}><br />Rights and choices are the answer: Whether baby boom or bust, the solution to shifting fertility rates lies in prioritizing the reproductive health and rights of all people.<br /></p>
+                                    <h5 className="card-title">International Human Solidarity day</h5>
+                                    <p className="card-text" style={{ textAlign: "justify", fontSize: "1rem" }}>International Human Solidarity day is observed on 20 December every year to spread awareness among the populace about the significance of solidarity and to heave people out of poverty, hunger, and disease.</p>
                                     <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
                                 </div>
                             </div>
@@ -66,8 +67,8 @@ function Article() {
                             <div className="card">
                                 <img src="img/day_of_cooperatives.jpg" alt="" className="card-img-top" />
                                 <div className="card-body">
-                                    <h5 className="card-title">International Day of Cooperatives</h5>
-                                    <p className="card-text" style={{textAlign:"justify",fontSize:"1rem"}}>Cooperatives have always been an integral part in bringing people together in a democratic and equal way contributing to the eradication of poverty and promoting economic and social progress.</p>
+                                    <h5 className="card-title">World Braille Day</h5>
+                                    <p className="card-text" style={{ textAlign: "justify", fontSize: "1rem" }}><br />Literacy is a right, which is, as much fundamental to the specially-abled as it is to the abled. January 4 marks an important day in the history of Human Rights. It celebrates awareness of braille as a means of communication.</p>
                                     <button type="button" className="btn btn-outline-dark" onClick={route} >Read more</button>
                                 </div>
                             </div>

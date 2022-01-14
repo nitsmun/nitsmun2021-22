@@ -364,7 +364,14 @@ function Articles(props) {
                 The World Health Organization assigned designations to COVID-19 variants B.1.617.1 and B.1.617.2 discovered in India. The United Nations General Assembly's 2019 resolution, The United Nations Decode on Ecosystem Restoration, was formally started. Interpol created I-Familia, a worldwide database that utilises family DNA to locate missing individuals. El Salvador was the first country to accept Bitcoin as legal currency. France has committed a direct donation of one million euros to the International Solar Alliance. Naftali Bernett took the oath of office as Israel's next Prime Minister. Albania, Brazil, Gabon, Ghana, and the United Arab Emirates were chosen as non-permanent members of the UN Security Council for the 2022-2023 term. Ebrahim Raisi was elected President of Iran in 2021.
                 For the first time, Microsoft's market value surpassed $2 trillion.</>,
         },
-
+        {
+            index: "33",
+            heading: "World Braille Day",
+            date: "4th Jan, 2022",
+            image: "img/braille_day.jpg",
+            short: <>Literacy is a right, which is, as much fundamental to the specially-abled as it is to the abled. January 4 marks an important day in the history of Human Rights. It celebrates awareness of braille as a means of communication.<br /><br /> The Covid-19 pandemic has additionally posed several issues in terms of isolation especially in the lives of those dependant on the use of touch for communication. In concern to this, the UNDP, OHCHR, UNICEF and other bodies of the UN have taken multiple steps in trying to improve the lives of those affected.</>,
+            long: <></>,
+        },
 
     ]
 

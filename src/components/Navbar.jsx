@@ -92,6 +92,12 @@ const Navbar = () => {
             </span>
             <div className="dropdown-menu">
               <Link
+                to="/events/nitsmun2022"
+                className="dropdown-itm scroll-top mob-nav-close"
+              >
+                NITSMUN 2022
+              </Link>
+              <Link
                 to="/events/workshop"
                 className="dropdown-itm scroll-top mob-nav-close"
               >

@@ -5,6 +5,7 @@ import "./App.css";
 import Loading from "./components/Loading";
 import Footer from "./components/Footer";
 import Linktree from "./components/screens/Linktree";
+import NITSMUN2022 from "./components/screens/NITSMUN2022";
 
 const Home = lazy(() => import("./components/screens/Home"));
 const History = lazy(() => import("./components/screens/History"));
@@ -64,6 +65,11 @@ function App() {
             </Route>
 
             {/*Events*/}
+            {/*NITSMUN 2022*/}
+            <Route exact path="/events/nitsmun2022">
+              <NITSMUN2022 />
+            </Route>
+
             {/*Annnual Conference*/}
             <Route exact path="/events/annual-conference">
               <AnnualConference />
