@@ -14,21 +14,22 @@ let info = {
     heading: "NITSMUN2022",
     bgpic: "/img/annualConf.jpeg",
 
-    eventDetails: [
-        `After conducting numerous conferences, both online and offline, and hosting delegates from different schools and colleges from across the country, NITSMUN is all set for its conference scheduled to be held on the 12 and 13 March, 2022. Owing to the current situation, this conference will be conducted online, giving a chance to students from any nook and corner of the country or around the world to participate. `,
+    eventDetails: <>
+        After conducting numerous conferences, both online and offline, and hosting delegates from different schools and colleges from across the country, NITSMUN is all set for its conference scheduled to be held on the 12 and 13 March, 2022. Owing to the current situation, this conference will be conducted online, giving a chance to students from any nook and corner of the country or around the world to participate.
+        <br /><br /><br />
+        We will be having three committees this year:
+        <br /><br />
+        UNSC (United Nations Security Council), whose agenda is “The Occupation of major water ways for strong military presence overseas and it's impact on overseas trade”.
+        <br /><br />
+        UNEP (United Nations Environment Programme), with the agenda “Eliminating the domestic and international trafficking and illegal trade of wildlife”.
+        <br /><br />
+    </>,
 
-        ``,
-
-        `We will be having three committees this year:`,
-
-        `UNSC (United Nations Security Council), whose agenda is “The Occupation of major water ways for strong military presence overseas and it's impact on overseas trade”.`,
-
-        `UNEP (United Nations Environment Programme), with the agenda “Eliminating the domestic and international trafficking and illegal trade of wildlife”.`,
-
-        `We will, for the first time, also be having the International Press Corps, or IPC which will allow participants to act as unbiased journalists, reporting on the proceedings of each simulation in the Conference. They will get a chance to investigate committee debates, conduct interviews, edit articles, and cover press conferences.`,
-
-        `The theme for the year is “Nous voyons notre avenir”, French for “We see our future”. The pandemic has made us realise that if we don’t work together, we won’t be able to go ahead. We are our future, and until all of humanity comes together, it will be impossible to make this planet liveable.`
-    ],
+    endingDetails: <>
+        We will, for the first time, also be having the International Press Corps, or IPC which will allow participants to act as unbiased journalists, reporting on the proceedings of each simulation in the Conference. They will get a chance to investigate committee debates, conduct interviews, edit articles, and cover press conferences.
+        <br /><br />
+        The theme for the year is “Nous voyons notre avenir”, French for “We see our future”. The pandemic has made us realise that if we don't work together, we won't be able to go ahead. We are our future, and until all of humanity comes together, it will be impossible to make this planet liveable.
+    </>
 
 }
 
@@ -55,14 +56,22 @@ const NITSMUN2022 = () => {
                 <div className="event-title"><strong>{info.heading}</strong></div>
 
                 <div className="event-details">{
-                    details.map((para, index) => {
-                        return (
-                            <React.Fragment key={`para${index}`}>
-                                {para}
-                                <br /><br />
-                            </React.Fragment>
-                        )
-                    })
+                    details
+                }</div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-5 p-3">
+                            <img className="img-fluid" src="/img/UNSC_Agenda22.jpg" alt="unsc" />
+                        </div>
+                        <div className="col-md-5 p-3">
+                            <img className="img-fluid" src="/img/UNEP_Agenda22.jpg" alt="unep" />
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>
+                </div>
+                <div className="event-details">{
+                    info.endingDetails
                 }</div>
                 <div className="nitsmun-gallery mt-lg-5 mt-0">
                     <span className="about">Glimpses from</span>
