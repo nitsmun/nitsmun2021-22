@@ -66,7 +66,7 @@ const NITSMUN2022 = () => {
                 }</div>
                 <div className="nitsmun-gallery mt-lg-5 mt-0">
                     <span className="about">Glimpses from</span>
-                    <h2>Past<span> Conference</span></h2>
+                    <h2>Past<span> Conferences</span></h2>
                     <div className='container my-4'>
                         <div
                             id='carouselExampleCaptions'

@@ -20,7 +20,7 @@ function Carousel() {
 						fontWeight: 'bold',
 					}}
 					className='tag'>
-					Glimpses from Past Conference
+					Glimpses from Past Conferences
 				</h3>
 			</div>
 			<div className='container my-4'>
