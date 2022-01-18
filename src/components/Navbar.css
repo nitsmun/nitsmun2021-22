@@ -1,5 +1,4 @@
 div#navbar {
-
   /**Position**/
   position: fixed;
   top: 0;
@@ -11,7 +10,7 @@ div#navbar {
   z-index: +10;
 
   /**Background**/
-  background-color: var(--theme1-100);
+  background-color: var(--color-8-100);
 
   /**Flex Container**/
   display: flex;
@@ -21,48 +20,47 @@ div#navbar {
   align-items: center;
 
   /**Border**/
-  box-shadow: 0 0 2vh 0 var(--theme1-100);
-  
+  box-shadow: 0 0 2vh 0 var(--color-8-100);
+
   /**Content**/
   font-family: var(--font1);
 }
 
 @media screen and (min-width: 1000px) {
-  
   div#navbar div.navbar-logo {
     height: 80%;
     margin-left: 3vw;
   }
-  
+
   div.navbar-logo img {
     height: 100%;
   }
-  
+
   div.navbar-menu {
     display: none;
   }
-  
+
   div.navbar-items {
     margin-left: auto;
     margin-right: 2vw;
 
     font-size: 2.1vh;
   }
-  
+
   .navbar-link {
     margin-right: 1.5vh;
     padding: 1.75vh 4vh;
     border-radius: 0.3vh;
-  
+
     text-decoration: none;
     color: var(--theme2-100);
   }
-  
+
   .navbar-link:hover,
   .navbar-link:focus {
-    background-color: var(--theme2-100);
+    background-color: var(--color-1-100);
     transition-duration: 0.2s;
-    color: var(--theme1-100);
+    color: var(--color-8-100);
   }
 
   .dropdown-link {
@@ -75,14 +73,14 @@ div#navbar {
     top: 100%;
     left: 50%;
     transform: translate(-50%, 0);
-    background-color: var(--theme3-100);
+    background-color: var(--color-8-100);
 
     display: none;
     flex-direction: column;
     border-radius: 1vh;
 
-    border: 0.2vh solid var(--theme2-100);
-    border-top: 0 solid var(--theme2-100);
+    border: 0.2vh solid var(--color-1-100);
+    border-top: 0 solid var(--color-1-100);
   }
 
   span.dropdown-link:hover div.dropdown-menu,
@@ -96,23 +94,21 @@ div#navbar {
 
     white-space: nowrap;
     text-decoration: none;
-    color: var(--theme2-100);
+    color: var(--color-1-100);
 
-    background-color: var(--theme1-100);
+    background-color: var(--color-8-100);
     border-radius: 1vh;
   }
-  
+
   a.dropdown-itm:hover {
-    color: var(--theme1-100);
+    color: var(--color-8-100);
     transition-duration: 0.2s;
-    background-color: var(--theme2-100);
+    background-color: var(--color-1-100);
   }
 }
 
 @media screen and (max-width: 1000px) {
-  
   div#navbar div.navbar-logo {
-
     /**Position**/
     position: absolute;
     top: 50%;
@@ -172,7 +168,7 @@ div#navbar {
   div#menu-open {
     display: block;
   }
-  
+
   div#menu-close {
     display: none;
   }
@@ -186,7 +182,7 @@ div#navbar {
     z-index: +10;
 
     /**Background**/
-    background-color: var(--theme5-100);
+    background-color: var(--color-8-100);
 
     /**Dimensions**/
     height: calc(100vh - var(--navbar-height-pc));
@@ -204,7 +200,7 @@ div#navbar {
   div.navbar-items .navbar-link {
     /**Position**/
     margin-bottom: 2vw;
-    
+
     /**Dimensions**/
     width: 75%;
 
@@ -213,11 +209,11 @@ div#navbar {
     font-size: 5vw;
     text-align: center;
     text-decoration: none;
-    color: var(--theme2-100);
-    
+    color: var(--color-1-100);
+
     /**Border**/
     box-sizing: border-box;
-    border: 0.6vw solid var(--theme4-100);
+    border: 0.6vw solid var(--color-6-100);
     border-radius: 0.5vw;
   }
 
@@ -248,13 +244,13 @@ div#navbar {
   a.dropdown-itm {
     width: 95%;
     padding: 3.5vw 0;
-    
+
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
     color: var(--theme2-100);
     font-size: 3vw;
-    
+
     margin: 2vw auto 0 auto;
     box-sizing: border-box;
     border-radius: 1vw;

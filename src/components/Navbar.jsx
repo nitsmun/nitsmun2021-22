@@ -140,7 +140,7 @@ const Navbar = () => {
             to="/linktree"
             className="navbar-link scroll-top mob-nav-close"
             style={{
-              border: "2px solid var(--theme4-100)",
+              border: "2px solid var(--color-6-100)",
             }}
           >
             Apply Now!

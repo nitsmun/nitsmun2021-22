@@ -4,12 +4,12 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--theme1-100);
+  background: var(--color-8-100);
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 3vh;
-  background: var(--theme4-100);
+  background: var(--color-6-100);
 }
 
 /**Root Variables**/
@@ -66,6 +66,6 @@ a.btn {
 }
 
 span.bold {
-  color: var(--theme4-100) !important;
+  color: var(--color-6-100) !important;
   font-weight: bolder;
 }
