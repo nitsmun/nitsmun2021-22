@@ -13,18 +13,18 @@
 div#footer {
   /**Position**/
   position: relative;
-  
+
   /**Dimensions**/
   height: var(--footer-height-pc);
 
   /**Background**/
-  background-color: var(--theme3-100);
-  
+  background-color: var(--color-8-100);
+
   /**CSS Grid Container**/
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
-  box-shadow: 0 0 0.5vh 0 var(--theme3-100);
+  box-shadow: 0 0 0.5vh 0 var(--color-8-100);
 
   font-family: var(--font1);
 }
@@ -55,18 +55,18 @@ div#footer div.footer-itm {
   /**Flex Container**/
   display: flex;
   flex-direction: row;
-  
+
   font-size: 2vh;
 }
 
 div.footer-itm div.itm-icon {
   font-size: 5vh;
-  color: var(--theme4-100);
+  color: var(--color-6-100);
   margin-right: 3vh;
 }
 
 div.footer-itm div.itm-text {
-  color: white;
+  color: var(--color-1-100);
 }
 
 @media screen and (max-width: 1000px) {
@@ -76,7 +76,7 @@ div.footer-itm div.itm-text {
 
   div#footer div.footer-logo {
     grid-column: 1 / span 4;
-    color: white;
+    color: var(--color-1-100);
     font-size: 6vw;
     text-align: center;
   }
@@ -103,11 +103,11 @@ div.footer-itm div.itm-text {
 
 /**Footer MUN Location**/
 span.nits {
-  color: #9b9b9b;
+  color: var(--color-2-100);
 }
 
 span.assam {
-  color: #676767;
+  color: var(--color-4-100);
 }
 
 @media screen and (max-width: 1000px) {
@@ -132,13 +132,12 @@ div#footer div.footer-sns {
 }
 
 div.footer-sns div.sns-itm {
-
   /**Dimensions**/
   height: 7.5vh;
   aspect-ratio: 1/1;
 
   /**Background**/
-  background-color: var(--theme4-100);
+  background-color: var(--color-6-100);
 
   /**Content**/
   font-size: 4vh;
@@ -149,13 +148,12 @@ div.footer-sns div.sns-itm {
   /**Border**/
   border-radius: 1vh;
   box-sizing: border-box;
-  border: 0.1vh solid var(--theme1-100);
+  border: 0.1vh solid var(---color-8-100);
 
   cursor: pointer;
 }
 
 div.sns-itm a.sns-link {
-
   /**Dimensions**/
   height: 100%;
   width: 100%;
@@ -171,7 +169,7 @@ div.sns-itm a.sns-link {
 }
 
 div.footer-sns div.sns-itm:hover {
-  background-color: var(--color1-100);
+  background-color: var(--color-8-100);
   transition: 0.3s;
 }
 
