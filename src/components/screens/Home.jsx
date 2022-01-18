@@ -60,7 +60,7 @@ const Home = (props) => {
                 <h2
                   style={{
                     fontVariant: "small-caps",
-                    color: "(--color-1-100)",
+                    color: "var(--color-1-100)",
                     fontFamily: "var(--font2)",
                     fontWeight: "bold",
                   }}
