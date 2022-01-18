@@ -53,14 +53,14 @@ const Home = (props) => {
                   justifyContent: "center",
                   alignItems: "center",
                   width: "100%",
-                  backgroundColor: "var(--theme1-100)",
+                  backgroundColor: "var(--color-8-100)",
                   height: "70px",
                 }}
               >
                 <h2
                   style={{
                     fontVariant: "small-caps",
-                    color: "white",
+                    color: "(--color-1-100)",
                     fontFamily: "var(--font2)",
                     fontWeight: "bold",
                   }}

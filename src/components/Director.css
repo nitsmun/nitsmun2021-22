@@ -1,17 +1,18 @@
-.large{
-    font-family: var(--font2);
+.large {
+  font-family: var(--font2);
+  background-color: var(--color-7-100);
 }
-.small{
-    font-family: var(--font2);
-    display: none;
+.small {
+  font-family: var(--font2);
+  display: none;
 }
 @media only screen and (max-width: 700px) {
-    .small{
-        padding-top: 2vh;
-        display: block;
-        background-color:  #A1A2A3;
-    }
-    .large{
-        display: none;
-    }
+  .small {
+    padding-top: 2vh;
+    display: block;
+    background-color: var(--color-7-100);
+  }
+  .large {
+    display: none;
+  }
 }
