@@ -7,6 +7,7 @@ div.event {
   justify-content: center;
   align-items: center;
   font-family: var(--font2);
+  color: var(--color-1-100);
 }
 
 div.event div.event-pic {
@@ -29,12 +30,12 @@ div.event-pic img {
 }
 
 div.event div.event-title {
-  color: var(--theme4-100);
+  color: var(--color-6-100);
   font-size: 5vh;
   text-align: center;
   margin: 5vh auto 2vh auto;
   width: 60%;
-  border-bottom: 0.2vh solid var(--theme4-100);
+  border-bottom: 0.2vh solid var(--color-6-100);
 }
 
 div.event div.event-date {
@@ -134,30 +135,32 @@ div.gallery-img-ctnr {
 
 @media screen and (max-width: 1000px) {
   div.event {
-    min-height: calc(100vh - var(--navbar-height-pc) - var(--footer-height-mob));
+    min-height: calc(
+      100vh - var(--navbar-height-pc) - var(--footer-height-mob)
+    );
     padding-bottom: 7vw;
   }
-  
+
   div.event div.event-pic {
     height: 70vw;
   }
-  
+
   div.event-pic img {
     max-height: 100%;
   }
-  
+
   div.event div.event-title {
     font-size: 6vw;
     margin: 5vw auto 2vw auto;
     border-bottom: 0.2vw solid var(--theme4-100);
   }
-  
+
   div.event div.event-date {
     font-size: 4vw;
     padding-left: 7.5vw;
     margin-top: 5vw;
   }
-  
+
   div.event div.event-details {
     font-size: 4.2vw;
     margin: 7vw auto 0 auto;
@@ -165,21 +168,21 @@ div.gallery-img-ctnr {
     line-height: 7.5vw;
     margin-bottom: 10vw;
   }
-  
+
   div.event a.event-apply-btn {
     padding: 2vw 4vw;
     border-radius: 1.25vw;
   }
-  
+
   /* div.event a.event-apply-btn:hover {
     box-shadow: 0.5vw 0.5vw 0.5vw 0 var(--theme1-100);
   } */
-  
+
   div.event div.event-exec-board {
     margin: 7.5vw 0 5vw 0;
     justify-content: space-evenly;
   }
-  
+
   div.event-exec-board h3.event-exec-board-title {
     width: 100%;
     margin-bottom: 3vw;
@@ -187,19 +190,19 @@ div.gallery-img-ctnr {
     padding: 4vw 0 4vw 10vw;
     font-size: 4vw;
   }
-  
+
   div.event div.event-exec-board img {
     width: 32%;
     border-radius: 0.75vw;
   }
-  
+
   div.event div.event-exec-board img:hover {
     box-shadow: 0.5vw 0.5vw 1vw var(--theme1-100);
     transition-duration: 0.2s;
   }
 }
 
-.custom{
+.custom {
   position: relative;
   padding: 2vh 4vh;
   text-decoration: none;
@@ -209,7 +212,7 @@ div.gallery-img-ctnr {
   border-radius: 1.25vh;
   border: none;
 }
-.custom:hover{
+.custom:hover {
   transition-duration: 0.2s;
   color: var(--theme4-100);
   background-color: var(--theme1-100);

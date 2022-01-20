@@ -2,7 +2,7 @@
 import { useEffect, lazy, Suspense } from "react";
 import Loading from "../Loading";
 import Secretary from "../Secretary";
-import Update from "../Update";
+// import Update from "../Update";
 
 // *CSS*
 import "./Home.css";

@@ -136,7 +136,7 @@ const Navbar = () => {
             Articles
           </Link>
 
-          <Link
+          {/* <Link
             to="/linktree"
             className="navbar-link scroll-top mob-nav-close"
             style={{
@@ -144,7 +144,7 @@ const Navbar = () => {
             }}
           >
             Apply Now!
-          </Link>
+          </Link> */}
           {/* <Link to="/history" className="navbar-link scroll-top mob-nav-close">Past Conferences</Link> */}
         </div>
       </div>

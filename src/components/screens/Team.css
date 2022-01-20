@@ -4,7 +4,7 @@ div.team {
   min-height: calc(100vh - var(--navbar-height-pc));
   width: 100%;
   padding: 1.5vh 0;
-  background-color: var(--theme2-100);
+  background-color: var(--color-1-100);
 
   font-family: var(--font1);
 }
@@ -25,10 +25,10 @@ div.team {
   position: relative;
   margin: 5vh auto;
   font-size: 5vh;
-  color: var(--theme4-100);
+  color: var(--color-6-100);
   text-align: center;
   width: 85%;
-  border-bottom: 0.3vh solid var(--theme4-100);
+  border-bottom: 0.3vh solid var(--color-6-100);
   font-weight: bolder;
 }
 
@@ -38,9 +38,9 @@ div.team {
   aspect-ratio: 2/3;
   padding: 2vh;
 
-  background-color: var(--theme3-100);
+  background-color: var(--color-8-100);
 
-  color: var(--theme2-100);
+  color: var(--color-1-100);
 
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@ div.team {
   justify-content: space-between;
 
   border-radius: 1vh;
-  border: 0.1vh solid var(--theme7-100);
+  border: 0.1vh solid var(--color-6-100);
 
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
@@ -57,8 +57,7 @@ div.team {
 }
 
 .card-container .mmbr-card:hover {
-  background-color: var(--theme1-100);
-  box-shadow: 0 0 3vh 0 var(--theme1-100);
+  box-shadow: 0 0 3vh 0 var(--color-7-100);
   transition-duration: 0.2s;
 }
 
@@ -81,20 +80,20 @@ div.team {
 
 .mmbr-name {
   font-size: 2.7vh;
-  color: var(--theme2-100);
+  color: var(--color-6-100) !important;
   text-align: center;
 }
 
 .mmbr-position {
   font-size: 2.4vh;
-  color: var(--theme2-100);
+  color: var(--color-1-100);
   padding: 0 2vh;
   text-align: center;
 }
 
 .mmbr-batch {
   font-size: 2.3vh;
-  color: var(--theme2-080);
+  color: var(--color-6-080);
 }
 
 .mmbr-sns {
@@ -108,12 +107,12 @@ div.team {
   height: 5.2vh;
   aspect-ratio: 1/1;
   border-radius: 0.5vh;
-  background-color: var(--theme4-100);
+  background-color: var(--color-6-100);
   margin: 0 0.75vh;
 }
 
 .mmbr-sns .mmbr-sns-itm:hover {
-  background-color: var(--theme3-100);
+  background-color: var(--color-8-100);
 }
 
 .mmbr-sns-itm a {
@@ -126,7 +125,7 @@ div.team {
   font-size: 3.5vh;
 
   text-decoration: none;
-  
+
   color: var(--theme1-100);
 
   box-sizing: border-box;
@@ -143,31 +142,42 @@ div.team {
   color: var(--theme2-100);
 }
 
-a.lin:hover {color: var(--lin-color1) !important;}
-a.fb:hover {color: var(--fb-color1) !important;}
-a.insta:hover {color: var(--insta-color1) !important;}
-a.mail:hover {color: var(--gmail-color1) !important;}
-a.whatsapp:hover {color: var(--whatsapp-color1) !important;}
-a.github:hover {color: var(--github-color1) !important;}
+a.lin:hover {
+  color: var(--lin-color1) !important;
+}
+a.fb:hover {
+  color: var(--fb-color1) !important;
+}
+a.insta:hover {
+  color: var(--insta-color1) !important;
+}
+a.mail:hover {
+  color: var(--gmail-color1) !important;
+}
+a.whatsapp:hover {
+  color: var(--whatsapp-color1) !important;
+}
+a.github:hover {
+  color: var(--github-color1) !important;
+}
 
 @media screen and (max-width: 1000px) {
-
   div.team {
     padding: 1.5vw 0;
   }
-  
+
   .card-container {
     padding: 1vw 0;
   }
-  
+
   .card-container .card-container-title {
     margin: 1vw auto 8vw auto;
     font-size: 6vw;
     width: 100%;
-  
+
     border-bottom: 0.5vw solid var(--theme4-100);
   }
-  
+
   .card-container .mmbr-card {
     width: 43%;
     margin: 1vw;
@@ -180,36 +190,36 @@ a.github:hover {color: var(--github-color1) !important;}
   .card-container .mmbr-card:hover {
     box-shadow: 0 0 3vw 0 var(--theme1-100);
   }
-  
+
   .mmbr-card .mmbr-pic {
     width: 80%;
     aspect-ratio: 1/1;
     border-radius: 2vw;
   }
-  
+
   .mmbr-name {
     margin-top: 4vw;
     font-size: 3.5vw;
   }
-  
+
   .mmbr-position {
     margin-top: 2.5vw;
     font-size: 2.8vw;
     padding: 0 1.5vw;
   }
-  
+
   .mmbr-batch {
     margin-top: 1.5vw;
     font-size: 2.8vw;
   }
-  
+
   .mmbr-sns {
     width: 99%;
     margin-top: 3vw;
     gap: 1vw 0;
     margin: 0 0.75vw;
   }
-  
+
   .mmbr-sns .mmbr-sns-itm {
     width: 10vw;
     aspect-ratio: 1/1;
@@ -220,11 +230,23 @@ a.github:hover {color: var(--github-color1) !important;}
     font-size: 4vw;
     background-color: var(--theme3-100);
   }
-  
-  a.lin {color: var(--lin-color1) !important;}
-  a.fb {color: var(--fb-color1) !important;}
-  a.insta {color: var(--insta-color1) !important;}
-  a.mail {color: var(--gmail-color1) !important;}
-  a.whatsapp {color: var(--whatsapp-color1) !important;}
-  a.github {color: var(--github-color1) !important;}
+
+  a.lin {
+    color: var(--lin-color1) !important;
+  }
+  a.fb {
+    color: var(--fb-color1) !important;
+  }
+  a.insta {
+    color: var(--insta-color1) !important;
+  }
+  a.mail {
+    color: var(--gmail-color1) !important;
+  }
+  a.whatsapp {
+    color: var(--whatsapp-color1) !important;
+  }
+  a.github {
+    color: var(--github-color1) !important;
+  }
 }
