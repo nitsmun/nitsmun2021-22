@@ -38,7 +38,8 @@
   --color-6-100: #1994a5;
   --color-6-080: rgba(25, 149, 165, 0.8);
   --color-7-100: #4a5e72;
-  --color-8-100: #2c344b;
+  /* --color-8-100: #2c344b; */
+  --color-8-100: #161c2f;
 
   /**SNS Colors**/
   --lin-color1: #2867b2;
