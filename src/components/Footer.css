@@ -160,7 +160,7 @@ div.sns-itm a.sns-link {
 
   /**Content**/
   text-decoration: none;
-  color: var(--theme1-100);
+  color: var(--color-8-100);
 
   /***Flex Container*/
   display: flex;

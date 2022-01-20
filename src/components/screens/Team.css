@@ -126,7 +126,7 @@ div.team {
 
   text-decoration: none;
 
-  color: var(--theme1-100);
+  color: var(--color-8-100);
 
   box-sizing: border-box;
   border-radius: 0.5vh;
@@ -134,12 +134,12 @@ div.team {
 }
 
 .card-container .mmbr-card .mmbr-name {
-  color: var(--theme4-100);
+  color: var(--color-6-100);
 }
 
 .card-container .mmbr-card:hover .mmbr-wing,
 .card-container .mmbr-card:hover .mmbr-batch {
-  color: var(--theme2-100);
+  color: var(--color-1-100);
 }
 
 a.lin:hover {
@@ -175,7 +175,7 @@ a.github:hover {
     font-size: 6vw;
     width: 100%;
 
-    border-bottom: 0.5vw solid var(--theme4-100);
+    border-bottom: 0.5vw solid var(--color-6-100);
   }
 
   .card-container .mmbr-card {
@@ -188,7 +188,7 @@ a.github:hover {
   }
 
   .card-container .mmbr-card:hover {
-    box-shadow: 0 0 3vw 0 var(--theme1-100);
+    box-shadow: 0 0 3vw 0 var(--color-8-100);
   }
 
   .mmbr-card .mmbr-pic {
@@ -223,12 +223,12 @@ a.github:hover {
   .mmbr-sns .mmbr-sns-itm {
     width: 10vw;
     aspect-ratio: 1/1;
-    background-color: var(--theme1-100);
+    background-color: var(--color-8-100);
   }
 
   .mmbr-sns-itm a {
     font-size: 4vw;
-    background-color: var(--theme3-100);
+    background-color: var(--color-8-100);
   }
 
   a.lin {

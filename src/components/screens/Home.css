@@ -102,8 +102,8 @@ div#intro a.intro-down-link i {
 }
 
 div#intro a.intro-down-link:hover {
-  background-color: var(--theme3-100);
-  color: var(--theme6-100);
+  background-color: var(--color-8-100);
+  color: var(--color-8-100);
   transition-duration: 0.3s;
 }
 
