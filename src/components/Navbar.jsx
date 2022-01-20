@@ -50,8 +50,8 @@ const Navbar = () => {
       dropdownMenu.style.display = "none";
       if (window.innerWidth < 1000)
         dropdownList[i].addEventListener("click", () => {
-          if (dropdownCounterList[i]) dropdownMenu.style.display = "flex";
-          else dropdownMenu.style.display = "none";
+          if (dropdownCounterList[i]) dropdownMenu.style.display = "none";
+          else dropdownMenu.style.display = "flex";
           dropdownCounterList[i] = !dropdownCounterList[i];
         });
     }
