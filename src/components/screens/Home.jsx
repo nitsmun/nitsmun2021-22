@@ -2,7 +2,7 @@
 import { useEffect, lazy, Suspense } from "react";
 import Loading from "../Loading";
 import Secretary from "../Secretary";
-// import Update from "../Update";
+import Update from "../Update";
 
 // *CSS*
 import "./Home.css";
@@ -37,7 +37,7 @@ const Home = (props) => {
         {/* <div className="home-sec" id="apply" style={{paddingTop:"0"}}> */}
         {/* <Timer /> */}
 
-        {/* <div className="home-apply" style={{ paddingTop: "0" }}>
+        <div className="home-apply" style={{ paddingTop: "0" }}>
           <div
             className="container-fluid p-0"
             style={{
@@ -72,23 +72,24 @@ const Home = (props) => {
             </div>
             <div className="line"></div>
           </div>
+          <br />
           <img
-            style={{ height: "auto", width: "100%" }}
-            src="img/workshop 10.png"
+            style={{ height: "auto", width: "40%" }}
+            src="img/mockmun22.jpg"
             alt="Apply Now"
           />
           <div>
             <Update />
           </div>
           <a
-            href="https://forms.gle/JQXZV2jij2AeXS7t7"
+            href="https://forms.gle/PjicxoSNfUEtLbN49"
             target="_blank"
             rel="noreferrer"
             className="apply-now"
           >
             Apply Now!
           </a>
-        </div> */}
+        </div>
 
         {/* </div> */}
         {/* update section */}

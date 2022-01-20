@@ -19,21 +19,18 @@ function Update() {
             >
               <div style={{ padding: "10px" }}>
                 <p style={{ fontSize: "1.1rem" }}>
-                  We will be conducting a workshop on 16th of January on the
-                  topics:
+                  Mock MUN is a simulation of a model UN conference, which is
+                  meant to teach the participants how to delegate exactly and
+                  prepare them for the main conference.
                   <br />
                   <br />
-                  &emsp;&emsp;1. Researching 101
+                  The agenda for the Mock MUN session will be:
                   <br />
-                  &emsp;&emsp;2. How to delegate the workshop
+                  "To address the issue of global warming and finding
+                  sustainable energy alternatives to reduce greenhouse effect."
                   <br />
                   <br />
-                  The workshop will teach you how to research for any MUN
-                  conference and help you get familiarized with the Rules of
-                  Procedures that go by. You will learn how to in mind your
-                  foreign policies and put your points forward in the session.
-                  Who's willing to dive into the world of diplomacy are welcome
-                  to register for workshop.
+                  Committee: UNEP (United Nations Environment Programme)
                 </p>
               </div>
             </div>
