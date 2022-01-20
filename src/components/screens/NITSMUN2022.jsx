@@ -10,8 +10,8 @@ import "./AnnualConference.css";
 import "./NITSMUN2022.css";
 
 let info = {
-  title: "NITSMUN2022 | NITSMUN",
-  heading: "NITSMUN2022",
+  title: "NITSMUN 2022 | NITSMUN",
+  heading: "NITSMUN 2022",
   bgpic: "/img/annualConf.jpeg",
 
   eventDetails: (
