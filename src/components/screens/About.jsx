@@ -25,7 +25,7 @@ function About(props) {
             justifyContent: "center",
             alignItems: "center",
             width: "100%",
-            backgroundColor: "var(--color-8-100)",
+            backgroundColor: "var(--color-8-080)",
             height: "70px",
           }}
         >
