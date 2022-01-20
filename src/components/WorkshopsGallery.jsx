@@ -8,30 +8,30 @@ function WorkshopsGallery(props) {
   return (
     <div className="container gallery-container">
 
-      <h1 style={{fontVariant:"small-caps"}}>Gallery</h1>
+      <h1 style={{ fontVariant: "small-caps" }}>Gallery</h1>
       <div className={"tz-gallery" + (props.index === 0 ? " active-tz" : "")}>
 
         <div className="row">
 
           <div className="col-sm-12 col-md-4">
-              <img src="/img/WorkshopsSession1_Poster2.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession1_Poster2.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
-              <img src="/img/WorkshopsSession1_Poster3.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession1_Poster3.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
-              <img src="/img/WorkshopsSession1_Poster4.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession1_Poster4.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-12 col-md-8">
-              <img src="/img/WorkshopsSession1_Poster1.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession1_Poster1.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
-              <img src="/img/WorkshopsSession1_Poster5.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession1_Poster5.jpg" alt="nitsmun" />
           </div>
-          <div class="col-md-4"><img src="/img/Day1_ss1.jpeg" alt="nitsmun" /></div>
-            <div class="col-md-4"><img src="/img/Day1_ss2.jpeg" alt="nitsmun" /></div>
-            <div class="col-md-4"><img src="/img/Day1_ss3.jpeg" alt="nitsmun" /></div>
-            <div class="col-md-8" style={{margin: 'auto'}}><img src="/img/Day1_ss4.png" alt="nitsmun" /></div>
+          <div className="col-md-4"><img src="/img/Day1_ss1.jpeg" alt="nitsmun" /></div>
+          <div className="col-md-4"><img src="/img/Day1_ss2.jpeg" alt="nitsmun" /></div>
+          <div className="col-md-4"><img src="/img/Day1_ss3.jpeg" alt="nitsmun" /></div>
+          <div className="col-md-8" style={{ margin: 'auto' }}><img src="/img/Day1_ss4.png" alt="nitsmun" /></div>
         </div>
       </div>
 
@@ -40,26 +40,26 @@ function WorkshopsGallery(props) {
         <div className="row">
 
           <div className="col-sm-12 col-md-4">
-              <img src="/img/WorkshopsSession2_Poster2.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession2_Poster2.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
-              <img src="/img/WorkshopsSession2_Poster3.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession2_Poster3.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
-              <img src="/img/WorkshopsSession2_Poster4.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession2_Poster4.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-12 col-md-8">
-              <img src="/img/WorkshopsSession2_Poster1.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession2_Poster1.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
             <div className="row"><img src="/img/WorkshopsSession2_Poster5.jpg" alt="nitsmun" /></div>
             <div className="row mt-1"><img src="/img/WorkshopsSession2_Poster6.jpg" alt="nitsmun" /></div>
           </div>
 
-          <div class="col-md-6"><img  src="/img/Day2_ss1.jpeg" alt="nitsmun" /></div>
-            <div class="col-md-6"><img  src="/img/Day2_ss2.jpeg" alt="nitsmun" /></div>
-            <div class="col-md-6"><img  src="/img/Day2_ss3.jpeg" alt="nitsmun" /></div>
-            <div class="col-md-6"><img  src="/img/Day2_ss4.jpeg" alt="nitsmun" /></div>          
+          <div className="col-md-6"><img src="/img/Day2_ss1.jpeg" alt="nitsmun" /></div>
+          <div className="col-md-6"><img src="/img/Day2_ss2.jpeg" alt="nitsmun" /></div>
+          <div className="col-md-6"><img src="/img/Day2_ss3.jpeg" alt="nitsmun" /></div>
+          <div className="col-md-6"><img src="/img/Day2_ss4.jpeg" alt="nitsmun" /></div>
         </div>
       </div>
 
@@ -68,16 +68,16 @@ function WorkshopsGallery(props) {
         <div className="row">
 
           <div className="col-sm-12 col-md-4">
-              <img src="/img/WorkshopsSession3_Poster2.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession3_Poster2.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
-              <img src="/img/WorkshopsSession3_Poster3.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession3_Poster3.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
-              <img src="/img/WorkshopsSession2_Poster2.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession2_Poster2.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-12 col-md-8">
-              <img src="/img/WorkshopsSession3_Poster1.jpg" alt="nitsmun" />
+            <img src="/img/WorkshopsSession3_Poster1.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-4">
             <div className="row"><img src="/img/WorkshopsSession2_Poster4.jpg" alt="nitsmun" /></div>
@@ -89,10 +89,10 @@ function WorkshopsGallery(props) {
 
         <div className="row">
           <div className="col-sm-12 col-md-6">
-              <img src="/img/MockMun_Poster1.jpg" alt="nitsmun" />
+            <img src="/img/MockMun_Poster1.jpg" alt="nitsmun" />
           </div>
           <div className="col-sm-6 col-md-6">
-              <img src="/img/MockMun_Poster2.jpg" alt="nitsmun" />
+            <img src="/img/MockMun_Poster2.jpg" alt="nitsmun" />
           </div>
         </div>
       </div>
