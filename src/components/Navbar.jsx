@@ -50,8 +50,8 @@ const Navbar = () => {
       dropdownMenu.style.display = "none";
       if (window.innerWidth < 1000)
         dropdownList[i].addEventListener("click", () => {
-          if (dropdownCounterList[i]) dropdownMenu.style.display = "flex";
-          else dropdownMenu.style.display = "none";
+          if (dropdownCounterList[i]) dropdownMenu.style.display = "none";
+          else dropdownMenu.style.display = "flex";
           dropdownCounterList[i] = !dropdownCounterList[i];
         });
     }
@@ -136,15 +136,15 @@ const Navbar = () => {
             Articles
           </Link>
 
-          <Link
+          {/* <Link
             to="/linktree"
             className="navbar-link scroll-top mob-nav-close"
             style={{
-              border: "2px solid var(--theme4-100)",
+              border: "2px solid var(--color-6-100)",
             }}
           >
             Apply Now!
-          </Link>
+          </Link> */}
           {/* <Link to="/history" className="navbar-link scroll-top mob-nav-close">Past Conferences</Link> */}
         </div>
       </div>

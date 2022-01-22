@@ -32,7 +32,7 @@ let info = {
       October 17, 2021.
     </>,
     <>
-      <h5 style={{ color: "var(--theme4-100)", fontWeight: "bold" }}>
+      <h5 style={{ color: "var(--color-6-100)", fontWeight: "bold" }}>
         WANT TO BE THE FACE OF NITS MODEL UNITED NATIONS?
       </h5>
       <br />

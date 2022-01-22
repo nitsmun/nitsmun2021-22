@@ -52,14 +52,14 @@ const Home = (props) => {
                   justifyContent: "center",
                   alignItems: "center",
                   width: "100%",
-                  backgroundColor: "var(--theme1-100)",
+                  backgroundColor: "var(--color-8-100)",
                   height: "70px",
                 }}
               >
                 <h2
                   style={{
                     fontVariant: "small-caps",
-                    color: "white",
+                    color: "var(--color-1-100)",
                     fontFamily: "var(--font2)",
                     fontWeight: "bold",
                   }}
@@ -71,16 +71,17 @@ const Home = (props) => {
             </div>
             <div className="line"></div>
           </div>
+          <br />
           <img
-            style={{ height: "auto", width: "100%" }}
-            src="img/workshop 10.png"
+            style={{ height: "auto", width: "40%" }}
+            src="img/mockmun22.jpg"
             alt="Apply Now"
           />
           <div>
             <Update />
           </div>
           <a
-            href="https://forms.gle/JQXZV2jij2AeXS7t7"
+            href="https://forms.gle/PjicxoSNfUEtLbN49"
             target="_blank"
             rel="noreferrer"
             className="apply-now"

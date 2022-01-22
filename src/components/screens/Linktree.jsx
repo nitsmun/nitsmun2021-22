@@ -20,7 +20,7 @@ function Linktree(props) {
       <br />
       <br />
       <br />
-      <div className="links">
+      {/* <div className="links">
         <a
           href="https://forms.gle/JQXZV2jij2AeXS7t7"
           className="button"
@@ -28,7 +28,8 @@ function Linktree(props) {
         >
           Link for Workshop for NITSMUN 2022
         </a>
-      </div>
+      </div> */}
+      <div className="links">**No links to show**</div>
     </div>
   );
 }

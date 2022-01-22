@@ -34,7 +34,7 @@ div#intro {
   margin-top: var(--navbar-height-pc);
 
   /**Background**/
-  background-color: var(--theme4-070);
+  background-color: var(--color-6-080);
 
   /**Flex Conatiner**/
   display: flex;
@@ -89,12 +89,12 @@ div#intro a.intro-down-link {
 
   /**Content**/
   font-size: 3vh;
-  color: var(--theme1-100);
+  color: var(--color-8-100);
 
   /**Border**/
   border-radius: 1vh;
   box-sizing: border-box;
-  border: 0.7vh solid var(--theme1-100);
+  border: 0.7vh solid var(--color-8-100);
 }
 
 div#intro a.intro-down-link i {
@@ -102,8 +102,8 @@ div#intro a.intro-down-link i {
 }
 
 div#intro a.intro-down-link:hover {
-  background-color: var(--theme3-100);
-  color: var(--theme6-100);
+  background-color: var(--color-8-100);
+  color: var(--color-8-100);
   transition-duration: 0.3s;
 }
 
@@ -164,18 +164,17 @@ div.home-apply img {
 div.home-apply .apply-now {
   margin-top: 3vh;
   text-decoration: none;
-  padding: 2vh;
-  background-color: var(--theme4-100);
+  padding: 1vh 2vh;
+  background-color: var(--color-6-100);
   border-radius: 0.75vh;
   font-size: 3vh;
-  color: var(--theme1-100);
+  color: var(--color-2-100);
   text-align: center;
-  border: 0.2vh solid var(--theme4-100);
 }
 
 div.home-apply .apply-now:hover {
-  background-color: var(--theme1-100);
-  color: var(--theme4-100);
+  background-color: var(--color-5-100);
+  color: var(--color-1-100);
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
@@ -187,13 +186,8 @@ div.home-apply .apply-now:hover {
 
   div.home-apply .apply-now {
     margin-top: 3vh;
-    text-decoration: none;
     padding: 3vw;
-    background-color: var(--theme4-100);
     border-radius: 0.75vw;
     font-size: 5vw;
-    color: var(--theme1-100);
-    text-align: center;
-    border: 0.2vh solid var(--theme4-100);
   }
 }
