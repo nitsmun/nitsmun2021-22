@@ -28,13 +28,20 @@ let info = {
       We will be having three committees this year:
       <br />
       <br />
-      UNSC (United Nations Security Council), whose agenda is “The Occupation of
-      major water ways for strong military presence overseas and it's impact on
-      overseas trade”.
+      UNSC (United Nations Security Council), whose agenda is{" "}
+      <b>
+        “The Occupation of major water ways for strong military presence
+        overseas and it's impact on overseas trade”
+      </b>
+      .
       <br />
       <br />
-      UNEP (United Nations Environment Programme), with the agenda “Eliminating
-      the domestic and international trafficking and illegal trade of wildlife”.
+      UNEP (United Nations Environment Programme), with the agenda{" "}
+      <b>
+        “Eliminating the domestic and international trafficking and illegal
+        trade of wildlife
+      </b>
+      ”.
       <br />
       <br />
     </>

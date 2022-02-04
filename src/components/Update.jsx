@@ -26,8 +26,11 @@ function Update() {
                   <br />
                   The agenda for the Mock MUN session will be:
                   <br />
-                  "To address the issue of global warming and finding
-                  sustainable energy alternatives to reduce greenhouse effect."
+                  <b>
+                    "To address the issue of global warming and finding
+                    sustainable energy alternatives to reduce greenhouse
+                    effect."
+                  </b>
                   <br />
                   <br />
                   Committee: UNEP (United Nations Environment Programme)

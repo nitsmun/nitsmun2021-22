@@ -55,7 +55,7 @@ const Home = (props) => {
                   alignItems: "center",
                   width: "100%",
                   backgroundColor: "var(--color-8-100)",
-                  height: "70px",
+                  height: "auto",
                 }}
               >
                 <h2
@@ -66,7 +66,7 @@ const Home = (props) => {
                     fontWeight: "bold",
                   }}
                 >
-                  Early Bird for NITSMUN 2022
+                  Early Bird Application open for NITSMUN 2022
                 </h2>
               </div>
               <div className="line"></div>
@@ -147,7 +147,7 @@ const Home = (props) => {
                     fontWeight: "bold",
                   }}
                 >
-                  Workshop for NITSMUN 2022
+                  MOCK MUN 2022
                 </h2>
               </div>
               <div className="line"></div>

@@ -98,6 +98,12 @@ const Navbar = () => {
                 NITSMUN 2022
               </Link>
               <Link
+                to="/events/nits_junior_mun"
+                className="dropdown-itm scroll-top mob-nav-close"
+              >
+                NITS Junior MUN
+              </Link>
+              <Link
                 to="/events/workshop"
                 className="dropdown-itm scroll-top mob-nav-close"
               >
