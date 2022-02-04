@@ -92,29 +92,18 @@ const NITSMUN2022 = () => {
             <div className="col-md-5 p-3">
               <img
                 className="img-fluid"
-                src="/img/UNSC_Agenda22.jpg"
+                src="/img/UNSCbg12022.jpg"
                 alt="unsc"
               />
             </div>
             <div className="col-md-5 p-3">
               <img
                 className="img-fluid"
-                src="/img/UNEP_Agenda22.jpg"
+                src="/img/UNEPbg12022.jpg"
                 alt="unep"
               />
             </div>
             <div className="col-md-1"></div>
-          </div>
-          <div className="row">
-            <div className="col-md-4"></div>
-            <div className="col-md-4 mt-lg-0 mt-3">
-              <img
-                className="img-fluid"
-                src="/img/international_press.jpg"
-                alt="unep"
-              />
-            </div>
-            <div className="col-md-4"></div>
           </div>
         </div>
         <div className="event-details">{info.endingDetails}</div>
