@@ -28,13 +28,20 @@ let info = {
       We will be having three committees this year:
       <br />
       <br />
-      UNSC (United Nations Security Council), whose agenda is “The Occupation of
-      major water ways for strong military presence overseas and it's impact on
-      overseas trade”.
+      UNSC (United Nations Security Council), whose agenda is{" "}
+      <b>
+        “The Occupation of major water ways for strong military presence
+        overseas and it's impact on overseas trade”
+      </b>
+      .
       <br />
       <br />
-      UNEP (United Nations Environment Programme), with the agenda “Eliminating
-      the domestic and international trafficking and illegal trade of wildlife”.
+      UNEP (United Nations Environment Programme), with the agenda{" "}
+      <b>
+        “Eliminating the domestic and international trafficking and illegal
+        trade of wildlife
+      </b>
+      ”.
       <br />
       <br />
     </>
@@ -85,29 +92,18 @@ const NITSMUN2022 = () => {
             <div className="col-md-5 p-3">
               <img
                 className="img-fluid"
-                src="/img/UNSC_Agenda22.jpg"
+                src="/img/UNSCbg12022.jpg"
                 alt="unsc"
               />
             </div>
             <div className="col-md-5 p-3">
               <img
                 className="img-fluid"
-                src="/img/UNEP_Agenda22.jpg"
+                src="/img/UNEPbg12022.jpg"
                 alt="unep"
               />
             </div>
             <div className="col-md-1"></div>
-          </div>
-          <div className="row">
-            <div className="col-md-4"></div>
-            <div className="col-md-4 mt-lg-0 mt-3">
-              <img
-                className="img-fluid"
-                src="/img/international_press.jpg"
-                alt="unep"
-              />
-            </div>
-            <div className="col-md-4"></div>
           </div>
         </div>
         <div className="event-details">{info.endingDetails}</div>

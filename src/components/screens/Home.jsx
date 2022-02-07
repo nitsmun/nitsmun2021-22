@@ -7,6 +7,7 @@ import Secretary from "../Secretary";
 import "./Home.css";
 
 // const Timer = lazy(() => import('../Timer'));
+const Update = lazy(() => import("../Update"));
 const Article = lazy(() => import("../Article"));
 const Director = lazy(() => import("../Director"));
 const Carousel = lazy(() => import("../Carousel"));
@@ -36,7 +37,89 @@ const Home = (props) => {
         {/* <div className="home-sec" id="apply" style={{paddingTop:"0"}}> */}
         {/* <Timer /> */}
 
-        {/* <div className="home-apply" style={{ paddingTop: "0" }}>
+        {/* Early Bird */}
+        <div className="home-apply" style={{ paddingTop: "0" }}>
+          <div
+            className="container-fluid p-0"
+            style={{
+              overflowX: "hidden",
+              fontFamily: "var(--font2)",
+            }}
+          >
+            <div className="separator">
+              <div className="line"></div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "100%",
+                  backgroundColor: "var(--color-8-100)",
+                  height: "auto",
+                }}
+              >
+                <h2
+                  style={{
+                    fontVariant: "small-caps",
+                    color: "var(--color-1-100)",
+                    fontFamily: "var(--font2)",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Early Bird Application open for NITSMUN 2022
+                </h2>
+              </div>
+              <div className="line"></div>
+            </div>
+            <div className="line"></div>
+          </div>
+          <br />
+          <img
+            style={{ height: "auto", width: "100%" }}
+            src="img/earlyBird.png"
+            alt="Apply Now"
+          />
+          <div>
+            <div className="update mb-1">
+              <div
+                className="container-fluid p-0 mt-4"
+                style={{ overflowX: "hidden", fontFamily: "var(--font2)" }}
+              >
+                <div className="row no-gutters">
+                  <div className="col-md-1"></div>
+                  <div
+                    className="col-md-10"
+                    style={{ textAlign: "center", overflowX: "hidden" }}
+                  >
+                    <div style={{ padding: "10px" }}>
+                      <p style={{ fontSize: "1.1rem" }}>
+                        Be a part of world changing debates and impactful
+                        deliberations. Buckle up for some research and intense
+                        discussions as we present before you our early bird
+                        applications.
+                        <br />
+                        <br />
+                        Book your slots now!
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-md-1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href="https://forms.gle/JTwwgNkN91WuMHqw6"
+            target="_blank"
+            rel="noreferrer"
+            className="apply-now"
+          >
+            Apply Now!
+          </a>
+        </div>
+
+        {/* Mock Mun */}
+        <div className="home-apply" style={{ paddingTop: "0" }}>
           <div
             className="container-fluid p-0"
             style={{
@@ -64,7 +147,7 @@ const Home = (props) => {
                     fontWeight: "bold",
                   }}
                 >
-                  Workshop for NITSMUN 2022
+                  MOCK MUN 2022
                 </h2>
               </div>
               <div className="line"></div>
@@ -73,22 +156,15 @@ const Home = (props) => {
           </div>
           <br />
           <img
-            style={{ height: "auto", width: "40%" }}
-            src="img/mockmun22.jpg"
+            style={{ height: "auto", width: "100%" }}
+            src="img/mockmun22.png"
             alt="Apply Now"
           />
           <div>
             <Update />
           </div>
-          <a
-            href="https://forms.gle/PjicxoSNfUEtLbN49"
-            target="_blank"
-            rel="noreferrer"
-            className="apply-now"
-          >
-            Apply Now!
-          </a>
-        </div> */}
+          -- Applications Closed --
+        </div>
 
         {/* </div> */}
         {/* update section */}

@@ -67,18 +67,27 @@ function Article() {
           <div className="row">
             <div className="col-lg-4 mb-4">
               <div className="card">
-                <img src="img/wrapup1.jpg" alt="" className="card-img-top" />
+                <img
+                  src="img/holocaust_day.png"
+                  alt=""
+                  className="card-img-top"
+                />
                 <div className="card-body">
-                  <h5 className="card-title">Wrap up 2021</h5>
+                  <h5 className="card-title">
+                    International Holocaust Remembrance Day
+                  </h5>
                   <p
                     className="card-text"
                     style={{ textAlign: "justify", fontSize: "1rem" }}
                   >
-                    The Year began with COVID-19 cases worldwide surpassing the
-                    mark of 100 million, and the WHO urging effective and fair
-                    use of covid vaccines. Developments in space included the
-                    USA’s plan to set up the first nuclear reactor on the moon
-                    by the end of 2026.
+                    <br />
+                    Observance of “International Day of Commemoration in memory
+                    of the Victims of the Holocaust”, commemorates the six
+                    million Jewish victims of the Holocaust and millions of
+                    other victims of Nazism. It reaffirms the unwavering
+                    commitment of UNESCO to counter antisemitism, racism, and
+                    other forms of intolerance which can have a severe threat to
+                    world peace.
                   </p>
                   <button
                     type="button"
@@ -93,22 +102,24 @@ function Article() {
             <div className="col-lg-4 mb-4">
               <div className="card">
                 <img
-                  src="img/solidarity_day.jpg"
+                  src="img/education_day.png"
                   alt=""
                   className="card-img-top"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">
-                    International Human Solidarity day
-                  </h5>
+                  <h5 className="card-title">International Day of Education</h5>
                   <p
                     className="card-text"
                     style={{ textAlign: "justify", fontSize: "1rem" }}
                   >
-                    International Human Solidarity day is observed on 20
-                    December every year to spread awareness among the populace
-                    about the significance of solidarity and to heave people out
-                    of poverty, hunger, and disease.
+                    <br />
+                    Education plays a vital role in fostering sustainable and
+                    resilient societies and is a basic human right. 24th January
+                    every year is celebrated as International Day of Education
+                    to highlight the most critical changes that must be
+                    nourished in order to realize everyone's fundamental right
+                    to education and establish a more sustainable, inclusive,
+                    and peaceful future.
                   </p>
                   <button
                     type="button"

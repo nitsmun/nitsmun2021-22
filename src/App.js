@@ -24,6 +24,7 @@ const Navbar = lazy(() => import("./components/Navbar"));
 
 const About = lazy(() => import("./components/screens/About"));
 const Articles = lazy(() => import("./components/screens/Articles"));
+const MunU18 = lazy(() => import("./components/screens/MunU18.jsx"));
 
 //! Navbar items scroll to top on click
 let scrollTopList = document.getElementsByClassName("scroll-top");
@@ -68,6 +69,11 @@ function App() {
             {/*NITSMUN 2022*/}
             <Route exact path="/events/nitsmun2022">
               <NITSMUN2022 />
+            </Route>
+
+            {/*NITS Junior MUN*/}
+            <Route exact path="/events/nits_junior_mun">
+              <MunU18 />
             </Route>
 
             {/*Annnual Conference*/}

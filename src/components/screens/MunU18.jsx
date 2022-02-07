@@ -16,47 +16,19 @@ let info = {
 
   eventDetails: [
     <>
-      With great pride and honour, we announce the first edition of NITS Junior
+      With great pride and honour, we announced the first edition of NITS Junior
       MUN exclusively for school students. We believe that children and young
       teens should be exposed to the various intricacies of society and nations
       and should understand how the world functions from the grassroot level
       along with the challenges faced. It is only with proper grooming,
       experience and exposure that enables them to make changes in the society.
-      Through this conference, we are targeting students from grade VI to grade
-      XII from schools all across the country.
+      Through this conference, we targeted students from grade VI to grade XII
+      from schools all across the country.
       <br />
-      <br />A day-long free-of-cost workshop will be held a few days before the
+      <br />A day-long free-of-cost workshop was held a few days before the
       conference in order to acclimatise those without prior experience. Keeping
       in mind the various examination schedules of the Central and State Boards,
-      we have planned to organise our conference from October 16, 2021 to
-      October 17, 2021.
-    </>,
-    <>
-      <h5 style={{ color: "var(--color-6-100)", fontWeight: "bold" }}>
-        WANT TO BE THE FACE OF NITS MODEL UNITED NATIONS?
-      </h5>
-      <br />
-      Well now you can. NITSMUN is looking for ZONAL AMBASSADORS who can help us
-      promote our upcoming Junior MUN conference among the students all over
-      India and help them get acquainted with the Muning culture by resolving
-      all their queries and doubts. Each state of India will have two Zonal
-      Ambassadors, so that each one of you will have a helping hand. The Zonal
-      Ambassadors will have to reach out to students/colleges/schools in their
-      zones and publicize NITS Junior MUN by encouraging them to take part.
-      Still confused about your roles? Don't worry, we'll help you with a step
-      by step plan to make it crystal clear. DON'T MISS OUT THE PERKS-
-      <br />
-      <br />
-      <br />
-      i) Officially issued Certificates by NITSMUN for all those who complete
-      every task successfully
-      <br />
-      ii) Special Letter of Recommendations for exceptional performers.
-      <br />
-      iii) Exciting cash prizes for the best performer
-      <br />
-      iv) Apart from all, first hand experience of working with one of the most
-      prestigious MUN society of North East India
+      we organised our conference from October 16, 2021 to October 17, 2021.
     </>,
   ],
 };
@@ -75,15 +47,17 @@ const MunU18 = () => {
 
   return (
     <Suspense fallback={<Loading />}>
-      <div className="event pb-0" id="munu18">
+      <div
+        className="event pb-0"
+        id="munu18"
+        style={{ color: "var(--color-8-100)" }}
+      >
         <div className="event-pic">
           <img loading="lazy" src={info.bgpic} alt="Annual Conf" />
         </div>
-
         <div className="event-title">
           <strong>{info.heading}</strong>
         </div>
-
         <div className="event-details">
           <>
             {details[0]}
@@ -103,6 +77,7 @@ const MunU18 = () => {
 					</>
 				</div> */}
       </div>
+      <br />
     </Suspense>
   );
 };

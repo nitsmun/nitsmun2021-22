@@ -28,7 +28,7 @@ function Workshops() {
                   fontWeight: "bold",
                 }}
               >
-                NITSMUN x THE DAIS presents Workshops
+                Workshops by NITSMUN and THE DAIS
               </h3>
             </div>
           </div>
@@ -63,7 +63,7 @@ function Workshops() {
                   fontSize: "1rem",
                 }}
               >
-                With great pride and honour, we announce the first edition of
+                With great pride and honour, we announced the first edition of
                 NITS Junior MUN exclusively for school students. We believe that
                 children and young teens should be exposed to the various
                 intricacies of society and nations and should understand how the
@@ -72,11 +72,11 @@ function Workshops() {
                 and exposure that enables them to make changes in the society.
                 <br />
                 <br />
-                Through this conference, we are targeting students from grade VI
-                to grade XII from schools all across the country.
+                Through this conference, we targeted students from grade VI to
+                grade XII from schools all across the country.
                 <br />
-                <br />A 4 days-long free-of-cost workshop will be held in order
-                to acclimatize those without prior experience.
+                <br />A 4 days-long free-of-cost workshop was held in order to
+                acclimatize those without prior experience.
               </p>
             </div>
             {/* <button

@@ -19,7 +19,8 @@
 
 .tree .button {
   background-color: transparent;
-  color: white;
+  background-color: white;
+  color: var(--color-6-100);
   border: 2px solid white;
   border-radius: 50px;
   width: 70%;
@@ -31,12 +32,10 @@
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border: 1px solid white;
 }
 
 .tree .button:hover {
-  background-color: white;
-  text-decoration: none;
-  border: 1px solid white;
   color: purple;
 }
 @media only screen and (max-width: 800px) {
