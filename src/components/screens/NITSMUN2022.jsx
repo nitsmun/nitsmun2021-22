@@ -44,18 +44,20 @@ let info = {
       ”.
       <br />
       <br />
+      We will, for the first time, also be having the International Press Corps,
+      or IPC which will allow participants to act as unbiased journalists,
+      reporting on the proceedings of each simulation in the Conference. They
+      will get a chance to investigate committee debates, conduct interviews,
+      edit articles, and cover press conferences. <b>"If you prefer writing over
+      speaking, be a member of the International Press and keep a check on the
+      delegates!"</b>
+      <br />
+      <br />
     </>
   ),
 
   endingDetails: (
     <>
-      We will, for the first time, also be having the International Press Corps,
-      or IPC which will allow participants to act as unbiased journalists,
-      reporting on the proceedings of each simulation in the Conference. They
-      will get a chance to investigate committee debates, conduct interviews,
-      edit articles, and cover press conferences.
-      <br />
-      <br />
       The theme for the year is “Nous voyons notre avenir”, French for “We see
       our future”. The pandemic has made us realise that if we don't work
       together, we won't be able to go ahead. We are our future, and until all
@@ -104,6 +106,17 @@ const NITSMUN2022 = () => {
               />
             </div>
             <div className="col-md-1"></div>
+          </div>
+          <div className="row">
+            <div className="col-md-4"></div>
+            <div className="col-md-4 mt-lg-0 mt-3">
+              <img
+                className="img-fluid"
+                src="/img/international_press.jpg"
+                alt="unep"
+              />
+            </div>
+            <div className="col-md-4"></div>
           </div>
         </div>
         <div className="event-details">{info.endingDetails}</div>
