@@ -26,7 +26,7 @@ function Linktree(props) {
           className="button"
           target="blank"
         >
-          Link for Registration for NITSMUN 2022
+          Link for Round 1 Registration for NITSMUN 2022
         </a>
       </div>
       {/* <div className="links">**No links to show**</div> */}
