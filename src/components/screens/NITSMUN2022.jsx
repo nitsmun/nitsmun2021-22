@@ -28,7 +28,7 @@ let info = {
       We will be having three committees this year:
       <br />
       <br />
-      UNSC (United Nations Security Council), whose agenda is{" "}
+      UNSC (United Nations Security Council), with the agenda{" "}
       <b>
         “The Occupation of major water ways for strong military presence
         overseas and it's impact on overseas trade”
@@ -44,13 +44,12 @@ let info = {
       ”.
       <br />
       <br />
-      We will, for the first time, also be having the International Press Corps,
-      or IPC which will allow participants to act as unbiased journalists,
+      IPC (International Press Corps) which will allow participants to act as unbiased journalists,
       reporting on the proceedings of each simulation in the Conference. They
       will get a chance to investigate committee debates, conduct interviews,
       edit articles, and cover press conferences. <b>"If you prefer writing over
-      speaking, be a member of the International Press and keep a check on the
-      delegates!"</b>
+        speaking, be a member of the International Press and keep a check on the
+        delegates!"</b>
       <br />
       <br />
     </>
