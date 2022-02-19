@@ -162,7 +162,7 @@ div.home-apply img {
 }
 
 div.home-apply .apply-now {
-  margin-top: 3vh;
+  /* margin-top: 3vh; */
   text-decoration: none;
   padding: 1vh 2vh;
   background-color: var(--color-6-100);

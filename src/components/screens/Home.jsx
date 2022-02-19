@@ -55,7 +55,7 @@ const Home = (props) => {
                   alignItems: "center",
                   width: "100%",
                   backgroundColor: "var(--color-8-100)",
-                  height: "auto",
+                  height: "auto", padding: "10px",
                 }}
               >
                 <h2
@@ -79,7 +79,7 @@ const Home = (props) => {
             src="img/round1_delegate_nitsmun22.jpg"
             alt="Apply Now"
           />
-          <div>
+          <div style={{ width: '100%' }}>
             <div className="update mb-1">
               <div
                 className="container-fluid p-0 mt-4"
@@ -92,8 +92,8 @@ const Home = (props) => {
                     style={{ textAlign: "center", overflowX: "hidden" }}
                   >
                     <div style={{ padding: "10px" }}>
-                      <p style={{ fontSize: "1.1rem" }}>
-                        Round 1 Applications out! Register now and be a part of NITSMUN 2022!
+                      <p style={{ fontSize: "1.2rem", fontWeight: "bold", textAlign: "center" }}>
+                        Last date to apply for Round-1
                       </p>
                     </div>
                   </div>
