@@ -20,13 +20,13 @@ function Linktree(props) {
       <br />
       <br />
       <br />
-      <div className="links">
+      <div className="links pb-5">
         <a
-          href="https://forms.gle/JTwwgNkN91WuMHqw6"
+          href="https://forms.gle/aLXHNkNXwTVJVfq89"
           className="button"
           target="blank"
         >
-          Link for Round 1 Registration for NITSMUN 2022
+          Link for Round 2 Registration for NITSMUN 2022
         </a>
       </div>
       {/* <div className="links">**No links to show**</div> */}
