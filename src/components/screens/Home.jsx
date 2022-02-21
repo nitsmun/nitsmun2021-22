@@ -64,9 +64,10 @@ const Home = (props) => {
                     color: "var(--color-1-100)",
                     fontFamily: "var(--font2)",
                     fontWeight: "bold",
+                    textAlign: "center"
                   }}
                 >
-                  Delegate Round 1 Applications for NITSMUN 2022
+                  Delegate Round 2 Applications for NITSMUN 2022
                 </h2>
               </div>
               <div className="line"></div>
@@ -76,7 +77,7 @@ const Home = (props) => {
           <br />
           <img
             style={{ height: "auto", width: "40%" }}
-            src="img/round1_delegate_nitsmun22.jpg"
+            src="img/round2.jpeg"
             alt="Apply Now"
           />
           <div style={{ width: '100%' }}>
@@ -93,7 +94,7 @@ const Home = (props) => {
                   >
                     <div style={{ padding: "10px" }}>
                       <p style={{ fontSize: "1.2rem", fontWeight: "bold", textAlign: "center" }}>
-                        Last date to apply for Round-1
+                        Round 2 Applications out! Register now and be a part of NITSMUN 2022!
                       </p>
                     </div>
                   </div>
