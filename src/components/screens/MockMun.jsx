@@ -26,6 +26,7 @@ let info = {
   ],
 
   confImgs : [
+    "/img/mockmun22.png",
     "/img/2021MM0.jpg",
     "/img/2021MM1.jpg",
     "/img/aoty2020_1.jpg",
@@ -114,31 +115,43 @@ const MockMun = () => {
                     aria-label="Slide 7"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
                     aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                    aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+                    aria-label="Slide 10"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"
+                    aria-label="Slide 11"></button>
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img loading="lazy" src="/img/2021MM0.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/mm2022.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/2021MM1.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/mm2022agenda.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/aoty2020_1.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/UNEPbg12022.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/aoty2020_2.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/UNSCbg12022.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg1_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/aoty2020_1.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg2_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/aoty2020_2.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg3_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/bg1_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
                 <div className="carousel-item">
-                    <img loading="lazy" src="/img/bg2_2020.JPG" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                    <img src="/img/bg2_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                </div>
+                <div className="carousel-item">
+                    <img src="/img/bg3_year.jpg" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
+                </div>
+                <div className="carousel-item">
+                    <img src="/img/bg2_2020.JPG" width="450px" className="d-block img-fluid" alt="NITS MUN"/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"

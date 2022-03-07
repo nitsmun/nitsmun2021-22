@@ -2,6 +2,7 @@
 import React, { Suspense, useEffect } from "react";
 // import { Link } from "react-router-dom";
 
+import "../WorkshopsGallery.css";
 import Loading from "../Loading";
 
 // *CSS*
@@ -119,6 +120,47 @@ const NITSMUN2022 = () => {
           </div>
         </div>
         <div className="event-details">{info.endingDetails}</div>
+
+        
+        <br/><br/>
+        <div className="container gallery-container">
+        <h1 style={{ fontVariant: "small-caps" }}>Executive Board</h1>
+        <div className="tz-gallery active-tz">
+            <div className="row">
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j1.jpg" alt="nitsmun" />
+              </div>
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j2.jpg" alt="nitsmun" />
+              </div>
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j3.jpg" alt="nitsmun" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j4.jpg" alt="nitsmun" />
+              </div>
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j5.jpg" alt="nitsmun" />
+              </div>
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j6.jpg" alt="nitsmun" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j7.jpg" alt="nitsmun" />
+              </div>
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j8.jpg" alt="nitsmun" />
+              </div>
+              <div className="col-sm-12 col-md-4">
+                <img src="/img/nm22j9.jpg" alt="nitsmun" />
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="nitsmun-gallery mt-lg-5 mt-0">
           <span className="about">Glimpses from</span>
