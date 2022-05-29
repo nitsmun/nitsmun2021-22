@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 let btnAllow = true;
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeTo = new Date(2020, 9, 16, 0, 0, 0, 0);
+let timeTo = new Date(2022, 7, 6, 0, 0, 0, 0);
 
 let timeLimit = Math.floor(timeTo / 1000);
 
@@ -87,54 +87,54 @@ const Timer = () => {
             textAlign: "center",
           }}
         >
-          Workshop and Junior MUN Applications out now!
+          NITSMUN Junior MUN 2022
         </h2>
-        {btnAllow && (
+        {/* {btnAllow && (
           <Link to="/linktree" className="applyNowBtn">
             Apply now
           </Link>
-        )}
+        )} */}
       </div>
-      {/* <div id='timer'> */}
-      {/* {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>} */}
-      {/* If display.length = 4 => Display Timer
+      <div id='timer'>
+        {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold"> 06/08/2022</span></div>}
+        {/* If display.length = 4 => Display Timer
               If display.length = 1 => Display Coming Soon */}
-      {/* {display.length === 4 &&
-					display.map((interval, index) => {
-						return (
-							<React.Fragment key={index}>
-								<div className='timer-int'>
-									<div className='timer-int-value'>
-										<tt>{interval}</tt>
-									</div>{' '} */}
-      {/* Time left in interval */}
-      {/* <div className='timer-int-label'>
-										{timeIntervalName[index]}
-									</div>{' '} */}
-      {/* Interval name */}
-      {/* </div>
-								{index < display.length - 1 &&
-									((window.innerWidth < 1000 && index !== 1) ||
-										window.innerWidth >= 1000) && (
-										<div className='timer-int-colon'>:</div>
-									)}
-							</React.Fragment>
-						);
-					})} */}
+        {display.length === 4 &&
+          display.map((interval, index) => {
+            return (
+              <React.Fragment key={index}>
+                <div className='timer-int'>
+                  <div className='timer-int-value'>
+                    <tt>{interval}</tt>
+                  </div>{' '}
+                  {/* Time left in interval */}
+                  <div className='timer-int-label'>
+                    {timeIntervalName[index]}
+                  </div>{' '}
+                  {/* Interval name */}
+                </div>
+                {index < display.length - 1 &&
+                  ((window.innerWidth < 1000 && index !== 1) ||
+                    window.innerWidth >= 1000) && (
+                    <div className='timer-int-colon'>:</div>
+                  )}
+              </React.Fragment>
+            );
+          })}
 
-      {/* {display.length === 1 && (
-					<div className='coming-soon' style={{ textAlign: 'center' }}>
-						Ambassador and Delegate Applications for NITS Junior MUN out Now!
-					</div>
-				)}
-			</div> */}
+        {/* {display.length === 1 && (
+          <div className='coming-soon' style={{ textAlign: 'center' }}>
+            Ambassador and Delegate Applications for NITS Junior MUN out Now!
+          </div>
+        )} */}
+      </div>
 
       {/* <div className="apply-now">Application for delegates and the free workshop open now!</div> */}
 
       {/* {btnAllow && <Link
-          to="/events/mun-u18#apply"
-          className="btn apply-btn"
-        >Apply Now</Link>} */}
+        to="/events/mun-u18#apply"
+        className="btn apply-btn"
+      >Apply Now</Link>} */}
     </Suspense>
   );
 };

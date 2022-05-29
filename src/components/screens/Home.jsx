@@ -6,7 +6,7 @@ import Secretary from "../Secretary";
 // *CSS*
 import "./Home.css";
 
-// const Timer = lazy(() => import('../Timer'));
+const Timer = lazy(() => import('../Timer'));
 // const Update = lazy(() => import("../Update"));
 const Article = lazy(() => import("../Article"));
 const Director = lazy(() => import("../Director"));
@@ -35,10 +35,10 @@ const Home = (props) => {
         </div>
         {/*Timer Section */}
         {/* <div className="home-sec" id="apply" style={{paddingTop:"0"}}> */}
-        {/* <Timer /> */}
+        <Timer />
 
         {/* Early Bird */}
-        <div className="home-apply" style={{ paddingTop: "0" }}>
+        {/* <div className="home-apply" style={{ paddingTop: "0" }}>
           <div
             className="container-fluid p-0"
             style={{
@@ -67,7 +67,7 @@ const Home = (props) => {
                     textAlign: "center"
                   }}
                 >
-                  Delegate Round 2 Applications for NITSMUN 2022
+                  NITSMUN Junior MUN 2022
                 </h2>
               </div>
               <div className="line"></div>
@@ -111,7 +111,7 @@ const Home = (props) => {
           >
             Apply Now!
           </a>
-        </div>
+        </div> */}
 
         {/* Mock Mun */}
         {/* <div className="home-apply" style={{ paddingTop: "0" }}>
