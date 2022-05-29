@@ -13,8 +13,8 @@ const url = [
   ["/secretariatDirector.csv", "Secretariat"],
   ["/secretariatUnderDirector.csv", ""],
   ["/designTeam.csv", "Media & Design Team"],
-  ["/researchAndContentTeam.csv", "Research & Content Team"],
-  ["/publicRelationsTeam.csv", "Public Relations Team"],
+  ["/researchAndContentTeam.csv", "Research & Development Team"],
+  ["/publicRelationsTeam.csv", "Public Relations & Outreach Team"],
   ["/webDevTeam.csv", "Web Development Team"],
 ];
 
