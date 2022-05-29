@@ -12,7 +12,7 @@ var snsLogo = {
 const url = [
   ["/secretariatDirector.csv", "Secretariat"],
   ["/secretariatUnderDirector.csv", ""],
-  ["/designTeam.csv", "Design Team"],
+  ["/designTeam.csv", "Media & Design Team"],
   ["/researchAndContentTeam.csv", "Research & Content Team"],
   ["/publicRelationsTeam.csv", "Public Relations Team"],
   ["/webDevTeam.csv", "Web Development Team"],
