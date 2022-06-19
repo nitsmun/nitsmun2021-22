@@ -89,34 +89,38 @@ const Timer = () => {
         >
           NITSMUN Junior MUN 2022
         </h2>
-        {/* {btnAllow && (
+        {btnAllow && (
           <Link to="/linktree" className="applyNowBtn">
             Apply now
           </Link>
-        )} */}
+        )}
       </div>
-      <div id='timer'>
-        {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold"> 06/08/2022</span></div>}
+      <div id="timer">
+        {display.length === 4 && (
+          <div className="timer-limit">
+            NITS Junior MUN starts on <span className="bold"> 06/08/2022</span>
+          </div>
+        )}
         {/* If display.length = 4 => Display Timer
               If display.length = 1 => Display Coming Soon */}
         {display.length === 4 &&
           display.map((interval, index) => {
             return (
               <React.Fragment key={index}>
-                <div className='timer-int'>
-                  <div className='timer-int-value'>
+                <div className="timer-int">
+                  <div className="timer-int-value">
                     <tt>{interval}</tt>
-                  </div>{' '}
+                  </div>{" "}
                   {/* Time left in interval */}
-                  <div className='timer-int-label'>
+                  <div className="timer-int-label">
                     {timeIntervalName[index]}
-                  </div>{' '}
+                  </div>{" "}
                   {/* Interval name */}
                 </div>
                 {index < display.length - 1 &&
                   ((window.innerWidth < 1000 && index !== 1) ||
                     window.innerWidth >= 1000) && (
-                    <div className='timer-int-colon'>:</div>
+                    <div className="timer-int-colon">:</div>
                   )}
               </React.Fragment>
             );

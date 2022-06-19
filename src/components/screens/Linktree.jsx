@@ -22,11 +22,11 @@ function Linktree(props) {
       <br />
       <div className="links pb-5">
         <a
-          href="https://forms.gle/aLXHNkNXwTVJVfq89"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeU9fIV-yT7UdGORPqE3uPUV_miDt8XF_ySj3TbZ55cYSKwqg/viewform"
           className="button"
           target="blank"
         >
-          Link for Round 2 Registration for NITSMUN 2022
+          Link for Early Bird Registrations for NITSMUN Junior MUN 2022
         </a>
       </div>
       {/* <div className="links">**No links to show**</div> */}
