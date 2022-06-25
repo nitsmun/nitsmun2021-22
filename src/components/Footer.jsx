@@ -46,11 +46,7 @@ const Footer = () => {
           {/* MUN Numbers */}
           <div className="itm-text call-nums">
             <span className="num1">
-              <tt>9634077495</tt>
-            </span>
-            <br />
-            <span className="num2">
-              <tt>9707091602</tt>
+              <tt>9101393607</tt>
             </span>
           </div>
         </div>

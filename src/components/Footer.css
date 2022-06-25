@@ -69,6 +69,13 @@ div.footer-itm div.itm-text {
   color: var(--color-1-100);
 }
 
+div.footer-itm div.call-nums {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
   div#footer {
     height: var(--footer-height-mob);
