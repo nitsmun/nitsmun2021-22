@@ -37,82 +37,6 @@ const Home = (props) => {
         {/* <div className="home-sec" id="apply" style={{paddingTop:"0"}}> */}
         <Timer />
 
-        {/* Early Bird */}
-        {/* <div className="home-apply" style={{ paddingTop: "0" }}>
-          <div
-            className="container-fluid p-0"
-            style={{
-              overflowX: "hidden",
-              fontFamily: "var(--font2)",
-            }}
-          >
-            <div className="separator">
-              <div className="line"></div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  width: "100%",
-                  backgroundColor: "var(--color-8-100)",
-                  height: "auto", padding: "10px",
-                }}
-              >
-                <h2
-                  style={{
-                    fontVariant: "small-caps",
-                    color: "var(--color-1-100)",
-                    fontFamily: "var(--font2)",
-                    fontWeight: "bold",
-                    textAlign: "center"
-                  }}
-                >
-                  NITSMUN Junior MUN 2022
-                </h2>
-              </div>
-              <div className="line"></div>
-            </div>
-            <div className="line"></div>
-          </div>
-          <br />
-          <img
-            style={{ height: "auto", width: "40%" }}
-            src="img/round2.jpeg"
-            alt="Apply Now"
-          />
-          <div style={{ width: '100%' }}>
-            <div className="update mb-1">
-              <div
-                className="container-fluid p-0 mt-4"
-                style={{ overflowX: "hidden", fontFamily: "var(--font2)" }}
-              >
-                <div className="row no-gutters">
-                  <div className="col-md-1"></div>
-                  <div
-                    className="col-md-10"
-                    style={{ textAlign: "center", overflowX: "hidden" }}
-                  >
-                    <div style={{ padding: "10px" }}>
-                      <p style={{ fontSize: "1.2rem", fontWeight: "bold", textAlign: "center" }}>
-                        Round 2 Applications out! Register now and be a part of NITSMUN 2022!
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-md-1"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a
-            href="https://forms.gle/aLXHNkNXwTVJVfq89"
-            target="_blank"
-            rel="noreferrer"
-            className="apply-now"
-          >
-            Apply Now!
-          </a>
-        </div> */}
-
         {/* Mock Mun */}
         {/* <div className="home-apply" style={{ paddingTop: "0" }}>
           <div
@@ -167,7 +91,6 @@ const Home = (props) => {
         <div>
           <Director />
         </div>
-        {/* <div className="home-sec" id="director">Director Message</div> */}
         {/*Secretary's Message Section*/}
         <div>
           <Secretary />
@@ -181,9 +104,6 @@ const Home = (props) => {
           <Article />
         </div>
         {/*Articles Section*/}
-        {/* <div className="home-sec" id="articles"><Article/></div> */}
-        {/*Social Section*/}
-        {/* <div className="home-sec" id="social">Social</div> */}
       </div>
     </Suspense>
   );

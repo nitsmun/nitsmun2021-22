@@ -26,7 +26,21 @@ function Linktree(props) {
           className="button"
           target="blank"
         >
-          Link for Early Bird Registrations for NITSMUN Junior MUN 2022
+          Link for Round 1 Delegate Registrations for NITSMUN Junior MUN 2022
+        </a>
+        <a
+          href="https://forms.gle/Ng1dMzPgmocmEVSr5"
+          className="button"
+          target="blank"
+        >
+          Link for Executive Board for NITSMUN Junior MUN 2022
+        </a>
+        <a
+          href="https://forms.gle/tGVReDKBLACxzayY6"
+          className="button"
+          target="blank"
+        >
+          Link for Free Workshop and Mock MUN for NITSMUN Junior MUN 2022
         </a>
       </div>
       {/* <div className="links">**No links to show**</div> */}

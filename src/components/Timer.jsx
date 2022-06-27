@@ -87,7 +87,7 @@ const Timer = () => {
             textAlign: "center",
           }}
         >
-          NITSMUN Junior MUN 2022
+          NITSMUN Junior MUN 2022 Registrations are open!
         </h2>
         {btnAllow && (
           <Link to="/linktree" className="applyNowBtn">
@@ -98,7 +98,8 @@ const Timer = () => {
       <div id="timer">
         {display.length === 4 && (
           <div className="timer-limit">
-            NITS Junior MUN starts on <span className="bold"> 06/08/2022</span>
+            NITSMUN Junior MUN starts on{" "}
+            <span className="bold"> 06/08/2022</span>
           </div>
         )}
         {/* If display.length = 4 => Display Timer

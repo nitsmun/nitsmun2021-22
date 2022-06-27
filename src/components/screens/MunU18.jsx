@@ -16,19 +16,19 @@ let info = {
 
   eventDetails: [
     <>
-      With great pride and honour, we announced the first edition of NITS Junior
-      MUN exclusively for school students. We believe that children and young
-      teens should be exposed to the various intricacies of society and nations
-      and should understand how the world functions from the grassroot level
-      along with the challenges faced. It is only with proper grooming,
-      experience and exposure that enables them to make changes in the society.
-      Through this conference, we targeted students from grade VI to grade XII
-      from schools all across the country.
+      Model United Nations (MUN) is an educational simulation in which students
+      can learn about diplomacy, international relations, and the United
+      Nations. Students play as delegates and involve themselves in heated
+      debates to bring in solutions for some of the most important issues of
+      recent times. Model UN organizations hold conferences that bring together
+      students from elementary to college levels and provide a platform to
+      discuss global issues through a formal procedure.
       <br />
-      <br />A day-long free-of-cost workshop was held a few days before the
-      conference in order to acclimatise those without prior experience. Keeping
-      in mind the various examination schedules of the Central and State Boards,
-      we organised our conference from October 16, 2021 to October 17, 2021.
+      <br />
+      After successfully conducting NITS Junior MUN exclusively for school
+      students last year and with its great success , NITSMUN is proud to
+      announce the second edition of NITS Junior MUN exclusively for school
+      students from 6th August to 7th August 2022.
     </>,
   ],
 };

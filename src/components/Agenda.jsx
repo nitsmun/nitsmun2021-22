@@ -1,7 +1,7 @@
 import React from "react";
 import "./Agenda.css";
 import Mun18Gallery from "./Mun18Gallery";
-import Partners from "./Partners";
+// import Partners from "./Partners";
 import "./Update.css";
 
 function Agenda() {
@@ -15,11 +15,7 @@ function Agenda() {
   return (
     <>
       {/* Partner */}
-      <Partners />
-      <br />
-      {/* Gallery */}
-      <Mun18Gallery />
-      <br />
+      {/* <Partners /> */}
       <br />
       {/* small-screen */}
       <div
@@ -102,53 +98,90 @@ function Agenda() {
               <div className="box col-md-5 text-center">
                 <div className="p-3">
                   <h3 style={{ fontVariant: "small-caps" }}>
+                    United Nations High Commissioner For Refugees
+                  </h3>
+                  <img
+                    width="300px"
+                    className="img-fluid"
+                    src="https://nitsmun2022-23.vercel.app/Images/Agenda1.jpeg"
+                    alt="agenda"
+                  />
+                  <p className="mt-3" style={{ fontSize: "0.9rem" }}>
+                    <strong>Agenda: </strong>
+                    <br />
+                    Addresing the plight of the refugees due to conflicts around
+                    the globe with special emphasis on Europe.
+                  </p>
+                </div>
+                {/* <button onClick={bgguide} className="custom mb-3">
+                  Background guide
+                </button> */}
+              </div>
+              <div className="box col-md-5 text-center">
+                <div className="p-3">
+                  <h3 style={{ fontVariant: "small-caps" }}>
                     United Nations Environment Programme
                   </h3>
                   <img
                     width="300px"
                     className="img-fluid"
-                    src="/img/Agenda_unep.jpeg"
+                    src="https://nitsmun2022-23.vercel.app/Images/Agenda2.jpeg"
                     alt="agenda"
                   />
                   <p className="mt-3" style={{ fontSize: "0.9rem" }}>
                     <strong>Agenda: </strong>
                     <br />
-                    Addressing the problems of marine debris with special focus
-                    on the Pacific garbage patch
+                    Accentuating the problems caused due to rapid globalization
+                    and its influence on the environment.
                   </p>
-                  <button onClick={bgguide} className="custom mb-3">
-                    Background guide
-                  </button>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div
+              className="row"
+              style={{ display: "flex", justifyContent: "space-around" }}
+            >
+              <div className="box col-md-5 text-center">
+                <div className="p-3">
+                  <h3 style={{ fontVariant: "small-caps" }}>
+                    United Nations Security Council (UNSC)
+                  </h3>
+                  <img
+                    width="300px"
+                    className="img-fluid"
+                    src="https://nitsmun2022-23.vercel.app/Images/Agenda3.jpeg"
+                    alt="agenda"
+                  />
+                  <p className="mt-3" style={{ fontSize: "0.9rem" }}>
+                    <strong>Agenda: </strong>
+                    <br />
+                    Highlighting the problems related to weaponized nuclear
+                    technology in the 21st Century.
+                  </p>
                 </div>
               </div>
               <div className="box col-md-5 text-center">
                 <div className="p-3">
                   <h3 style={{ fontVariant: "small-caps" }}>
-                    United Nations General Assembly
+                    International Press Corps (IPC)
                   </h3>
                   <img
                     width="300px"
                     className="img-fluid"
-                    src="/img/Agenda_unga.jpeg"
+                    src="https://nitsmun2022-23.vercel.app/Images/International%20Press%20Corps.png"
                     alt="agenda"
                   />
-                  <p className="mt-3" style={{ fontSize: "0.9rem" }}>
-                    <strong>Agenda: </strong>
-                    <br />
-                    The possibility of fragmentation and failure of Afghan
-                    military institution ANDSF and Taliban's rise to power with
-                    the withdrawal of US troops From Afghanistan - involving
-                    targets of SDG 16
-                  </p>
-                  <button onClick={bgguide} className="custom mb-3">
-                    Background guide
-                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <br />
+      {/* Gallery */}
+      <Mun18Gallery />
+      <br />
     </>
   );
 }
